@@ -1,0 +1,14006 @@
+(function() {
+  window.DATA = {
+    questions: [
+  {
+    "id": "Q-001A",
+    "groupKey": "G-001",
+    "version": "A",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 1,
+    "question": "請問英文單字 \"zero\" 最正確的中文意思是？",
+    "options": [
+      "零",
+      "一",
+      "三",
+      "二"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) 零\n💡【重點提示】基數 0，代表沒有數量。\n📖【例句應用】There are zero mistakes in your test.\n\n【選項解析】\n(A) 零 (正確答案)\n(B) 一\n(C) 三\n(D) 二"
+  },
+  {
+    "id": "Q-001B",
+    "groupKey": "G-001",
+    "version": "B",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 1,
+    "question": "當你想表達中文「零」時，正確的英文單字是哪一個？",
+    "options": [
+      "three",
+      "two",
+      "zero",
+      "one"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) zero\n💡【重點提示】基數 0，代表沒有數量。\n📖【例句應用】There are zero mistakes in your test.\n\n【選項對照】\n(A) three\n(B) two\n(C) zero (正確答案)\n(D) one"
+  },
+  {
+    "id": "Q-002A",
+    "groupKey": "G-002",
+    "version": "A",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 1,
+    "question": "請問英文單字 \"one\" 最正確的中文意思是？",
+    "options": [
+      "四",
+      "三",
+      "一",
+      "二"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 一\n💡【重點提示】基數 1，後面接單數名詞。\n📖【例句應用】I have one apple.\n\n【選項解析】\n(A) 四\n(B) 三\n(C) 一 (正確答案)\n(D) 二"
+  },
+  {
+    "id": "Q-002B",
+    "groupKey": "G-002",
+    "version": "B",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 1,
+    "question": "當你想表達中文「一」時，正確的英文單字是哪一個？",
+    "options": [
+      "three",
+      "two",
+      "one",
+      "zero"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) one\n💡【重點提示】基數 1，後面接單數名詞。\n📖【例句應用】I have one apple.\n\n【選項對照】\n(A) three\n(B) two\n(C) one (正確答案)\n(D) zero"
+  },
+  {
+    "id": "Q-003A",
+    "groupKey": "G-003",
+    "version": "A",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 1,
+    "question": "請問英文單字 \"two\" 最正確的中文意思是？",
+    "options": [
+      "四",
+      "二",
+      "五",
+      "三"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 二\n💡【重點提示】基數 2，後面接複數名詞 (s)。\n📖【例句應用】He has two dogs.\n\n【選項解析】\n(A) 四\n(B) 二 (正確答案)\n(C) 五\n(D) 三"
+  },
+  {
+    "id": "Q-003B",
+    "groupKey": "G-003",
+    "version": "B",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 1,
+    "question": "當你想表達中文「二」時，正確的英文單字是哪一個？",
+    "options": [
+      "three",
+      "one",
+      "two",
+      "zero"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) two\n💡【重點提示】基數 2，後面接複數名詞 (s)。\n📖【例句應用】He has two dogs.\n\n【選項對照】\n(A) three\n(B) one\n(C) two (正確答案)\n(D) zero"
+  },
+  {
+    "id": "Q-004A",
+    "groupKey": "G-004",
+    "version": "A",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 1,
+    "question": "請問英文單字 \"three\" 最正確的中文意思是？",
+    "options": [
+      "三",
+      "六",
+      "五",
+      "四"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) 三\n💡【重點提示】基數 3，th 發音需咬舌。\n📖【例句應用】Three birds are on the tree.\n\n【選項解析】\n(A) 三 (正確答案)\n(B) 六\n(C) 五\n(D) 四"
+  },
+  {
+    "id": "Q-004B",
+    "groupKey": "G-004",
+    "version": "B",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 1,
+    "question": "當你想表達中文「三」時，正確的英文單字是哪一個？",
+    "options": [
+      "zero",
+      "two",
+      "one",
+      "three"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) three\n💡【重點提示】基數 3，th 發音需咬舌。\n📖【例句應用】Three birds are on the tree.\n\n【選項對照】\n(A) zero\n(B) two\n(C) one\n(D) three (正確答案)"
+  },
+  {
+    "id": "Q-005A",
+    "groupKey": "G-005",
+    "version": "A",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 1,
+    "question": "請問英文單字 \"four\" 最正確的中文意思是？",
+    "options": [
+      "九",
+      "二",
+      "四",
+      "顏色"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 四\n💡【重點提示】基數 4，注意與 forty 拼法不同。\n📖【例句應用】There are four chairs here.\n\n【選項解析】\n(A) 九\n(B) 二\n(C) 四 (正確答案)\n(D) 顏色"
+  },
+  {
+    "id": "Q-005B",
+    "groupKey": "G-005",
+    "version": "B",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 1,
+    "question": "當你想表達中文「四」時，正確的英文單字是哪一個？",
+    "options": [
+      "zero",
+      "one",
+      "four",
+      "two"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) four\n💡【重點提示】基數 4，注意與 forty 拼法不同。\n📖【例句應用】There are four chairs here.\n\n【選項對照】\n(A) zero\n(B) one\n(C) four (正確答案)\n(D) two"
+  },
+  {
+    "id": "Q-006A",
+    "groupKey": "G-006",
+    "version": "A",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 1,
+    "question": "請問英文單字 \"five\" 最正確的中文意思是？",
+    "options": [
+      "七",
+      "八",
+      "五",
+      "六"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 五\n💡【重點提示】基數 5，序數形為 fifth。\n📖【例句應用】High five! Good job!\n\n【選項解析】\n(A) 七\n(B) 八\n(C) 五 (正確答案)\n(D) 六"
+  },
+  {
+    "id": "Q-006B",
+    "groupKey": "G-006",
+    "version": "B",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 1,
+    "question": "當你想表達中文「五」時，正確的英文單字是哪一個？",
+    "options": [
+      "zero",
+      "one",
+      "two",
+      "five"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) five\n💡【重點提示】基數 5，序數形為 fifth。\n📖【例句應用】High five! Good job!\n\n【選項對照】\n(A) zero\n(B) one\n(C) two\n(D) five (正確答案)"
+  },
+  {
+    "id": "Q-007A",
+    "groupKey": "G-007",
+    "version": "A",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 1,
+    "question": "請問英文單字 \"six\" 最正確的中文意思是？",
+    "options": [
+      "七",
+      "九",
+      "六",
+      "八"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 六\n💡【重點提示】基數 6。\n📖【例句應用】I see six pencils.\n\n【選項解析】\n(A) 七\n(B) 九\n(C) 六 (正確答案)\n(D) 八"
+  },
+  {
+    "id": "Q-007B",
+    "groupKey": "G-007",
+    "version": "B",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 1,
+    "question": "當你想表達中文「六」時，正確的英文單字是哪一個？",
+    "options": [
+      "six",
+      "zero",
+      "one",
+      "two"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) six\n💡【重點提示】基數 6。\n📖【例句應用】I see six pencils.\n\n【選項對照】\n(A) six (正確答案)\n(B) zero\n(C) one\n(D) two"
+  },
+  {
+    "id": "Q-008A",
+    "groupKey": "G-008",
+    "version": "A",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 1,
+    "question": "請問英文單字 \"seven\" 最正確的中文意思是？",
+    "options": [
+      "十",
+      "九",
+      "八",
+      "七"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) 七\n💡【重點提示】基數 7。\n📖【例句應用】A week has seven days.\n\n【選項解析】\n(A) 十\n(B) 九\n(C) 八\n(D) 七 (正確答案)"
+  },
+  {
+    "id": "Q-008B",
+    "groupKey": "G-008",
+    "version": "B",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 1,
+    "question": "當你想表達中文「七」時，正確的英文單字是哪一個？",
+    "options": [
+      "one",
+      "zero",
+      "two",
+      "seven"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) seven\n💡【重點提示】基數 7。\n📖【例句應用】A week has seven days.\n\n【選項對照】\n(A) one\n(B) zero\n(C) two\n(D) seven (正確答案)"
+  },
+  {
+    "id": "Q-009A",
+    "groupKey": "G-009",
+    "version": "A",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 1,
+    "question": "請問英文單字 \"eight\" 最正確的中文意思是？",
+    "options": [
+      "十一",
+      "十",
+      "八",
+      "九"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 八\n💡【重點提示】基數 8，與 height 拼法不同。\n📖【例句應用】An octopus has eight legs.\n\n【選項解析】\n(A) 十一\n(B) 十\n(C) 八 (正確答案)\n(D) 九"
+  },
+  {
+    "id": "Q-009B",
+    "groupKey": "G-009",
+    "version": "B",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 1,
+    "question": "當你想表達中文「八」時，正確的英文單字是哪一個？",
+    "options": [
+      "two",
+      "zero",
+      "eight",
+      "one"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) eight\n💡【重點提示】基數 8，與 height 拼法不同。\n📖【例句應用】An octopus has eight legs.\n\n【選項對照】\n(A) two\n(B) zero\n(C) eight (正確答案)\n(D) one"
+  },
+  {
+    "id": "Q-010A",
+    "groupKey": "G-010",
+    "version": "A",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 1,
+    "question": "請問英文單字 \"nine\" 最正確的中文意思是？",
+    "options": [
+      "十二",
+      "十一",
+      "九",
+      "十"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 九\n💡【重點提示】基數 9。\n📖【例句應用】She is nine years old.\n\n【選項解析】\n(A) 十二\n(B) 十一\n(C) 九 (正確答案)\n(D) 十"
+  },
+  {
+    "id": "Q-010B",
+    "groupKey": "G-010",
+    "version": "B",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 1,
+    "question": "當你想表達中文「九」時，正確的英文單字是哪一個？",
+    "options": [
+      "one",
+      "two",
+      "zero",
+      "nine"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) nine\n💡【重點提示】基數 9。\n📖【例句應用】She is nine years old.\n\n【選項對照】\n(A) one\n(B) two\n(C) zero\n(D) nine (正確答案)"
+  },
+  {
+    "id": "Q-011A",
+    "groupKey": "G-011",
+    "version": "A",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 1,
+    "question": "請問英文單字 \"ten\" 最正確的中文意思是？",
+    "options": [
+      "十二",
+      "十",
+      "十一",
+      "三十"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 十\n💡【重點提示】基數 10。\n📖【例句應用】I have ten fingers.\n\n【選項解析】\n(A) 十二\n(B) 十 (正確答案)\n(C) 十一\n(D) 三十"
+  },
+  {
+    "id": "Q-011B",
+    "groupKey": "G-011",
+    "version": "B",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 1,
+    "question": "當你想表達中文「十」時，正確的英文單字是哪一個？",
+    "options": [
+      "one",
+      "two",
+      "zero",
+      "ten"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) ten\n💡【重點提示】基數 10。\n📖【例句應用】I have ten fingers.\n\n【選項對照】\n(A) one\n(B) two\n(C) zero\n(D) ten (正確答案)"
+  },
+  {
+    "id": "Q-012A",
+    "groupKey": "G-012",
+    "version": "A",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 1,
+    "question": "請問英文單字 \"eleven\" 最正確的中文意思是？",
+    "options": [
+      "三十",
+      "十二",
+      "十一",
+      "十"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 十一\n💡【重點提示】基數 11。\n📖【例句應用】It is eleven o'clock.\n\n【選項解析】\n(A) 三十\n(B) 十二\n(C) 十一 (正確答案)\n(D) 十"
+  },
+  {
+    "id": "Q-012B",
+    "groupKey": "G-012",
+    "version": "B",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 1,
+    "question": "當你想表達中文「十一」時，正確的英文單字是哪一個？",
+    "options": [
+      "zero",
+      "one",
+      "two",
+      "eleven"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) eleven\n💡【重點提示】基數 11。\n📖【例句應用】It is eleven o'clock.\n\n【選項對照】\n(A) zero\n(B) one\n(C) two\n(D) eleven (正確答案)"
+  },
+  {
+    "id": "Q-013A",
+    "groupKey": "G-013",
+    "version": "A",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 1,
+    "question": "請問英文單字 \"twelve\" 最正確的中文意思是？",
+    "options": [
+      "十二",
+      "三十",
+      "六",
+      "十一"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) 十二\n💡【重點提示】基數 12，等於一打 (a dozen)。\n📖【例句應用】Twelve months make a year.\n\n【選項解析】\n(A) 十二 (正確答案)\n(B) 三十\n(C) 六\n(D) 十一"
+  },
+  {
+    "id": "Q-013B",
+    "groupKey": "G-013",
+    "version": "B",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 1,
+    "question": "當你想表達中文「十二」時，正確的英文單字是哪一個？",
+    "options": [
+      "two",
+      "one",
+      "zero",
+      "twelve"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) twelve\n💡【重點提示】基數 12，等於一打 (a dozen)。\n📖【例句應用】Twelve months make a year.\n\n【選項對照】\n(A) two\n(B) one\n(C) zero\n(D) twelve (正確答案)"
+  },
+  {
+    "id": "Q-014A",
+    "groupKey": "G-014",
+    "version": "A",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"thirty\" 最正確的中文意思是？",
+    "options": [
+      "十三",
+      "十四",
+      "十五",
+      "三十"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) 三十\n💡【重點提示】數字 30，注意與 thirteen (13) 區分。\n📖【例句應用】My mother is thirty years old.\n\n【選項解析】\n(A) 十三\n(B) 十四\n(C) 十五\n(D) 三十 (正確答案)"
+  },
+  {
+    "id": "Q-014B",
+    "groupKey": "G-014",
+    "version": "B",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「三十」時，正確的英文單字是哪一個？",
+    "options": [
+      "zero",
+      "thirty",
+      "two",
+      "one"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) thirty\n💡【重點提示】數字 30，注意與 thirteen (13) 區分。\n📖【例句應用】My mother is thirty years old.\n\n【選項對照】\n(A) zero\n(B) thirty (正確答案)\n(C) two\n(D) one"
+  },
+  {
+    "id": "Q-015A",
+    "groupKey": "G-015",
+    "version": "A",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"Monday\" 最正確的中文意思是？",
+    "options": [
+      "星期二",
+      "星期四",
+      "星期三",
+      "星期一"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) 星期一\n💡【重點提示】專有名詞，字首 M 必須大寫。\n📖【例句應用】We go to school on Monday.\n\n【選項解析】\n(A) 星期二\n(B) 星期四\n(C) 星期三\n(D) 星期一 (正確答案)"
+  },
+  {
+    "id": "Q-015B",
+    "groupKey": "G-015",
+    "version": "B",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「星期一」時，正確的英文單字是哪一個？",
+    "options": [
+      "Monday",
+      "zero",
+      "one",
+      "two"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) Monday\n💡【重點提示】專有名詞，字首 M 必須大寫。\n📖【例句應用】We go to school on Monday.\n\n【選項對照】\n(A) Monday (正確答案)\n(B) zero\n(C) one\n(D) two"
+  },
+  {
+    "id": "Q-016A",
+    "groupKey": "G-016",
+    "version": "A",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"Tuesday\" 最正確的中文意思是？",
+    "options": [
+      "星期三",
+      "星期四",
+      "星期二",
+      "星期五"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 星期二\n💡【重點提示】專有名詞，字首 T 大寫，勿與 Thursday 混淆。\n📖【例句應用】Tuesday comes after Monday.\n\n【選項解析】\n(A) 星期三\n(B) 星期四\n(C) 星期二 (正確答案)\n(D) 星期五"
+  },
+  {
+    "id": "Q-016B",
+    "groupKey": "G-016",
+    "version": "B",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「星期二」時，正確的英文單字是哪一個？",
+    "options": [
+      "zero",
+      "Tuesday",
+      "two",
+      "one"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) Tuesday\n💡【重點提示】專有名詞，字首 T 大寫，勿與 Thursday 混淆。\n📖【例句應用】Tuesday comes after Monday.\n\n【選項對照】\n(A) zero\n(B) Tuesday (正確答案)\n(C) two\n(D) one"
+  },
+  {
+    "id": "Q-017A",
+    "groupKey": "G-017",
+    "version": "A",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"Wednesday\" 最正確的中文意思是？",
+    "options": [
+      "星期三",
+      "星期四",
+      "星期六",
+      "星期五"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) 星期三\n💡【重點提示】專有名詞，d 不發音。\n📖【例句應用】Wednesday is the middle of the school week.\n\n【選項解析】\n(A) 星期三 (正確答案)\n(B) 星期四\n(C) 星期六\n(D) 星期五"
+  },
+  {
+    "id": "Q-017B",
+    "groupKey": "G-017",
+    "version": "B",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「星期三」時，正確的英文單字是哪一個？",
+    "options": [
+      "Wednesday",
+      "zero",
+      "two",
+      "one"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) Wednesday\n💡【重點提示】專有名詞，d 不發音。\n📖【例句應用】Wednesday is the middle of the school week.\n\n【選項對照】\n(A) Wednesday (正確答案)\n(B) zero\n(C) two\n(D) one"
+  },
+  {
+    "id": "Q-018A",
+    "groupKey": "G-018",
+    "version": "A",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"Thursday\" 最正確的中文意思是？",
+    "options": [
+      "星期四",
+      "星期二",
+      "星期六",
+      "星期五"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) 星期四\n💡【重點提示】專有名詞，Th 發咬舌音。\n📖【例句應用】We have PE class on Thursday.\n\n【選項解析】\n(A) 星期四 (正確答案)\n(B) 星期二\n(C) 星期六\n(D) 星期五"
+  },
+  {
+    "id": "Q-018B",
+    "groupKey": "G-018",
+    "version": "B",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「星期四」時，正確的英文單字是哪一個？",
+    "options": [
+      "Thursday",
+      "zero",
+      "two",
+      "one"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) Thursday\n💡【重點提示】專有名詞，Th 發咬舌音。\n📖【例句應用】We have PE class on Thursday.\n\n【選項對照】\n(A) Thursday (正確答案)\n(B) zero\n(C) two\n(D) one"
+  },
+  {
+    "id": "Q-019A",
+    "groupKey": "G-019",
+    "version": "A",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"Friday\" 最正確的中文意思是？",
+    "options": [
+      "星期一",
+      "星期日",
+      "星期五",
+      "星期六"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 星期五\n💡【重點提示】專有名詞，TGIF 代表感謝神到了星期五。\n📖【例句應用】Friday is my favorite day.\n\n【選項解析】\n(A) 星期一\n(B) 星期日\n(C) 星期五 (正確答案)\n(D) 星期六"
+  },
+  {
+    "id": "Q-019B",
+    "groupKey": "G-019",
+    "version": "B",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「星期五」時，正確的英文單字是哪一個？",
+    "options": [
+      "Friday",
+      "zero",
+      "one",
+      "two"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) Friday\n💡【重點提示】專有名詞，TGIF 代表感謝神到了星期五。\n📖【例句應用】Friday is my favorite day.\n\n【選項對照】\n(A) Friday (正確答案)\n(B) zero\n(C) one\n(D) two"
+  },
+  {
+    "id": "Q-020A",
+    "groupKey": "G-020",
+    "version": "A",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"Saturday\" 最正確的中文意思是？",
+    "options": [
+      "星期日",
+      "星期一",
+      "星期六",
+      "星期二"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 星期六\n💡【重點提示】專有名詞，週末的第一天。\n📖【例句應用】I stay home on Saturday.\n\n【選項解析】\n(A) 星期日\n(B) 星期一\n(C) 星期六 (正確答案)\n(D) 星期二"
+  },
+  {
+    "id": "Q-020B",
+    "groupKey": "G-020",
+    "version": "B",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「星期六」時，正確的英文單字是哪一個？",
+    "options": [
+      "two",
+      "zero",
+      "one",
+      "Saturday"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) Saturday\n💡【重點提示】專有名詞，週末的第一天。\n📖【例句應用】I stay home on Saturday.\n\n【選項對照】\n(A) two\n(B) zero\n(C) one\n(D) Saturday (正確答案)"
+  },
+  {
+    "id": "Q-021A",
+    "groupKey": "G-021",
+    "version": "A",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"Sunday\" 最正確的中文意思是？",
+    "options": [
+      "星期六",
+      "星期日",
+      "星期二",
+      "星期一"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 星期日\n💡【重點提示】專有名詞，一週的開始。\n📖【例句應用】We go to church on Sunday.\n\n【選項解析】\n(A) 星期六\n(B) 星期日 (正確答案)\n(C) 星期二\n(D) 星期一"
+  },
+  {
+    "id": "Q-021B",
+    "groupKey": "G-021",
+    "version": "B",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「星期日」時，正確的英文單字是哪一個？",
+    "options": [
+      "two",
+      "zero",
+      "one",
+      "Sunday"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) Sunday\n💡【重點提示】專有名詞，一週的開始。\n📖【例句應用】We go to church on Sunday.\n\n【選項對照】\n(A) two\n(B) zero\n(C) one\n(D) Sunday (正確答案)"
+  },
+  {
+    "id": "Q-022A",
+    "groupKey": "G-022",
+    "version": "A",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"day\" 最正確的中文意思是？",
+    "options": [
+      "週",
+      "天 / 日子",
+      "月份",
+      "年份"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 天 / 日子\n💡【重點提示】名詞，一天。\n📖【例句應用】Have a nice day!\n\n【選項解析】\n(A) 週\n(B) 天 / 日子 (正確答案)\n(C) 月份\n(D) 年份"
+  },
+  {
+    "id": "Q-022B",
+    "groupKey": "G-022",
+    "version": "B",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「天 / 日子」時，正確的英文單字是哪一個？",
+    "options": [
+      "one",
+      "day",
+      "two",
+      "zero"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) day\n💡【重點提示】名詞，一天。\n📖【例句應用】Have a nice day!\n\n【選項對照】\n(A) one\n(B) day (正確答案)\n(C) two\n(D) zero"
+  },
+  {
+    "id": "Q-023A",
+    "groupKey": "G-023",
+    "version": "A",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"week\" 最正確的中文意思是？",
+    "options": [
+      "小時",
+      "天",
+      "月份",
+      "週 / 星期"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) 週 / 星期\n💡【重點提示】名詞，一週有七天。\n📖【例句應用】See you next week.\n\n【選項解析】\n(A) 小時\n(B) 天\n(C) 月份\n(D) 週 / 星期 (正確答案)"
+  },
+  {
+    "id": "Q-023B",
+    "groupKey": "G-023",
+    "version": "B",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「週 / 星期」時，正確的英文單字是哪一個？",
+    "options": [
+      "zero",
+      "two",
+      "week",
+      "one"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) week\n💡【重點提示】名詞，一週有七天。\n📖【例句應用】See you next week.\n\n【選項對照】\n(A) zero\n(B) two\n(C) week (正確答案)\n(D) one"
+  },
+  {
+    "id": "Q-024A",
+    "groupKey": "G-024",
+    "version": "A",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"morning\" 最正確的中文意思是？",
+    "options": [
+      "下午",
+      "早晨 / 上午",
+      "夜晚",
+      "中午"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 早晨 / 上午\n💡【重點提示】名詞，從清晨到中午。\n📖【例句應用】Good morning, teacher!\n\n【選項解析】\n(A) 下午\n(B) 早晨 / 上午 (正確答案)\n(C) 夜晚\n(D) 中午"
+  },
+  {
+    "id": "Q-024B",
+    "groupKey": "G-024",
+    "version": "B",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「早晨 / 上午」時，正確的英文單字是哪一個？",
+    "options": [
+      "zero",
+      "two",
+      "morning",
+      "one"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) morning\n💡【重點提示】名詞，從清晨到中午。\n📖【例句應用】Good morning, teacher!\n\n【選項對照】\n(A) zero\n(B) two\n(C) morning (正確答案)\n(D) one"
+  },
+  {
+    "id": "Q-025A",
+    "groupKey": "G-025",
+    "version": "A",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"night\" 最正確的中文意思是？",
+    "options": [
+      "中午",
+      "早晨",
+      "下午",
+      "夜晚"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) 夜晚\n💡【重點提示】名詞，晚上或深夜。\n📖【例句應用】Good night and sweet dreams.\n\n【選項解析】\n(A) 中午\n(B) 早晨\n(C) 下午\n(D) 夜晚 (正確答案)"
+  },
+  {
+    "id": "Q-025B",
+    "groupKey": "G-025",
+    "version": "B",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「夜晚」時，正確的英文單字是哪一個？",
+    "options": [
+      "night",
+      "two",
+      "zero",
+      "one"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) night\n💡【重點提示】名詞，晚上或深夜。\n📖【例句應用】Good night and sweet dreams.\n\n【選項對照】\n(A) night (正確答案)\n(B) two\n(C) zero\n(D) one"
+  },
+  {
+    "id": "Q-026A",
+    "groupKey": "G-026",
+    "version": "A",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"today\" 最正確的中文意思是？",
+    "options": [
+      "昨天",
+      "後天",
+      "明天",
+      "今天"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) 今天\n💡【重點提示】副詞/名詞，現今這一天。\n📖【例句應用】Today is sunny.\n\n【選項解析】\n(A) 昨天\n(B) 後天\n(C) 明天\n(D) 今天 (正確答案)"
+  },
+  {
+    "id": "Q-026B",
+    "groupKey": "G-026",
+    "version": "B",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「今天」時，正確的英文單字是哪一個？",
+    "options": [
+      "one",
+      "two",
+      "today",
+      "zero"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) today\n💡【重點提示】副詞/名詞，現今這一天。\n📖【例句應用】Today is sunny.\n\n【選項對照】\n(A) one\n(B) two\n(C) today (正確答案)\n(D) zero"
+  },
+  {
+    "id": "Q-027A",
+    "groupKey": "G-027",
+    "version": "A",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"yesterday\" 最正確的中文意思是？",
+    "options": [
+      "明天",
+      "昨天",
+      "前天",
+      "今天"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 昨天\n💡【重點提示】副詞/名詞，過去的那一天。\n📖【例句應用】Yesterday was rainy.\n\n【選項解析】\n(A) 明天\n(B) 昨天 (正確答案)\n(C) 前天\n(D) 今天"
+  },
+  {
+    "id": "Q-027B",
+    "groupKey": "G-027",
+    "version": "B",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「昨天」時，正確的英文單字是哪一個？",
+    "options": [
+      "one",
+      "zero",
+      "two",
+      "yesterday"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) yesterday\n💡【重點提示】副詞/名詞，過去的那一天。\n📖【例句應用】Yesterday was rainy.\n\n【選項對照】\n(A) one\n(B) zero\n(C) two\n(D) yesterday (正確答案)"
+  },
+  {
+    "id": "Q-028A",
+    "groupKey": "G-028",
+    "version": "A",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"o'clock\" 最正確的中文意思是？",
+    "options": [
+      "分鐘",
+      "秒鐘",
+      "...點鐘",
+      "小時"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) ...點鐘\n💡【重點提示】用於整點時間宣告。\n📖【例句應用】It is five o'clock.\n\n【選項解析】\n(A) 分鐘\n(B) 秒鐘\n(C) ...點鐘 (正確答案)\n(D) 小時"
+  },
+  {
+    "id": "Q-028B",
+    "groupKey": "G-028",
+    "version": "B",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「...點鐘」時，正確的英文單字是哪一個？",
+    "options": [
+      "one",
+      "o'clock",
+      "zero",
+      "two"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) o'clock\n💡【重點提示】用於整點時間宣告。\n📖【例句應用】It is five o'clock.\n\n【選項對照】\n(A) one\n(B) o'clock (正確答案)\n(C) zero\n(D) two"
+  },
+  {
+    "id": "Q-029A",
+    "groupKey": "G-029",
+    "version": "A",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"years old\" 最正確的中文意思是？",
+    "options": [
+      "...歲",
+      "天數",
+      "月份",
+      "小時"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) ...歲\n💡【重點提示】表達年齡的常用詞組。\n📖【例句應用】I am ten years old.\n\n【選項解析】\n(A) ...歲 (正確答案)\n(B) 天數\n(C) 月份\n(D) 小時"
+  },
+  {
+    "id": "Q-029B",
+    "groupKey": "G-029",
+    "version": "B",
+    "chapter": "單字-A.數字與時間",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「...歲」時，正確的英文單字是哪一個？",
+    "options": [
+      "zero",
+      "one",
+      "two",
+      "years old"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) years old\n💡【重點提示】表達年齡的常用詞組。\n📖【例句應用】I am ten years old.\n\n【選項對照】\n(A) zero\n(B) one\n(C) two\n(D) years old (正確答案)"
+  },
+  {
+    "id": "Q-030A",
+    "groupKey": "G-030",
+    "version": "A",
+    "chapter": "單字-B.顏色與形容詞",
+    "gradeLevel": 1,
+    "question": "請問英文單字 \"color\" 最正確的中文意思是？",
+    "options": [
+      "形狀",
+      "顏色",
+      "尺寸",
+      "味道"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 顏色\n💡【重點提示】名詞，美式拼法 color，英式 colour。\n📖【例句應用】Red is my favorite color.\n\n【選項解析】\n(A) 形狀\n(B) 顏色 (正確答案)\n(C) 尺寸\n(D) 味道"
+  },
+  {
+    "id": "Q-030B",
+    "groupKey": "G-030",
+    "version": "B",
+    "chapter": "單字-B.顏色與形容詞",
+    "gradeLevel": 1,
+    "question": "當你想表達中文「顏色」時，正確的英文單字是哪一個？",
+    "options": [
+      "black",
+      "blue",
+      "color",
+      "green"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) color\n💡【重點提示】名詞，美式拼法 color，英式 colour。\n📖【例句應用】Red is my favorite color.\n\n【選項對照】\n(A) black\n(B) blue\n(C) color (正確答案)\n(D) green"
+  },
+  {
+    "id": "Q-031A",
+    "groupKey": "G-031",
+    "version": "A",
+    "chapter": "單字-B.顏色與形容詞",
+    "gradeLevel": 1,
+    "question": "請問英文單字 \"black\" 最正確的中文意思是？",
+    "options": [
+      "紅色",
+      "白色",
+      "黑色",
+      "藍色"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 黑色\n💡【重點提示】形容詞/名詞，黑色的。\n📖【例句應用】The cat is black.\n\n【選項解析】\n(A) 紅色\n(B) 白色\n(C) 黑色 (正確答案)\n(D) 藍色"
+  },
+  {
+    "id": "Q-031B",
+    "groupKey": "G-031",
+    "version": "B",
+    "chapter": "單字-B.顏色與形容詞",
+    "gradeLevel": 1,
+    "question": "當你想表達中文「黑色」時，正確的英文單字是哪一個？",
+    "options": [
+      "black",
+      "blue",
+      "color",
+      "green"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) black\n💡【重點提示】形容詞/名詞，黑色的。\n📖【例句應用】The cat is black.\n\n【選項對照】\n(A) black (正確答案)\n(B) blue\n(C) color\n(D) green"
+  },
+  {
+    "id": "Q-032A",
+    "groupKey": "G-032",
+    "version": "A",
+    "chapter": "單字-B.顏色與形容詞",
+    "gradeLevel": 1,
+    "question": "請問英文單字 \"blue\" 最正確的中文意思是？",
+    "options": [
+      "黃色",
+      "藍色",
+      "綠色",
+      "黑色"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 藍色\n💡【重點提示】形容詞/名詞，藍色；亦可指憂鬱。\n📖【例句應用】The sky is blue.\n\n【選項解析】\n(A) 黃色\n(B) 藍色 (正確答案)\n(C) 綠色\n(D) 黑色"
+  },
+  {
+    "id": "Q-032B",
+    "groupKey": "G-032",
+    "version": "B",
+    "chapter": "單字-B.顏色與形容詞",
+    "gradeLevel": 1,
+    "question": "當你想表達中文「藍色」時，正確的英文單字是哪一個？",
+    "options": [
+      "green",
+      "blue",
+      "black",
+      "color"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) blue\n💡【重點提示】形容詞/名詞，藍色；亦可指憂鬱。\n📖【例句應用】The sky is blue.\n\n【選項對照】\n(A) green\n(B) blue (正確答案)\n(C) black\n(D) color"
+  },
+  {
+    "id": "Q-033A",
+    "groupKey": "G-033",
+    "version": "A",
+    "chapter": "單字-B.顏色與形容詞",
+    "gradeLevel": 1,
+    "question": "請問英文單字 \"green\" 最正確的中文意思是？",
+    "options": [
+      "綠色",
+      "黃色",
+      "白色",
+      "藍色"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) 綠色\n💡【重點提示】形容詞/名詞，綠色；象徵自然。\n📖【例句應用】Frogs are green.\n\n【選項解析】\n(A) 綠色 (正確答案)\n(B) 黃色\n(C) 白色\n(D) 藍色"
+  },
+  {
+    "id": "Q-033B",
+    "groupKey": "G-033",
+    "version": "B",
+    "chapter": "單字-B.顏色與形容詞",
+    "gradeLevel": 1,
+    "question": "當你想表達中文「綠色」時，正確的英文單字是哪一個？",
+    "options": [
+      "black",
+      "blue",
+      "color",
+      "green"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) green\n💡【重點提示】形容詞/名詞，綠色；象徵自然。\n📖【例句應用】Frogs are green.\n\n【選項對照】\n(A) black\n(B) blue\n(C) color\n(D) green (正確答案)"
+  },
+  {
+    "id": "Q-034A",
+    "groupKey": "G-034",
+    "version": "A",
+    "chapter": "單字-B.顏色與形容詞",
+    "gradeLevel": 1,
+    "question": "請問英文單字 \"red\" 最正確的中文意思是？",
+    "options": [
+      "橘色",
+      "黃色",
+      "紅色",
+      "粉紅色"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 紅色\n💡【重點提示】形容詞/名詞，紅色。\n📖【例句應用】Apples are red.\n\n【選項解析】\n(A) 橘色\n(B) 黃色\n(C) 紅色 (正確答案)\n(D) 粉紅色"
+  },
+  {
+    "id": "Q-034B",
+    "groupKey": "G-034",
+    "version": "B",
+    "chapter": "單字-B.顏色與形容詞",
+    "gradeLevel": 1,
+    "question": "當你想表達中文「紅色」時，正確的英文單字是哪一個？",
+    "options": [
+      "color",
+      "black",
+      "red",
+      "blue"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) red\n💡【重點提示】形容詞/名詞，紅色。\n📖【例句應用】Apples are red.\n\n【選項對照】\n(A) color\n(B) black\n(C) red (正確答案)\n(D) blue"
+  },
+  {
+    "id": "Q-035A",
+    "groupKey": "G-035",
+    "version": "A",
+    "chapter": "單字-B.顏色與形容詞",
+    "gradeLevel": 1,
+    "question": "請問英文單字 \"white\" 最正確的中文意思是？",
+    "options": [
+      "黃色",
+      "黑色",
+      "白色",
+      "灰色"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 白色\n💡【重點提示】形容詞/名詞，白色。\n📖【例句應用】Milk is white.\n\n【選項解析】\n(A) 黃色\n(B) 黑色\n(C) 白色 (正確答案)\n(D) 灰色"
+  },
+  {
+    "id": "Q-035B",
+    "groupKey": "G-035",
+    "version": "B",
+    "chapter": "單字-B.顏色與形容詞",
+    "gradeLevel": 1,
+    "question": "當你想表達中文「白色」時，正確的英文單字是哪一個？",
+    "options": [
+      "blue",
+      "color",
+      "white",
+      "black"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) white\n💡【重點提示】形容詞/名詞，白色。\n📖【例句應用】Milk is white.\n\n【選項對照】\n(A) blue\n(B) color\n(C) white (正確答案)\n(D) black"
+  },
+  {
+    "id": "Q-036A",
+    "groupKey": "G-036",
+    "version": "A",
+    "chapter": "單字-B.顏色與形容詞",
+    "gradeLevel": 1,
+    "question": "請問英文單字 \"yellow\" 最正確的中文意思是？",
+    "options": [
+      "綠色",
+      "藍色",
+      "黃色",
+      "紅色"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 黃色\n💡【重點提示】形容詞/名詞，黃色。\n📖【例句應用】Bananas are yellow.\n\n【選項解析】\n(A) 綠色\n(B) 藍色\n(C) 黃色 (正確答案)\n(D) 紅色"
+  },
+  {
+    "id": "Q-036B",
+    "groupKey": "G-036",
+    "version": "B",
+    "chapter": "單字-B.顏色與形容詞",
+    "gradeLevel": 1,
+    "question": "當你想表達中文「黃色」時，正確的英文單字是哪一個？",
+    "options": [
+      "blue",
+      "color",
+      "yellow",
+      "black"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) yellow\n💡【重點提示】形容詞/名詞，黃色。\n📖【例句應用】Bananas are yellow.\n\n【選項對照】\n(A) blue\n(B) color\n(C) yellow (正確答案)\n(D) black"
+  },
+  {
+    "id": "Q-037A",
+    "groupKey": "G-037",
+    "version": "A",
+    "chapter": "單字-B.顏色與形容詞",
+    "gradeLevel": 1,
+    "question": "請問英文單字 \"pink\" 最正確的中文意思是？",
+    "options": [
+      "粉紅色",
+      "紅色",
+      "白色",
+      "紫色"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) 粉紅色\n💡【重點提示】形容詞/名詞，粉紅色。\n📖【例句應用】She likes pink dresses.\n\n【選項解析】\n(A) 粉紅色 (正確答案)\n(B) 紅色\n(C) 白色\n(D) 紫色"
+  },
+  {
+    "id": "Q-037B",
+    "groupKey": "G-037",
+    "version": "B",
+    "chapter": "單字-B.顏色與形容詞",
+    "gradeLevel": 1,
+    "question": "當你想表達中文「粉紅色」時，正確的英文單字是哪一個？",
+    "options": [
+      "color",
+      "pink",
+      "blue",
+      "black"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) pink\n💡【重點提示】形容詞/名詞，粉紅色。\n📖【例句應用】She likes pink dresses.\n\n【選項對照】\n(A) color\n(B) pink (正確答案)\n(C) blue\n(D) black"
+  },
+  {
+    "id": "Q-038A",
+    "groupKey": "G-038",
+    "version": "A",
+    "chapter": "單字-B.顏色與形容詞",
+    "gradeLevel": 1,
+    "question": "請問英文單字 \"purple\" 最正確的中文意思是？",
+    "options": [
+      "黑色",
+      "紫色",
+      "藍色",
+      "粉紅色"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 紫色\n💡【重點提示】形容詞/名詞，紫色。\n📖【例句應用】Grapes are purple.\n\n【選項解析】\n(A) 黑色\n(B) 紫色 (正確答案)\n(C) 藍色\n(D) 粉紅色"
+  },
+  {
+    "id": "Q-038B",
+    "groupKey": "G-038",
+    "version": "B",
+    "chapter": "單字-B.顏色與形容詞",
+    "gradeLevel": 1,
+    "question": "當你想表達中文「紫色」時，正確的英文單字是哪一個？",
+    "options": [
+      "color",
+      "purple",
+      "black",
+      "blue"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) purple\n💡【重點提示】形容詞/名詞，紫色。\n📖【例句應用】Grapes are purple.\n\n【選項對照】\n(A) color\n(B) purple (正確答案)\n(C) black\n(D) blue"
+  },
+  {
+    "id": "Q-039A",
+    "groupKey": "G-039",
+    "version": "A",
+    "chapter": "單字-B.顏色與形容詞",
+    "gradeLevel": 1,
+    "question": "請問英文單字 \"tall\" 最正確的中文意思是？",
+    "options": [
+      "高的",
+      "小的",
+      "矮的",
+      "大的"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) 高的\n💡【重點提示】形容詞，指身材或建築高聳。\n📖【例句應用】Giraffes are tall.\n\n【選項解析】\n(A) 高的 (正確答案)\n(B) 小的\n(C) 矮的\n(D) 大的"
+  },
+  {
+    "id": "Q-039B",
+    "groupKey": "G-039",
+    "version": "B",
+    "chapter": "單字-B.顏色與形容詞",
+    "gradeLevel": 1,
+    "question": "當你想表達中文「高的」時，正確的英文單字是哪一個？",
+    "options": [
+      "color",
+      "black",
+      "tall",
+      "blue"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) tall\n💡【重點提示】形容詞，指身材或建築高聳。\n📖【例句應用】Giraffes are tall.\n\n【選項對照】\n(A) color\n(B) black\n(C) tall (正確答案)\n(D) blue"
+  },
+  {
+    "id": "Q-040A",
+    "groupKey": "G-040",
+    "version": "A",
+    "chapter": "單字-B.顏色與形容詞",
+    "gradeLevel": 1,
+    "question": "請問英文單字 \"short\" 最正確的中文意思是？",
+    "options": [
+      "高的",
+      "長條的",
+      "胖的",
+      "矮的 / 短的"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) 矮的 / 短的\n💡【重點提示】形容詞，指身高矮或長度短。\n📖【例句應用】He is short.\n\n【選項解析】\n(A) 高的\n(B) 長條的\n(C) 胖的\n(D) 矮的 / 短的 (正確答案)"
+  },
+  {
+    "id": "Q-040B",
+    "groupKey": "G-040",
+    "version": "B",
+    "chapter": "單字-B.顏色與形容詞",
+    "gradeLevel": 1,
+    "question": "當你想表達中文「矮的 / 短的」時，正確的英文單字是哪一個？",
+    "options": [
+      "short",
+      "blue",
+      "color",
+      "black"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) short\n💡【重點提示】形容詞，指身高矮或長度短。\n📖【例句應用】He is short.\n\n【選項對照】\n(A) short (正確答案)\n(B) blue\n(C) color\n(D) black"
+  },
+  {
+    "id": "Q-041A",
+    "groupKey": "G-041",
+    "version": "A",
+    "chapter": "單字-B.顏色與形容詞",
+    "gradeLevel": 1,
+    "question": "請問英文單字 \"big\" 最正確的中文意思是？",
+    "options": [
+      "高的",
+      "大的",
+      "小的",
+      "矮的"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 大的\n💡【重點提示】形容詞，尺寸龐大。\n📖【例句應用】Elephants are big.\n\n【選項解析】\n(A) 高的\n(B) 大的 (正確答案)\n(C) 小的\n(D) 矮的"
+  },
+  {
+    "id": "Q-041B",
+    "groupKey": "G-041",
+    "version": "B",
+    "chapter": "單字-B.顏色與形容詞",
+    "gradeLevel": 1,
+    "question": "當你想表達中文「大的」時，正確的英文單字是哪一個？",
+    "options": [
+      "color",
+      "big",
+      "blue",
+      "black"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) big\n💡【重點提示】形容詞，尺寸龐大。\n📖【例句應用】Elephants are big.\n\n【選項對照】\n(A) color\n(B) big (正確答案)\n(C) blue\n(D) black"
+  },
+  {
+    "id": "Q-042A",
+    "groupKey": "G-042",
+    "version": "A",
+    "chapter": "單字-B.顏色與形容詞",
+    "gradeLevel": 1,
+    "question": "請問英文單字 \"small\" 最正確的中文意思是？",
+    "options": [
+      "短的",
+      "小的",
+      "大的",
+      "長的"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 小的\n💡【重點提示】形容詞，尺寸微小。\n📖【例句應用】Ants are small.\n\n【選項解析】\n(A) 短的\n(B) 小的 (正確答案)\n(C) 大的\n(D) 長的"
+  },
+  {
+    "id": "Q-042B",
+    "groupKey": "G-042",
+    "version": "B",
+    "chapter": "單字-B.顏色與形容詞",
+    "gradeLevel": 1,
+    "question": "當你想表達中文「小的」時，正確的英文單字是哪一個？",
+    "options": [
+      "blue",
+      "color",
+      "small",
+      "black"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) small\n💡【重點提示】形容詞，尺寸微小。\n📖【例句應用】Ants are small.\n\n【選項對照】\n(A) blue\n(B) color\n(C) small (正確答案)\n(D) black"
+  },
+  {
+    "id": "Q-043A",
+    "groupKey": "G-043",
+    "version": "A",
+    "chapter": "單字-B.顏色與形容詞",
+    "gradeLevel": 1,
+    "question": "請問英文單字 \"happy\" 最正確的中文意思是？",
+    "options": [
+      "生氣的",
+      "悲傷的",
+      "快樂的",
+      "害怕的"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 快樂的\n💡【重點提示】形容詞，心情愉快。\n📖【例句應用】I am very happy today.\n\n【選項解析】\n(A) 生氣的\n(B) 悲傷的\n(C) 快樂的 (正確答案)\n(D) 害怕的"
+  },
+  {
+    "id": "Q-043B",
+    "groupKey": "G-043",
+    "version": "B",
+    "chapter": "單字-B.顏色與形容詞",
+    "gradeLevel": 1,
+    "question": "當你想表達中文「快樂的」時，正確的英文單字是哪一個？",
+    "options": [
+      "blue",
+      "color",
+      "happy",
+      "black"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) happy\n💡【重點提示】形容詞，心情愉快。\n📖【例句應用】I am very happy today.\n\n【選項對照】\n(A) blue\n(B) color\n(C) happy (正確答案)\n(D) black"
+  },
+  {
+    "id": "Q-044A",
+    "groupKey": "G-044",
+    "version": "A",
+    "chapter": "單字-B.顏色與形容詞",
+    "gradeLevel": 1,
+    "question": "請問英文單字 \"sad\" 最正確的中文意思是？",
+    "options": [
+      "害怕的",
+      "快樂的",
+      "悲傷的",
+      "興奮的"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 悲傷的\n💡【重點提示】形容詞，難過沮喪。\n📖【例句應用】Don't be sad.\n\n【選項解析】\n(A) 害怕的\n(B) 快樂的\n(C) 悲傷的 (正確答案)\n(D) 興奮的"
+  },
+  {
+    "id": "Q-044B",
+    "groupKey": "G-044",
+    "version": "B",
+    "chapter": "單字-B.顏色與形容詞",
+    "gradeLevel": 1,
+    "question": "當你想表達中文「悲傷的」時，正確的英文單字是哪一個？",
+    "options": [
+      "black",
+      "sad",
+      "color",
+      "blue"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) sad\n💡【重點提示】形容詞，難過沮喪。\n📖【例句應用】Don't be sad.\n\n【選項對照】\n(A) black\n(B) sad (正確答案)\n(C) color\n(D) blue"
+  },
+  {
+    "id": "Q-045A",
+    "groupKey": "G-045",
+    "version": "A",
+    "chapter": "單字-B.顏色與形容詞",
+    "gradeLevel": 1,
+    "question": "請問英文單字 \"angry\" 最正確的中文意思是？",
+    "options": [
+      "快樂的",
+      "害怕的",
+      "生氣的",
+      "飢餓的"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 生氣的\n💡【重點提示】形容詞, 發怒不滿。\n📖【例句應用】My dad is angry.\n\n【選項解析】\n(A) 快樂的\n(B) 害怕的\n(C) 生氣的 (正確答案)\n(D) 飢餓的"
+  },
+  {
+    "id": "Q-045B",
+    "groupKey": "G-045",
+    "version": "B",
+    "chapter": "單字-B.顏色與形容詞",
+    "gradeLevel": 1,
+    "question": "當你想表達中文「生氣的」時，正確的英文單字是哪一個？",
+    "options": [
+      "blue",
+      "black",
+      "angry",
+      "color"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) angry\n💡【重點提示】形容詞, 發怒不滿。\n📖【例句應用】My dad is angry.\n\n【選項對照】\n(A) blue\n(B) black\n(C) angry (正確答案)\n(D) color"
+  },
+  {
+    "id": "Q-046A",
+    "groupKey": "G-046",
+    "version": "A",
+    "chapter": "單字-B.顏色與形容詞",
+    "gradeLevel": 1,
+    "question": "請問英文單字 \"hungry\" 最正確的中文意思是？",
+    "options": [
+      "生氣的",
+      "飽足的",
+      "口渴的",
+      "飢餓的"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) 飢餓的\n💡【重點提示】形容詞，想吃東西。\n📖【例句應用】I am hungry for lunch.\n\n【選項解析】\n(A) 生氣的\n(B) 飽足的\n(C) 口渴的\n(D) 飢餓的 (正確答案)"
+  },
+  {
+    "id": "Q-046B",
+    "groupKey": "G-046",
+    "version": "B",
+    "chapter": "單字-B.顏色與形容詞",
+    "gradeLevel": 1,
+    "question": "當你想表達中文「飢餓的」時，正確的英文單字是哪一個？",
+    "options": [
+      "blue",
+      "black",
+      "color",
+      "hungry"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) hungry\n💡【重點提示】形容詞，想吃東西。\n📖【例句應用】I am hungry for lunch.\n\n【選項對照】\n(A) blue\n(B) black\n(C) color\n(D) hungry (正確答案)"
+  },
+  {
+    "id": "Q-047A",
+    "groupKey": "G-047",
+    "version": "A",
+    "chapter": "單字-B.顏色與形容詞",
+    "gradeLevel": 1,
+    "question": "請問英文單字 \"scared\" 最正確的中文意思是？",
+    "options": [
+      "生氣的",
+      "害怕的",
+      "快樂的",
+      "勇敢的"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 害怕的\n💡【重點提示】形容詞，受到驚嚇。\n📖【例句應用】The little girl is scared of monsters.\n\n【選項解析】\n(A) 生氣的\n(B) 害怕的 (正確答案)\n(C) 快樂的\n(D) 勇敢的"
+  },
+  {
+    "id": "Q-047B",
+    "groupKey": "G-047",
+    "version": "B",
+    "chapter": "單字-B.顏色與形容詞",
+    "gradeLevel": 1,
+    "question": "當你想表達中文「害怕的」時，正確的英文單字是哪一個？",
+    "options": [
+      "color",
+      "scared",
+      "black",
+      "blue"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) scared\n💡【重點提示】形容詞，受到驚嚇。\n📖【例句應用】The little girl is scared of monsters.\n\n【選項對照】\n(A) color\n(B) scared (正確答案)\n(C) black\n(D) blue"
+  },
+  {
+    "id": "Q-048A",
+    "groupKey": "G-048",
+    "version": "A",
+    "chapter": "單字-C.人物、家人與職業",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"grandfather\" 最正確的中文意思是？",
+    "options": [
+      "叔叔",
+      "奶奶",
+      "爺爺 / 外公",
+      "爸爸"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 爺爺 / 外公\n💡【重點提示】名詞，口語簡稱 grandpa。\n📖【例句應用】My grandfather is seventy years old.\n\n【選項解析】\n(A) 叔叔\n(B) 奶奶\n(C) 爺爺 / 外公 (正確答案)\n(D) 爸爸"
+  },
+  {
+    "id": "Q-048B",
+    "groupKey": "G-048",
+    "version": "B",
+    "chapter": "單字-C.人物、家人與職業",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「爺爺 / 外公」時，正確的英文單字是哪一個？",
+    "options": [
+      "mother",
+      "grandmother",
+      "father",
+      "grandfather"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) grandfather\n💡【重點提示】名詞，口語簡稱 grandpa。\n📖【例句應用】My grandfather is seventy years old.\n\n【選項對照】\n(A) mother\n(B) grandmother\n(C) father\n(D) grandfather (正確答案)"
+  },
+  {
+    "id": "Q-049A",
+    "groupKey": "G-049",
+    "version": "A",
+    "chapter": "單字-C.人物、家人與職業",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"grandmother\" 最正確的中文意思是？",
+    "options": [
+      "阿姨",
+      "爺爺",
+      "奶奶 / 外婆",
+      "媽媽"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 奶奶 / 外婆\n💡【重點提示】名詞，口語簡稱 grandma。\n📖【例句應用】My grandmother bakes delicious cookies.\n\n【選項解析】\n(A) 阿姨\n(B) 爺爺\n(C) 奶奶 / 外婆 (正確答案)\n(D) 媽媽"
+  },
+  {
+    "id": "Q-049B",
+    "groupKey": "G-049",
+    "version": "B",
+    "chapter": "單字-C.人物、家人與職業",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「奶奶 / 外婆」時，正確的英文單字是哪一個？",
+    "options": [
+      "mother",
+      "grandmother",
+      "grandfather",
+      "father"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) grandmother\n💡【重點提示】名詞，口語簡稱 grandma。\n📖【例句應用】My grandmother bakes delicious cookies.\n\n【選項對照】\n(A) mother\n(B) grandmother (正確答案)\n(C) grandfather\n(D) father"
+  },
+  {
+    "id": "Q-050A",
+    "groupKey": "G-050",
+    "version": "A",
+    "chapter": "單字-C.人物、家人與職業",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"father\" 最正確的中文意思是？",
+    "options": [
+      "爸爸",
+      "弟弟",
+      "媽媽",
+      "哥哥"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) 爸爸\n💡【重點提示】名詞，口語簡稱 dad / daddy。\n📖【例句應用】My father works in a bank.\n\n【選項解析】\n(A) 爸爸 (正確答案)\n(B) 弟弟\n(C) 媽媽\n(D) 哥哥"
+  },
+  {
+    "id": "Q-050B",
+    "groupKey": "G-050",
+    "version": "B",
+    "chapter": "單字-C.人物、家人與職業",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「爸爸」時，正確的英文單字是哪一個？",
+    "options": [
+      "grandmother",
+      "grandfather",
+      "mother",
+      "father"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) father\n💡【重點提示】名詞，口語簡稱 dad / daddy。\n📖【例句應用】My father works in a bank.\n\n【選項對照】\n(A) grandmother\n(B) grandfather\n(C) mother\n(D) father (正確答案)"
+  },
+  {
+    "id": "Q-051A",
+    "groupKey": "G-051",
+    "version": "A",
+    "chapter": "單字-C.人物、家人與職業",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"mother\" 最正確的中文意思是？",
+    "options": [
+      "媽媽",
+      "妹妹",
+      "姐姐",
+      "爸爸"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) 媽媽\n💡【重點提示】名詞，口語簡稱 mom / mommy。\n📖【例句應用】My mother is a teacher.\n\n【選項解析】\n(A) 媽媽 (正確答案)\n(B) 妹妹\n(C) 姐姐\n(D) 爸爸"
+  },
+  {
+    "id": "Q-051B",
+    "groupKey": "G-051",
+    "version": "B",
+    "chapter": "單字-C.人物、家人與職業",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「媽媽」時，正確的英文單字是哪一個？",
+    "options": [
+      "father",
+      "mother",
+      "grandfather",
+      "grandmother"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) mother\n💡【重點提示】名詞，口語簡稱 mom / mommy。\n📖【例句應用】My mother is a teacher.\n\n【選項對照】\n(A) father\n(B) mother (正確答案)\n(C) grandfather\n(D) grandmother"
+  },
+  {
+    "id": "Q-052A",
+    "groupKey": "G-052",
+    "version": "A",
+    "chapter": "單字-C.人物、家人與職業",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"brother\" 最正確的中文意思是？",
+    "options": [
+      "姐妹",
+      "兄弟 (哥哥/弟弟)",
+      "同學",
+      "朋友"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 兄弟 (哥哥/弟弟)\n💡【重點提示】名詞，男性手足。\n📖【例句應用】I have one elder brother.\n\n【選項解析】\n(A) 姐妹\n(B) 兄弟 (哥哥/弟弟) (正確答案)\n(C) 同學\n(D) 朋友"
+  },
+  {
+    "id": "Q-052B",
+    "groupKey": "G-052",
+    "version": "B",
+    "chapter": "單字-C.人物、家人與職業",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「兄弟 (哥哥/弟弟)」時，正確的英文單字是哪一個？",
+    "options": [
+      "grandmother",
+      "grandfather",
+      "father",
+      "brother"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) brother\n💡【重點提示】名詞，男性手足。\n📖【例句應用】I have one elder brother.\n\n【選項對照】\n(A) grandmother\n(B) grandfather\n(C) father\n(D) brother (正確答案)"
+  },
+  {
+    "id": "Q-053A",
+    "groupKey": "G-053",
+    "version": "A",
+    "chapter": "單字-C.人物、家人與職業",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"sister\" 最正確的中文意思是？",
+    "options": [
+      "阿姨",
+      "姑姑",
+      "姐妹 (姐姐/妹妹)",
+      "兄弟"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 姐妹 (姐姐/妹妹)\n💡【重點提示】名詞，女性手足。\n📖【例句應用】My sister likes drawing.\n\n【選項解析】\n(A) 阿姨\n(B) 姑姑\n(C) 姐妹 (姐姐/妹妹) (正確答案)\n(D) 兄弟"
+  },
+  {
+    "id": "Q-053B",
+    "groupKey": "G-053",
+    "version": "B",
+    "chapter": "單字-C.人物、家人與職業",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「姐妹 (姐姐/妹妹)」時，正確的英文單字是哪一個？",
+    "options": [
+      "grandmother",
+      "grandfather",
+      "father",
+      "sister"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) sister\n💡【重點提示】名詞，女性手足。\n📖【例句應用】My sister likes drawing.\n\n【選項對照】\n(A) grandmother\n(B) grandfather\n(C) father\n(D) sister (正確答案)"
+  },
+  {
+    "id": "Q-054A",
+    "groupKey": "G-054",
+    "version": "A",
+    "chapter": "單字-C.人物、家人與職業",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"boy\" 最正確的中文意思是？",
+    "options": [
+      "男人",
+      "女孩",
+      "女人",
+      "男孩"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) 男孩\n💡【重點提示】名詞，未成年男性。\n📖【例句應用】The boy is playing basketball.\n\n【選項解析】\n(A) 男人\n(B) 女孩\n(C) 女人\n(D) 男孩 (正確答案)"
+  },
+  {
+    "id": "Q-054B",
+    "groupKey": "G-054",
+    "version": "B",
+    "chapter": "單字-C.人物、家人與職業",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「男孩」時，正確的英文單字是哪一個？",
+    "options": [
+      "father",
+      "grandmother",
+      "boy",
+      "grandfather"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) boy\n💡【重點提示】名詞，未成年男性。\n📖【例句應用】The boy is playing basketball.\n\n【選項對照】\n(A) father\n(B) grandmother\n(C) boy (正確答案)\n(D) grandfather"
+  },
+  {
+    "id": "Q-055A",
+    "groupKey": "G-055",
+    "version": "A",
+    "chapter": "單字-C.人物、家人與職業",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"girl\" 最正確的中文意思是？",
+    "options": [
+      "女孩",
+      "婦女",
+      "嬰兒",
+      "男孩"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) 女孩\n💡【重點提示】名詞，未成年女性。\n📖【例句應用】She is a smart girl.\n\n【選項解析】\n(A) 女孩 (正確答案)\n(B) 婦女\n(C) 嬰兒\n(D) 男孩"
+  },
+  {
+    "id": "Q-055B",
+    "groupKey": "G-055",
+    "version": "B",
+    "chapter": "單字-C.人物、家人與職業",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「女孩」時，正確的英文單字是哪一個？",
+    "options": [
+      "grandfather",
+      "father",
+      "grandmother",
+      "girl"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) girl\n💡【重點提示】名詞，未成年女性。\n📖【例句應用】She is a smart girl.\n\n【選項對照】\n(A) grandfather\n(B) father\n(C) grandmother\n(D) girl (正確答案)"
+  },
+  {
+    "id": "Q-056A",
+    "groupKey": "G-056",
+    "version": "A",
+    "chapter": "單字-C.人物、家人與職業",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"child\" 最正確的中文意思是？",
+    "options": [
+      "學生",
+      "老人家",
+      "大人",
+      "孩子 / 兒童"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) 孩子 / 兒童\n💡【重點提示】名詞，複數型為 children。\n📖【例句應用】Every child deserves love.\n\n【選項解析】\n(A) 學生\n(B) 老人家\n(C) 大人\n(D) 孩子 / 兒童 (正確答案)"
+  },
+  {
+    "id": "Q-056B",
+    "groupKey": "G-056",
+    "version": "B",
+    "chapter": "單字-C.人物、家人與職業",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「孩子 / 兒童」時，正確的英文單字是哪一個？",
+    "options": [
+      "grandmother",
+      "child",
+      "grandfather",
+      "father"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) child\n💡【重點提示】名詞，複數型為 children。\n📖【例句應用】Every child deserves love.\n\n【選項對照】\n(A) grandmother\n(B) child (正確答案)\n(C) grandfather\n(D) father"
+  },
+  {
+    "id": "Q-057A",
+    "groupKey": "G-057",
+    "version": "A",
+    "chapter": "單字-C.人物、家人與職業",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"teacher\" 最正確的中文意思是？",
+    "options": [
+      "學生",
+      "老師",
+      "司機",
+      "校長"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 老師\n💡【重點提示】名詞，teach (教導) + er。\n📖【例句應用】Miss Lin is our English teacher.\n\n【選項解析】\n(A) 學生\n(B) 老師 (正確答案)\n(C) 司機\n(D) 校長"
+  },
+  {
+    "id": "Q-057B",
+    "groupKey": "G-057",
+    "version": "B",
+    "chapter": "單字-C.人物、家人與職業",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「老師」時，正確的英文單字是哪一個？",
+    "options": [
+      "teacher",
+      "father",
+      "grandfather",
+      "grandmother"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) teacher\n💡【重點提示】名詞，teach (教導) + er。\n📖【例句應用】Miss Lin is our English teacher.\n\n【選項對照】\n(A) teacher (正確答案)\n(B) father\n(C) grandfather\n(D) grandmother"
+  },
+  {
+    "id": "Q-058A",
+    "groupKey": "G-058",
+    "version": "A",
+    "chapter": "單字-C.人物、家人與職業",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"student\" 最正確的中文意思是？",
+    "options": [
+      "護理師",
+      "老師",
+      "學生",
+      "醫生"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 學生\n💡【重點提示】名詞，學習知識的人。\n📖【例句應用】I am a good student.\n\n【選項解析】\n(A) 護理師\n(B) 老師\n(C) 學生 (正確答案)\n(D) 醫生"
+  },
+  {
+    "id": "Q-058B",
+    "groupKey": "G-058",
+    "version": "B",
+    "chapter": "單字-C.人物、家人與職業",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「學生」時，正確的英文單字是哪一個？",
+    "options": [
+      "father",
+      "student",
+      "grandfather",
+      "grandmother"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) student\n💡【重點提示】名詞，學習知識的人。\n📖【例句應用】I am a good student.\n\n【選項對照】\n(A) father\n(B) student (正確答案)\n(C) grandfather\n(D) grandmother"
+  },
+  {
+    "id": "Q-059A",
+    "groupKey": "G-059",
+    "version": "A",
+    "chapter": "單字-C.人物、家人與職業",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"doctor\" 最正確的中文意思是？",
+    "options": [
+      "護理師",
+      "警察",
+      "廚師",
+      "醫生"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) 醫生\n💡【重點提示】名詞，診治病患的人。\n📖【例句應用】The doctor helps sick people.\n\n【選項解析】\n(A) 護理師\n(B) 警察\n(C) 廚師\n(D) 醫生 (正確答案)"
+  },
+  {
+    "id": "Q-059B",
+    "groupKey": "G-059",
+    "version": "B",
+    "chapter": "單字-C.人物、家人與職業",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「醫生」時，正確的英文單字是哪一個？",
+    "options": [
+      "father",
+      "grandfather",
+      "grandmother",
+      "doctor"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) doctor\n💡【重點提示】名詞，診治病患的人。\n📖【例句應用】The doctor helps sick people.\n\n【選項對照】\n(A) father\n(B) grandfather\n(C) grandmother\n(D) doctor (正確答案)"
+  },
+  {
+    "id": "Q-060A",
+    "groupKey": "G-060",
+    "version": "A",
+    "chapter": "單字-C.人物、家人與職業",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"nurse\" 最正確的中文意思是？",
+    "options": [
+      "廚師",
+      "藥師",
+      "護理師",
+      "醫生"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 護理師\n💡【重點提示】名詞，照顧病患的專業人員。\n📖【例句應用】The nurse is kind and polite.\n\n【選項解析】\n(A) 廚師\n(B) 藥師\n(C) 護理師 (正確答案)\n(D) 醫生"
+  },
+  {
+    "id": "Q-060B",
+    "groupKey": "G-060",
+    "version": "B",
+    "chapter": "單字-C.人物、家人與職業",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「護理師」時，正確的英文單字是哪一個？",
+    "options": [
+      "grandmother",
+      "father",
+      "grandfather",
+      "nurse"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) nurse\n💡【重點提示】名詞，照顧病患的專業人員。\n📖【例句應用】The nurse is kind and polite.\n\n【選項對照】\n(A) grandmother\n(B) father\n(C) grandfather\n(D) nurse (正確答案)"
+  },
+  {
+    "id": "Q-061A",
+    "groupKey": "G-061",
+    "version": "A",
+    "chapter": "單字-C.人物、家人與職業",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"driver\" 最正確的中文意思是？",
+    "options": [
+      "駕駛員 / 司機",
+      "乘客",
+      "歌手",
+      "警察"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) 駕駛員 / 司機\n💡【重點提示】名詞，drive (駕駛) + er。\n📖【例句應用】He is a bus driver.\n\n【選項解析】\n(A) 駕駛員 / 司機 (正確答案)\n(B) 乘客\n(C) 歌手\n(D) 警察"
+  },
+  {
+    "id": "Q-061B",
+    "groupKey": "G-061",
+    "version": "B",
+    "chapter": "單字-C.人物、家人與職業",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「駕駛員 / 司機」時，正確的英文單字是哪一個？",
+    "options": [
+      "grandfather",
+      "father",
+      "grandmother",
+      "driver"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) driver\n💡【重點提示】名詞，drive (駕駛) + er。\n📖【例句應用】He is a bus driver.\n\n【選項對照】\n(A) grandfather\n(B) father\n(C) grandmother\n(D) driver (正確答案)"
+  },
+  {
+    "id": "Q-062A",
+    "groupKey": "G-062",
+    "version": "A",
+    "chapter": "單字-C.人物、家人與職業",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"singer\" 最正確的中文意思是？",
+    "options": [
+      "舞者",
+      "歌手",
+      "演員",
+      "畫家"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 歌手\n💡【重點提示】名詞，sing (唱歌) + er。\n📖【例句應用】She is a famous singer.\n\n【選項解析】\n(A) 舞者\n(B) 歌手 (正確答案)\n(C) 演員\n(D) 畫家"
+  },
+  {
+    "id": "Q-062B",
+    "groupKey": "G-062",
+    "version": "B",
+    "chapter": "單字-C.人物、家人與職業",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「歌手」時，正確的英文單字是哪一個？",
+    "options": [
+      "singer",
+      "father",
+      "grandmother",
+      "grandfather"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) singer\n💡【重點提示】名詞，sing (唱歌) + er。\n📖【例句應用】She is a famous singer.\n\n【選項對照】\n(A) singer (正確答案)\n(B) father\n(C) grandmother\n(D) grandfather"
+  },
+  {
+    "id": "Q-063A",
+    "groupKey": "G-063",
+    "version": "A",
+    "chapter": "單字-C.人物、家人與職業",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"police officer\" 最正確的中文意思是？",
+    "options": [
+      "軍人",
+      "警察",
+      "保安",
+      "消防員"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 警察\n💡【重點提示】名詞，維持治安的警務人員 (學檢高頻)。\n📖【例句應用】The police officer protects the city.\n\n【選項解析】\n(A) 軍人\n(B) 警察 (正確答案)\n(C) 保安\n(D) 消防員"
+  },
+  {
+    "id": "Q-063B",
+    "groupKey": "G-063",
+    "version": "B",
+    "chapter": "單字-C.人物、家人與職業",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「警察」時，正確的英文單字是哪一個？",
+    "options": [
+      "grandmother",
+      "police officer",
+      "grandfather",
+      "father"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) police officer\n💡【重點提示】名詞，維持治安的警務人員 (學檢高頻)。\n📖【例句應用】The police officer protects the city.\n\n【選項對照】\n(A) grandmother\n(B) police officer (正確答案)\n(C) grandfather\n(D) father"
+  },
+  {
+    "id": "Q-064A",
+    "groupKey": "G-064",
+    "version": "A",
+    "chapter": "單字-C.人物、家人與職業",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"firefighter\" 最正確的中文意思是？",
+    "options": [
+      "警察",
+      "郵差",
+      "司機",
+      "消防員"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) 消防員\n💡【重點提示】名詞，滅火與救援人員 (學檢高頻)。\n📖【例句應用】The firefighter saved the cat.\n\n【選項解析】\n(A) 警察\n(B) 郵差\n(C) 司機\n(D) 消防員 (正確答案)"
+  },
+  {
+    "id": "Q-064B",
+    "groupKey": "G-064",
+    "version": "B",
+    "chapter": "單字-C.人物、家人與職業",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「消防員」時，正確的英文單字是哪一個？",
+    "options": [
+      "father",
+      "firefighter",
+      "grandmother",
+      "grandfather"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) firefighter\n💡【重點提示】名詞，滅火與救援人員 (學檢高頻)。\n📖【例句應用】The firefighter saved the cat.\n\n【選項對照】\n(A) father\n(B) firefighter (正確答案)\n(C) grandmother\n(D) grandfather"
+  },
+  {
+    "id": "Q-065A",
+    "groupKey": "G-065",
+    "version": "A",
+    "chapter": "單字-C.人物、家人與職業",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"cook\" 最正確的中文意思是？",
+    "options": [
+      "農夫",
+      "司機",
+      "服務生",
+      "廚師"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) 廚師\n💡【重點提示】名詞/動詞，烹調食物的人。\n📖【例句應用】My uncle is a great cook.\n\n【選項解析】\n(A) 農夫\n(B) 司機\n(C) 服務生\n(D) 廚師 (正確答案)"
+  },
+  {
+    "id": "Q-065B",
+    "groupKey": "G-065",
+    "version": "B",
+    "chapter": "單字-C.人物、家人與職業",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「廚師」時，正確的英文單字是哪一個？",
+    "options": [
+      "grandfather",
+      "father",
+      "cook",
+      "grandmother"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) cook\n💡【重點提示】名詞/動詞，烹調食物的人。\n📖【例句應用】My uncle is a great cook.\n\n【選項對照】\n(A) grandfather\n(B) father\n(C) cook (正確答案)\n(D) grandmother"
+  },
+  {
+    "id": "Q-066A",
+    "groupKey": "G-066",
+    "version": "A",
+    "chapter": "單字-C.人物、家人與職業",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"friend\" 最正確的中文意思是？",
+    "options": [
+      "鄰居",
+      "陌生人",
+      "朋友",
+      "敵人"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 朋友\n💡【重點提示】名詞，友好相處的人。\n📖【例句應用】A friend in need is a friend indeed.\n\n【選項解析】\n(A) 鄰居\n(B) 陌生人\n(C) 朋友 (正確答案)\n(D) 敵人"
+  },
+  {
+    "id": "Q-066B",
+    "groupKey": "G-066",
+    "version": "B",
+    "chapter": "單字-C.人物、家人與職業",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「朋友」時，正確的英文單字是哪一個？",
+    "options": [
+      "friend",
+      "grandmother",
+      "father",
+      "grandfather"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) friend\n💡【重點提示】名詞，友好相處的人。\n📖【例句應用】A friend in need is a friend indeed.\n\n【選項對照】\n(A) friend (正確答案)\n(B) grandmother\n(C) father\n(D) grandfather"
+  },
+  {
+    "id": "Q-067A",
+    "groupKey": "G-067",
+    "version": "A",
+    "chapter": "單字-C.人物、家人與職業",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"king\" 最正確的中文意思是？",
+    "options": [
+      "皇后",
+      "王子",
+      "公主",
+      "國王"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) 國王\n💡【重點提示】名詞，國家最高男性統治者。\n📖【例句應用】The king lives in a castle.\n\n【選項解析】\n(A) 皇后\n(B) 王子\n(C) 公主\n(D) 國王 (正確答案)"
+  },
+  {
+    "id": "Q-067B",
+    "groupKey": "G-067",
+    "version": "B",
+    "chapter": "單字-C.人物、家人與職業",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「國王」時，正確的英文單字是哪一個？",
+    "options": [
+      "king",
+      "grandmother",
+      "father",
+      "grandfather"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) king\n💡【重點提示】名詞，國家最高男性統治者。\n📖【例句應用】The king lives in a castle.\n\n【選項對照】\n(A) king (正確答案)\n(B) grandmother\n(C) father\n(D) grandfather"
+  },
+  {
+    "id": "Q-068A",
+    "groupKey": "G-068",
+    "version": "A",
+    "chapter": "單字-C.人物、家人與職業",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"queen\" 最正確的中文意思是？",
+    "options": [
+      "國王",
+      "公主",
+      "皇后 / 女王",
+      "侍女"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 皇后 / 女王\n💡【重點提示】名詞，國家最高女性統治者。\n📖【例句應用】The queen wears a golden crown.\n\n【選項解析】\n(A) 國王\n(B) 公主\n(C) 皇后 / 女王 (正確答案)\n(D) 侍女"
+  },
+  {
+    "id": "Q-068B",
+    "groupKey": "G-068",
+    "version": "B",
+    "chapter": "單字-C.人物、家人與職業",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「皇后 / 女王」時，正確的英文單字是哪一個？",
+    "options": [
+      "father",
+      "queen",
+      "grandmother",
+      "grandfather"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) queen\n💡【重點提示】名詞，國家最高女性統治者。\n📖【例句應用】The queen wears a golden crown.\n\n【選項對照】\n(A) father\n(B) queen (正確答案)\n(C) grandmother\n(D) grandfather"
+  },
+  {
+    "id": "Q-069A",
+    "groupKey": "G-069",
+    "version": "A",
+    "chapter": "單字-D.身體健康與症狀",
+    "gradeLevel": 1,
+    "question": "請問英文單字 \"head\" 最正確的中文意思是？",
+    "options": [
+      "脖子",
+      "頭",
+      "肩膀",
+      "臉"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 頭\n💡【重點提示】名詞，頭部。\n📖【例句應用】Protect your head with a helmet.\n\n【選項解析】\n(A) 脖子\n(B) 頭 (正確答案)\n(C) 肩膀\n(D) 臉"
+  },
+  {
+    "id": "Q-069B",
+    "groupKey": "G-069",
+    "version": "B",
+    "chapter": "單字-D.身體健康與症狀",
+    "gradeLevel": 1,
+    "question": "當你想表達中文「頭」時，正確的英文單字是哪一個？",
+    "options": [
+      "eye",
+      "face",
+      "hair",
+      "head"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) head\n💡【重點提示】名詞，頭部。\n📖【例句應用】Protect your head with a helmet.\n\n【選項對照】\n(A) eye\n(B) face\n(C) hair\n(D) head (正確答案)"
+  },
+  {
+    "id": "Q-070A",
+    "groupKey": "G-070",
+    "version": "A",
+    "chapter": "單字-D.身體健康與症狀",
+    "gradeLevel": 1,
+    "question": "請問英文單字 \"face\" 最正確的中文意思是？",
+    "options": [
+      "鼻子",
+      "頭",
+      "臉",
+      "眼睛"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 臉\n💡【重點提示】名詞，面孔。\n📖【例句應用】Wash your face every morning.\n\n【選項解析】\n(A) 鼻子\n(B) 頭\n(C) 臉 (正確答案)\n(D) 眼睛"
+  },
+  {
+    "id": "Q-070B",
+    "groupKey": "G-070",
+    "version": "B",
+    "chapter": "單字-D.身體健康與症狀",
+    "gradeLevel": 1,
+    "question": "當你想表達中文「臉」時，正確的英文單字是哪一個？",
+    "options": [
+      "face",
+      "eye",
+      "hair",
+      "head"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) face\n💡【重點提示】名詞，面孔。\n📖【例句應用】Wash your face every morning.\n\n【選項對照】\n(A) face (正確答案)\n(B) eye\n(C) hair\n(D) head"
+  },
+  {
+    "id": "Q-071A",
+    "groupKey": "G-071",
+    "version": "A",
+    "chapter": "單字-D.身體健康與症狀",
+    "gradeLevel": 1,
+    "question": "請問英文單字 \"hair\" 最正確的中文意思是？",
+    "options": [
+      "睫毛",
+      "頭髮",
+      "眉毛",
+      "鬍子"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 頭髮\n💡【重點提示】名詞，不可數。\n📖【例句應用】She has long black hair.\n\n【選項解析】\n(A) 睫毛\n(B) 頭髮 (正確答案)\n(C) 眉毛\n(D) 鬍子"
+  },
+  {
+    "id": "Q-071B",
+    "groupKey": "G-071",
+    "version": "B",
+    "chapter": "單字-D.身體健康與症狀",
+    "gradeLevel": 1,
+    "question": "當你想表達中文「頭髮」時，正確的英文單字是哪一個？",
+    "options": [
+      "head",
+      "eye",
+      "face",
+      "hair"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) hair\n💡【重點提示】名詞，不可數。\n📖【例句應用】She has long black hair.\n\n【選項對照】\n(A) head\n(B) eye\n(C) face\n(D) hair (正確答案)"
+  },
+  {
+    "id": "Q-072A",
+    "groupKey": "G-072",
+    "version": "A",
+    "chapter": "單字-D.身體健康與症狀",
+    "gradeLevel": 1,
+    "question": "請問英文單字 \"eye\" 最正確的中文意思是？",
+    "options": [
+      "鼻子",
+      "眼睛",
+      "耳朵",
+      "嘴巴"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 眼睛\n💡【重點提示】名詞，複數為 eyes。\n📖【例句應用】Close your eyes and make a wish.\n\n【選項解析】\n(A) 鼻子\n(B) 眼睛 (正確答案)\n(C) 耳朵\n(D) 嘴巴"
+  },
+  {
+    "id": "Q-072B",
+    "groupKey": "G-072",
+    "version": "B",
+    "chapter": "單字-D.身體健康與症狀",
+    "gradeLevel": 1,
+    "question": "當你想表達中文「眼睛」時，正確的英文單字是哪一個？",
+    "options": [
+      "face",
+      "eye",
+      "head",
+      "hair"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) eye\n💡【重點提示】名詞，複數為 eyes。\n📖【例句應用】Close your eyes and make a wish.\n\n【選項對照】\n(A) face\n(B) eye (正確答案)\n(C) head\n(D) hair"
+  },
+  {
+    "id": "Q-073A",
+    "groupKey": "G-073",
+    "version": "A",
+    "chapter": "單字-D.身體健康與症狀",
+    "gradeLevel": 1,
+    "question": "請問英文單字 \"ear\" 最正確的中文意思是？",
+    "options": [
+      "鼻子",
+      "眼睛",
+      "耳朵",
+      "嘴巴"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 耳朵\n💡【重點提示】名詞，複數為 ears。\n📖【例句應用】Rabbits have long ears.\n\n【選項解析】\n(A) 鼻子\n(B) 眼睛\n(C) 耳朵 (正確答案)\n(D) 嘴巴"
+  },
+  {
+    "id": "Q-073B",
+    "groupKey": "G-073",
+    "version": "B",
+    "chapter": "單字-D.身體健康與症狀",
+    "gradeLevel": 1,
+    "question": "當你想表達中文「耳朵」時，正確的英文單字是哪一個？",
+    "options": [
+      "face",
+      "ear",
+      "hair",
+      "head"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) ear\n💡【重點提示】名詞，複數為 ears。\n📖【例句應用】Rabbits have long ears.\n\n【選項對照】\n(A) face\n(B) ear (正確答案)\n(C) hair\n(D) head"
+  },
+  {
+    "id": "Q-074A",
+    "groupKey": "G-074",
+    "version": "A",
+    "chapter": "單字-D.身體健康與症狀",
+    "gradeLevel": 1,
+    "question": "請問英文單字 \"nose\" 最正確的中文意思是？",
+    "options": [
+      "鼻子",
+      "眼睛",
+      "嘴巴",
+      "耳朵"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) 鼻子\n💡【重點提示】名詞，嗅覺器官。\n📖【例句應用】Pinocchio has a long nose.\n\n【選項解析】\n(A) 鼻子 (正確答案)\n(B) 眼睛\n(C) 嘴巴\n(D) 耳朵"
+  },
+  {
+    "id": "Q-074B",
+    "groupKey": "G-074",
+    "version": "B",
+    "chapter": "單字-D.身體健康與症狀",
+    "gradeLevel": 1,
+    "question": "當你想表達中文「鼻子」時，正確的英文單字是哪一個？",
+    "options": [
+      "nose",
+      "face",
+      "head",
+      "hair"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) nose\n💡【重點提示】名詞，嗅覺器官。\n📖【例句應用】Pinocchio has a long nose.\n\n【選項對照】\n(A) nose (正確答案)\n(B) face\n(C) head\n(D) hair"
+  },
+  {
+    "id": "Q-075A",
+    "groupKey": "G-075",
+    "version": "A",
+    "chapter": "單字-D.身體健康與症狀",
+    "gradeLevel": 1,
+    "question": "請問英文單字 \"mouth\" 最正確的中文意思是？",
+    "options": [
+      "牙齒",
+      "嘴巴",
+      "舌頭",
+      "鼻子"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 嘴巴\n💡【重點提示】名詞，進食與言語器官。\n📖【例句應用】Open your mouth and say Ah.\n\n【選項解析】\n(A) 牙齒\n(B) 嘴巴 (正確答案)\n(C) 舌頭\n(D) 鼻子"
+  },
+  {
+    "id": "Q-075B",
+    "groupKey": "G-075",
+    "version": "B",
+    "chapter": "單字-D.身體健康與症狀",
+    "gradeLevel": 1,
+    "question": "當你想表達中文「嘴巴」時，正確的英文單字是哪一個？",
+    "options": [
+      "hair",
+      "mouth",
+      "face",
+      "head"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) mouth\n💡【重點提示】名詞，進食與言語器官。\n📖【例句應用】Open your mouth and say Ah.\n\n【選項對照】\n(A) hair\n(B) mouth (正確答案)\n(C) face\n(D) head"
+  },
+  {
+    "id": "Q-076A",
+    "groupKey": "G-076",
+    "version": "A",
+    "chapter": "單字-D.身體健康與症狀",
+    "gradeLevel": 1,
+    "question": "請問英文單字 \"hand\" 最正確的中文意思是？",
+    "options": [
+      "手",
+      "手臂",
+      "腿",
+      "腳"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) 手\n💡【重點提示】名詞，手臂末端器官。\n📖【例句應用】Wash your hands before dinner.\n\n【選項解析】\n(A) 手 (正確答案)\n(B) 手臂\n(C) 腿\n(D) 腳"
+  },
+  {
+    "id": "Q-076B",
+    "groupKey": "G-076",
+    "version": "B",
+    "chapter": "單字-D.身體健康與症狀",
+    "gradeLevel": 1,
+    "question": "當你想表達中文「手」時，正確的英文單字是哪一個？",
+    "options": [
+      "head",
+      "face",
+      "hair",
+      "hand"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) hand\n💡【重點提示】名詞，手臂末端器官。\n📖【例句應用】Wash your hands before dinner.\n\n【選項對照】\n(A) head\n(B) face\n(C) hair\n(D) hand (正確答案)"
+  },
+  {
+    "id": "Q-077A",
+    "groupKey": "G-077",
+    "version": "A",
+    "chapter": "單字-D.身體健康與症狀",
+    "gradeLevel": 1,
+    "question": "請問英文單字 \"leg\" 最正確的中文意思是？",
+    "options": [
+      "膝蓋",
+      "手",
+      "腳掌",
+      "腿"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) 腿\n💡【重點提示】名詞，行走站立器官。\n📖【例句應用】Lions have four strong legs.\n\n【選項解析】\n(A) 膝蓋\n(B) 手\n(C) 腳掌\n(D) 腿 (正確答案)"
+  },
+  {
+    "id": "Q-077B",
+    "groupKey": "G-077",
+    "version": "B",
+    "chapter": "單字-D.身體健康與症狀",
+    "gradeLevel": 1,
+    "question": "當你想表達中文「腿」時，正確的英文單字是哪一個？",
+    "options": [
+      "head",
+      "leg",
+      "hair",
+      "face"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) leg\n💡【重點提示】名詞，行走站立器官。\n📖【例句應用】Lions have four strong legs.\n\n【選項對照】\n(A) head\n(B) leg (正確答案)\n(C) hair\n(D) face"
+  },
+  {
+    "id": "Q-078A",
+    "groupKey": "G-078",
+    "version": "A",
+    "chapter": "單字-D.身體健康與症狀",
+    "gradeLevel": 1,
+    "question": "請問英文單字 \"neck\" 最正確的中文意思是？",
+    "options": [
+      "肩膀",
+      "胸口",
+      "脖子",
+      "頭"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 脖子\n💡【重點提示】名詞，頸部。\n📖【例句應用】The giraffe has a long neck.\n\n【選項解析】\n(A) 肩膀\n(B) 胸口\n(C) 脖子 (正確答案)\n(D) 頭"
+  },
+  {
+    "id": "Q-078B",
+    "groupKey": "G-078",
+    "version": "B",
+    "chapter": "單字-D.身體健康與症狀",
+    "gradeLevel": 1,
+    "question": "當你想表達中文「脖子」時，正確的英文單字是哪一個？",
+    "options": [
+      "face",
+      "head",
+      "hair",
+      "neck"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) neck\n💡【重點提示】名詞，頸部。\n📖【例句應用】The giraffe has a long neck.\n\n【選項對照】\n(A) face\n(B) head\n(C) hair\n(D) neck (正確答案)"
+  },
+  {
+    "id": "Q-079A",
+    "groupKey": "G-079",
+    "version": "A",
+    "chapter": "單字-D.身體健康與症狀",
+    "gradeLevel": 1,
+    "question": "請問英文單字 \"bone\" 最正確的中文意思是？",
+    "options": [
+      "血液",
+      "肌肉",
+      "皮膚",
+      "骨頭"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) 骨頭\n💡【重點提示】名詞，骨骼。\n📖【例句應用】Dogs like to chew bones.\n\n【選項解析】\n(A) 血液\n(B) 肌肉\n(C) 皮膚\n(D) 骨頭 (正確答案)"
+  },
+  {
+    "id": "Q-079B",
+    "groupKey": "G-079",
+    "version": "B",
+    "chapter": "單字-D.身體健康與症狀",
+    "gradeLevel": 1,
+    "question": "當你想表達中文「骨頭」時，正確的英文單字是哪一個？",
+    "options": [
+      "head",
+      "hair",
+      "bone",
+      "face"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) bone\n💡【重點提示】名詞，骨骼。\n📖【例句應用】Dogs like to chew bones.\n\n【選項對照】\n(A) head\n(B) hair\n(C) bone (正確答案)\n(D) face"
+  },
+  {
+    "id": "Q-080A",
+    "groupKey": "G-080",
+    "version": "A",
+    "chapter": "單字-D.身體健康與症狀",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"cold\" 最正確的中文意思是？",
+    "options": [
+      "感冒 / 寒冷的",
+      "咳嗽",
+      "發燒",
+      "頭痛"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) 感冒 / 寒冷的\n💡【重點提示】名詞/形容詞，have a cold 感冒。\n📖【例句應用】Stay home if you have a cold.\n\n【選項解析】\n(A) 感冒 / 寒冷的 (正確答案)\n(B) 咳嗽\n(C) 發燒\n(D) 頭痛"
+  },
+  {
+    "id": "Q-080B",
+    "groupKey": "G-080",
+    "version": "B",
+    "chapter": "單字-D.身體健康與症狀",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「感冒 / 寒冷的」時，正確的英文單字是哪一個？",
+    "options": [
+      "head",
+      "face",
+      "cold",
+      "hair"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) cold\n💡【重點提示】名詞/形容詞，have a cold 感冒。\n📖【例句應用】Stay home if you have a cold.\n\n【選項對照】\n(A) head\n(B) face\n(C) cold (正確答案)\n(D) hair"
+  },
+  {
+    "id": "Q-081A",
+    "groupKey": "G-081",
+    "version": "A",
+    "chapter": "單字-D.身體健康與症狀",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"runny nose\" 最正確的中文意思是？",
+    "options": [
+      "喉嚨痛",
+      "腹瀉",
+      "流鼻水",
+      "發燒"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 流鼻水\n💡【重點提示】片語名詞，鼻水流不停。\n📖【例句應用】I have a runny nose.\n\n【選項解析】\n(A) 喉嚨痛\n(B) 腹瀉\n(C) 流鼻水 (正確答案)\n(D) 發燒"
+  },
+  {
+    "id": "Q-081B",
+    "groupKey": "G-081",
+    "version": "B",
+    "chapter": "單字-D.身體健康與症狀",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「流鼻水」時，正確的英文單字是哪一個？",
+    "options": [
+      "runny nose",
+      "hair",
+      "face",
+      "head"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) runny nose\n💡【重點提示】片語名詞，鼻水流不停。\n📖【例句應用】I have a runny nose.\n\n【選項對照】\n(A) runny nose (正確答案)\n(B) hair\n(C) face\n(D) head"
+  },
+  {
+    "id": "Q-082A",
+    "groupKey": "G-082",
+    "version": "A",
+    "chapter": "單字-D.身體健康與症狀",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"fever\" 最正確的中文意思是？",
+    "options": [
+      "頭痛",
+      "發燒",
+      "感冒",
+      "胃痛"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 發燒\n💡【重點提示】名詞，have a fever 發燒 (學檢必考)。\n📖【例句應用】Take your medicine if you have a fever.\n\n【選項解析】\n(A) 頭痛\n(B) 發燒 (正確答案)\n(C) 感冒\n(D) 胃痛"
+  },
+  {
+    "id": "Q-082B",
+    "groupKey": "G-082",
+    "version": "B",
+    "chapter": "單字-D.身體健康與症狀",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「發燒」時，正確的英文單字是哪一個？",
+    "options": [
+      "face",
+      "head",
+      "hair",
+      "fever"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) fever\n💡【重點提示】名詞，have a fever 發燒 (學檢必考)。\n📖【例句應用】Take your medicine if you have a fever.\n\n【選項對照】\n(A) face\n(B) head\n(C) hair\n(D) fever (正確答案)"
+  },
+  {
+    "id": "Q-083A",
+    "groupKey": "G-083",
+    "version": "A",
+    "chapter": "單字-D.身體健康與症狀",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"headache\" 最正確的中文意思是？",
+    "options": [
+      "牙痛",
+      "腹痛",
+      "頭痛",
+      "喉嚨痛"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 頭痛\n💡【重點提示】名詞，head (頭) + ache (痛)。\n📖【例句應用】I can't study because of a headache.\n\n【選項解析】\n(A) 牙痛\n(B) 腹痛\n(C) 頭痛 (正確答案)\n(D) 喉嚨痛"
+  },
+  {
+    "id": "Q-083B",
+    "groupKey": "G-083",
+    "version": "B",
+    "chapter": "單字-D.身體健康與症狀",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「頭痛」時，正確的英文單字是哪一個？",
+    "options": [
+      "headache",
+      "hair",
+      "face",
+      "head"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) headache\n💡【重點提示】名詞，head (頭) + ache (痛)。\n📖【例句應用】I can't study because of a headache.\n\n【選項對照】\n(A) headache (正確答案)\n(B) hair\n(C) face\n(D) head"
+  },
+  {
+    "id": "Q-084A",
+    "groupKey": "G-084",
+    "version": "A",
+    "chapter": "單字-D.身體健康與症狀",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"toothache\" 最正確的中文意思是？",
+    "options": [
+      "耳痛",
+      "牙痛",
+      "頭痛",
+      "背痛"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 牙痛\n💡【重點提示】名詞，tooth (牙) + ache (痛)。\n📖【例句應用】Don't eat too much candy, or you will get a toothache.\n\n【選項解析】\n(A) 耳痛\n(B) 牙痛 (正確答案)\n(C) 頭痛\n(D) 背痛"
+  },
+  {
+    "id": "Q-084B",
+    "groupKey": "G-084",
+    "version": "B",
+    "chapter": "單字-D.身體健康與症狀",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「牙痛」時，正確的英文單字是哪一個？",
+    "options": [
+      "face",
+      "head",
+      "toothache",
+      "hair"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) toothache\n💡【重點提示】名詞，tooth (牙) + ache (痛)。\n📖【例句應用】Don't eat too much candy, or you will get a toothache.\n\n【選項對照】\n(A) face\n(B) head\n(C) toothache (正確答案)\n(D) hair"
+  },
+  {
+    "id": "Q-085A",
+    "groupKey": "G-085",
+    "version": "A",
+    "chapter": "單字-D.身體健康與症狀",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"sore throat\" 最正確的中文意思是？",
+    "options": [
+      "喉嚨痛",
+      "發燒",
+      "腹痛",
+      "頭痛"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) 喉嚨痛\n💡【重點提示】片語名詞，sore (疼痛) throat (喉嚨)。\n📖【例句應用】Drink warm water for your sore throat.\n\n【選項解析】\n(A) 喉嚨痛 (正確答案)\n(B) 發燒\n(C) 腹痛\n(D) 頭痛"
+  },
+  {
+    "id": "Q-085B",
+    "groupKey": "G-085",
+    "version": "B",
+    "chapter": "單字-D.身體健康與症狀",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「喉嚨痛」時，正確的英文單字是哪一個？",
+    "options": [
+      "head",
+      "face",
+      "sore throat",
+      "hair"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) sore throat\n💡【重點提示】片語名詞，sore (疼痛) throat (喉嚨)。\n📖【例句應用】Drink warm water for your sore throat.\n\n【選項對照】\n(A) head\n(B) face\n(C) sore throat (正確答案)\n(D) hair"
+  },
+  {
+    "id": "Q-086A",
+    "groupKey": "G-086",
+    "version": "A",
+    "chapter": "單字-D.身體健康與症狀",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"stomachache\" 最正確的中文意思是？",
+    "options": [
+      "頭痛",
+      "牙痛",
+      "肚子痛 / 胃痛",
+      "發燒"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 肚子痛 / 胃痛\n💡【重點提示】名詞，stomach (胃) + ache (痛)。\n📖【例句應用】I ate too fast and got a stomachache.\n\n【選項解析】\n(A) 頭痛\n(B) 牙痛\n(C) 肚子痛 / 胃痛 (正確答案)\n(D) 發燒"
+  },
+  {
+    "id": "Q-086B",
+    "groupKey": "G-086",
+    "version": "B",
+    "chapter": "單字-D.身體健康與症狀",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「肚子痛 / 胃痛」時，正確的英文單字是哪一個？",
+    "options": [
+      "face",
+      "hair",
+      "head",
+      "stomachache"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) stomachache\n💡【重點提示】名詞，stomach (胃) + ache (痛)。\n📖【例句應用】I ate too fast and got a stomachache.\n\n【選項對照】\n(A) face\n(B) hair\n(C) head\n(D) stomachache (正確答案)"
+  },
+  {
+    "id": "Q-087A",
+    "groupKey": "G-087",
+    "version": "A",
+    "chapter": "單字-D.身體健康與症狀",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"hurt\" 最正確的中文意思是？",
+    "options": [
+      "治療",
+      "痊癒",
+      "疼痛 / 受傷",
+      "檢查"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 疼痛 / 受傷\n💡【重點提示】動詞/形容詞，身體部位痛。\n📖【例句應用】My knees hurt after running.\n\n【選項解析】\n(A) 治療\n(B) 痊癒\n(C) 疼痛 / 受傷 (正確答案)\n(D) 檢查"
+  },
+  {
+    "id": "Q-087B",
+    "groupKey": "G-087",
+    "version": "B",
+    "chapter": "單字-D.身體健康與症狀",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「疼痛 / 受傷」時，正確的英文單字是哪一個？",
+    "options": [
+      "face",
+      "head",
+      "hurt",
+      "hair"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) hurt\n💡【重點提示】動詞/形容詞，身體部位痛。\n📖【例句應用】My knees hurt after running.\n\n【選項對照】\n(A) face\n(B) head\n(C) hurt (正確答案)\n(D) hair"
+  },
+  {
+    "id": "Q-088A",
+    "groupKey": "G-088",
+    "version": "A",
+    "chapter": "單字-E.服裝與配件",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"dress\" 最正確的中文意思是？",
+    "options": [
+      "洋裝",
+      "外套",
+      "裙子",
+      "襯衫"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) 洋裝\n💡【重點提示】名詞，連身裙。\n📖【例句應用】She wears a yellow dress.\n\n【選項解析】\n(A) 洋裝 (正確答案)\n(B) 外套\n(C) 裙子\n(D) 襯衫"
+  },
+  {
+    "id": "Q-088B",
+    "groupKey": "G-088",
+    "version": "B",
+    "chapter": "單字-E.服裝與配件",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「洋裝」時，正確的英文單字是哪一個？",
+    "options": [
+      "dress",
+      "shirt",
+      "T-shirt",
+      "skirt"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) dress\n💡【重點提示】名詞，連身裙。\n📖【例句應用】She wears a yellow dress.\n\n【選項對照】\n(A) dress (正確答案)\n(B) shirt\n(C) T-shirt\n(D) skirt"
+  },
+  {
+    "id": "Q-089A",
+    "groupKey": "G-089",
+    "version": "A",
+    "chapter": "單字-E.服裝與配件",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"skirt\" 最正確的中文意思是？",
+    "options": [
+      "裙子",
+      "洋裝",
+      "褲子",
+      "短褲"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) 裙子\n💡【重點提示】名詞，半身裙。\n📖【例句應用】The girl is wearing a pleated skirt.\n\n【選項解析】\n(A) 裙子 (正確答案)\n(B) 洋裝\n(C) 褲子\n(D) 短褲"
+  },
+  {
+    "id": "Q-089B",
+    "groupKey": "G-089",
+    "version": "B",
+    "chapter": "單字-E.服裝與配件",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「裙子」時，正確的英文單字是哪一個？",
+    "options": [
+      "shirt",
+      "skirt",
+      "T-shirt",
+      "dress"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) skirt\n💡【重點提示】名詞，半身裙。\n📖【例句應用】The girl is wearing a pleated skirt.\n\n【選項對照】\n(A) shirt\n(B) skirt (正確答案)\n(C) T-shirt\n(D) dress"
+  },
+  {
+    "id": "Q-090A",
+    "groupKey": "G-090",
+    "version": "A",
+    "chapter": "單字-E.服裝與配件",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"T-shirt\" 最正確的中文意思是？",
+    "options": [
+      "外套",
+      "襯衫",
+      "T恤",
+      "背心"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) T恤\n💡【重點提示】名詞，短袖休閒衫。\n📖【例句應用】Put on your cotton T-shirt.\n\n【選項解析】\n(A) 外套\n(B) 襯衫\n(C) T恤 (正確答案)\n(D) 背心"
+  },
+  {
+    "id": "Q-090B",
+    "groupKey": "G-090",
+    "version": "B",
+    "chapter": "單字-E.服裝與配件",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「T恤」時，正確的英文單字是哪一個？",
+    "options": [
+      "shirt",
+      "skirt",
+      "T-shirt",
+      "dress"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) T-shirt\n💡【重點提示】名詞，短袖休閒衫。\n📖【例句應用】Put on your cotton T-shirt.\n\n【選項對照】\n(A) shirt\n(B) skirt\n(C) T-shirt (正確答案)\n(D) dress"
+  },
+  {
+    "id": "Q-091A",
+    "groupKey": "G-091",
+    "version": "A",
+    "chapter": "單字-E.服裝與配件",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"shirt\" 最正確的中文意思是？",
+    "options": [
+      "T恤",
+      "襯衫",
+      "夾克",
+      "長褲"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 襯衫\n💡【重點提示】名詞，正裝襯衫。\n📖【例句應用】My dad wears a white shirt to work.\n\n【選項解析】\n(A) T恤\n(B) 襯衫 (正確答案)\n(C) 夾克\n(D) 長褲"
+  },
+  {
+    "id": "Q-091B",
+    "groupKey": "G-091",
+    "version": "B",
+    "chapter": "單字-E.服裝與配件",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「襯衫」時，正確的英文單字是哪一個？",
+    "options": [
+      "T-shirt",
+      "skirt",
+      "dress",
+      "shirt"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) shirt\n💡【重點提示】名詞，正裝襯衫。\n📖【例句應用】My dad wears a white shirt to work.\n\n【選項對照】\n(A) T-shirt\n(B) skirt\n(C) dress\n(D) shirt (正確答案)"
+  },
+  {
+    "id": "Q-092A",
+    "groupKey": "G-092",
+    "version": "A",
+    "chapter": "單字-E.服裝與配件",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"pants\" 最正確的中文意思是？",
+    "options": [
+      "短褲",
+      "外套",
+      "長褲",
+      "裙子"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 長褲\n💡【重點提示】名詞，恆用複數形 (a pair of pants)。\n📖【例句應用】These pants are too long for me.\n\n【選項解析】\n(A) 短褲\n(B) 外套\n(C) 長褲 (正確答案)\n(D) 裙子"
+  },
+  {
+    "id": "Q-092B",
+    "groupKey": "G-092",
+    "version": "B",
+    "chapter": "單字-E.服裝與配件",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「長褲」時，正確的英文單字是哪一個？",
+    "options": [
+      "skirt",
+      "T-shirt",
+      "pants",
+      "dress"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) pants\n💡【重點提示】名詞，恆用複數形 (a pair of pants)。\n📖【例句應用】These pants are too long for me.\n\n【選項對照】\n(A) skirt\n(B) T-shirt\n(C) pants (正確答案)\n(D) dress"
+  },
+  {
+    "id": "Q-093A",
+    "groupKey": "G-093",
+    "version": "A",
+    "chapter": "單字-E.服裝與配件",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"shorts\" 最正確的中文意思是？",
+    "options": [
+      "牛仔褲",
+      "長褲",
+      "內褲",
+      "短褲"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) 短褲\n💡【重點提示】名詞，恆用複數形。\n📖【例句應用】I wear shorts in summer.\n\n【選項解析】\n(A) 牛仔褲\n(B) 長褲\n(C) 內褲\n(D) 短褲 (正確答案)"
+  },
+  {
+    "id": "Q-093B",
+    "groupKey": "G-093",
+    "version": "B",
+    "chapter": "單字-E.服裝與配件",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「短褲」時，正確的英文單字是哪一個？",
+    "options": [
+      "shorts",
+      "T-shirt",
+      "skirt",
+      "dress"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) shorts\n💡【重點提示】名詞，恆用複數形。\n📖【例句應用】I wear shorts in summer.\n\n【選項對照】\n(A) shorts (正確答案)\n(B) T-shirt\n(C) skirt\n(D) dress"
+  },
+  {
+    "id": "Q-094A",
+    "groupKey": "G-094",
+    "version": "A",
+    "chapter": "單字-E.服裝與配件",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"jeans\" 最正確的中文意思是？",
+    "options": [
+      "長褲",
+      "短褲",
+      "西裝褲",
+      "牛仔褲"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) 牛仔褲\n💡【重點提示】名詞，丹寧布牛仔褲。\n📖【例句應用】Blue jeans are very popular.\n\n【選項解析】\n(A) 長褲\n(B) 短褲\n(C) 西裝褲\n(D) 牛仔褲 (正確答案)"
+  },
+  {
+    "id": "Q-094B",
+    "groupKey": "G-094",
+    "version": "B",
+    "chapter": "單字-E.服裝與配件",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「牛仔褲」時，正確的英文單字是哪一個？",
+    "options": [
+      "T-shirt",
+      "dress",
+      "jeans",
+      "skirt"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) jeans\n💡【重點提示】名詞，丹寧布牛仔褲。\n📖【例句應用】Blue jeans are very popular.\n\n【選項對照】\n(A) T-shirt\n(B) dress\n(C) jeans (正確答案)\n(D) skirt"
+  },
+  {
+    "id": "Q-095A",
+    "groupKey": "G-095",
+    "version": "A",
+    "chapter": "單字-E.服裝與配件",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"jacket\" 最正確的中文意思是？",
+    "options": [
+      "毛衣",
+      "背心",
+      "夾克 / 短外套",
+      "大衣"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 夾克 / 短外套\n💡【重點提示】名詞，薄外套。\n📖【例句應用】Take a jacket with you.\n\n【選項解析】\n(A) 毛衣\n(B) 背心\n(C) 夾克 / 短外套 (正確答案)\n(D) 大衣"
+  },
+  {
+    "id": "Q-095B",
+    "groupKey": "G-095",
+    "version": "B",
+    "chapter": "單字-E.服裝與配件",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「夾克 / 短外套」時，正確的英文單字是哪一個？",
+    "options": [
+      "skirt",
+      "T-shirt",
+      "jacket",
+      "dress"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) jacket\n💡【重點提示】名詞，薄外套。\n📖【例句應用】Take a jacket with you.\n\n【選項對照】\n(A) skirt\n(B) T-shirt\n(C) jacket (正確答案)\n(D) dress"
+  },
+  {
+    "id": "Q-096A",
+    "groupKey": "G-096",
+    "version": "A",
+    "chapter": "單字-E.服裝與配件",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"vest\" 最正確的中文意思是？",
+    "options": [
+      "襯衫",
+      "外套",
+      "背心",
+      "夾克"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 背心\n💡【重點提示】名詞，無袖背心。\n📖【例句應用】He wears a warm vest.\n\n【選項解析】\n(A) 襯衫\n(B) 外套\n(C) 背心 (正確答案)\n(D) 夾克"
+  },
+  {
+    "id": "Q-096B",
+    "groupKey": "G-096",
+    "version": "B",
+    "chapter": "單字-E.服裝與配件",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「背心」時，正確的英文單字是哪一個？",
+    "options": [
+      "T-shirt",
+      "skirt",
+      "dress",
+      "vest"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) vest\n💡【重點提示】名詞，無袖背心。\n📖【例句應用】He wears a warm vest.\n\n【選項對照】\n(A) T-shirt\n(B) skirt\n(C) dress\n(D) vest (正確答案)"
+  },
+  {
+    "id": "Q-097A",
+    "groupKey": "G-097",
+    "version": "A",
+    "chapter": "單字-E.服裝與配件",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"shoes\" 最正確的中文意思是？",
+    "options": [
+      "襪子",
+      "帽子",
+      "手套",
+      "鞋子"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) 鞋子\n💡【重點提示】名詞，通常用複數形。\n📖【例句應用】Tie your shoes tightly.\n\n【選項解析】\n(A) 襪子\n(B) 帽子\n(C) 手套\n(D) 鞋子 (正確答案)"
+  },
+  {
+    "id": "Q-097B",
+    "groupKey": "G-097",
+    "version": "B",
+    "chapter": "單字-E.服裝與配件",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「鞋子」時，正確的英文單字是哪一個？",
+    "options": [
+      "dress",
+      "T-shirt",
+      "skirt",
+      "shoes"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) shoes\n💡【重點提示】名詞，通常用複數形。\n📖【例句應用】Tie your shoes tightly.\n\n【選項對照】\n(A) dress\n(B) T-shirt\n(C) skirt\n(D) shoes (正確答案)"
+  },
+  {
+    "id": "Q-098A",
+    "groupKey": "G-098",
+    "version": "A",
+    "chapter": "單字-E.服裝與配件",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"hat\" 最正確的中文意思是？",
+    "options": [
+      "安全帽",
+      "便帽",
+      "帽子 (有邊帽)",
+      "頭巾"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 帽子 (有邊帽)\n💡【重點提示】名詞，遮陽帽/禮帽。\n📖【例句應用】He wore a black hat.\n\n【選項解析】\n(A) 安全帽\n(B) 便帽\n(C) 帽子 (有邊帽) (正確答案)\n(D) 頭巾"
+  },
+  {
+    "id": "Q-098B",
+    "groupKey": "G-098",
+    "version": "B",
+    "chapter": "單字-E.服裝與配件",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「帽子 (有邊帽)」時，正確的英文單字是哪一個？",
+    "options": [
+      "skirt",
+      "T-shirt",
+      "dress",
+      "hat"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) hat\n💡【重點提示】名詞，遮陽帽/禮帽。\n📖【例句應用】He wore a black hat.\n\n【選項對照】\n(A) skirt\n(B) T-shirt\n(C) dress\n(D) hat (正確答案)"
+  },
+  {
+    "id": "Q-099A",
+    "groupKey": "G-099",
+    "version": "A",
+    "chapter": "單字-E.服裝與配件",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"mask\" 最正確的中文意思是？",
+    "options": [
+      "圍巾",
+      "手套",
+      "口罩 / 面具",
+      "眼鏡"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 口罩 / 面具\n💡【重點提示】名詞，Wear a mask 防疫必考生活生詞。\n📖【例句應用】Wear a mask in crowded places.\n\n【選項解析】\n(A) 圍巾\n(B) 手套\n(C) 口罩 / 面具 (正確答案)\n(D) 眼鏡"
+  },
+  {
+    "id": "Q-099B",
+    "groupKey": "G-099",
+    "version": "B",
+    "chapter": "單字-E.服裝與配件",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「口罩 / 面具」時，正確的英文單字是哪一個？",
+    "options": [
+      "dress",
+      "skirt",
+      "mask",
+      "T-shirt"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) mask\n💡【重點提示】名詞，Wear a mask 防疫必考生活生詞。\n📖【例句應用】Wear a mask in crowded places.\n\n【選項對照】\n(A) dress\n(B) skirt\n(C) mask (正確答案)\n(D) T-shirt"
+  },
+  {
+    "id": "Q-100A",
+    "groupKey": "G-100",
+    "version": "A",
+    "chapter": "單字-F.學校、文具與學科",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"box\" 最正確的中文意思是？",
+    "options": [
+      "書本",
+      "袋子",
+      "箱子 / 盒子",
+      "抽屜"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 箱子 / 盒子\n💡【重點提示】名詞，複數為 boxes。\n📖【例句應用】Put the toys in the box.\n\n【選項解析】\n(A) 書本\n(B) 袋子\n(C) 箱子 / 盒子 (正確答案)\n(D) 抽屜"
+  },
+  {
+    "id": "Q-100B",
+    "groupKey": "G-100",
+    "version": "B",
+    "chapter": "單字-F.學校、文具與學科",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「箱子 / 盒子」時，正確的英文單字是哪一個？",
+    "options": [
+      "box",
+      "bag",
+      "notebook",
+      "book"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) box\n💡【重點提示】名詞，複數為 boxes。\n📖【例句應用】Put the toys in the box.\n\n【選項對照】\n(A) box (正確答案)\n(B) bag\n(C) notebook\n(D) book"
+  },
+  {
+    "id": "Q-101A",
+    "groupKey": "G-101",
+    "version": "A",
+    "chapter": "單字-F.學校、文具與學科",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"bag\" 最正確的中文意思是？",
+    "options": [
+      "箱子",
+      "筆袋",
+      "皮夾",
+      "袋子 / 書包"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) 袋子 / 書包\n💡【重點提示】名詞，包包。\n📖【例句應用】My school bag is blue.\n\n【選項解析】\n(A) 箱子\n(B) 筆袋\n(C) 皮夾\n(D) 袋子 / 書包 (正確答案)"
+  },
+  {
+    "id": "Q-101B",
+    "groupKey": "G-101",
+    "version": "B",
+    "chapter": "單字-F.學校、文具與學科",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「袋子 / 書包」時，正確的英文單字是哪一個？",
+    "options": [
+      "bag",
+      "book",
+      "box",
+      "notebook"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) bag\n💡【重點提示】名詞，包包。\n📖【例句應用】My school bag is blue.\n\n【選項對照】\n(A) bag (正確答案)\n(B) book\n(C) box\n(D) notebook"
+  },
+  {
+    "id": "Q-102A",
+    "groupKey": "G-102",
+    "version": "A",
+    "chapter": "單字-F.學校、文具與學科",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"book\" 最正確的中文意思是？",
+    "options": [
+      "雜誌",
+      "筆記本",
+      "書本",
+      "報紙"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 書本\n💡【重點提示】名詞，閱讀用書。\n📖【例句應用】Read an English book every day.\n\n【選項解析】\n(A) 雜誌\n(B) 筆記本\n(C) 書本 (正確答案)\n(D) 報紙"
+  },
+  {
+    "id": "Q-102B",
+    "groupKey": "G-102",
+    "version": "B",
+    "chapter": "單字-F.學校、文具與學科",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「書本」時，正確的英文單字是哪一個？",
+    "options": [
+      "notebook",
+      "book",
+      "box",
+      "bag"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) book\n💡【重點提示】名詞，閱讀用書。\n📖【例句應用】Read an English book every day.\n\n【選項對照】\n(A) notebook\n(B) book (正確答案)\n(C) box\n(D) bag"
+  },
+  {
+    "id": "Q-103A",
+    "groupKey": "G-103",
+    "version": "A",
+    "chapter": "單字-F.學校、文具與學科",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"notebook\" 最正確的中文意思是？",
+    "options": [
+      "故事書",
+      "字典",
+      "筆記本",
+      "課本"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 筆記本\n💡【重點提示】名詞，note (筆記) + book (書)。\n📖【例句應用】Write down notes in your notebook.\n\n【選項解析】\n(A) 故事書\n(B) 字典\n(C) 筆記本 (正確答案)\n(D) 課本"
+  },
+  {
+    "id": "Q-103B",
+    "groupKey": "G-103",
+    "version": "B",
+    "chapter": "單字-F.學校、文具與學科",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「筆記本」時，正確的英文單字是哪一個？",
+    "options": [
+      "bag",
+      "notebook",
+      "box",
+      "book"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) notebook\n💡【重點提示】名詞，note (筆記) + book (書)。\n📖【例句應用】Write down notes in your notebook.\n\n【選項對照】\n(A) bag\n(B) notebook (正確答案)\n(C) box\n(D) book"
+  },
+  {
+    "id": "Q-104A",
+    "groupKey": "G-104",
+    "version": "A",
+    "chapter": "單字-F.學校、文具與學科",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"pencil\" 最正確的中文意思是？",
+    "options": [
+      "麥克筆",
+      "彩色筆",
+      "鉛筆",
+      "原子筆"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 鉛筆\n💡【重點提示】名詞，可擦拭寫字工具。\n📖【例句應用】I need a sharp pencil.\n\n【選項解析】\n(A) 麥克筆\n(B) 彩色筆\n(C) 鉛筆 (正確答案)\n(D) 原子筆"
+  },
+  {
+    "id": "Q-104B",
+    "groupKey": "G-104",
+    "version": "B",
+    "chapter": "單字-F.學校、文具與學科",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「鉛筆」時，正確的英文單字是哪一個？",
+    "options": [
+      "book",
+      "bag",
+      "pencil",
+      "box"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) pencil\n💡【重點提示】名詞，可擦拭寫字工具。\n📖【例句應用】I need a sharp pencil.\n\n【選項對照】\n(A) book\n(B) bag\n(C) pencil (正確答案)\n(D) box"
+  },
+  {
+    "id": "Q-105A",
+    "groupKey": "G-105",
+    "version": "A",
+    "chapter": "單字-F.學校、文具與學科",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"pen\" 最正確的中文意思是？",
+    "options": [
+      "粉筆",
+      "蠟筆",
+      "鉛筆",
+      "原子筆 / 鋼筆"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) 原子筆 / 鋼筆\n💡【重點提示】名詞，墨水筆。\n📖【例句應用】Sign your name with a black pen.\n\n【選項解析】\n(A) 粉筆\n(B) 蠟筆\n(C) 鉛筆\n(D) 原子筆 / 鋼筆 (正確答案)"
+  },
+  {
+    "id": "Q-105B",
+    "groupKey": "G-105",
+    "version": "B",
+    "chapter": "單字-F.學校、文具與學科",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「原子筆 / 鋼筆」時，正確的英文單字是哪一個？",
+    "options": [
+      "bag",
+      "pen",
+      "box",
+      "book"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) pen\n💡【重點提示】名詞，墨水筆。\n📖【例句應用】Sign your name with a black pen.\n\n【選項對照】\n(A) bag\n(B) pen (正確答案)\n(C) box\n(D) book"
+  },
+  {
+    "id": "Q-106A",
+    "groupKey": "G-106",
+    "version": "A",
+    "chapter": "單字-F.學校、文具與學科",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"marker\" 最正確的中文意思是？",
+    "options": [
+      "尺",
+      "麥克筆 / 畫筆",
+      "橡皮擦",
+      "鉛筆"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 麥克筆 / 畫筆\n💡【重點提示】名詞，白板筆或色彩筆。\n📖【例句應用】Use a red marker to highlight.\n\n【選項解析】\n(A) 尺\n(B) 麥克筆 / 畫筆 (正確答案)\n(C) 橡皮擦\n(D) 鉛筆"
+  },
+  {
+    "id": "Q-106B",
+    "groupKey": "G-106",
+    "version": "B",
+    "chapter": "單字-F.學校、文具與學科",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「麥克筆 / 畫筆」時，正確的英文單字是哪一個？",
+    "options": [
+      "book",
+      "bag",
+      "box",
+      "marker"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) marker\n💡【重點提示】名詞，白板筆或色彩筆。\n📖【例句應用】Use a red marker to highlight.\n\n【選項對照】\n(A) book\n(B) bag\n(C) box\n(D) marker (正確答案)"
+  },
+  {
+    "id": "Q-107A",
+    "groupKey": "G-107",
+    "version": "A",
+    "chapter": "單字-F.學校、文具與學科",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"eraser\" 最正確的中文意思是？",
+    "options": [
+      "膠水",
+      "剪刀",
+      "橡皮擦",
+      "立可帶"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 橡皮擦\n💡【重點提示】名詞，來自 erase (擦拭)。\n📖【例句應用】May I borrow your eraser?\n\n【選項解析】\n(A) 膠水\n(B) 剪刀\n(C) 橡皮擦 (正確答案)\n(D) 立可帶"
+  },
+  {
+    "id": "Q-107B",
+    "groupKey": "G-107",
+    "version": "B",
+    "chapter": "單字-F.學校、文具與學科",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「橡皮擦」時，正確的英文單字是哪一個？",
+    "options": [
+      "book",
+      "bag",
+      "eraser",
+      "box"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) eraser\n💡【重點提示】名詞，來自 erase (擦拭)。\n📖【例句應用】May I borrow your eraser?\n\n【選項對照】\n(A) book\n(B) bag\n(C) eraser (正確答案)\n(D) box"
+  },
+  {
+    "id": "Q-108A",
+    "groupKey": "G-108",
+    "version": "A",
+    "chapter": "單字-F.學校、文具與學科",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"ruler\" 最正確的中文意思是？",
+    "options": [
+      "圓規",
+      "量角器",
+      "尺 / 測量尺",
+      "規矩"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 尺 / 測量尺\n💡【重點提示】名詞，丈量長度工具。\n📖【例句應用】Measure the line with a ruler.\n\n【選項解析】\n(A) 圓規\n(B) 量角器\n(C) 尺 / 測量尺 (正確答案)\n(D) 規矩"
+  },
+  {
+    "id": "Q-108B",
+    "groupKey": "G-108",
+    "version": "B",
+    "chapter": "單字-F.學校、文具與學科",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「尺 / 測量尺」時，正確的英文單字是哪一個？",
+    "options": [
+      "bag",
+      "book",
+      "ruler",
+      "box"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) ruler\n💡【重點提示】名詞，丈量長度工具。\n📖【例句應用】Measure the line with a ruler.\n\n【選項對照】\n(A) bag\n(B) book\n(C) ruler (正確答案)\n(D) box"
+  },
+  {
+    "id": "Q-109A",
+    "groupKey": "G-109",
+    "version": "A",
+    "chapter": "單字-F.學校、文具與學科",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"paper\" 最正確的中文意思是？",
+    "options": [
+      "報紙",
+      "卡片",
+      "紙張",
+      "信封"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 紙張\n💡【重點提示】名詞，不可數集體名詞 (a piece of paper)。\n📖【例句應用】Draw a picture on white paper.\n\n【選項解析】\n(A) 報紙\n(B) 卡片\n(C) 紙張 (正確答案)\n(D) 信封"
+  },
+  {
+    "id": "Q-109B",
+    "groupKey": "G-109",
+    "version": "B",
+    "chapter": "單字-F.學校、文具與學科",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「紙張」時，正確的英文單字是哪一個？",
+    "options": [
+      "box",
+      "bag",
+      "paper",
+      "book"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) paper\n💡【重點提示】名詞，不可數集體名詞 (a piece of paper)。\n📖【例句應用】Draw a picture on white paper.\n\n【選項對照】\n(A) box\n(B) bag\n(C) paper (正確答案)\n(D) book"
+  },
+  {
+    "id": "Q-110A",
+    "groupKey": "G-110",
+    "version": "A",
+    "chapter": "單字-F.學校、文具與學科",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"map\" 最正確的中文意思是？",
+    "options": [
+      "畫作",
+      "照片",
+      "地圖",
+      "圖表"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 地圖\n💡【重點提示】名詞，地理導航圖。\n📖【例句應用】Look at the map of Taiwan.\n\n【選項解析】\n(A) 畫作\n(B) 照片\n(C) 地圖 (正確答案)\n(D) 圖表"
+  },
+  {
+    "id": "Q-110B",
+    "groupKey": "G-110",
+    "version": "B",
+    "chapter": "單字-F.學校、文具與學科",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「地圖」時，正確的英文單字是哪一個？",
+    "options": [
+      "bag",
+      "book",
+      "map",
+      "box"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) map\n💡【重點提示】名詞，地理導航圖。\n📖【例句應用】Look at the map of Taiwan.\n\n【選項對照】\n(A) bag\n(B) book\n(C) map (正確答案)\n(D) box"
+  },
+  {
+    "id": "Q-111A",
+    "groupKey": "G-111",
+    "version": "A",
+    "chapter": "單字-F.學校、文具與學科",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"photo\" 最正確的中文意思是？",
+    "options": [
+      "明信片",
+      "畫作",
+      "照片",
+      "影片"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 照片\n💡【重點提示】名詞，take a photo 拍照。\n📖【例句應用】Show me your family photo.\n\n【選項解析】\n(A) 明信片\n(B) 畫作\n(C) 照片 (正確答案)\n(D) 影片"
+  },
+  {
+    "id": "Q-111B",
+    "groupKey": "G-111",
+    "version": "B",
+    "chapter": "單字-F.學校、文具與學科",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「照片」時，正確的英文單字是哪一個？",
+    "options": [
+      "book",
+      "bag",
+      "photo",
+      "box"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) photo\n💡【重點提示】名詞，take a photo 拍照。\n📖【例句應用】Show me your family photo.\n\n【選項對照】\n(A) book\n(B) bag\n(C) photo (正確答案)\n(D) box"
+  },
+  {
+    "id": "Q-112A",
+    "groupKey": "G-112",
+    "version": "A",
+    "chapter": "單字-F.學校、文具與學科",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"desk\" 最正確的中文意思是？",
+    "options": [
+      "餐桌",
+      "書桌 (有抽屜)",
+      "講桌",
+      "工作臺"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 書桌 (有抽屜)\n💡【重點提示】名詞，個人學習辦公用桌。\n📖【例句應用】Keep your desk clean.\n\n【選項解析】\n(A) 餐桌\n(B) 書桌 (有抽屜) (正確答案)\n(C) 講桌\n(D) 工作臺"
+  },
+  {
+    "id": "Q-112B",
+    "groupKey": "G-112",
+    "version": "B",
+    "chapter": "單字-F.學校、文具與學科",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「書桌 (有抽屜)」時，正確的英文單字是哪一個？",
+    "options": [
+      "box",
+      "desk",
+      "book",
+      "bag"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) desk\n💡【重點提示】名詞，個人學習辦公用桌。\n📖【例句應用】Keep your desk clean.\n\n【選項對照】\n(A) box\n(B) desk (正確答案)\n(C) book\n(D) bag"
+  },
+  {
+    "id": "Q-113A",
+    "groupKey": "G-113",
+    "version": "A",
+    "chapter": "單字-F.學校、文具與學科",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"table\" 最正確的中文意思是？",
+    "options": [
+      "書桌",
+      "茶幾",
+      "吧臺",
+      "桌子 (無抽屜平臺)"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) 桌子 (無抽屜平臺)\n💡【重點提示】名詞，平臺桌。\n📖【例句應用】Dinner is served on the table.\n\n【選項解析】\n(A) 書桌\n(B) 茶幾\n(C) 吧臺\n(D) 桌子 (無抽屜平臺) (正確答案)"
+  },
+  {
+    "id": "Q-113B",
+    "groupKey": "G-113",
+    "version": "B",
+    "chapter": "單字-F.學校、文具與學科",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「桌子 (無抽屜平臺)」時，正確的英文單字是哪一個？",
+    "options": [
+      "book",
+      "box",
+      "table",
+      "bag"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) table\n💡【重點提示】名詞，平臺桌。\n📖【例句應用】Dinner is served on the table.\n\n【選項對照】\n(A) book\n(B) box\n(C) table (正確答案)\n(D) bag"
+  },
+  {
+    "id": "Q-114A",
+    "groupKey": "G-114",
+    "version": "A",
+    "chapter": "單字-F.學校、文具與學科",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"chair\" 最正確的中文意思是？",
+    "options": [
+      "沙發",
+      "長椅",
+      "凳子",
+      "椅子"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) 椅子\n💡【重點提示】名詞，單人坐椅。\n📖【例句應用】Sit on the chair, please.\n\n【選項解析】\n(A) 沙發\n(B) 長椅\n(C) 凳子\n(D) 椅子 (正確答案)"
+  },
+  {
+    "id": "Q-114B",
+    "groupKey": "G-114",
+    "version": "B",
+    "chapter": "單字-F.學校、文具與學科",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「椅子」時，正確的英文單字是哪一個？",
+    "options": [
+      "book",
+      "box",
+      "bag",
+      "chair"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) chair\n💡【重點提示】名詞，單人坐椅。\n📖【例句應用】Sit on the chair, please.\n\n【選項對照】\n(A) book\n(B) box\n(C) bag\n(D) chair (正確答案)"
+  },
+  {
+    "id": "Q-115A",
+    "groupKey": "G-115",
+    "version": "A",
+    "chapter": "單字-F.學校、文具與學科",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"computer\" 最正確的中文意思是？",
+    "options": [
+      "平板",
+      "手機",
+      "電腦",
+      "電視"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 電腦\n💡【重點提示】名詞，電子計算機。\n📖【例句應用】We practice English on the computer.\n\n【選項解析】\n(A) 平板\n(B) 手機\n(C) 電腦 (正確答案)\n(D) 電視"
+  },
+  {
+    "id": "Q-115B",
+    "groupKey": "G-115",
+    "version": "B",
+    "chapter": "單字-F.學校、文具與學科",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「電腦」時，正確的英文單字是哪一個？",
+    "options": [
+      "bag",
+      "box",
+      "computer",
+      "book"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) computer\n💡【重點提示】名詞，電子計算機。\n📖【例句應用】We practice English on the computer.\n\n【選項對照】\n(A) bag\n(B) box\n(C) computer (正確答案)\n(D) book"
+  },
+  {
+    "id": "Q-116A",
+    "groupKey": "G-116",
+    "version": "A",
+    "chapter": "單字-F.學校、文具與學科",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"art\" 最正確的中文意思是？",
+    "options": [
+      "體育",
+      "音樂",
+      "美術 / 藝術",
+      "數學"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 美術 / 藝術\n💡【重點提示】名詞，專有名詞字首大寫。\n📖【例句應用】We draw pictures in art class.\n\n【選項解析】\n(A) 體育\n(B) 音樂\n(C) 美術 / 藝術 (正確答案)\n(D) 數學"
+  },
+  {
+    "id": "Q-116B",
+    "groupKey": "G-116",
+    "version": "B",
+    "chapter": "單字-F.學校、文具與學科",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「美術 / 藝術」時，正確的英文單字是哪一個？",
+    "options": [
+      "book",
+      "box",
+      "art",
+      "bag"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) art\n💡【重點提示】名詞，專有名詞字首大寫。\n📖【例句應用】We draw pictures in art class.\n\n【選項對照】\n(A) book\n(B) box\n(C) art (正確答案)\n(D) bag"
+  },
+  {
+    "id": "Q-117A",
+    "groupKey": "G-117",
+    "version": "A",
+    "chapter": "單字-F.學校、文具與學科",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"English\" 最正確的中文意思是？",
+    "options": [
+      "中文",
+      "數學",
+      "英文 / 英語",
+      "日文"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 英文 / 英語\n💡【重點提示】專有名詞，字首 E 必須大寫。\n📖【例句應用】English is fun to learn.\n\n【選項解析】\n(A) 中文\n(B) 數學\n(C) 英文 / 英語 (正確答案)\n(D) 日文"
+  },
+  {
+    "id": "Q-117B",
+    "groupKey": "G-117",
+    "version": "B",
+    "chapter": "單字-F.學校、文具與學科",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「英文 / 英語」時，正確的英文單字是哪一個？",
+    "options": [
+      "box",
+      "English",
+      "book",
+      "bag"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) English\n💡【重點提示】專有名詞，字首 E 必須大寫。\n📖【例句應用】English is fun to learn.\n\n【選項對照】\n(A) box\n(B) English (正確答案)\n(C) book\n(D) bag"
+  },
+  {
+    "id": "Q-118A",
+    "groupKey": "G-118",
+    "version": "A",
+    "chapter": "單字-F.學校、文具與學科",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"math\" 最正確的中文意思是？",
+    "options": [
+      "社會",
+      "數學",
+      "科學",
+      "國語"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 數學\n💡【重點提示】名詞，Mathematics 的縮寫。\n📖【例句應用】I like solving math problems.\n\n【選項解析】\n(A) 社會\n(B) 數學 (正確答案)\n(C) 科學\n(D) 國語"
+  },
+  {
+    "id": "Q-118B",
+    "groupKey": "G-118",
+    "version": "B",
+    "chapter": "單字-F.學校、文具與學科",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「數學」時，正確的英文單字是哪一個？",
+    "options": [
+      "math",
+      "bag",
+      "book",
+      "box"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) math\n💡【重點提示】名詞，Mathematics 的縮寫。\n📖【例句應用】I like solving math problems.\n\n【選項對照】\n(A) math (正確答案)\n(B) bag\n(C) book\n(D) box"
+  },
+  {
+    "id": "Q-119A",
+    "groupKey": "G-119",
+    "version": "A",
+    "chapter": "單字-F.學校、文具與學科",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"music\" 最正確的中文意思是？",
+    "options": [
+      "自然",
+      "音樂",
+      "體育",
+      "美術"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 音樂\n💡【重點提示】名詞，樂曲與演唱。\n📖【例句應用】Listen to sweet music.\n\n【選項解析】\n(A) 自然\n(B) 音樂 (正確答案)\n(C) 體育\n(D) 美術"
+  },
+  {
+    "id": "Q-119B",
+    "groupKey": "G-119",
+    "version": "B",
+    "chapter": "單字-F.學校、文具與學科",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「音樂」時，正確的英文單字是哪一個？",
+    "options": [
+      "bag",
+      "music",
+      "book",
+      "box"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) music\n💡【重點提示】名詞，樂曲與演唱。\n📖【例句應用】Listen to sweet music.\n\n【選項對照】\n(A) bag\n(B) music (正確答案)\n(C) book\n(D) box"
+  },
+  {
+    "id": "Q-120A",
+    "groupKey": "G-120",
+    "version": "A",
+    "chapter": "單字-F.學校、文具與學科",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"PE\" 最正確的中文意思是？",
+    "options": [
+      "美術",
+      "英文",
+      "音樂",
+      "體育 (Physical Education)"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) 體育 (Physical Education)\n💡【重點提示】縮寫專有名詞，全大寫 PE。\n📖【例句應用】We play basketball in PE class.\n\n【選項解析】\n(A) 美術\n(B) 英文\n(C) 音樂\n(D) 體育 (Physical Education) (正確答案)"
+  },
+  {
+    "id": "Q-120B",
+    "groupKey": "G-120",
+    "version": "B",
+    "chapter": "單字-F.學校、文具與學科",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「體育 (Physical Education)」時，正確的英文單字是哪一個？",
+    "options": [
+      "box",
+      "book",
+      "bag",
+      "PE"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) PE\n💡【重點提示】縮寫專有名詞，全大寫 PE。\n📖【例句應用】We play basketball in PE class.\n\n【選項對照】\n(A) box\n(B) book\n(C) bag\n(D) PE (正確答案)"
+  },
+  {
+    "id": "Q-121A",
+    "groupKey": "G-121",
+    "version": "A",
+    "chapter": "單字-F.學校、文具與學科",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"science\" 最正確的中文意思是？",
+    "options": [
+      "數學",
+      "社會",
+      "歷史",
+      "科學 / 自然科學"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) 科學 / 自然科學\n💡【重點提示】名詞，自然科學領域。\n📖【例句應用】We do experiments in science class.\n\n【選項解析】\n(A) 數學\n(B) 社會\n(C) 歷史\n(D) 科學 / 自然科學 (正確答案)"
+  },
+  {
+    "id": "Q-121B",
+    "groupKey": "G-121",
+    "version": "B",
+    "chapter": "單字-F.學校、文具與學科",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「科學 / 自然科學」時，正確的英文單字是哪一個？",
+    "options": [
+      "box",
+      "science",
+      "bag",
+      "book"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) science\n💡【重點提示】名詞，自然科學領域。\n📖【例句應用】We do experiments in science class.\n\n【選項對照】\n(A) box\n(B) science (正確答案)\n(C) bag\n(D) book"
+  },
+  {
+    "id": "Q-122A",
+    "groupKey": "G-122",
+    "version": "A",
+    "chapter": "單字-F.學校、文具與學科",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"class\" 最正確的中文意思是？",
+    "options": [
+      "學生",
+      "班級 / 課堂",
+      "老師",
+      "學校"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 班級 / 課堂\n💡【重點提示】名詞，課程或班級。\n📖【例句應用】Welcome to our English class.\n\n【選項解析】\n(A) 學生\n(B) 班級 / 課堂 (正確答案)\n(C) 老師\n(D) 學校"
+  },
+  {
+    "id": "Q-122B",
+    "groupKey": "G-122",
+    "version": "B",
+    "chapter": "單字-F.學校、文具與學科",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「班級 / 課堂」時，正確的英文單字是哪一個？",
+    "options": [
+      "book",
+      "box",
+      "bag",
+      "class"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) class\n💡【重點提示】名詞，課程或班級。\n📖【例句應用】Welcome to our English class.\n\n【選項對照】\n(A) book\n(B) box\n(C) bag\n(D) class (正確答案)"
+  },
+  {
+    "id": "Q-123A",
+    "groupKey": "G-123",
+    "version": "A",
+    "chapter": "單字-F.學校、文具與學科",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"school\" 最正確的中文意思是？",
+    "options": [
+      "學校",
+      "班級",
+      "圖書館",
+      "公園"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) 學校\n💡【重點提示】名詞，學習場所。\n📖【例句應用】I go to Guoguang Elementary School.\n\n【選項解析】\n(A) 學校 (正確答案)\n(B) 班級\n(C) 圖書館\n(D) 公園"
+  },
+  {
+    "id": "Q-123B",
+    "groupKey": "G-123",
+    "version": "B",
+    "chapter": "單字-F.學校、文具與學科",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「學校」時，正確的英文單字是哪一個？",
+    "options": [
+      "bag",
+      "box",
+      "book",
+      "school"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) school\n💡【重點提示】名詞，學習場所。\n📖【例句應用】I go to Guoguang Elementary School.\n\n【選項對照】\n(A) bag\n(B) box\n(C) book\n(D) school (正確答案)"
+  },
+  {
+    "id": "Q-124A",
+    "groupKey": "G-124",
+    "version": "A",
+    "chapter": "單字-G.動物",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"cat\" 最正確的中文意思是？",
+    "options": [
+      "小鳥",
+      "兔子",
+      "貓咪",
+      "小狗"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 貓咪\n💡【重點提示】名詞，貓。\n📖【例句應用】The cat is sleeping on the sofa.\n\n【選項解析】\n(A) 小鳥\n(B) 兔子\n(C) 貓咪 (正確答案)\n(D) 小狗"
+  },
+  {
+    "id": "Q-124B",
+    "groupKey": "G-124",
+    "version": "B",
+    "chapter": "單字-G.動物",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「貓咪」時，正確的英文單字是哪一個？",
+    "options": [
+      "bird",
+      "cat",
+      "dog",
+      "fish"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) cat\n💡【重點提示】名詞，貓。\n📖【例句應用】The cat is sleeping on the sofa.\n\n【選項對照】\n(A) bird\n(B) cat (正確答案)\n(C) dog\n(D) fish"
+  },
+  {
+    "id": "Q-125A",
+    "groupKey": "G-125",
+    "version": "A",
+    "chapter": "單字-G.動物",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"dog\" 最正確的中文意思是？",
+    "options": [
+      "兔子",
+      "老鼠",
+      "小狗",
+      "貓咪"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 小狗\n💡【重點提示】名詞，狗。\n📖【例句應用】Dogs are faithful friends.\n\n【選項解析】\n(A) 兔子\n(B) 老鼠\n(C) 小狗 (正確答案)\n(D) 貓咪"
+  },
+  {
+    "id": "Q-125B",
+    "groupKey": "G-125",
+    "version": "B",
+    "chapter": "單字-G.動物",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「小狗」時，正確的英文單字是哪一個？",
+    "options": [
+      "bird",
+      "cat",
+      "fish",
+      "dog"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) dog\n💡【重點提示】名詞，狗。\n📖【例句應用】Dogs are faithful friends.\n\n【選項對照】\n(A) bird\n(B) cat\n(C) fish\n(D) dog (正確答案)"
+  },
+  {
+    "id": "Q-126A",
+    "groupKey": "G-126",
+    "version": "A",
+    "chapter": "單字-G.動物",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"bird\" 最正確的中文意思是？",
+    "options": [
+      "蝴蝶",
+      "鴨子",
+      "蜜蜂",
+      "小鳥"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) 小鳥\n💡【重點提示】名詞，鳥類。\n📖【例句應用】Birds are singing in the trees.\n\n【選項解析】\n(A) 蝴蝶\n(B) 鴨子\n(C) 蜜蜂\n(D) 小鳥 (正確答案)"
+  },
+  {
+    "id": "Q-126B",
+    "groupKey": "G-126",
+    "version": "B",
+    "chapter": "單字-G.動物",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「小鳥」時，正確的英文單字是哪一個？",
+    "options": [
+      "dog",
+      "fish",
+      "bird",
+      "cat"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) bird\n💡【重點提示】名詞，鳥類。\n📖【例句應用】Birds are singing in the trees.\n\n【選項對照】\n(A) dog\n(B) fish\n(C) bird (正確答案)\n(D) cat"
+  },
+  {
+    "id": "Q-127A",
+    "groupKey": "G-127",
+    "version": "A",
+    "chapter": "單字-G.動物",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"fish\" 最正確的中文意思是？",
+    "options": [
+      "烏龜",
+      "青蛙",
+      "魚",
+      "蝦子"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 魚\n💡【重點提示】名詞，單複數同形 (fish)。\n📖【例句應用】Fish swim in the river.\n\n【選項解析】\n(A) 烏龜\n(B) 青蛙\n(C) 魚 (正確答案)\n(D) 蝦子"
+  },
+  {
+    "id": "Q-127B",
+    "groupKey": "G-127",
+    "version": "B",
+    "chapter": "單字-G.動物",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「魚」時，正確的英文單字是哪一個？",
+    "options": [
+      "bird",
+      "fish",
+      "dog",
+      "cat"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) fish\n💡【重點提示】名詞，單複數同形 (fish)。\n📖【例句應用】Fish swim in the river.\n\n【選項對照】\n(A) bird\n(B) fish (正確答案)\n(C) dog\n(D) cat"
+  },
+  {
+    "id": "Q-128A",
+    "groupKey": "G-128",
+    "version": "A",
+    "chapter": "單字-G.動物",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"frog\" 最正確的中文意思是？",
+    "options": [
+      "烏龜",
+      "青蛙",
+      "蜥蜴",
+      "蛇"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 青蛙\n💡【重點提示】名詞，兩棲類。\n📖【例句應用】Green frogs jump high.\n\n【選項解析】\n(A) 烏龜\n(B) 青蛙 (正確答案)\n(C) 蜥蜴\n(D) 蛇"
+  },
+  {
+    "id": "Q-128B",
+    "groupKey": "G-128",
+    "version": "B",
+    "chapter": "單字-G.動物",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「青蛙」時，正確的英文單字是哪一個？",
+    "options": [
+      "bird",
+      "frog",
+      "dog",
+      "cat"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) frog\n💡【重點提示】名詞，兩棲類。\n📖【例句應用】Green frogs jump high.\n\n【選項對照】\n(A) bird\n(B) frog (正確答案)\n(C) dog\n(D) cat"
+  },
+  {
+    "id": "Q-129A",
+    "groupKey": "G-129",
+    "version": "A",
+    "chapter": "單字-G.動物",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"turtle\" 最正確的中文意思是？",
+    "options": [
+      "烏龜",
+      "青蛙",
+      "蛇",
+      "鱷魚"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) 烏龜\n💡【重點提示】名詞，爬蟲類。\n📖【例句應用】Turtles walk very slowly.\n\n【選項解析】\n(A) 烏龜 (正確答案)\n(B) 青蛙\n(C) 蛇\n(D) 鱷魚"
+  },
+  {
+    "id": "Q-129B",
+    "groupKey": "G-129",
+    "version": "B",
+    "chapter": "單字-G.動物",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「烏龜」時，正確的英文單字是哪一個？",
+    "options": [
+      "dog",
+      "turtle",
+      "bird",
+      "cat"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) turtle\n💡【重點提示】名詞，爬蟲類。\n📖【例句應用】Turtles walk very slowly.\n\n【選項對照】\n(A) dog\n(B) turtle (正確答案)\n(C) bird\n(D) cat"
+  },
+  {
+    "id": "Q-130A",
+    "groupKey": "G-130",
+    "version": "A",
+    "chapter": "單字-G.動物",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"rabbit\" 最正確的中文意思是？",
+    "options": [
+      "老鼠",
+      "貓咪",
+      "兔子",
+      "松鼠"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 兔子\n💡【重點提示】名詞，Jade Rabbit 代表中秋玉兔。\n📖【例句應用】Rabbits love eating carrots.\n\n【選項解析】\n(A) 老鼠\n(B) 貓咪\n(C) 兔子 (正確答案)\n(D) 松鼠"
+  },
+  {
+    "id": "Q-130B",
+    "groupKey": "G-130",
+    "version": "B",
+    "chapter": "單字-G.動物",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「兔子」時，正確的英文單字是哪一個？",
+    "options": [
+      "bird",
+      "dog",
+      "cat",
+      "rabbit"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) rabbit\n💡【重點提示】名詞，Jade Rabbit 代表中秋玉兔。\n📖【例句應用】Rabbits love eating carrots.\n\n【選項對照】\n(A) bird\n(B) dog\n(C) cat\n(D) rabbit (正確答案)"
+  },
+  {
+    "id": "Q-131A",
+    "groupKey": "G-131",
+    "version": "A",
+    "chapter": "單字-G.動物",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"monkey\" 最正確的中文意思是？",
+    "options": [
+      "獅子",
+      "猩猩",
+      "老虎",
+      "猴子"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) 猴子\n💡【重點提示】名詞，靈長類。\n📖【例句應用】Monkeys love bananas.\n\n【選項解析】\n(A) 獅子\n(B) 猩猩\n(C) 老虎\n(D) 猴子 (正確答案)"
+  },
+  {
+    "id": "Q-131B",
+    "groupKey": "G-131",
+    "version": "B",
+    "chapter": "單字-G.動物",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「猴子」時，正確的英文單字是哪一個？",
+    "options": [
+      "bird",
+      "cat",
+      "monkey",
+      "dog"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) monkey\n💡【重點提示】名詞，靈長類。\n📖【例句應用】Monkeys love bananas.\n\n【選項對照】\n(A) bird\n(B) cat\n(C) monkey (正確答案)\n(D) dog"
+  },
+  {
+    "id": "Q-132A",
+    "groupKey": "G-132",
+    "version": "A",
+    "chapter": "單字-G.動物",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"bat\" 最正確的中文意思是？",
+    "options": [
+      "鳥",
+      "蝙蝠",
+      "貓頭鷹",
+      "蝴蝶"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 蝙蝠\n💡【重點提示】名詞，Halloween 萬聖節關鍵主題生詞。\n📖【例句應用】Bats fly at night.\n\n【選項解析】\n(A) 鳥\n(B) 蝙蝠 (正確答案)\n(C) 貓頭鷹\n(D) 蝴蝶"
+  },
+  {
+    "id": "Q-132B",
+    "groupKey": "G-132",
+    "version": "B",
+    "chapter": "單字-G.動物",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「蝙蝠」時，正確的英文單字是哪一個？",
+    "options": [
+      "bird",
+      "dog",
+      "bat",
+      "cat"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) bat\n💡【重點提示】名詞，Halloween 萬聖節關鍵主題生詞。\n📖【例句應用】Bats fly at night.\n\n【選項對照】\n(A) bird\n(B) dog\n(C) bat (正確答案)\n(D) cat"
+  },
+  {
+    "id": "Q-133A",
+    "groupKey": "G-133",
+    "version": "A",
+    "chapter": "單字-G.動物",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"ant\" 最正確的中文意思是？",
+    "options": [
+      "蝴蝶",
+      "蜘蛛",
+      "蜜蜂",
+      "螞蟻"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) 螞蟻\n💡【重點提示】名詞，昆蟲類。\n📖【例句應用】Ants are industrious insects.\n\n【選項解析】\n(A) 蝴蝶\n(B) 蜘蛛\n(C) 蜜蜂\n(D) 螞蟻 (正確答案)"
+  },
+  {
+    "id": "Q-133B",
+    "groupKey": "G-133",
+    "version": "B",
+    "chapter": "單字-G.動物",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「螞蟻」時，正確的英文單字是哪一個？",
+    "options": [
+      "dog",
+      "cat",
+      "ant",
+      "bird"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) ant\n💡【重點提示】名詞，昆蟲類。\n📖【例句應用】Ants are industrious insects.\n\n【選項對照】\n(A) dog\n(B) cat\n(C) ant (正確答案)\n(D) bird"
+  },
+  {
+    "id": "Q-134A",
+    "groupKey": "G-134",
+    "version": "A",
+    "chapter": "單字-G.動物",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"bee\" 最正確的中文意思是？",
+    "options": [
+      "蚊子",
+      "螞蟻",
+      "蜜蜂",
+      "蒼蠅"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 蜜蜂\n💡【重點提示】名詞，busy as a bee 忙碌如蜜蜂。\n📖【例句應用】Bees make sweet honey.\n\n【選項解析】\n(A) 蚊子\n(B) 螞蟻\n(C) 蜜蜂 (正確答案)\n(D) 蒼蠅"
+  },
+  {
+    "id": "Q-134B",
+    "groupKey": "G-134",
+    "version": "B",
+    "chapter": "單字-G.動物",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「蜜蜂」時，正確的英文單字是哪一個？",
+    "options": [
+      "dog",
+      "bird",
+      "bee",
+      "cat"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) bee\n💡【重點提示】名詞，busy as a bee 忙碌如蜜蜂。\n📖【例句應用】Bees make sweet honey.\n\n【選項對照】\n(A) dog\n(B) bird\n(C) bee (正確答案)\n(D) cat"
+  },
+  {
+    "id": "Q-135A",
+    "groupKey": "G-135",
+    "version": "A",
+    "chapter": "單字-G.動物",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"duck\" 最正確的中文意思是？",
+    "options": [
+      "母雞",
+      "小鳥",
+      "鴨子",
+      "鵝"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 鴨子\n💡【重點提示】名詞，家禽類。\n📖【例句應用】Ducks swim in the pond.\n\n【選項解析】\n(A) 母雞\n(B) 小鳥\n(C) 鴨子 (正確答案)\n(D) 鵝"
+  },
+  {
+    "id": "Q-135B",
+    "groupKey": "G-135",
+    "version": "B",
+    "chapter": "單字-G.動物",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「鴨子」時，正確的英文單字是哪一個？",
+    "options": [
+      "cat",
+      "bird",
+      "dog",
+      "duck"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) duck\n💡【重點提示】名詞，家禽類。\n📖【例句應用】Ducks swim in the pond.\n\n【選項對照】\n(A) cat\n(B) bird\n(C) dog\n(D) duck (正確答案)"
+  },
+  {
+    "id": "Q-136A",
+    "groupKey": "G-136",
+    "version": "A",
+    "chapter": "單字-G.動物",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"fox\" 最正確的中文意思是？",
+    "options": [
+      "貓咪",
+      "狐狸",
+      "狗",
+      "狼"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 狐狸\n💡【重點提示】名詞，狡猾動物代表。\n📖【例句應用】The sly fox hid in the woods.\n\n【選項解析】\n(A) 貓咪\n(B) 狐狸 (正確答案)\n(C) 狗\n(D) 狼"
+  },
+  {
+    "id": "Q-136B",
+    "groupKey": "G-136",
+    "version": "B",
+    "chapter": "單字-G.動物",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「狐狸」時，正確的英文單字是哪一個？",
+    "options": [
+      "fox",
+      "cat",
+      "bird",
+      "dog"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) fox\n💡【重點提示】名詞，狡猾動物代表。\n📖【例句應用】The sly fox hid in the woods.\n\n【選項對照】\n(A) fox (正確答案)\n(B) cat\n(C) bird\n(D) dog"
+  },
+  {
+    "id": "Q-137A",
+    "groupKey": "G-137",
+    "version": "A",
+    "chapter": "單字-G.動物",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"goat\" 最正確的中文意思是？",
+    "options": [
+      "山羊",
+      "綿羊",
+      "鹿",
+      "牛"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) 山羊\n💡【重點提示】名詞，有角山羊。\n📖【例句應用】Goats eat fresh grass.\n\n【選項解析】\n(A) 山羊 (正確答案)\n(B) 綿羊\n(C) 鹿\n(D) 牛"
+  },
+  {
+    "id": "Q-137B",
+    "groupKey": "G-137",
+    "version": "B",
+    "chapter": "單字-G.動物",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「山羊」時，正確的英文單字是哪一個？",
+    "options": [
+      "goat",
+      "bird",
+      "dog",
+      "cat"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) goat\n💡【重點提示】名詞，有角山羊。\n📖【例句應用】Goats eat fresh grass.\n\n【選項對照】\n(A) goat (正確答案)\n(B) bird\n(C) dog\n(D) cat"
+  },
+  {
+    "id": "Q-138A",
+    "groupKey": "G-138",
+    "version": "A",
+    "chapter": "單字-G.動物",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"hen\" 最正確的中文意思是？",
+    "options": [
+      "母雞",
+      "小雞",
+      "公雞",
+      "鴨子"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) 母雞\n💡【重點提示】名詞，產蛋母雞。\n📖【例句應用】The hen lays an egg every day.\n\n【選項解析】\n(A) 母雞 (正確答案)\n(B) 小雞\n(C) 公雞\n(D) 鴨子"
+  },
+  {
+    "id": "Q-138B",
+    "groupKey": "G-138",
+    "version": "B",
+    "chapter": "單字-G.動物",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「母雞」時，正確的英文單字是哪一個？",
+    "options": [
+      "cat",
+      "dog",
+      "bird",
+      "hen"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) hen\n💡【重點提示】名詞，產蛋母雞。\n📖【例句應用】The hen lays an egg every day.\n\n【選項對照】\n(A) cat\n(B) dog\n(C) bird\n(D) hen (正確答案)"
+  },
+  {
+    "id": "Q-139A",
+    "groupKey": "G-139",
+    "version": "A",
+    "chapter": "單字-G.動物",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"horse\" 最正確的中文意思是？",
+    "options": [
+      "馬",
+      "驢子",
+      "牛",
+      "斑馬"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) 馬\n💡【重點提示】名詞，騎乘哺乳類。\n📖【例句應用】He rides a white horse.\n\n【選項解析】\n(A) 馬 (正確答案)\n(B) 驢子\n(C) 牛\n(D) 斑馬"
+  },
+  {
+    "id": "Q-139B",
+    "groupKey": "G-139",
+    "version": "B",
+    "chapter": "單字-G.動物",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「馬」時，正確的英文單字是哪一個？",
+    "options": [
+      "cat",
+      "dog",
+      "horse",
+      "bird"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) horse\n💡【重點提示】名詞，騎乘哺乳類。\n📖【例句應用】He rides a white horse.\n\n【選項對照】\n(A) cat\n(B) dog\n(C) horse (正確答案)\n(D) bird"
+  },
+  {
+    "id": "Q-140A",
+    "groupKey": "G-140",
+    "version": "A",
+    "chapter": "單字-G.動物",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"lion\" 最正確的中文意思是？",
+    "options": [
+      "獅子",
+      "豹",
+      "老虎",
+      "熊"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) 獅子\n💡【重點提示】名詞，百獸之王。\n📖【例句應用】The lion roared loudly.\n\n【選項解析】\n(A) 獅子 (正確答案)\n(B) 豹\n(C) 老虎\n(D) 熊"
+  },
+  {
+    "id": "Q-140B",
+    "groupKey": "G-140",
+    "version": "B",
+    "chapter": "單字-G.動物",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「獅子」時，正確的英文單字是哪一個？",
+    "options": [
+      "cat",
+      "lion",
+      "dog",
+      "bird"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) lion\n💡【重點提示】名詞，百獸之王。\n📖【例句應用】The lion roared loudly.\n\n【選項對照】\n(A) cat\n(B) lion (正確答案)\n(C) dog\n(D) bird"
+  },
+  {
+    "id": "Q-141A",
+    "groupKey": "G-141",
+    "version": "A",
+    "chapter": "單字-G.動物",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"pig\" 最正確的中文意思是？",
+    "options": [
+      "羊",
+      "豬",
+      "牛",
+      "馬"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 豬\n💡【重點提示】名詞，家畜類。\n📖【例句應用】Pigs are very intelligent.\n\n【選項解析】\n(A) 羊\n(B) 豬 (正確答案)\n(C) 牛\n(D) 馬"
+  },
+  {
+    "id": "Q-141B",
+    "groupKey": "G-141",
+    "version": "B",
+    "chapter": "單字-G.動物",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「豬」時，正確的英文單字是哪一個？",
+    "options": [
+      "cat",
+      "dog",
+      "pig",
+      "bird"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) pig\n💡【重點提示】名詞，家畜類。\n📖【例句應用】Pigs are very intelligent.\n\n【選項對照】\n(A) cat\n(B) dog\n(C) pig (正確答案)\n(D) bird"
+  },
+  {
+    "id": "Q-142A",
+    "groupKey": "G-142",
+    "version": "A",
+    "chapter": "單字-G.動物",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"spider\" 最正確的中文意思是？",
+    "options": [
+      "蝙蝠",
+      "蜘蛛",
+      "螞蟻",
+      "蜥蜴"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 蜘蛛\n💡【重點提示】名詞，八足節肢動物 (萬聖節常用)。\n📖【例句應用】Spiders build webs.\n\n【選項解析】\n(A) 蝙蝠\n(B) 蜘蛛 (正確答案)\n(C) 螞蟻\n(D) 蜥蜴"
+  },
+  {
+    "id": "Q-142B",
+    "groupKey": "G-142",
+    "version": "B",
+    "chapter": "單字-G.動物",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「蜘蛛」時，正確的英文單字是哪一個？",
+    "options": [
+      "bird",
+      "spider",
+      "cat",
+      "dog"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) spider\n💡【重點提示】名詞，八足節肢動物 (萬聖節常用)。\n📖【例句應用】Spiders build webs.\n\n【選項對照】\n(A) bird\n(B) spider (正確答案)\n(C) cat\n(D) dog"
+  },
+  {
+    "id": "Q-143A",
+    "groupKey": "G-143",
+    "version": "A",
+    "chapter": "單字-G.動物",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"tiger\" 最正確的中文意思是？",
+    "options": [
+      "老虎",
+      "豹",
+      "獅子",
+      "狼"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) 老虎\n💡【重點提示】名詞，貓科猛獸。\n📖【例句應用】Tigers have black stripes.\n\n【選項解析】\n(A) 老虎 (正確答案)\n(B) 豹\n(C) 獅子\n(D) 狼"
+  },
+  {
+    "id": "Q-143B",
+    "groupKey": "G-143",
+    "version": "B",
+    "chapter": "單字-G.動物",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「老虎」時，正確的英文單字是哪一個？",
+    "options": [
+      "dog",
+      "cat",
+      "tiger",
+      "bird"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) tiger\n💡【重點提示】名詞，貓科猛獸。\n📖【例句應用】Tigers have black stripes.\n\n【選項對照】\n(A) dog\n(B) cat\n(C) tiger (正確答案)\n(D) bird"
+  },
+  {
+    "id": "Q-144A",
+    "groupKey": "G-144",
+    "version": "A",
+    "chapter": "單字-G.動物",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"zebra\" 最正確的中文意思是？",
+    "options": [
+      "馬",
+      "長頸鹿",
+      "大象",
+      "斑馬"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) 斑馬\n💡【重點提示】名詞，黑白條紋馬類。\n📖【例句應用】Zebras live in Africa.\n\n【選項解析】\n(A) 馬\n(B) 長頸鹿\n(C) 大象\n(D) 斑馬 (正確答案)"
+  },
+  {
+    "id": "Q-144B",
+    "groupKey": "G-144",
+    "version": "B",
+    "chapter": "單字-G.動物",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「斑馬」時，正確的英文單字是哪一個？",
+    "options": [
+      "dog",
+      "bird",
+      "cat",
+      "zebra"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) zebra\n💡【重點提示】名詞，黑白條紋馬類。\n📖【例句應用】Zebras live in Africa.\n\n【選項對照】\n(A) dog\n(B) bird\n(C) cat\n(D) zebra (正確答案)"
+  },
+  {
+    "id": "Q-145A",
+    "groupKey": "G-145",
+    "version": "A",
+    "chapter": "單字-H.食物、飲料與水果",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"egg\" 最正確的中文意思是？",
+    "options": [
+      "麵包",
+      "雞蛋",
+      "蛋糕",
+      "米飯"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 雞蛋\n💡【重點提示】名詞，an egg 一顆蛋。\n📖【例句應用】I eat a boiled egg for breakfast.\n\n【選項解析】\n(A) 麵包\n(B) 雞蛋 (正確答案)\n(C) 蛋糕\n(D) 米飯"
+  },
+  {
+    "id": "Q-145B",
+    "groupKey": "G-145",
+    "version": "B",
+    "chapter": "單字-H.食物、飲料與水果",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「雞蛋」時，正確的英文單字是哪一個？",
+    "options": [
+      "pizza",
+      "egg",
+      "cake",
+      "rice"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) egg\n💡【重點提示】名詞，an egg 一顆蛋。\n📖【例句應用】I eat a boiled egg for breakfast.\n\n【選項對照】\n(A) pizza\n(B) egg (正確答案)\n(C) cake\n(D) rice"
+  },
+  {
+    "id": "Q-146A",
+    "groupKey": "G-146",
+    "version": "A",
+    "chapter": "單字-H.食物、飲料與水果",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"cake\" 最正確的中文意思是？",
+    "options": [
+      "蛋糕",
+      "餅乾",
+      "糖果",
+      "派"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) 蛋糕\n💡【重點提示】名詞，生日慶祝必備甜點。\n📖【例句應用】Happy birthday! Here is your cake.\n\n【選項解析】\n(A) 蛋糕 (正確答案)\n(B) 餅乾\n(C) 糖果\n(D) 派"
+  },
+  {
+    "id": "Q-146B",
+    "groupKey": "G-146",
+    "version": "B",
+    "chapter": "單字-H.食物、飲料與水果",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「蛋糕」時，正確的英文單字是哪一個？",
+    "options": [
+      "pizza",
+      "cake",
+      "rice",
+      "egg"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) cake\n💡【重點提示】名詞，生日慶祝必備甜點。\n📖【例句應用】Happy birthday! Here is your cake.\n\n【選項對照】\n(A) pizza\n(B) cake (正確答案)\n(C) rice\n(D) egg"
+  },
+  {
+    "id": "Q-147A",
+    "groupKey": "G-147",
+    "version": "A",
+    "chapter": "單字-H.食物、飲料與水果",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"pizza\" 最正確的中文意思是？",
+    "options": [
+      "三明治",
+      "漢堡",
+      "義大利麵",
+      "比薩"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) 比薩\n💡【重點提示】名詞，義式烤餅。\n📖【例句應用】Let's order a pepperoni pizza.\n\n【選項解析】\n(A) 三明治\n(B) 漢堡\n(C) 義大利麵\n(D) 比薩 (正確答案)"
+  },
+  {
+    "id": "Q-147B",
+    "groupKey": "G-147",
+    "version": "B",
+    "chapter": "單字-H.食物、飲料與水果",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「比薩」時，正確的英文單字是哪一個？",
+    "options": [
+      "cake",
+      "egg",
+      "rice",
+      "pizza"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) pizza\n💡【重點提示】名詞，義式烤餅。\n📖【例句應用】Let's order a pepperoni pizza.\n\n【選項對照】\n(A) cake\n(B) egg\n(C) rice\n(D) pizza (正確答案)"
+  },
+  {
+    "id": "Q-148A",
+    "groupKey": "G-148",
+    "version": "A",
+    "chapter": "單字-H.食物、飲料與水果",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"rice\" 最正確的中文意思是？",
+    "options": [
+      "米飯",
+      "水餃",
+      "麵包",
+      "麵條"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) 米飯\n💡【重點提示】名詞，主食米飯。\n📖【例句應用】We eat rice and vegetables for dinner.\n\n【選項解析】\n(A) 米飯 (正確答案)\n(B) 水餃\n(C) 麵包\n(D) 麵條"
+  },
+  {
+    "id": "Q-148B",
+    "groupKey": "G-148",
+    "version": "B",
+    "chapter": "單字-H.食物、飲料與水果",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「米飯」時，正確的英文單字是哪一個？",
+    "options": [
+      "egg",
+      "rice",
+      "cake",
+      "pizza"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) rice\n💡【重點提示】名詞，主食米飯。\n📖【例句應用】We eat rice and vegetables for dinner.\n\n【選項對照】\n(A) egg\n(B) rice (正確答案)\n(C) cake\n(D) pizza"
+  },
+  {
+    "id": "Q-149A",
+    "groupKey": "G-149",
+    "version": "A",
+    "chapter": "單字-H.食物、飲料與水果",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"bread\" 最正確的中文意思是？",
+    "options": [
+      "餅乾",
+      "蛋糕",
+      "麵包",
+      "土司"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 麵包\n💡【重點提示】名詞，不可數集體名詞 (a loaf of bread)。\n📖【例句應用】Fresh bread smells good.\n\n【選項解析】\n(A) 餅乾\n(B) 蛋糕\n(C) 麵包 (正確答案)\n(D) 土司"
+  },
+  {
+    "id": "Q-149B",
+    "groupKey": "G-149",
+    "version": "B",
+    "chapter": "單字-H.食物、飲料與水果",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「麵包」時，正確的英文單字是哪一個？",
+    "options": [
+      "egg",
+      "cake",
+      "bread",
+      "pizza"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) bread\n💡【重點提示】名詞，不可數集體名詞 (a loaf of bread)。\n📖【例句應用】Fresh bread smells good.\n\n【選項對照】\n(A) egg\n(B) cake\n(C) bread (正確答案)\n(D) pizza"
+  },
+  {
+    "id": "Q-150A",
+    "groupKey": "G-150",
+    "version": "A",
+    "chapter": "單字-H.食物、飲料與水果",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"sandwich\" 最正確的中文意思是？",
+    "options": [
+      "漢堡",
+      "熱狗",
+      "比薩",
+      "三明治"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) 三明治\n💡【重點提示】名詞，夾心吐司。\n📖【例句應用】I made a ham sandwich.\n\n【選項解析】\n(A) 漢堡\n(B) 熱狗\n(C) 比薩\n(D) 三明治 (正確答案)"
+  },
+  {
+    "id": "Q-150B",
+    "groupKey": "G-150",
+    "version": "B",
+    "chapter": "單字-H.食物、飲料與水果",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「三明治」時，正確的英文單字是哪一個？",
+    "options": [
+      "cake",
+      "egg",
+      "sandwich",
+      "pizza"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) sandwich\n💡【重點提示】名詞，夾心吐司。\n📖【例句應用】I made a ham sandwich.\n\n【選項對照】\n(A) cake\n(B) egg\n(C) sandwich (正確答案)\n(D) pizza"
+  },
+  {
+    "id": "Q-151A",
+    "groupKey": "G-151",
+    "version": "A",
+    "chapter": "單字-H.食物、飲料與水果",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"hamburger\" 最正確的中文意思是？",
+    "options": [
+      "薯條",
+      "漢堡",
+      "熱狗",
+      "三明治"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 漢堡\n💡【重點提示】名詞，牛肉或雞肉漢堡。\n📖【例句應用】A hamburger with cheese, please.\n\n【選項解析】\n(A) 薯條\n(B) 漢堡 (正確答案)\n(C) 熱狗\n(D) 三明治"
+  },
+  {
+    "id": "Q-151B",
+    "groupKey": "G-151",
+    "version": "B",
+    "chapter": "單字-H.食物、飲料與水果",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「漢堡」時，正確的英文單字是哪一個？",
+    "options": [
+      "pizza",
+      "hamburger",
+      "egg",
+      "cake"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) hamburger\n💡【重點提示】名詞，牛肉或雞肉漢堡。\n📖【例句應用】A hamburger with cheese, please.\n\n【選項對照】\n(A) pizza\n(B) hamburger (正確答案)\n(C) egg\n(D) cake"
+  },
+  {
+    "id": "Q-152A",
+    "groupKey": "G-152",
+    "version": "A",
+    "chapter": "單字-H.食物、飲料與水果",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"hot dog\" 最正確的中文意思是？",
+    "options": [
+      "漢堡",
+      "熱狗",
+      "三明治",
+      "香腸"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 熱狗\n💡【重點提示】名詞，熱狗麵包。\n📖【例句應用】Buy a hot dog at the ballpark.\n\n【選項解析】\n(A) 漢堡\n(B) 熱狗 (正確答案)\n(C) 三明治\n(D) 香腸"
+  },
+  {
+    "id": "Q-152B",
+    "groupKey": "G-152",
+    "version": "B",
+    "chapter": "單字-H.食物、飲料與水果",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「熱狗」時，正確的英文單字是哪一個？",
+    "options": [
+      "pizza",
+      "egg",
+      "cake",
+      "hot dog"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) hot dog\n💡【重點提示】名詞，熱狗麵包。\n📖【例句應用】Buy a hot dog at the ballpark.\n\n【選項對照】\n(A) pizza\n(B) egg\n(C) cake\n(D) hot dog (正確答案)"
+  },
+  {
+    "id": "Q-153A",
+    "groupKey": "G-153",
+    "version": "A",
+    "chapter": "單字-H.食物、飲料與水果",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"ice cream\" 最正確的中文意思是？",
+    "options": [
+      "牛奶",
+      "冰淇淋",
+      "果汁",
+      "冰棒"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 冰淇淋\n💡【重點提示】名詞，夏天熱門甜點。\n📖【例句應用】Chocolate ice cream is delicious.\n\n【選項解析】\n(A) 牛奶\n(B) 冰淇淋 (正確答案)\n(C) 果汁\n(D) 冰棒"
+  },
+  {
+    "id": "Q-153B",
+    "groupKey": "G-153",
+    "version": "B",
+    "chapter": "單字-H.食物、飲料與水果",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「冰淇淋」時，正確的英文單字是哪一個？",
+    "options": [
+      "cake",
+      "egg",
+      "ice cream",
+      "pizza"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) ice cream\n💡【重點提示】名詞，夏天熱門甜點。\n📖【例句應用】Chocolate ice cream is delicious.\n\n【選項對照】\n(A) cake\n(B) egg\n(C) ice cream (正確答案)\n(D) pizza"
+  },
+  {
+    "id": "Q-154A",
+    "groupKey": "G-154",
+    "version": "A",
+    "chapter": "單字-H.食物、飲料與水果",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"milk\" 最正確的中文意思是？",
+    "options": [
+      "水",
+      "豆漿",
+      "牛奶",
+      "果汁"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 牛奶\n💡【重點提示】名詞，乳製品。\n📖【例句應用】Drink a glass of milk daily.\n\n【選項解析】\n(A) 水\n(B) 豆漿\n(C) 牛奶 (正確答案)\n(D) 果汁"
+  },
+  {
+    "id": "Q-154B",
+    "groupKey": "G-154",
+    "version": "B",
+    "chapter": "單字-H.食物、飲料與水果",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「牛奶」時，正確的英文單字是哪一個？",
+    "options": [
+      "pizza",
+      "milk",
+      "cake",
+      "egg"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) milk\n💡【重點提示】名詞，乳製品。\n📖【例句應用】Drink a glass of milk daily.\n\n【選項對照】\n(A) pizza\n(B) milk (正確答案)\n(C) cake\n(D) egg"
+  },
+  {
+    "id": "Q-155A",
+    "groupKey": "G-155",
+    "version": "A",
+    "chapter": "單字-H.食物、飲料與水果",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"tea\" 最正確的中文意思是？",
+    "options": [
+      "咖啡",
+      "果汁",
+      "茶水",
+      "可樂"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 茶水\n💡【重點提示】名詞，沖泡茶飲。\n📖【例句應用】Grandpa loves black tea.\n\n【選項解析】\n(A) 咖啡\n(B) 果汁\n(C) 茶水 (正確答案)\n(D) 可樂"
+  },
+  {
+    "id": "Q-155B",
+    "groupKey": "G-155",
+    "version": "B",
+    "chapter": "單字-H.食物、飲料與水果",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「茶水」時，正確的英文單字是哪一個？",
+    "options": [
+      "cake",
+      "pizza",
+      "tea",
+      "egg"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) tea\n💡【重點提示】名詞，沖泡茶飲。\n📖【例句應用】Grandpa loves black tea.\n\n【選項對照】\n(A) cake\n(B) pizza\n(C) tea (正確答案)\n(D) egg"
+  },
+  {
+    "id": "Q-156A",
+    "groupKey": "G-156",
+    "version": "A",
+    "chapter": "單字-H.食物、飲料與水果",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"juice\" 最正確的中文意思是？",
+    "options": [
+      "果汁",
+      "水",
+      "汽水",
+      "牛奶"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) 果汁\n💡【重點提示】名詞，orange juice 柳橙汁。\n📖【例句應用】I drink fresh apple juice.\n\n【選項解析】\n(A) 果汁 (正確答案)\n(B) 水\n(C) 汽水\n(D) 牛奶"
+  },
+  {
+    "id": "Q-156B",
+    "groupKey": "G-156",
+    "version": "B",
+    "chapter": "單字-H.食物、飲料與水果",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「果汁」時，正確的英文單字是哪一個？",
+    "options": [
+      "egg",
+      "juice",
+      "cake",
+      "pizza"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) juice\n💡【重點提示】名詞，orange juice 柳橙汁。\n📖【例句應用】I drink fresh apple juice.\n\n【選項對照】\n(A) egg\n(B) juice (正確答案)\n(C) cake\n(D) pizza"
+  },
+  {
+    "id": "Q-157A",
+    "groupKey": "G-157",
+    "version": "A",
+    "chapter": "單字-H.食物、飲料與水果",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"water\" 最正確的中文意思是？",
+    "options": [
+      "牛奶",
+      "茶",
+      "水 / 飲用水",
+      "果汁"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 水 / 飲用水\n💡【重點提示】名詞，Drink plenty of water 多喝水。\n📖【例句應用】Water is essential for life.\n\n【選項解析】\n(A) 牛奶\n(B) 茶\n(C) 水 / 飲用水 (正確答案)\n(D) 果汁"
+  },
+  {
+    "id": "Q-157B",
+    "groupKey": "G-157",
+    "version": "B",
+    "chapter": "單字-H.食物、飲料與水果",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「水 / 飲用水」時，正確的英文單字是哪一個？",
+    "options": [
+      "cake",
+      "egg",
+      "water",
+      "pizza"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) water\n💡【重點提示】名詞，Drink plenty of water 多喝水。\n📖【例句應用】Water is essential for life.\n\n【選項對照】\n(A) cake\n(B) egg\n(C) water (正確答案)\n(D) pizza"
+  },
+  {
+    "id": "Q-158A",
+    "groupKey": "G-158",
+    "version": "A",
+    "chapter": "單字-H.食物、飲料與水果",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"apple\" 最正確的中文意思是？",
+    "options": [
+      "香蕉",
+      "葡萄",
+      "柳橙",
+      "蘋果"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) 蘋果\n💡【重點提示】名詞，An apple a day keeps the doctor away.\n📖【例句應用】I eat a red apple every day.\n\n【選項解析】\n(A) 香蕉\n(B) 葡萄\n(C) 柳橙\n(D) 蘋果 (正確答案)"
+  },
+  {
+    "id": "Q-158B",
+    "groupKey": "G-158",
+    "version": "B",
+    "chapter": "單字-H.食物、飲料與水果",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「蘋果」時，正確的英文單字是哪一個？",
+    "options": [
+      "egg",
+      "pizza",
+      "cake",
+      "apple"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) apple\n💡【重點提示】名詞，An apple a day keeps the doctor away.\n📖【例句應用】I eat a red apple every day.\n\n【選項對照】\n(A) egg\n(B) pizza\n(C) cake\n(D) apple (正確答案)"
+  },
+  {
+    "id": "Q-159A",
+    "groupKey": "G-159",
+    "version": "A",
+    "chapter": "單字-H.食物、飲料與水果",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"banana\" 最正確的中文意思是？",
+    "options": [
+      "芒果",
+      "鳳梨",
+      "香蕉",
+      "蘋果"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 香蕉\n💡【重點提示】名詞，黃色水果。\n📖【例句應用】Monkeys love ripe bananas.\n\n【選項解析】\n(A) 芒果\n(B) 鳳梨\n(C) 香蕉 (正確答案)\n(D) 蘋果"
+  },
+  {
+    "id": "Q-159B",
+    "groupKey": "G-159",
+    "version": "B",
+    "chapter": "單字-H.食物、飲料與水果",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「香蕉」時，正確的英文單字是哪一個？",
+    "options": [
+      "cake",
+      "egg",
+      "pizza",
+      "banana"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) banana\n💡【重點提示】名詞，黃色水果。\n📖【例句應用】Monkeys love ripe bananas.\n\n【選項對照】\n(A) cake\n(B) egg\n(C) pizza\n(D) banana (正確答案)"
+  },
+  {
+    "id": "Q-160A",
+    "groupKey": "G-160",
+    "version": "A",
+    "chapter": "單字-H.食物、飲料與水果",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"orange\" 最正確的中文意思是？",
+    "options": [
+      "柳橙 / 柑橘",
+      "蘋果",
+      "檸檬",
+      "桃子"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) 柳橙 / 柑橘\n💡【重點提示】名詞/形容詞，亦指橘色。\n📖【例句應用】Oranges are rich in Vitamin C.\n\n【選項解析】\n(A) 柳橙 / 柑橘 (正確答案)\n(B) 蘋果\n(C) 檸檬\n(D) 桃子"
+  },
+  {
+    "id": "Q-160B",
+    "groupKey": "G-160",
+    "version": "B",
+    "chapter": "單字-H.食物、飲料與水果",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「柳橙 / 柑橘」時，正確的英文單字是哪一個？",
+    "options": [
+      "cake",
+      "pizza",
+      "egg",
+      "orange"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) orange\n💡【重點提示】名詞/形容詞，亦指橘色。\n📖【例句應用】Oranges are rich in Vitamin C.\n\n【選項對照】\n(A) cake\n(B) pizza\n(C) egg\n(D) orange (正確答案)"
+  },
+  {
+    "id": "Q-161A",
+    "groupKey": "G-161",
+    "version": "A",
+    "chapter": "單字-H.食物、飲料與水果",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"grape\" 最正確的中文意思是？",
+    "options": [
+      "藍莓",
+      "葡萄",
+      "草莓",
+      "櫻桃"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 葡萄\n💡【重點提示】名詞，紫紅或綠色果實。\n📖【例句應用】Purple grapes are sweet.\n\n【選項解析】\n(A) 藍莓\n(B) 葡萄 (正確答案)\n(C) 草莓\n(D) 櫻桃"
+  },
+  {
+    "id": "Q-161B",
+    "groupKey": "G-161",
+    "version": "B",
+    "chapter": "單字-H.食物、飲料與水果",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「葡萄」時，正確的英文單字是哪一個？",
+    "options": [
+      "egg",
+      "pizza",
+      "cake",
+      "grape"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) grape\n💡【重點提示】名詞，紫紅或綠色果實。\n📖【例句應用】Purple grapes are sweet.\n\n【選項對照】\n(A) egg\n(B) pizza\n(C) cake\n(D) grape (正確答案)"
+  },
+  {
+    "id": "Q-162A",
+    "groupKey": "G-162",
+    "version": "A",
+    "chapter": "單字-H.食物、飲料與水果",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"pomelo\" 最正確的中文意思是？",
+    "options": [
+      "西瓜",
+      "蘋果",
+      "哈密瓜",
+      "柚子"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) 柚子\n💡【重點提示】名詞，Mid-Autumn Festival 中秋節必吃柚子。\n📖【例句應用】We eat pomelos during Mid-Autumn Festival.\n\n【選項解析】\n(A) 西瓜\n(B) 蘋果\n(C) 哈密瓜\n(D) 柚子 (正確答案)"
+  },
+  {
+    "id": "Q-162B",
+    "groupKey": "G-162",
+    "version": "B",
+    "chapter": "單字-H.食物、飲料與水果",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「柚子」時，正確的英文單字是哪一個？",
+    "options": [
+      "egg",
+      "pizza",
+      "cake",
+      "pomelo"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) pomelo\n💡【重點提示】名詞，Mid-Autumn Festival 中秋節必吃柚子。\n📖【例句應用】We eat pomelos during Mid-Autumn Festival.\n\n【選項對照】\n(A) egg\n(B) pizza\n(C) cake\n(D) pomelo (正確答案)"
+  },
+  {
+    "id": "Q-163A",
+    "groupKey": "G-163",
+    "version": "A",
+    "chapter": "單字-H.食物、飲料與水果",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"mooncake\" 最正確的中文意思是？",
+    "options": [
+      "月餅",
+      "鳳梨酥",
+      "蛋黃酥",
+      "太陽餅"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) 月餅\n💡【重點提示】名詞，中秋節應景美食 (學檢高頻)。\n📖【例句應用】Mooncakes are round like the full moon.\n\n【選項解析】\n(A) 月餅 (正確答案)\n(B) 鳳梨酥\n(C) 蛋黃酥\n(D) 太陽餅"
+  },
+  {
+    "id": "Q-163B",
+    "groupKey": "G-163",
+    "version": "B",
+    "chapter": "單字-H.食物、飲料與水果",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「月餅」時，正確的英文單字是哪一個？",
+    "options": [
+      "pizza",
+      "mooncake",
+      "cake",
+      "egg"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) mooncake\n💡【重點提示】名詞，中秋節應景美食 (學檢高頻)。\n📖【例句應用】Mooncakes are round like the full moon.\n\n【選項對照】\n(A) pizza\n(B) mooncake (正確答案)\n(C) cake\n(D) egg"
+  },
+  {
+    "id": "Q-164A",
+    "groupKey": "G-164",
+    "version": "A",
+    "chapter": "單字-H.食物、飲料與水果",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"barbecue\" 最正確的中文意思是？",
+    "options": [
+      "辦桌",
+      "火鍋",
+      "野餐",
+      "烤肉 (BBQ)"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) 烤肉 (BBQ)\n💡【重點提示】名詞/動詞，中秋休閒烤肉活動。\n📖【例句應用】We have a barbecue in the yard.\n\n【選項解析】\n(A) 辦桌\n(B) 火鍋\n(C) 野餐\n(D) 烤肉 (BBQ) (正確答案)"
+  },
+  {
+    "id": "Q-164B",
+    "groupKey": "G-164",
+    "version": "B",
+    "chapter": "單字-H.食物、飲料與水果",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「烤肉 (BBQ)」時，正確的英文單字是哪一個？",
+    "options": [
+      "pizza",
+      "cake",
+      "egg",
+      "barbecue"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) barbecue\n💡【重點提示】名詞/動詞，中秋休閒烤肉活動。\n📖【例句應用】We have a barbecue in the yard.\n\n【選項對照】\n(A) pizza\n(B) cake\n(C) egg\n(D) barbecue (正確答案)"
+  },
+  {
+    "id": "Q-165A",
+    "groupKey": "G-165",
+    "version": "A",
+    "chapter": "單字-I.節慶與重要傳統",
+    "gradeLevel": 3,
+    "question": "請問英文單字 \"Mid-Autumn Festival\" 最正確的中文意思是？",
+    "options": [
+      "聖誕節",
+      "中秋節",
+      "萬聖節",
+      "端午節"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 中秋節\n💡【重點提示】專有名詞，農曆八月十五節慶。\n📖【例句應用】Mid-Autumn Festival is for family reunions.\n\n【選項解析】\n(A) 聖誕節\n(B) 中秋節 (正確答案)\n(C) 萬聖節\n(D) 端午節"
+  },
+  {
+    "id": "Q-165B",
+    "groupKey": "G-165",
+    "version": "B",
+    "chapter": "單字-I.節慶與重要傳統",
+    "gradeLevel": 3,
+    "question": "當你想表達中文「中秋節」時，正確的英文單字是哪一個？",
+    "options": [
+      "jack-o'-lantern",
+      "Mid-Autumn Festival",
+      "trick or treat",
+      "Halloween"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) Mid-Autumn Festival\n💡【重點提示】專有名詞，農曆八月十五節慶。\n📖【例句應用】Mid-Autumn Festival is for family reunions.\n\n【選項對照】\n(A) jack-o'-lantern\n(B) Mid-Autumn Festival (正確答案)\n(C) trick or treat\n(D) Halloween"
+  },
+  {
+    "id": "Q-166A",
+    "groupKey": "G-166",
+    "version": "A",
+    "chapter": "單字-I.節慶與重要傳統",
+    "gradeLevel": 3,
+    "question": "請問英文單字 \"Halloween\" 最正確的中文意思是？",
+    "options": [
+      "感恩節",
+      "復活節",
+      "萬聖節",
+      "聖誕節"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 萬聖節\n💡【重點提示】專有名詞，十月三十一日西洋鬼節。\n📖【例句應用】Kids wear costumes on Halloween.\n\n【選項解析】\n(A) 感恩節\n(B) 復活節\n(C) 萬聖節 (正確答案)\n(D) 聖誕節"
+  },
+  {
+    "id": "Q-166B",
+    "groupKey": "G-166",
+    "version": "B",
+    "chapter": "單字-I.節慶與重要傳統",
+    "gradeLevel": 3,
+    "question": "當你想表達中文「萬聖節」時，正確的英文單字是哪一個？",
+    "options": [
+      "Mid-Autumn Festival",
+      "jack-o'-lantern",
+      "Halloween",
+      "trick or treat"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) Halloween\n💡【重點提示】專有名詞，十月三十一日西洋鬼節。\n📖【例句應用】Kids wear costumes on Halloween.\n\n【選項對照】\n(A) Mid-Autumn Festival\n(B) jack-o'-lantern\n(C) Halloween (正確答案)\n(D) trick or treat"
+  },
+  {
+    "id": "Q-167A",
+    "groupKey": "G-167",
+    "version": "A",
+    "chapter": "單字-I.節慶與重要傳統",
+    "gradeLevel": 3,
+    "question": "請問英文單字 \"trick or treat\" 最正確的中文意思是？",
+    "options": [
+      "新年快樂",
+      "端午安康",
+      "不給糖就惡作劇",
+      "聖誕快樂"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 不給糖就惡作劇\n💡【重點提示】萬聖節孩童要糖用語。\n📖【例句應用】Children shout trick or treat for candy.\n\n【選項解析】\n(A) 新年快樂\n(B) 端午安康\n(C) 不給糖就惡作劇 (正確答案)\n(D) 聖誕快樂"
+  },
+  {
+    "id": "Q-167B",
+    "groupKey": "G-167",
+    "version": "B",
+    "chapter": "單字-I.節慶與重要傳統",
+    "gradeLevel": 3,
+    "question": "當你想表達中文「不給糖就惡作劇」時，正確的英文單字是哪一個？",
+    "options": [
+      "trick or treat",
+      "Mid-Autumn Festival",
+      "Halloween",
+      "jack-o'-lantern"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) trick or treat\n💡【重點提示】萬聖節孩童要糖用語。\n📖【例句應用】Children shout trick or treat for candy.\n\n【選項對照】\n(A) trick or treat (正確答案)\n(B) Mid-Autumn Festival\n(C) Halloween\n(D) jack-o'-lantern"
+  },
+  {
+    "id": "Q-168A",
+    "groupKey": "G-168",
+    "version": "A",
+    "chapter": "單字-I.節慶與重要傳統",
+    "gradeLevel": 3,
+    "question": "請問英文單字 \"jack-o'-lantern\" 最正確的中文意思是？",
+    "options": [
+      "燈籠",
+      "燭台",
+      "南瓜燈",
+      "聖誕樹"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 南瓜燈\n💡【重點提示】名詞，萬聖節刻面南瓜燈。\n📖【例句應用】We carved a spooky jack-o'-lantern.\n\n【選項解析】\n(A) 燈籠\n(B) 燭台\n(C) 南瓜燈 (正確答案)\n(D) 聖誕樹"
+  },
+  {
+    "id": "Q-168B",
+    "groupKey": "G-168",
+    "version": "B",
+    "chapter": "單字-I.節慶與重要傳統",
+    "gradeLevel": 3,
+    "question": "當你想表達中文「南瓜燈」時，正確的英文單字是哪一個？",
+    "options": [
+      "Halloween",
+      "trick or treat",
+      "Mid-Autumn Festival",
+      "jack-o'-lantern"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) jack-o'-lantern\n💡【重點提示】名詞，萬聖節刻面南瓜燈。\n📖【例句應用】We carved a spooky jack-o'-lantern.\n\n【選項對照】\n(A) Halloween\n(B) trick or treat\n(C) Mid-Autumn Festival\n(D) jack-o'-lantern (正確答案)"
+  },
+  {
+    "id": "Q-169A",
+    "groupKey": "G-169",
+    "version": "A",
+    "chapter": "單字-I.節慶與重要傳統",
+    "gradeLevel": 3,
+    "question": "請問英文單字 \"gift\" 最正確的中文意思是？",
+    "options": [
+      "卡片",
+      "包裹",
+      "禮物",
+      "信件"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 禮物\n💡【重點提示】名詞，聖誕或生日贈品。\n📖【例句應用】I received a wonderful gift.\n\n【選項解析】\n(A) 卡片\n(B) 包裹\n(C) 禮物 (正確答案)\n(D) 信件"
+  },
+  {
+    "id": "Q-169B",
+    "groupKey": "G-169",
+    "version": "B",
+    "chapter": "單字-I.節慶與重要傳統",
+    "gradeLevel": 3,
+    "question": "當你想表達中文「禮物」時，正確的英文單字是哪一個？",
+    "options": [
+      "trick or treat",
+      "Mid-Autumn Festival",
+      "gift",
+      "Halloween"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) gift\n💡【重點提示】名詞，聖誕或生日贈品。\n📖【例句應用】I received a wonderful gift.\n\n【選項對照】\n(A) trick or treat\n(B) Mid-Autumn Festival\n(C) gift (正確答案)\n(D) Halloween"
+  },
+  {
+    "id": "Q-170A",
+    "groupKey": "G-170",
+    "version": "A",
+    "chapter": "單字-I.節慶與重要傳統",
+    "gradeLevel": 3,
+    "question": "請問英文單字 \"card\" 最正確的中文意思是？",
+    "options": [
+      "名片",
+      "貼紙",
+      "卡片",
+      "信封"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 卡片\n💡【重點提示】名詞，生日卡或賀卡。\n📖【例句應用】Write a thank-you card to mom.\n\n【選項解析】\n(A) 名片\n(B) 貼紙\n(C) 卡片 (正確答案)\n(D) 信封"
+  },
+  {
+    "id": "Q-170B",
+    "groupKey": "G-170",
+    "version": "B",
+    "chapter": "單字-I.節慶與重要傳統",
+    "gradeLevel": 3,
+    "question": "當你想表達中文「卡片」時，正確的英文單字是哪一個？",
+    "options": [
+      "Halloween",
+      "card",
+      "trick or treat",
+      "Mid-Autumn Festival"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) card\n💡【重點提示】名詞，生日卡或賀卡。\n📖【例句應用】Write a thank-you card to mom.\n\n【選項對照】\n(A) Halloween\n(B) card (正確答案)\n(C) trick or treat\n(D) Mid-Autumn Festival"
+  },
+  {
+    "id": "Q-171A",
+    "groupKey": "G-171",
+    "version": "A",
+    "chapter": "單字-I.節慶與重要傳統",
+    "gradeLevel": 3,
+    "question": "請問英文單字 \"Santa Claus\" 最正確的中文意思是？",
+    "options": [
+      "麋鹿",
+      "精靈",
+      "聖誕老人",
+      "雪人"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 聖誕老人\n💡【重點提示】專有名詞，聖誕節派送禮物老爺爺。\n📖【例句應用】Santa Claus brings gifts on Christmas Eve.\n\n【選項解析】\n(A) 麋鹿\n(B) 精靈\n(C) 聖誕老人 (正確答案)\n(D) 雪人"
+  },
+  {
+    "id": "Q-171B",
+    "groupKey": "G-171",
+    "version": "B",
+    "chapter": "單字-I.節慶與重要傳統",
+    "gradeLevel": 3,
+    "question": "當你想表達中文「聖誕老人」時，正確的英文單字是哪一個？",
+    "options": [
+      "Santa Claus",
+      "trick or treat",
+      "Halloween",
+      "Mid-Autumn Festival"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) Santa Claus\n💡【重點提示】專有名詞，聖誕節派送禮物老爺爺。\n📖【例句應用】Santa Claus brings gifts on Christmas Eve.\n\n【選項對照】\n(A) Santa Claus (正確答案)\n(B) trick or treat\n(C) Halloween\n(D) Mid-Autumn Festival"
+  },
+  {
+    "id": "Q-172A",
+    "groupKey": "G-172",
+    "version": "A",
+    "chapter": "單字-I.節慶與重要傳統",
+    "gradeLevel": 3,
+    "question": "請問英文單字 \"Dragon Boat Festival\" 最正確的中文意思是？",
+    "options": [
+      "中秋節",
+      "重陽節",
+      "端午節",
+      "清明節"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 端午節\n💡【重點提示】專有名詞，划龍舟包粽子節日 (學檢高頻)。\n📖【例句應用】We watch dragon boat races on Dragon Boat Festival.\n\n【選項解析】\n(A) 中秋節\n(B) 重陽節\n(C) 端午節 (正確答案)\n(D) 清明節"
+  },
+  {
+    "id": "Q-172B",
+    "groupKey": "G-172",
+    "version": "B",
+    "chapter": "單字-I.節慶與重要傳統",
+    "gradeLevel": 3,
+    "question": "當你想表達中文「端午節」時，正確的英文單字是哪一個？",
+    "options": [
+      "Dragon Boat Festival",
+      "trick or treat",
+      "Mid-Autumn Festival",
+      "Halloween"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) Dragon Boat Festival\n💡【重點提示】專有名詞，划龍舟包粽子節日 (學檢高頻)。\n📖【例句應用】We watch dragon boat races on Dragon Boat Festival.\n\n【選項對照】\n(A) Dragon Boat Festival (正確答案)\n(B) trick or treat\n(C) Mid-Autumn Festival\n(D) Halloween"
+  },
+  {
+    "id": "Q-173A",
+    "groupKey": "G-173",
+    "version": "A",
+    "chapter": "單字-I.節慶與重要傳統",
+    "gradeLevel": 3,
+    "question": "請問英文單字 \"dragon boat\" 最正確的中文意思是？",
+    "options": [
+      "帆船",
+      "划艇",
+      "郵輪",
+      "龍舟"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) 龍舟\n💡【重點提示】名詞，端午節龍舟競賽舟艇。\n📖【例句應用】Rowing a dragon boat requires teamwork.\n\n【選項解析】\n(A) 帆船\n(B) 划艇\n(C) 郵輪\n(D) 龍舟 (正確答案)"
+  },
+  {
+    "id": "Q-173B",
+    "groupKey": "G-173",
+    "version": "B",
+    "chapter": "單字-I.節慶與重要傳統",
+    "gradeLevel": 3,
+    "question": "當你想表達中文「龍舟」時，正確的英文單字是哪一個？",
+    "options": [
+      "dragon boat",
+      "Halloween",
+      "trick or treat",
+      "Mid-Autumn Festival"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) dragon boat\n💡【重點提示】名詞，端午節龍舟競賽舟艇。\n📖【例句應用】Rowing a dragon boat requires teamwork.\n\n【選項對照】\n(A) dragon boat (正確答案)\n(B) Halloween\n(C) trick or treat\n(D) Mid-Autumn Festival"
+  },
+  {
+    "id": "Q-174A",
+    "groupKey": "G-174",
+    "version": "A",
+    "chapter": "單字-I.節慶與重要傳統",
+    "gradeLevel": 3,
+    "question": "請問英文單字 \"zongzi\" 最正確的中文意思是？",
+    "options": [
+      "粽子 (rice dumpling)",
+      "年糕",
+      "湯圓",
+      "月餅"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) 粽子 (rice dumpling)\n💡【重點提示】名詞，端午節糯米粽。\n📖【例句應用】My grandma wraps delicious zongzi.\n\n【選項解析】\n(A) 粽子 (rice dumpling) (正確答案)\n(B) 年糕\n(C) 湯圓\n(D) 月餅"
+  },
+  {
+    "id": "Q-174B",
+    "groupKey": "G-174",
+    "version": "B",
+    "chapter": "單字-I.節慶與重要傳統",
+    "gradeLevel": 3,
+    "question": "當你想表達中文「粽子 (rice dumpling)」時，正確的英文單字是哪一個？",
+    "options": [
+      "Halloween",
+      "trick or treat",
+      "zongzi",
+      "Mid-Autumn Festival"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) zongzi\n💡【重點提示】名詞，端午節糯米粽。\n📖【例句應用】My grandma wraps delicious zongzi.\n\n【選項對照】\n(A) Halloween\n(B) trick or treat\n(C) zongzi (正確答案)\n(D) Mid-Autumn Festival"
+  },
+  {
+    "id": "Q-175A",
+    "groupKey": "G-175",
+    "version": "A",
+    "chapter": "單字-I.節慶與重要傳統",
+    "gradeLevel": 3,
+    "question": "請問英文單字 \"Mother's Day\" 最正確的中文意思是？",
+    "options": [
+      "兒童節 (4/4)",
+      "父親節 (8/8)",
+      "教師節 (9/28)",
+      "母親節 (5月第2個週日)"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) 母親節\n💡【重點提示】專有名詞，五月第二個星期日。\n📖【例句應用】Give flowers to mom on Mother's Day.\n\n【選項解析】\n(A) 兒童節 (4/4)\n(B) 父親節 (8/8)\n(C) 教師節 (9/28)\n(D) 母親節 (5月第2個週日) (正確答案)"
+  },
+  {
+    "id": "Q-175B",
+    "groupKey": "G-175",
+    "version": "B",
+    "chapter": "單字-I.節慶與重要傳統",
+    "gradeLevel": 3,
+    "question": "當你想表達中文「母親節」時，正確的英文單字是哪一個？",
+    "options": [
+      "Mother's Day",
+      "Mid-Autumn Festival",
+      "Halloween",
+      "trick or treat"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) Mother's Day\n💡【重點提示】專有名詞，五月第二個星期日。\n📖【例句應用】Give flowers to mom on Mother's Day.\n\n【選項對照】\n(A) Mother's Day (正確答案)\n(B) Mid-Autumn Festival\n(C) Halloween\n(D) trick or treat"
+  },
+  {
+    "id": "Q-176A",
+    "groupKey": "G-176",
+    "version": "A",
+    "chapter": "單字-I.節慶與重要傳統",
+    "gradeLevel": 3,
+    "question": "請問英文單字 \"carnation\" 最正確的中文意思是？",
+    "options": [
+      "百合",
+      "玫瑰",
+      "康乃馨",
+      "向日葵"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 康乃馨\n💡【重點提示】名詞，母親節象徵花卉。\n📖【例句應用】Pink carnations represent mother's love.\n\n【選項解析】\n(A) 百合\n(B) 玫瑰\n(C) 康乃馨 (正確答案)\n(D) 向日葵"
+  },
+  {
+    "id": "Q-176B",
+    "groupKey": "G-176",
+    "version": "B",
+    "chapter": "單字-I.節慶與重要傳統",
+    "gradeLevel": 3,
+    "question": "當你想表達中文「康乃馨」時，正確的英文單字是哪一個？",
+    "options": [
+      "carnation",
+      "Halloween",
+      "Mid-Autumn Festival",
+      "trick or treat"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) carnation\n💡【重點提示】名詞，母親節象徵花卉。\n📖【例句應用】Pink carnations represent mother's love.\n\n【選項對照】\n(A) carnation (正確答案)\n(B) Halloween\n(C) Mid-Autumn Festival\n(D) trick or treat"
+  },
+  {
+    "id": "Q-177A",
+    "groupKey": "G-177",
+    "version": "A",
+    "chapter": "單字-I.節慶與重要傳統",
+    "gradeLevel": 3,
+    "question": "請問英文單字 \"Teacher's Day\" 最正確的中文意思是？",
+    "options": [
+      "國慶日 (10/10)",
+      "教師節 (9/28)",
+      "兒童節 (4/4)",
+      "元旦 (1/1)"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 教師節 (9/28)\n💡【重點提示】專有名詞，九月二十八日尊師重道日。\n📖【例句應用】Say thank you to teachers on Teacher's Day.\n\n【選項解析】\n(A) 國慶日 (10/10)\n(B) 教師節 (9/28) (正確答案)\n(C) 兒童節 (4/4)\n(D) 元旦 (1/1)"
+  },
+  {
+    "id": "Q-177B",
+    "groupKey": "G-177",
+    "version": "B",
+    "chapter": "單字-I.節慶與重要傳統",
+    "gradeLevel": 3,
+    "question": "當你想表達中文「教師節 (9/28)」時，正確的英文單字是哪一個？",
+    "options": [
+      "Halloween",
+      "Teacher's Day",
+      "trick or treat",
+      "Mid-Autumn Festival"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) Teacher's Day\n💡【重點提示】專有名詞，九月二十八日尊師重道日。\n📖【例句應用】Say thank you to teachers on Teacher's Day.\n\n【選項對照】\n(A) Halloween\n(B) Teacher's Day (正確答案)\n(C) trick or treat\n(D) Mid-Autumn Festival"
+  },
+  {
+    "id": "Q-178A",
+    "groupKey": "G-178",
+    "version": "A",
+    "chapter": "單字-I.節慶與重要傳統",
+    "gradeLevel": 3,
+    "question": "請問英文單字 \"Double Tenth Day\" 最正確的中文意思是？",
+    "options": [
+      "青年節",
+      "光復節",
+      "元旦 (1/1)",
+      "雙十國慶 (10/10)"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) 雙十國慶 (10/10)\n💡【重點提示】專有名詞，十月十日中華民國國慶日。\n📖【例句應用】Firework shows are held on Double Tenth Day.\n\n【選項解析】\n(A) 青年節\n(B) 光復節\n(C) 元旦 (1/1)\n(D) 雙十國慶 (10/10) (正確答案)"
+  },
+  {
+    "id": "Q-178B",
+    "groupKey": "G-178",
+    "version": "B",
+    "chapter": "單字-I.節慶與重要傳統",
+    "gradeLevel": 3,
+    "question": "當你想表達中文「雙十國慶 (10/10)」時，正確的英文單字是哪一個？",
+    "options": [
+      "trick or treat",
+      "Double Tenth Day",
+      "Mid-Autumn Festival",
+      "Halloween"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) Double Tenth Day\n💡【重點提示】專有名詞，十月十日中華民國國慶日。\n📖【例句應用】Firework shows are held on Double Tenth Day.\n\n【選項對照】\n(A) trick or treat\n(B) Double Tenth Day (正確答案)\n(C) Mid-Autumn Festival\n(D) Halloween"
+  },
+  {
+    "id": "Q-179A",
+    "groupKey": "G-179",
+    "version": "A",
+    "chapter": "單字-I.節慶與重要傳統",
+    "gradeLevel": 3,
+    "question": "請問英文單字 \"red envelope\" 最正確的中文意思是？",
+    "options": [
+      "賀卡",
+      "紅包 (lucky money)",
+      "信封",
+      "明信片"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 紅包 (lucky money)\n💡【重點提示】名詞，農曆新年長輩給晚輩壓歲錢。\n📖【例句應用】Children receive red envelopes on Chinese New Year.\n\n【選項解析】\n(A) 賀卡\n(B) 紅包 (lucky money) (正確答案)\n(C) 信封\n(D) 明信片"
+  },
+  {
+    "id": "Q-179B",
+    "groupKey": "G-179",
+    "version": "B",
+    "chapter": "單字-I.節慶與重要傳統",
+    "gradeLevel": 3,
+    "question": "當你想表達中文「紅包 (lucky money)」時，正確的英文單字是哪一個？",
+    "options": [
+      "Mid-Autumn Festival",
+      "red envelope",
+      "Halloween",
+      "trick or treat"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) red envelope\n💡【重點提示】名詞，農曆新年長輩給晚輩壓歲錢。\n📖【例句應用】Children receive red envelopes on Chinese New Year.\n\n【選項對照】\n(A) Mid-Autumn Festival\n(B) red envelope (正確答案)\n(C) Halloween\n(D) trick or treat"
+  },
+  {
+    "id": "Q-180A",
+    "groupKey": "G-180",
+    "version": "A",
+    "chapter": "單字-I.節慶與重要傳統",
+    "gradeLevel": 3,
+    "question": "請問英文單字 \"vampire\" 最正確的中文意思是？",
+    "options": [
+      "吸血鬼",
+      "木乃伊",
+      "巫婆",
+      "狼人"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) 吸血鬼\n💡【重點提示】名詞，萬聖節傳統西洋怪物角色。\n📖【例句應用】Dracula is a famous vampire.\n\n【選項解析】\n(A) 吸血鬼 (正確答案)\n(B) 木乃伊\n(C) 巫婆\n(D) 狼人"
+  },
+  {
+    "id": "Q-180B",
+    "groupKey": "G-180",
+    "version": "B",
+    "chapter": "單字-I.節慶與重要傳統",
+    "gradeLevel": 3,
+    "question": "當你想表達中文「吸血鬼」時，正確的英文單字是哪一個？",
+    "options": [
+      "trick or treat",
+      "vampire",
+      "Halloween",
+      "Mid-Autumn Festival"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) vampire\n💡【重點提示】名詞，萬聖節傳統西洋怪物角色。\n📖【例句應用】Dracula is a famous vampire.\n\n【選項對照】\n(A) trick or treat\n(B) vampire (正確答案)\n(C) Halloween\n(D) Mid-Autumn Festival"
+  },
+  {
+    "id": "Q-181A",
+    "groupKey": "G-181",
+    "version": "A",
+    "chapter": "單字-I.節慶與重要傳統",
+    "gradeLevel": 3,
+    "question": "請問英文單字 \"witch\" 最正確的中文意思是？",
+    "options": [
+      "巫婆 / 女巫",
+      "仙女",
+      "女王",
+      "公主"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) 巫婆 / 女巫\n💡【重點提示】名詞，萬聖節騎掃帚角色。\n📖【例句應用】The witch flies on a broomstick.\n\n【選項解析】\n(A) 巫婆 / 女巫 (正確答案)\n(B) 仙女\n(C) 女王\n(D) 公主"
+  },
+  {
+    "id": "Q-181B",
+    "groupKey": "G-181",
+    "version": "B",
+    "chapter": "單字-I.節慶與重要傳統",
+    "gradeLevel": 3,
+    "question": "當你想表達中文「巫婆 / 女巫」時，正確的英文單字是哪一個？",
+    "options": [
+      "trick or treat",
+      "Mid-Autumn Festival",
+      "Halloween",
+      "witch"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) witch\n💡【重點提示】名詞，萬聖節騎掃帚角色。\n📖【例句應用】The witch flies on a broomstick.\n\n【選項對照】\n(A) trick or treat\n(B) Mid-Autumn Festival\n(C) Halloween\n(D) witch (正確答案)"
+  },
+  {
+    "id": "Q-182A",
+    "groupKey": "G-182",
+    "version": "A",
+    "chapter": "單字-J.現代科技與生活",
+    "gradeLevel": 3,
+    "question": "請問英文單字 \"drone\" 最正確的中文意思是？",
+    "options": [
+      "無人機",
+      "飛機",
+      "機器人",
+      "火箭"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) 無人機\n💡【重點提示】名詞，最新科技應用遙控飛行器。\n📖【例句應用】Look at the drone in the sky!\n\n【選項解析】\n(A) 無人機 (正確答案)\n(B) 飛機\n(C) 機器人\n(D) 火箭"
+  },
+  {
+    "id": "Q-182B",
+    "groupKey": "G-182",
+    "version": "B",
+    "chapter": "單字-J.現代科技與生活",
+    "gradeLevel": 3,
+    "question": "當你想表達中文「無人機」時，正確的英文單字是哪一個？",
+    "options": [
+      "smartphone",
+      "drone",
+      "AI",
+      "robot"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) drone\n💡【重點提示】名詞，最新科技應用遙控飛行器。\n📖【例句應用】Look at the drone in the sky!\n\n【選項對照】\n(A) smartphone\n(B) drone (正確答案)\n(C) AI\n(D) robot"
+  },
+  {
+    "id": "Q-183A",
+    "groupKey": "G-183",
+    "version": "A",
+    "chapter": "單字-J.現代科技與生活",
+    "gradeLevel": 3,
+    "question": "請問英文單字 \"AI\" 最正確的中文意思是？",
+    "options": [
+      "人工智慧 (Artificial Intelligence)",
+      "網際網路",
+      "大數據",
+      "自動化"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) 人工智慧 (Artificial Intelligence)\n💡【重點提示】名詞，最新科技趨勢生詞。\n📖【例句應用】AI can assist students in learning.\n\n【選項解析】\n(A) 人工智慧 (Artificial Intelligence) (正確答案)\n(B) 網際網路\n(C) 大數據\n(D) 自動化"
+  },
+  {
+    "id": "Q-183B",
+    "groupKey": "G-183",
+    "version": "B",
+    "chapter": "單字-J.現代科技與生活",
+    "gradeLevel": 3,
+    "question": "當你想表達中文「人工智慧 (Artificial Intelligence)」時，正確的英文單字是哪一個？",
+    "options": [
+      "AI",
+      "smartphone",
+      "robot",
+      "drone"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) AI\n💡【重點提示】名詞，最新科技趨勢生詞。\n📖【例句應用】AI can assist students in learning.\n\n【選項對照】\n(A) AI (正確答案)\n(B) smartphone\n(C) robot\n(D) drone"
+  },
+  {
+    "id": "Q-184A",
+    "groupKey": "G-184",
+    "version": "A",
+    "chapter": "單字-J.現代科技與生活",
+    "gradeLevel": 3,
+    "question": "請問英文單字 \"robot\" 最正確的中文意思是？",
+    "options": [
+      "電腦",
+      "機器人",
+      "馬達",
+      "無人機"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 機器人\n💡【重點提示】名詞，自動化智慧機械。\n📖【例句應用】The robot can sweep the floor.\n\n【選項解析】\n(A) 電腦\n(B) 機器人 (正確答案)\n(C) 馬達\n(D) 無人機"
+  },
+  {
+    "id": "Q-184B",
+    "groupKey": "G-184",
+    "version": "B",
+    "chapter": "單字-J.現代科技與生活",
+    "gradeLevel": 3,
+    "question": "當你想表達中文「機器人」時，正確的英文單字是哪一個？",
+    "options": [
+      "AI",
+      "smartphone",
+      "robot",
+      "drone"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) robot\n💡【重點提示】名詞，自動化智慧機械。\n📖【例句應用】The robot can sweep the floor.\n\n【選項對照】\n(A) AI\n(B) smartphone\n(C) robot (正確答案)\n(D) drone"
+  },
+  {
+    "id": "Q-185A",
+    "groupKey": "G-185",
+    "version": "A",
+    "chapter": "單字-J.現代科技與生活",
+    "gradeLevel": 3,
+    "question": "請問英文單字 \"smartphone\" 最正確的中文意思是？",
+    "options": [
+      "智慧型手機",
+      "智慧手錶",
+      "桌上電腦",
+      "平板電腦"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) 智慧型手機\n💡【重點提示】名詞，數位生活隨身裝置。\n📖【例句應用】Don't stare at your smartphone for too long.\n\n【選項解析】\n(A) 智慧型手機 (正確答案)\n(B) 智慧手錶\n(C) 桌上電腦\n(D) 平板電腦"
+  },
+  {
+    "id": "Q-185B",
+    "groupKey": "G-185",
+    "version": "B",
+    "chapter": "單字-J.現代科技與生活",
+    "gradeLevel": 3,
+    "question": "當你想表達中文「智慧型手機」時，正確的英文單字是哪一個？",
+    "options": [
+      "AI",
+      "drone",
+      "robot",
+      "smartphone"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) smartphone\n💡【重點提示】名詞，數位生活隨身裝置。\n📖【例句應用】Don't stare at your smartphone for too long.\n\n【選項對照】\n(A) AI\n(B) drone\n(C) robot\n(D) smartphone (正確答案)"
+  },
+  {
+    "id": "Q-186A",
+    "groupKey": "G-186",
+    "version": "A",
+    "chapter": "單字-J.現代科技與生活",
+    "gradeLevel": 3,
+    "question": "請問英文單字 \"internet\" 最正確的中文意思是？",
+    "options": [
+      "藍芽",
+      "網際網路",
+      "無線網路",
+      "廣播"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 網際網路\n💡【重點提示】名詞，surf the internet 上網。\n📖【例句應用】Search for information on the internet.\n\n【選項解析】\n(A) 藍芽\n(B) 網際網路 (正確答案)\n(C) 無線網路\n(D) 廣播"
+  },
+  {
+    "id": "Q-186B",
+    "groupKey": "G-186",
+    "version": "B",
+    "chapter": "單字-J.現代科技與生活",
+    "gradeLevel": 3,
+    "question": "當你想表達中文「網際網路」時，正確的英文單字是哪一個？",
+    "options": [
+      "internet",
+      "AI",
+      "drone",
+      "robot"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) internet\n💡【重點提示】名詞，surf the internet 上網。\n📖【例句應用】Search for information on the internet.\n\n【選項對照】\n(A) internet (正確答案)\n(B) AI\n(C) drone\n(D) robot"
+  },
+  {
+    "id": "Q-187A",
+    "groupKey": "G-187",
+    "version": "A",
+    "chapter": "單字-J.現代科技與生活",
+    "gradeLevel": 3,
+    "question": "請問英文單字 \"Wi-Fi\" 最正確的中文意思是？",
+    "options": [
+      "藍芽",
+      "行動數據",
+      "無線網路",
+      "熱點"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 無線網路\n💡【重點提示】名詞，無線連線號誌。\n📖【例句應用】Is there free Wi-Fi in the library?\n\n【選項解析】\n(A) 藍芽\n(B) 行動數據\n(C) 無線網路 (正確答案)\n(D) 熱點"
+  },
+  {
+    "id": "Q-187B",
+    "groupKey": "G-187",
+    "version": "B",
+    "chapter": "單字-J.現代科技與生活",
+    "gradeLevel": 3,
+    "question": "當你想表達中文「無線網路」時，正確的英文單字是哪一個？",
+    "options": [
+      "AI",
+      "drone",
+      "robot",
+      "Wi-Fi"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) Wi-Fi\n💡【重點提示】名詞，無線連線號誌。\n📖【例句應用】Is there free Wi-Fi in the library?\n\n【選項對照】\n(A) AI\n(B) drone\n(C) robot\n(D) Wi-Fi (正確答案)"
+  },
+  {
+    "id": "Q-188A",
+    "groupKey": "G-188",
+    "version": "A",
+    "chapter": "單字-J.現代科技與生活",
+    "gradeLevel": 3,
+    "question": "請問英文單字 \"QR code\" 最正確的中文意思是？",
+    "options": [
+      "條碼",
+      "驗證碼",
+      "密碼",
+      "行動條碼 / 二維碼"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) 行動條碼 / 二維碼\n💡【重點提示】名詞，掃描連結代碼。\n📖【例句應用】Scan the QR code to get the discount.\n\n【選項解析】\n(A) 條碼\n(B) 驗證碼\n(C) 密碼\n(D) 行動條碼 / 二維碼 (正確答案)"
+  },
+  {
+    "id": "Q-188B",
+    "groupKey": "G-188",
+    "version": "B",
+    "chapter": "單字-J.現代科技與生活",
+    "gradeLevel": 3,
+    "question": "當你想表達中文「行動條碼 / 二維碼」時，正確的英文單字是哪一個？",
+    "options": [
+      "QR code",
+      "drone",
+      "AI",
+      "robot"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) QR code\n💡【重點提示】名詞，掃描連結代碼。\n📖【例句應用】Scan the QR code to get the discount.\n\n【選項對照】\n(A) QR code (正確答案)\n(B) drone\n(C) AI\n(D) robot"
+  },
+  {
+    "id": "Q-189A",
+    "groupKey": "G-189",
+    "version": "A",
+    "chapter": "單字-J.現代科技與生活",
+    "gradeLevel": 3,
+    "question": "請問英文單字 \"water bottle\" 最正確的中文意思是？",
+    "options": [
+      "水壺 / 水瓶",
+      "水杯",
+      "保溫瓶",
+      "馬克杯"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) 水壺 / 水瓶\n💡【重點提示】名詞，隨身攜帶飲水容器。\n📖【例句應用】Bring your own water bottle to school.\n\n【選項解析】\n(A) 水壺 / 水瓶 (正確答案)\n(B) 水杯\n(C) 保溫瓶\n(D) 馬克杯"
+  },
+  {
+    "id": "Q-189B",
+    "groupKey": "G-189",
+    "version": "B",
+    "chapter": "單字-J.現代科技與生活",
+    "gradeLevel": 3,
+    "question": "當你想表達中文「水壺 / 水瓶」時，正確的英文單字是哪一個？",
+    "options": [
+      "robot",
+      "AI",
+      "water bottle",
+      "drone"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) water bottle\n💡【重點提示】名詞，隨身攜帶飲水容器。\n📖【例句應用】Bring your own water bottle to school.\n\n【選項對照】\n(A) robot\n(B) AI\n(C) water bottle (正確答案)\n(D) drone"
+  },
+  {
+    "id": "Q-190A",
+    "groupKey": "G-190",
+    "version": "A",
+    "chapter": "單字-J.現代科技與生活",
+    "gradeLevel": 3,
+    "question": "請問英文單字 \"umbrella\" 最正確的中文意思是？",
+    "options": [
+      "雨鞋",
+      "雨傘",
+      "遮陽帽",
+      "雨衣"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 雨傘\n💡【重點提示】名詞，an umbrella 遮雨具。\n📖【例句應用】Take an umbrella when it rains.\n\n【選項解析】\n(A) 雨鞋\n(B) 雨傘 (正確答案)\n(C) 遮陽帽\n(D) 雨衣"
+  },
+  {
+    "id": "Q-190B",
+    "groupKey": "G-190",
+    "version": "B",
+    "chapter": "單字-J.現代科技與生活",
+    "gradeLevel": 3,
+    "question": "當你想表達中文「雨傘」時，正確的英文單字是哪一個？",
+    "options": [
+      "drone",
+      "umbrella",
+      "AI",
+      "robot"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) umbrella\n💡【重點提示】名詞，an umbrella 遮雨具。\n📖【例句應用】Take an umbrella when it rains.\n\n【選項對照】\n(A) drone\n(B) umbrella (正確答案)\n(C) AI\n(D) robot"
+  },
+  {
+    "id": "Q-191A",
+    "groupKey": "G-191",
+    "version": "A",
+    "chapter": "單字-J.現代科技與生活",
+    "gradeLevel": 3,
+    "question": "請問英文單字 \"take a photo\" 最正確的中文意思是？",
+    "options": [
+      "畫圖",
+      "買照片",
+      "拍照 / 攝影",
+      "錄音"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 拍照 / 攝影\n💡【重點提示】動詞片語，使用相機拍攝照片。\n📖【例句應用】Let's take a photo together.\n\n【選項解析】\n(A) 畫圖\n(B) 買照片\n(C) 拍照 / 攝影 (正確答案)\n(D) 錄音"
+  },
+  {
+    "id": "Q-191B",
+    "groupKey": "G-191",
+    "version": "B",
+    "chapter": "單字-J.現代科技與生活",
+    "gradeLevel": 3,
+    "question": "當你想表達中文「拍照 / 攝影」時，正確的英文單字是哪一個？",
+    "options": [
+      "robot",
+      "AI",
+      "take a photo",
+      "drone"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) take a photo\n💡【重點提示】動詞片語，使用相機拍攝照片。\n📖【例句應用】Let's take a photo together.\n\n【選項對照】\n(A) robot\n(B) AI\n(C) take a photo (正確答案)\n(D) drone"
+  },
+  {
+    "id": "Q-192A",
+    "groupKey": "G-192",
+    "version": "A",
+    "chapter": "單字-K.地點與交通",
+    "gradeLevel": 3,
+    "question": "請問英文單字 \"home\" 最正確的中文意思是？",
+    "options": [
+      "公園",
+      "公司",
+      "家 / 住宅",
+      "學校"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 家 / 住宅\n💡【重點提示】名詞/副詞，go home 回家。\n📖【例句應用】Home is where the heart is.\n\n【選項解析】\n(A) 公園\n(B) 公司\n(C) 家 / 住宅 (正確答案)\n(D) 學校"
+  },
+  {
+    "id": "Q-192B",
+    "groupKey": "G-192",
+    "version": "B",
+    "chapter": "單字-K.地點與交通",
+    "gradeLevel": 3,
+    "question": "當你想表達中文「家 / 住宅」時，正確的英文單字是哪一個？",
+    "options": [
+      "zoo",
+      "park",
+      "home",
+      "school"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) home\n💡【重點提示】名詞/副詞，go home 回家。\n📖【例句應用】Home is where the heart is.\n\n【選項對照】\n(A) zoo\n(B) park\n(C) home (正確答案)\n(D) school"
+  },
+  {
+    "id": "Q-193A",
+    "groupKey": "G-193",
+    "version": "A",
+    "chapter": "單字-K.地點與交通",
+    "gradeLevel": 3,
+    "question": "請問英文單字 \"school\" 最正確的中文意思是？",
+    "options": [
+      "學校",
+      "家",
+      "醫院",
+      "圖書館"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) 學校\n💡【重點提示】名詞，學習機構。\n📖【例句應用】We go to school every weekday.\n\n【選項解析】\n(A) 學校 (正確答案)\n(B) 家\n(C) 醫院\n(D) 圖書館"
+  },
+  {
+    "id": "Q-193B",
+    "groupKey": "G-193",
+    "version": "B",
+    "chapter": "單字-K.地點與交通",
+    "gradeLevel": 3,
+    "question": "當你想表達中文「學校」時，正確的英文單字是哪一個？",
+    "options": [
+      "home",
+      "zoo",
+      "park",
+      "school"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) school\n💡【重點提示】名詞，學習機構。\n📖【例句應用】We go to school every weekday.\n\n【選項對照】\n(A) home\n(B) zoo\n(C) park\n(D) school (正確答案)"
+  },
+  {
+    "id": "Q-194A",
+    "groupKey": "G-194",
+    "version": "A",
+    "chapter": "單字-K.地點與交通",
+    "gradeLevel": 3,
+    "question": "請問英文單字 \"park\" 最正確的中文意思是？",
+    "options": [
+      "動物園",
+      "公園",
+      "遊樂園",
+      "花園"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 公園\n💡【重點提示】名詞，休閒綠地。\n📖【例句應用】We play on the swings in the park.\n\n【選項解析】\n(A) 動物園\n(B) 公園 (正確答案)\n(C) 遊樂園\n(D) 花園"
+  },
+  {
+    "id": "Q-194B",
+    "groupKey": "G-194",
+    "version": "B",
+    "chapter": "單字-K.地點與交通",
+    "gradeLevel": 3,
+    "question": "當你想表達中文「公園」時，正確的英文單字是哪一個？",
+    "options": [
+      "zoo",
+      "school",
+      "park",
+      "home"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) park\n💡【重點提示】名詞，休閒綠地。\n📖【例句應用】We play on the swings in the park.\n\n【選項對照】\n(A) zoo\n(B) school\n(C) park (正確答案)\n(D) home"
+  },
+  {
+    "id": "Q-195A",
+    "groupKey": "G-195",
+    "version": "A",
+    "chapter": "單字-K.地點與交通",
+    "gradeLevel": 3,
+    "question": "請問英文單字 \"zoo\" 最正確的中文意思是？",
+    "options": [
+      "植物園",
+      "公園",
+      "動物園",
+      "農場"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 動物園\n💡【重點提示】名詞，觀賞野生動物園區。\n📖【例句應用】I saw lions at the Taipei Zoo.\n\n【選項解析】\n(A) 植物園\n(B) 公園\n(C) 動物園 (正確答案)\n(D) 農場"
+  },
+  {
+    "id": "Q-195B",
+    "groupKey": "G-195",
+    "version": "B",
+    "chapter": "單字-K.地點與交通",
+    "gradeLevel": 3,
+    "question": "當你想表達中文「動物園」時，正確的英文單字是哪一個？",
+    "options": [
+      "park",
+      "zoo",
+      "home",
+      "school"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) zoo\n💡【重點提示】名詞，觀賞野生動物園區。\n📖【例句應用】I saw lions at the Taipei Zoo.\n\n【選項對照】\n(A) park\n(B) zoo (正確答案)\n(C) home\n(D) school"
+  },
+  {
+    "id": "Q-196A",
+    "groupKey": "G-196",
+    "version": "A",
+    "chapter": "單字-K.地點與交通",
+    "gradeLevel": 3,
+    "question": "請問英文單字 \"bank\" 最正確的中文意思是？",
+    "options": [
+      "超市",
+      "銀行",
+      "醫院",
+      "郵局"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 銀行\n💡【重點提示】名詞，金融機構。\n📖【例句應用】Mom deposits money in the bank.\n\n【選項解析】\n(A) 超市\n(B) 銀行 (正確答案)\n(C) 醫院\n(D) 郵局"
+  },
+  {
+    "id": "Q-196B",
+    "groupKey": "G-196",
+    "version": "B",
+    "chapter": "單字-K.地點與交通",
+    "gradeLevel": 3,
+    "question": "當你想表達中文「銀行」時，正確的英文單字是哪一個？",
+    "options": [
+      "bank",
+      "park",
+      "school",
+      "home"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) bank\n💡【重點提示】名詞，金融機構。\n📖【例句應用】Mom deposits money in the bank.\n\n【選項對照】\n(A) bank (正確答案)\n(B) park\n(C) school\n(D) home"
+  },
+  {
+    "id": "Q-197A",
+    "groupKey": "G-197",
+    "version": "A",
+    "chapter": "單字-K.地點與交通",
+    "gradeLevel": 3,
+    "question": "請問英文單字 \"hospital\" 最正確的中文意思是？",
+    "options": [
+      "藥局",
+      "診所",
+      "學校",
+      "醫院"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) 醫院\n💡【重點提示】名詞，醫治重病場所。\n📖【例句應用】Sick people go to the hospital.\n\n【選項解析】\n(A) 藥局\n(B) 診所\n(C) 學校\n(D) 醫院 (正確答案)"
+  },
+  {
+    "id": "Q-197B",
+    "groupKey": "G-197",
+    "version": "B",
+    "chapter": "單字-K.地點與交通",
+    "gradeLevel": 3,
+    "question": "當你想表達中文「醫院」時，正確的英文單字是哪一個？",
+    "options": [
+      "home",
+      "hospital",
+      "school",
+      "park"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) hospital\n💡【重點提示】名詞，醫治重病場所。\n📖【例句應用】Sick people go to the hospital.\n\n【選項對照】\n(A) home\n(B) hospital (正確答案)\n(C) school\n(D) park"
+  },
+  {
+    "id": "Q-198A",
+    "groupKey": "G-198",
+    "version": "A",
+    "chapter": "單字-K.地點與交通",
+    "gradeLevel": 3,
+    "question": "請問英文單字 \"library\" 最正確的中文意思是？",
+    "options": [
+      "書店",
+      "閱覽室",
+      "圖書館",
+      "博物館"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 圖書館\n💡【重點提示】名詞，借閱圖書場所。\n📖【例句應用】Quiet please! We are in the library.\n\n【選項解析】\n(A) 書店\n(B) 閱覽室\n(C) 圖書館 (正確答案)\n(D) 博物館"
+  },
+  {
+    "id": "Q-198B",
+    "groupKey": "G-198",
+    "version": "B",
+    "chapter": "單字-K.地點與交通",
+    "gradeLevel": 3,
+    "question": "當你想表達中文「圖書館」時，正確的英文單字是哪一個？",
+    "options": [
+      "home",
+      "school",
+      "library",
+      "park"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) library\n💡【重點提示】名詞，借閱圖書場所。\n📖【例句應用】Quiet please! We are in the library.\n\n【選項對照】\n(A) home\n(B) school\n(C) library (正確答案)\n(D) park"
+  },
+  {
+    "id": "Q-199A",
+    "groupKey": "G-199",
+    "version": "A",
+    "chapter": "單字-K.地點與交通",
+    "gradeLevel": 3,
+    "question": "請問英文單字 \"museum\" 最正確的中文意思是？",
+    "options": [
+      "展覽館",
+      "圖書館",
+      "博物館 / 美術館",
+      "劇院"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 博物館 / 美術館\n💡【重點提示】名詞，展覽文物歷史場所。\n📖【例句應用】We visited the National Palace Museum.\n\n【選項解析】\n(A) 展覽館\n(B) 圖書館\n(C) 博物館 / 美術館 (正確答案)\n(D) 劇院"
+  },
+  {
+    "id": "Q-199B",
+    "groupKey": "G-199",
+    "version": "B",
+    "chapter": "單字-K.地點與交通",
+    "gradeLevel": 3,
+    "question": "當你想表達中文「博物館 / 美術館」時，正確的英文單字是哪一個？",
+    "options": [
+      "home",
+      "park",
+      "museum",
+      "school"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) museum\n💡【重點提示】名詞，展覽文物歷史場所。\n📖【例句應用】We visited the National Palace Museum.\n\n【選項對照】\n(A) home\n(B) park\n(C) museum (正確答案)\n(D) school"
+  },
+  {
+    "id": "Q-200A",
+    "groupKey": "G-200",
+    "version": "A",
+    "chapter": "單字-K.地點與交通",
+    "gradeLevel": 3,
+    "question": "請問英文單字 \"market\" 最正確的中文意思是？",
+    "options": [
+      "市場 / 集市",
+      "超市",
+      "便利商店",
+      "百貨公司"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) 市場 / 集市\n💡【重點提示】名詞，傳統買菜市場。\n📖【例句應用】Grandma buys fresh fish at the market.\n\n【選項解析】\n(A) 市場 / 集市 (正確答案)\n(B) 超市\n(C) 便利商店\n(D) 百貨公司"
+  },
+  {
+    "id": "Q-200B",
+    "groupKey": "G-200",
+    "version": "B",
+    "chapter": "單字-K.地點與交通",
+    "gradeLevel": 3,
+    "question": "當你想表達中文「市場 / 集市」時，正確的英文單字是哪一個？",
+    "options": [
+      "home",
+      "park",
+      "market",
+      "school"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) market\n💡【重點提示】名詞，傳統買菜市場。\n📖【例句應用】Grandma buys fresh fish at the market.\n\n【選項對照】\n(A) home\n(B) park\n(C) market (正確答案)\n(D) school"
+  },
+  {
+    "id": "Q-201A",
+    "groupKey": "G-201",
+    "version": "A",
+    "chapter": "單字-K.地點與交通",
+    "gradeLevel": 3,
+    "question": "請問英文單字 \"supermarket\" 最正確的中文意思是？",
+    "options": [
+      "雜貨店",
+      "超級市場",
+      "夜市",
+      "傳統市場"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 超級市場\n💡【重點提示】名詞，現代化一站購足大型超市。\n📖【例句應用】We buy milk and eggs at the supermarket.\n\n【選項解析】\n(A) 雜貨店\n(B) 超級市場 (正確答案)\n(C) 夜市\n(D) 傳統市場"
+  },
+  {
+    "id": "Q-201B",
+    "groupKey": "G-201",
+    "version": "B",
+    "chapter": "單字-K.地點與交通",
+    "gradeLevel": 3,
+    "question": "當你想表達中文「超級市場」時，正確的英文單字是哪一個？",
+    "options": [
+      "supermarket",
+      "park",
+      "school",
+      "home"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) supermarket\n💡【重點提示】名詞，現代化一站購足大型超市。\n📖【例句應用】We buy milk and eggs at the supermarket.\n\n【選項對照】\n(A) supermarket (正確答案)\n(B) park\n(C) school\n(D) home"
+  },
+  {
+    "id": "Q-202A",
+    "groupKey": "G-202",
+    "version": "A",
+    "chapter": "單字-K.地點與交通",
+    "gradeLevel": 3,
+    "question": "請問英文單字 \"post office\" 最正確的中文意思是？",
+    "options": [
+      "郵局",
+      "警察局",
+      "市政府",
+      "銀行"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) 郵局\n💡【重點提示】名詞，寄信郵務場所。\n📖【例句應用】Mail a letter at the post office.\n\n【選項解析】\n(A) 郵局 (正確答案)\n(B) 警察局\n(C) 市政府\n(D) 銀行"
+  },
+  {
+    "id": "Q-202B",
+    "groupKey": "G-202",
+    "version": "B",
+    "chapter": "單字-K.地點與交通",
+    "gradeLevel": 3,
+    "question": "當你想表達中文「郵局」時，正確的英文單字是哪一個？",
+    "options": [
+      "home",
+      "post office",
+      "park",
+      "school"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) post office\n💡【重點提示】名詞，寄信郵務場所。\n📖【例句應用】Mail a letter at the post office.\n\n【選項對照】\n(A) home\n(B) post office (正確答案)\n(C) park\n(D) school"
+  },
+  {
+    "id": "Q-203A",
+    "groupKey": "G-203",
+    "version": "A",
+    "chapter": "單字-K.地點與交通",
+    "gradeLevel": 3,
+    "question": "請問英文單字 \"store\" 最正確的中文意思是？",
+    "options": [
+      "公司",
+      "工廠",
+      "倉庫",
+      "店家 / 商店"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) 店家 / 商店\n💡【重點提示】名詞，零售門市。\n📖【例句應用】The convenience store is open 24 hours.\n\n【選項解析】\n(A) 公司\n(B) 工廠\n(C) 倉庫\n(D) 店家 / 商店 (正確答案)"
+  },
+  {
+    "id": "Q-203B",
+    "groupKey": "G-203",
+    "version": "B",
+    "chapter": "單字-K.地點與交通",
+    "gradeLevel": 3,
+    "question": "當你想表達中文「店家 / 商店」時，正確的英文單字是哪一個？",
+    "options": [
+      "school",
+      "store",
+      "home",
+      "park"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) store\n💡【重點提示】名詞，零售門市。\n📖【例句應用】The convenience store is open 24 hours.\n\n【選項對照】\n(A) school\n(B) store (正確答案)\n(C) home\n(D) park"
+  },
+  {
+    "id": "Q-204A",
+    "groupKey": "G-204",
+    "version": "A",
+    "chapter": "單字-K.地點與交通",
+    "gradeLevel": 3,
+    "question": "請問英文單字 \"bakery\" 最正確的中文意思是？",
+    "options": [
+      "甜點店",
+      "餐廳",
+      "麵包店",
+      "咖啡廳"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 麵包店\n💡【重點提示】名詞，烘焙麵包西點店。\n📖【例句應用】The bakery smells of hot bread.\n\n【選項解析】\n(A) 甜點店\n(B) 餐廳\n(C) 麵包店 (正確答案)\n(D) 咖啡廳"
+  },
+  {
+    "id": "Q-204B",
+    "groupKey": "G-204",
+    "version": "B",
+    "chapter": "單字-K.地點與交通",
+    "gradeLevel": 3,
+    "question": "當你想表達中文「麵包店」時，正確的英文單字是哪一個？",
+    "options": [
+      "home",
+      "bakery",
+      "school",
+      "park"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) bakery\n💡【重點提示】名詞，烘焙麵包西點店。\n📖【例句應用】The bakery smells of hot bread.\n\n【選項對照】\n(A) home\n(B) bakery (正確答案)\n(C) school\n(D) park"
+  },
+  {
+    "id": "Q-205A",
+    "groupKey": "G-205",
+    "version": "A",
+    "chapter": "單字-K.地點與交通",
+    "gradeLevel": 3,
+    "question": "請問英文單字 \"restroom\" 最正確的中文意思是？",
+    "options": [
+      "浴室",
+      "休息室",
+      "更衣室",
+      "洗手間 / 廁所"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) 洗手間 / 廁所\n💡【重點提示】名詞，公共廁所禮貌稱呼。\n📖【例句應用】May I go to the restroom?\n\n【選項解析】\n(A) 浴室\n(B) 休息室\n(C) 更衣室\n(D) 洗手間 / 廁所 (正確答案)"
+  },
+  {
+    "id": "Q-205B",
+    "groupKey": "G-205",
+    "version": "B",
+    "chapter": "單字-K.地點與交通",
+    "gradeLevel": 3,
+    "question": "當你想表達中文「洗手間 / 廁所」時，正確的英文單字是哪一個？",
+    "options": [
+      "restroom",
+      "home",
+      "school",
+      "park"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) restroom\n💡【重點提示】名詞，公共廁所禮貌稱呼。\n📖【例句應用】May I go to the restroom?\n\n【選項對照】\n(A) restroom (正確答案)\n(B) home\n(C) school\n(D) park"
+  },
+  {
+    "id": "Q-206A",
+    "groupKey": "G-206",
+    "version": "A",
+    "chapter": "單字-K.地點與交通",
+    "gradeLevel": 3,
+    "question": "請問英文單字 \"Lost & Found\" 最正確的中文意思是？",
+    "options": [
+      "諮詢中心",
+      "服務台",
+      "警衛室",
+      "失物招領處"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) 失物招領處\n💡【重點提示】專有名詞，尋找遺失物品處 (學檢高頻)。\n📖【例句應用】Check the Lost & Found for your missing water bottle.\n\n【選項解析】\n(A) 諮詢中心\n(B) 服務台\n(C) 警衛室\n(D) 失物招領處 (正確答案)"
+  },
+  {
+    "id": "Q-206B",
+    "groupKey": "G-206",
+    "version": "B",
+    "chapter": "單字-K.地點與交通",
+    "gradeLevel": 3,
+    "question": "當你想表達中文「失物招領處」時，正確的英文單字是哪一個？",
+    "options": [
+      "Lost & Found",
+      "school",
+      "home",
+      "park"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) Lost & Found\n💡【重點提示】專有名詞，尋找遺失物品處 (學檢高頻)。\n📖【例句應用】Check the Lost & Found for your missing water bottle.\n\n【選項對照】\n(A) Lost & Found (正確答案)\n(B) school\n(C) home\n(D) park"
+  },
+  {
+    "id": "Q-207A",
+    "groupKey": "G-207",
+    "version": "A",
+    "chapter": "單字-K.地點與交通",
+    "gradeLevel": 3,
+    "question": "請問英文單字 \"car\" 最正確的中文意思是？",
+    "options": [
+      "公車",
+      "機車",
+      "汽車 / 小客車",
+      "卡車"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 汽車 / 小客車\n💡【重點提示】名詞，私家車。\n📖【例句應用】Dad drives a blue car.\n\n【選項解析】\n(A) 公車\n(B) 機車\n(C) 汽車 / 小客車 (正確答案)\n(D) 卡車"
+  },
+  {
+    "id": "Q-207B",
+    "groupKey": "G-207",
+    "version": "B",
+    "chapter": "單字-K.地點與交通",
+    "gradeLevel": 3,
+    "question": "當你想表達中文「汽車 / 小客車」時，正確的英文單字是哪一個？",
+    "options": [
+      "school",
+      "home",
+      "car",
+      "park"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) car\n💡【重點提示】名詞，私家車。\n📖【例句應用】Dad drives a blue car.\n\n【選項對照】\n(A) school\n(B) home\n(C) car (正確答案)\n(D) park"
+  },
+  {
+    "id": "Q-208A",
+    "groupKey": "G-208",
+    "version": "A",
+    "chapter": "單字-K.地點與交通",
+    "gradeLevel": 3,
+    "question": "請問英文單字 \"bus\" 最正確的中文意思是？",
+    "options": [
+      "計程車",
+      "捷運",
+      "公車 / 大客車",
+      "火車"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 公車 / 大客車\n💡【重點提示】名詞，大眾運輸巴士。\n📖【例句應用】Take bus number 307 to school.\n\n【選項解析】\n(A) 計程車\n(B) 捷運\n(C) 公車 / 大客車 (正確答案)\n(D) 火車"
+  },
+  {
+    "id": "Q-208B",
+    "groupKey": "G-208",
+    "version": "B",
+    "chapter": "單字-K.地點與交通",
+    "gradeLevel": 3,
+    "question": "當你想表達中文「公車 / 大客車」時，正確的英文單字是哪一個？",
+    "options": [
+      "bus",
+      "park",
+      "home",
+      "school"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) bus\n💡【重點提示】名詞，大眾運輸巴士。\n📖【例句應用】Take bus number 307 to school.\n\n【選項對照】\n(A) bus (正確答案)\n(B) park\n(C) home\n(D) school"
+  },
+  {
+    "id": "Q-209A",
+    "groupKey": "G-209",
+    "version": "A",
+    "chapter": "單字-K.地點與交通",
+    "gradeLevel": 3,
+    "question": "請問英文單字 \"bike\" 最正確的中文意思是？",
+    "options": [
+      "滑板車",
+      "腳踏車 (bicycle)",
+      "三輪車",
+      "機車"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 腳踏車 (bicycle)\n💡【重點提示】名詞，單車。\n📖【例句應用】I ride my bike in the park.\n\n【選項解析】\n(A) 滑板車\n(B) 腳踏車 (bicycle) (正確答案)\n(C) 三輪車\n(D) 機車"
+  },
+  {
+    "id": "Q-209B",
+    "groupKey": "G-209",
+    "version": "B",
+    "chapter": "單字-K.地點與交通",
+    "gradeLevel": 3,
+    "question": "當你想表達中文「腳踏車 (bicycle)」時，正確的英文單字是哪一個？",
+    "options": [
+      "park",
+      "home",
+      "bike",
+      "school"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) bike\n💡【重點提示】名詞，單車。\n📖【例句應用】I ride my bike in the park.\n\n【選項對照】\n(A) park\n(B) home\n(C) bike (正確答案)\n(D) school"
+  },
+  {
+    "id": "Q-210A",
+    "groupKey": "G-210",
+    "version": "A",
+    "chapter": "單字-K.地點與交通",
+    "gradeLevel": 3,
+    "question": "請問英文單字 \"train\" 最正確的中文意思是？",
+    "options": [
+      "捷運",
+      "高鐵",
+      "火車 / 列車",
+      "公車"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 火車 / 列車\n💡【重點提示】名詞，鐵路列車。\n📖【例句應用】The train arrives on time.\n\n【選項解析】\n(A) 捷運\n(B) 高鐵\n(C) 火車 / 列車 (正確答案)\n(D) 公車"
+  },
+  {
+    "id": "Q-210B",
+    "groupKey": "G-210",
+    "version": "B",
+    "chapter": "單字-K.地點與交通",
+    "gradeLevel": 3,
+    "question": "當你想表達中文「火車 / 列車」時，正確的英文單字是哪一個？",
+    "options": [
+      "home",
+      "school",
+      "train",
+      "park"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) train\n💡【重點提示】名詞，鐵路列車。\n📖【例句應用】The train arrives on time.\n\n【選項對照】\n(A) home\n(B) school\n(C) train (正確答案)\n(D) park"
+  },
+  {
+    "id": "Q-211A",
+    "groupKey": "G-211",
+    "version": "A",
+    "chapter": "單字-K.地點與交通",
+    "gradeLevel": 3,
+    "question": "請問英文單字 \"plane\" 最正確的中文意思是？",
+    "options": [
+      "熱氣球",
+      "飛機 (airplane)",
+      "飛船",
+      "直升機"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 飛機 (airplane)\n💡【重點提示】名詞，航空飛行器。\n📖【例句應用】The plane took off smoothly.\n\n【選項解析】\n(A) 熱氣球\n(B) 飛機 (airplane) (正確答案)\n(C) 飛船\n(D) 直升機"
+  },
+  {
+    "id": "Q-211B",
+    "groupKey": "G-211",
+    "version": "B",
+    "chapter": "單字-K.地點與交通",
+    "gradeLevel": 3,
+    "question": "當你想表達中文「飛機 (airplane)」時，正確的英文單字是哪一個？",
+    "options": [
+      "park",
+      "school",
+      "home",
+      "plane"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) plane\n💡【重點提示】名詞，航空飛行器。\n📖【例句應用】The plane took off smoothly.\n\n【選項對照】\n(A) park\n(B) school\n(C) home\n(D) plane (正確答案)"
+  },
+  {
+    "id": "Q-212A",
+    "groupKey": "G-212",
+    "version": "A",
+    "chapter": "單字-K.地點與交通",
+    "gradeLevel": 3,
+    "question": "請問英文單字 \"MRT\" 最正確的中文意思是？",
+    "options": [
+      "公車",
+      "捷運 (Mass Rapid Transit)",
+      "纜車",
+      "火車"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 捷運 (Mass Rapid Transit)\n💡【重點提示】專有名詞，台灣都會區地下鐵/捷運。\n📖【例句應用】Riding the Taipei MRT is convenient.\n\n【選項解析】\n(A) 公車\n(B) 捷運 (Mass Rapid Transit) (正確答案)\n(C) 纜車\n(D) 火車"
+  },
+  {
+    "id": "Q-212B",
+    "groupKey": "G-212",
+    "version": "B",
+    "chapter": "單字-K.地點與交通",
+    "gradeLevel": 3,
+    "question": "當你想表達中文「捷運 (Mass Rapid Transit)」時，正確的英文單字是哪一個？",
+    "options": [
+      "MRT",
+      "school",
+      "park",
+      "home"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) MRT\n💡【重點提示】專有名詞，台灣都會區地下鐵/捷運。\n📖【例句應用】Riding the Taipei MRT is convenient.\n\n【選項對照】\n(A) MRT (正確答案)\n(B) school\n(C) park\n(D) home"
+  },
+  {
+    "id": "Q-213A",
+    "groupKey": "G-213",
+    "version": "A",
+    "chapter": "單字-L.介係詞與代名詞",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"in\" 最正確的中文意思是？",
+    "options": [
+      "在...下面",
+      "在...旁邊",
+      "在...裡面",
+      "在...上面"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 在...裡面\n💡【重點提示】介係詞，空間內部。\n📖【例句應用】The ball is in the box.\n\n【選項解析】\n(A) 在...下面\n(B) 在...旁邊\n(C) 在...裡面 (正確答案)\n(D) 在...上面"
+  },
+  {
+    "id": "Q-213B",
+    "groupKey": "G-213",
+    "version": "B",
+    "chapter": "單字-L.介係詞與代名詞",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「在...裡面」時，正確的英文單字是哪一個？",
+    "options": [
+      "by",
+      "in",
+      "under",
+      "on"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) in\n💡【重點提示】介係詞，空間內部。\n📖【例句應用】The ball is in the box.\n\n【選項對照】\n(A) by\n(B) in (正確答案)\n(C) under\n(D) on"
+  },
+  {
+    "id": "Q-214A",
+    "groupKey": "G-214",
+    "version": "A",
+    "chapter": "單字-L.介係詞與代名詞",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"on\" 最正確的中文意思是？",
+    "options": [
+      "在...裡面",
+      "在...上面",
+      "在...下面",
+      "在...後面"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 在...上面\n💡【重點提示】介係詞，接觸表面上方。\n📖【例句應用】The book is on the desk.\n\n【選項解析】\n(A) 在...裡面\n(B) 在...上面 (正確答案)\n(C) 在...下面\n(D) 在...後面"
+  },
+  {
+    "id": "Q-214B",
+    "groupKey": "G-214",
+    "version": "B",
+    "chapter": "單字-L.介係詞與代名詞",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「在...上面」時，正確的英文單字是哪一個？",
+    "options": [
+      "under",
+      "in",
+      "by",
+      "on"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) on\n💡【重點提示】介係詞，接觸表面上方。\n📖【例句應用】The book is on the desk.\n\n【選項對照】\n(A) under\n(B) in\n(C) by\n(D) on (正確答案)"
+  },
+  {
+    "id": "Q-215A",
+    "groupKey": "G-215",
+    "version": "A",
+    "chapter": "單字-L.介係詞與代名詞",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"under\" 最正確的中文意思是？",
+    "options": [
+      "在...旁邊",
+      "在...正下方",
+      "在...前面",
+      "在...上面"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 在...正下方\n💡【重點提示】介係詞，正下方。\n📖【例句應用】The dog is sleeping under the table.\n\n【選項解析】\n(A) 在...旁邊\n(B) 在...正下方 (正確答案)\n(C) 在...前面\n(D) 在...上面"
+  },
+  {
+    "id": "Q-215B",
+    "groupKey": "G-215",
+    "version": "B",
+    "chapter": "單字-L.介係詞與代名詞",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「在...正下方」時，正確的英文單字是哪一個？",
+    "options": [
+      "by",
+      "under",
+      "in",
+      "on"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) under\n💡【重點提示】介係詞，正下方。\n📖【例句應用】The dog is sleeping under the table.\n\n【選項對照】\n(A) by\n(B) under (正確答案)\n(C) in\n(D) on"
+  },
+  {
+    "id": "Q-216A",
+    "groupKey": "G-216",
+    "version": "A",
+    "chapter": "單字-L.介係詞與代名詞",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"by\" 最正確的中文意思是？",
+    "options": [
+      "在...上面",
+      "在...旁邊 / 靠",
+      "在...對面",
+      "在...裡面"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 在...旁邊 / 靠\n💡【重點提示】介係詞，靠近身旁 (by the door)。\n📖【例句應用】Sit by me, my friend.\n\n【選項解析】\n(A) 在...上面\n(B) 在...旁邊 / 靠 (正確答案)\n(C) 在...對面\n(D) 在...裡面"
+  },
+  {
+    "id": "Q-216B",
+    "groupKey": "G-216",
+    "version": "B",
+    "chapter": "單字-L.介係詞與代名詞",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「在...旁邊 / 靠」時，正確的英文單字是哪一個？",
+    "options": [
+      "in",
+      "by",
+      "under",
+      "on"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) by\n💡【重點提示】介係詞，靠近身旁 (by the door)。\n📖【例句應用】Sit by me, my friend.\n\n【選項對照】\n(A) in\n(B) by (正確答案)\n(C) under\n(D) on"
+  },
+  {
+    "id": "Q-217A",
+    "groupKey": "G-217",
+    "version": "A",
+    "chapter": "單字-L.介係詞與代名詞",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"I\" 最正確的中文意思是？",
+    "options": [
+      "你",
+      "我 (主格)",
+      "他",
+      "她"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 我 (主格)\n💡【重點提示】人稱代名詞主格，永遠大寫 I。\n📖【例句應用】I am a student.\n\n【選項解析】\n(A) 你\n(B) 我 (主格) (正確答案)\n(C) 他\n(D) 她"
+  },
+  {
+    "id": "Q-217B",
+    "groupKey": "G-217",
+    "version": "B",
+    "chapter": "單字-L.介係詞與代名詞",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「我 (主格)」時，正確的英文單字是哪一個？",
+    "options": [
+      "I",
+      "in",
+      "under",
+      "on"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) I\n💡【重點提示】人稱代名詞主格，永遠大寫 I。\n📖【例句應用】I am a student.\n\n【選項對照】\n(A) I (正確答案)\n(B) in\n(C) under\n(D) on"
+  },
+  {
+    "id": "Q-218A",
+    "groupKey": "G-218",
+    "version": "A",
+    "chapter": "單字-L.介係詞與代名詞",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"me\" 最正確的中文意思是？",
+    "options": [
+      "你",
+      "她",
+      "我 (受格)",
+      "他"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 我 (受格)\n💡【重點提示】人稱代名詞受格，用在動詞或介係詞後。\n📖【例句應用】Give me the pencil, please.\n\n【選項解析】\n(A) 你\n(B) 她\n(C) 我 (受格) (正確答案)\n(D) 他"
+  },
+  {
+    "id": "Q-218B",
+    "groupKey": "G-218",
+    "version": "B",
+    "chapter": "單字-L.介係詞與代名詞",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「我 (受格)」時，正確的英文單字是哪一個？",
+    "options": [
+      "in",
+      "under",
+      "on",
+      "me"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) me\n💡【重點提示】人稱代名詞受格，用在動詞或介係詞後。\n📖【例句應用】Give me the pencil, please.\n\n【選項對照】\n(A) in\n(B) under\n(C) on\n(D) me (正確答案)"
+  },
+  {
+    "id": "Q-219A",
+    "groupKey": "G-219",
+    "version": "A",
+    "chapter": "單字-L.介係詞與代名詞",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"my\" 最正確的中文意思是？",
+    "options": [
+      "我的 (所有格)",
+      "你的",
+      "她的",
+      "他的"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) 我的 (所有格)\n💡【重點提示】所有格代名詞，後接名詞。\n📖【例句應用】This is my English textbook.\n\n【選項解析】\n(A) 我的 (所有格) (正確答案)\n(B) 你的\n(C) 她的\n(D) 他的"
+  },
+  {
+    "id": "Q-219B",
+    "groupKey": "G-219",
+    "version": "B",
+    "chapter": "單字-L.介係詞與代名詞",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「我的 (所有格)」時，正確的英文單字是哪一個？",
+    "options": [
+      "under",
+      "my",
+      "on",
+      "in"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) my\n💡【重點提示】所有格代名詞，後接名詞。\n📖【例句應用】This is my English textbook.\n\n【選項對照】\n(A) under\n(B) my (正確答案)\n(C) on\n(D) in"
+  },
+  {
+    "id": "Q-220A",
+    "groupKey": "G-220",
+    "version": "A",
+    "chapter": "單字-L.介係詞與代名詞",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"you\" 最正確的中文意思是？",
+    "options": [
+      "他們",
+      "我",
+      "你 / 你們 (主/受格)",
+      "他"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 你 / 你們 (主/受格)\n💡【重點提示】人稱代名詞，可代表單數或複數。\n📖【例句應用】You are very smart.\n\n【選項解析】\n(A) 他們\n(B) 我\n(C) 你 / 你們 (主/受格) (正確答案)\n(D) 他"
+  },
+  {
+    "id": "Q-220B",
+    "groupKey": "G-220",
+    "version": "B",
+    "chapter": "單字-L.介係詞與代名詞",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「你 / 你們 (主/受格)」時，正確的英文單字是哪一個？",
+    "options": [
+      "you",
+      "in",
+      "under",
+      "on"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) you\n💡【重點提示】人稱代名詞，可代表單數或複數。\n📖【例句應用】You are very smart.\n\n【選項對照】\n(A) you (正確答案)\n(B) in\n(C) under\n(D) on"
+  },
+  {
+    "id": "Q-221A",
+    "groupKey": "G-221",
+    "version": "A",
+    "chapter": "單字-L.介係詞與代名詞",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"your\" 最正確的中文意思是？",
+    "options": [
+      "我的",
+      "你的 / 你們的",
+      "他們的",
+      "她的"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 你的 / 你們的\n💡【重點提示】所有格代名詞，後接名詞。\n📖【例句應用】What is your name?\n\n【選項解析】\n(A) 我的\n(B) 你的 / 你們的 (正確答案)\n(C) 他們的\n(D) 她的"
+  },
+  {
+    "id": "Q-221B",
+    "groupKey": "G-221",
+    "version": "B",
+    "chapter": "單字-L.介係詞與代名詞",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「你的 / 你們的」時，正確的英文單字是哪一個？",
+    "options": [
+      "in",
+      "under",
+      "on",
+      "your"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) your\n💡【重點提示】所有格代名詞，後接名詞。\n📖【例句應用】What is your name?\n\n【選項對照】\n(A) in\n(B) under\n(C) on\n(D) your (正確答案)"
+  },
+  {
+    "id": "Q-222A",
+    "groupKey": "G-222",
+    "version": "A",
+    "chapter": "單字-L.介係詞與代名詞",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"he\" 最正確的中文意思是？",
+    "options": [
+      "他們",
+      "她",
+      "他 (男性主格)",
+      "它"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 他 (男性主格)\n💡【重點提示】男性單數人稱代名詞。\n📖【例句應用】He is my father.\n\n【選項解析】\n(A) 他們\n(B) 她\n(C) 他 (男性主格) (正確答案)\n(D) 它"
+  },
+  {
+    "id": "Q-222B",
+    "groupKey": "G-222",
+    "version": "B",
+    "chapter": "單字-L.介係詞與代名詞",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「他 (男性主格)」時，正確的英文單字是哪一個？",
+    "options": [
+      "he",
+      "in",
+      "under",
+      "on"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) he\n💡【重點提示】男性單數人稱代名詞。\n📖【例句應用】He is my father.\n\n【選項對照】\n(A) he (正確答案)\n(B) in\n(C) under\n(D) on"
+  },
+  {
+    "id": "Q-223A",
+    "groupKey": "G-223",
+    "version": "A",
+    "chapter": "單字-L.介係詞與代名詞",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"she\" 最正確的中文意思是？",
+    "options": [
+      "她 (女性主格)",
+      "她們",
+      "他",
+      "它"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) 她 (女性主格)\n💡【重點提示】女性單數人稱代名詞。\n📖【例句應用】She is my sister.\n\n【選項解析】\n(A) 她 (女性主格) (正確答案)\n(B) 她們\n(C) 他\n(D) 它"
+  },
+  {
+    "id": "Q-223B",
+    "groupKey": "G-223",
+    "version": "B",
+    "chapter": "單字-L.介係詞與代名詞",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「她 (女性主格)」時，正確的英文單字是哪一個？",
+    "options": [
+      "in",
+      "under",
+      "she",
+      "on"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) she\n💡【重點提示】女性單數人稱代名詞。\n📖【例句應用】She is my sister.\n\n【選項對照】\n(A) in\n(B) under\n(C) she (正確答案)\n(D) on"
+  },
+  {
+    "id": "Q-224A",
+    "groupKey": "G-224",
+    "version": "A",
+    "chapter": "單字-L.介係詞與代名詞",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"it\" 最正確的中文意思是？",
+    "options": [
+      "它 / 牠 (無性別/事物)",
+      "她",
+      "他",
+      "我們"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) 它 / 牠 (無性別/事物)\n💡【重點提示】單數非人代名詞，亦代表天氣或時間。\n📖【例句應用】It is sunny today.\n\n【選項解析】\n(A) 它 / 牠 (無性別/事物) (正確答案)\n(B) 她\n(C) 他\n(D) 我們"
+  },
+  {
+    "id": "Q-224B",
+    "groupKey": "G-224",
+    "version": "B",
+    "chapter": "單字-L.介係詞與代名詞",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「它 / 牠 (無性別/事物)」時，正確的英文單字是哪一個？",
+    "options": [
+      "on",
+      "under",
+      "it",
+      "in"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) it\n💡【重點提示】單數非人代名詞，亦代表天氣或時間。\n📖【例句應用】It is sunny today.\n\n【選項對照】\n(A) on\n(B) under\n(C) it (正確答案)\n(D) in"
+  },
+  {
+    "id": "Q-225A",
+    "groupKey": "G-225",
+    "version": "A",
+    "chapter": "單字-L.介係詞與代名詞",
+    "gradeLevel": 2,
+    "question": "請問英文單字 \"they\" 最正確的中文意思是？",
+    "options": [
+      "你們",
+      "我們",
+      "大家",
+      "他們 / 她們 / 牠們"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) 他們 / 她們 / 牠們\n💡【重點提示】第三人稱複數主格代名詞。\n📖【例句應用】They are playing soccer.\n\n【選項解析】\n(A) 你們\n(B) 我們\n(C) 大家\n(D) 他們 / 她們 / 牠們 (正確答案)"
+  },
+  {
+    "id": "Q-225B",
+    "groupKey": "G-225",
+    "version": "B",
+    "chapter": "單字-L.介係詞與代名詞",
+    "gradeLevel": 2,
+    "question": "當你想表達中文「他們 / 她們 / 牠們」時，正確的英文單字是哪一個？",
+    "options": [
+      "under",
+      "in",
+      "on",
+      "they"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) they\n💡【重點提示】第三人稱複數主格代名詞。\n📖【例句應用】They are playing soccer.\n\n【選項對照】\n(A) under\n(B) in\n(C) on\n(D) they (正確答案)"
+  },
+  {
+    "id": "Q-226A",
+    "groupKey": "G-226",
+    "version": "A",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "在教室或日常生活中看到/聽到英文 \"Look!\" 時，意思是？",
+    "options": [
+      "停！",
+      "聽！",
+      "請！",
+      "看！"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) 看！\n💡【重點提示】祈使句，注意集中視覺注意力。\n📖【例句應用】Look! A red butterfly is on the window.\n\n【選項解析】\n(A) 停！\n(B) 聽！\n(C) 請！\n(D) 看！ (正確答案)"
+  },
+  {
+    "id": "Q-226B",
+    "groupKey": "G-226",
+    "version": "B",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "當你想表達「看！」時，英文應該怎麼說？",
+    "options": [
+      "Where are you going?",
+      "Look!",
+      "How's the weather?",
+      "What's your name?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) Look!\n💡【重點提示】祈使句，注意集中視覺注意力。\n📖【例句應用】Look! A red butterfly is on the window.\n\n【選項對照】\n(A) Where are you going?\n(B) Look! (正確答案)\n(C) How's the weather?\n(D) What's your name?"
+  },
+  {
+    "id": "Q-227A",
+    "groupKey": "G-227",
+    "version": "A",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "在教室或日常生活中看到/聽到英文 \"Listen!\" 時，意思是？",
+    "options": [
+      "坐下！",
+      "看！",
+      "安靜！",
+      "聽！"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) 聽！\n💡【重點提示】祈使句，注意傾聽聲音。\n📖【例句應用】Listen! The bell is ringing.\n\n【選項解析】\n(A) 坐下！\n(B) 看！\n(C) 安靜！\n(D) 聽！ (正確答案)"
+  },
+  {
+    "id": "Q-227B",
+    "groupKey": "G-227",
+    "version": "B",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "當你想表達「聽！」時，英文應該怎麼說？",
+    "options": [
+      "How's the weather?",
+      "Listen!",
+      "What's your name?",
+      "Where are you going?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) Listen!\n💡【重點提示】祈使句，注意傾聽聲音。\n📖【例句應用】Listen! The bell is ringing.\n\n【選項對照】\n(A) How's the weather?\n(B) Listen! (正確答案)\n(C) What's your name?\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-228A",
+    "groupKey": "G-228",
+    "version": "A",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "在教室或日常生活中看到/聽到英文 \"Stop.\" 時，意思是？",
+    "options": [
+      "看！",
+      "走！",
+      "停！",
+      "請！"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 停！\n💡【重點提示】祈使句，停止動作。\n📖【例句應用】Stop! The light is red.\n\n【選項解析】\n(A) 看！\n(B) 走！\n(C) 停！ (正確答案)\n(D) 請！"
+  },
+  {
+    "id": "Q-228B",
+    "groupKey": "G-228",
+    "version": "B",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "當你想表達「停！」時，英文應該怎麼說？",
+    "options": [
+      "How's the weather?",
+      "What's your name?",
+      "Where are you going?",
+      "Stop."
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) Stop.\n💡【重點提示】祈使句，停止動作。\n📖【例句應用】Stop! The light is red.\n\n【選項對照】\n(A) How's the weather?\n(B) What's your name?\n(C) Where are you going?\n(D) Stop. (正確答案)"
+  },
+  {
+    "id": "Q-229A",
+    "groupKey": "G-229",
+    "version": "A",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "在教室或日常生活中看到/聽到英文 \"Stand up.\" 時，意思是？",
+    "options": [
+      "舉手",
+      "站起來",
+      "排隊",
+      "坐下"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 站起來\n💡【重點提示】祈使句，站立。\n📖【例句應用】Stand up, class. Good morning, teacher.\n\n【選項解析】\n(A) 舉手\n(B) 站起來 (正確答案)\n(C) 排隊\n(D) 坐下"
+  },
+  {
+    "id": "Q-229B",
+    "groupKey": "G-229",
+    "version": "B",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "當你想表達「站起來」時，英文應該怎麼說？",
+    "options": [
+      "Where are you going?",
+      "Stand up.",
+      "What's your name?",
+      "How's the weather?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) Stand up.\n💡【重點提示】祈使句，站立。\n📖【例句應用】Stand up, class. Good morning, teacher.\n\n【選項對照】\n(A) Where are you going?\n(B) Stand up. (正確答案)\n(C) What's your name?\n(D) How's the weather?"
+  },
+  {
+    "id": "Q-230A",
+    "groupKey": "G-230",
+    "version": "A",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "在教室或日常生活中看到/聽到英文 \"Sit down.\" 時，意思是？",
+    "options": [
+      "坐下",
+      "站起來",
+      "請走開",
+      "手放下"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) 坐下\n💡【重點提示】祈使句，請就座。\n📖【例句應用】Sit down, please. Let's start the lesson.\n\n【選項解析】\n(A) 坐下 (正確答案)\n(B) 站起來\n(C) 請走開\n(D) 手放下"
+  },
+  {
+    "id": "Q-230B",
+    "groupKey": "G-230",
+    "version": "B",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "當你想表達「坐下」時，英文應該怎麼說？",
+    "options": [
+      "Sit down.",
+      "Where are you going?",
+      "How's the weather?",
+      "What's your name?"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) Sit down.\n💡【重點提示】祈使句，請就座。\n📖【例句應用】Sit down, please. Let's start the lesson.\n\n【選項對照】\n(A) Sit down. (正確答案)\n(B) Where are you going?\n(C) How's the weather?\n(D) What's your name?"
+  },
+  {
+    "id": "Q-231A",
+    "groupKey": "G-231",
+    "version": "A",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "在教室或日常生活中看到/聽到英文 \"Raise your hand.\" 時，意思是？",
+    "options": [
+      "手放下",
+      "舉手",
+      "站起來",
+      "鼓掌"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 舉手\n💡【重點提示】祈使句，發言前舉手。\n📖【例句應用】Raise your hand if you know the answer.\n\n【選項解析】\n(A) 手放下\n(B) 舉手 (正確答案)\n(C) 站起來\n(D) 鼓掌"
+  },
+  {
+    "id": "Q-231B",
+    "groupKey": "G-231",
+    "version": "B",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "當你想表達「舉手」時，英文應該怎麼說？",
+    "options": [
+      "How's the weather?",
+      "Raise your hand.",
+      "What's your name?",
+      "Where are you going?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) Raise your hand.\n💡【重點提示】祈使句，發言前舉手。\n📖【例句應用】Raise your hand if you know the answer.\n\n【選項對照】\n(A) How's the weather?\n(B) Raise your hand. (正確答案)\n(C) What's your name?\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-232A",
+    "groupKey": "G-232",
+    "version": "A",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "在教室或日常生活中看到/聽到英文 \"Put down your hand.\" 時，意思是？",
+    "options": [
+      "手放下",
+      "把書拿出來",
+      "舉手",
+      "閉上眼睛"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) 手放下\n💡【重點提示】祈使句，放下降下的手。\n📖【例句應用】Put down your hand and listen carefully.\n\n【選項解析】\n(A) 手放下 (正確答案)\n(B) 把書拿出來\n(C) 舉手\n(D) 閉上眼睛"
+  },
+  {
+    "id": "Q-232B",
+    "groupKey": "G-232",
+    "version": "B",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "當你想表達「手放下」時，英文應該怎麼說？",
+    "options": [
+      "Put down your hand.",
+      "Where are you going?",
+      "What's your name?",
+      "How's the weather?"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) Put down your hand.\n💡【重點提示】祈使句，放下降下的手。\n📖【例句應用】Put down your hand and listen carefully.\n\n【選項對照】\n(A) Put down your hand. (正確答案)\n(B) Where are you going?\n(C) What's your name?\n(D) How's the weather?"
+  },
+  {
+    "id": "Q-233A",
+    "groupKey": "G-233",
+    "version": "A",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "在教室或日常生活中看到/聽到英文 \"Be quiet!\" 時，意思是？",
+    "options": [
+      "大聲點！",
+      "安靜！",
+      "排隊！",
+      "快一點！"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 安靜！\n💡【重點提示】祈使句，保持安靜無聲。\n📖【例句應用】Be quiet in the library.\n\n【選項解析】\n(A) 大聲點！\n(B) 安靜！ (正確答案)\n(C) 排隊！\n(D) 快一點！"
+  },
+  {
+    "id": "Q-233B",
+    "groupKey": "G-233",
+    "version": "B",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "當你想表達「安靜！」時，英文應該怎麼說？",
+    "options": [
+      "Where are you going?",
+      "Be quiet!",
+      "How's the weather?",
+      "What's your name?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) Be quiet!\n💡【重點提示】祈使句，保持安靜無聲。\n📖【例句應用】Be quiet in the library.\n\n【選項對照】\n(A) Where are you going?\n(B) Be quiet! (正確答案)\n(C) How's the weather?\n(D) What's your name?"
+  },
+  {
+    "id": "Q-234A",
+    "groupKey": "G-234",
+    "version": "A",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "在教室或日常生活中看到/聽到英文 \"Open your book.\" 時，意思是？",
+    "options": [
+      "翻開書本",
+      "拿出課本",
+      "收起課本",
+      "闔上書本"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) 翻開書本\n💡【重點提示】祈使句，打開書本閱讀。\n📖【例句應用】Open your book to page 10.\n\n【選項解析】\n(A) 翻開書本 (正確答案)\n(B) 拿出課本\n(C) 收起課本\n(D) 闔上書本"
+  },
+  {
+    "id": "Q-234B",
+    "groupKey": "G-234",
+    "version": "B",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "當你想表達「翻開書本」時，英文應該怎麼說？",
+    "options": [
+      "How's the weather?",
+      "What's your name?",
+      "Where are you going?",
+      "Open your book."
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) Open your book.\n💡【重點提示】祈使句，打開書本閱讀。\n📖【例句應用】Open your book to page 10.\n\n【選項對照】\n(A) How's the weather?\n(B) What's your name?\n(C) Where are you going?\n(D) Open your book. (正確答案)"
+  },
+  {
+    "id": "Q-235A",
+    "groupKey": "G-235",
+    "version": "A",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "在教室或日常生活中看到/聽到英文 \"Close your book.\" 時，意思是？",
+    "options": [
+      "把書拿出來",
+      "翻開書本",
+      "闔上書本",
+      "借我書"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 闔上書本\n💡【重點提示】祈使句，關上書本。\n📖【例句應用】Close your book and look at the blackboard.\n\n【選項解析】\n(A) 把書拿出來\n(B) 翻開書本\n(C) 闔上書本 (正確答案)\n(D) 借我書"
+  },
+  {
+    "id": "Q-235B",
+    "groupKey": "G-235",
+    "version": "B",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "當你想表達「闔上書本」時，英文應該怎麼說？",
+    "options": [
+      "Where are you going?",
+      "What's your name?",
+      "How's the weather?",
+      "Close your book."
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) Close your book.\n💡【重點提示】祈使句，關上書本。\n📖【例句應用】Close your book and look at the blackboard.\n\n【選項對照】\n(A) Where are you going?\n(B) What's your name?\n(C) How's the weather?\n(D) Close your book. (正確答案)"
+  },
+  {
+    "id": "Q-236A",
+    "groupKey": "G-236",
+    "version": "A",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "在教室或日常生活中看到/聽到英文 \"Good job!\" 時，意思是？",
+    "options": [
+      "再試試看！",
+      "做得好！ / 太棒了！",
+      "沒關係！",
+      "加油！"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 做得好！ / 太棒了！\n💡【重點提示】讚揚鼓勵用語。\n📖【例句應用】You got 100 on the test! Good job!\n\n【選項解析】\n(A) 再試試看！\n(B) 做得好！ / 太棒了！ (正確答案)\n(C) 沒關係！\n(D) 加油！"
+  },
+  {
+    "id": "Q-236B",
+    "groupKey": "G-236",
+    "version": "B",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "當你想表達「做得好！ / 太棒了！」時，英文應該怎麼說？",
+    "options": [
+      "What's your name?",
+      "Where are you going?",
+      "Good job!",
+      "How's the weather?"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) Good job!\n💡【重點提示】讚揚鼓勵用語。\n📖【例句應用】You got 100 on the test! Good job!\n\n【選項對照】\n(A) What's your name?\n(B) Where are you going?\n(C) Good job! (正確答案)\n(D) How's the weather?"
+  },
+  {
+    "id": "Q-237A",
+    "groupKey": "G-237",
+    "version": "A",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "在教室或日常生活中看到/聽到英文 \"Try again.\" 時，意思是？",
+    "options": [
+      "做得好",
+      "再試一次",
+      "放棄吧",
+      "停下來"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 再試一次\n💡【重點提示】鼓勵繼續嘗試用語。\n📖【例句應用】Don't worry. Try again.\n\n【選項解析】\n(A) 做得好\n(B) 再試一次 (正確答案)\n(C) 放棄吧\n(D) 停下來"
+  },
+  {
+    "id": "Q-237B",
+    "groupKey": "G-237",
+    "version": "B",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "當你想表達「再試一次」時，英文應該怎麼說？",
+    "options": [
+      "What's your name?",
+      "Try again.",
+      "How's the weather?",
+      "Where are you going?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) Try again.\n💡【重點提示】鼓勵繼續嘗試用語。\n📖【例句應用】Don't worry. Try again.\n\n【選項對照】\n(A) What's your name?\n(B) Try again. (正確答案)\n(C) How's the weather?\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-238A",
+    "groupKey": "G-238",
+    "version": "A",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "在教室或日常生活中看到/聽到英文 \"Take out your book.\" 時，意思是？",
+    "options": [
+      "翻開書",
+      "把書拿出來",
+      "把書收起來",
+      "借書"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 把書拿出來\n💡【重點提示】祈使句，從書包掏出課本。\n📖【例句應用】Take out your English book, everyone.\n\n【選項解析】\n(A) 翻開書\n(B) 把書拿出來 (正確答案)\n(C) 把書收起來\n(D) 借書"
+  },
+  {
+    "id": "Q-238B",
+    "groupKey": "G-238",
+    "version": "B",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "當你想表達「把書拿出來」時，英文應該怎麼說？",
+    "options": [
+      "What's your name?",
+      "Take out your book.",
+      "How's the weather?",
+      "Where are you going?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) Take out your book.\n💡【重點提示】祈使句，從書包掏出課本。\n📖【例句應用】Take out your English book, everyone.\n\n【選項對照】\n(A) What's your name?\n(B) Take out your book. (正確答案)\n(C) How's the weather?\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-239A",
+    "groupKey": "G-239",
+    "version": "A",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "在教室或日常生活中看到/聽到英文 \"Put away your book.\" 時，意思是？",
+    "options": [
+      "闔上書",
+      "把書收起來",
+      "把書拿出來",
+      "翻開書"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 把書收起來\n💡【重點提示】祈使句，收納整理課本。\n📖【例句應用】Time's up! Put away your book.\n\n【選項解析】\n(A) 闔上書\n(B) 把書收起來 (正確答案)\n(C) 把書拿出來\n(D) 翻開書"
+  },
+  {
+    "id": "Q-239B",
+    "groupKey": "G-239",
+    "version": "B",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "當你想表達「把書收起來」時，英文應該怎麼說？",
+    "options": [
+      "What's your name?",
+      "Put away your book.",
+      "How's the weather?",
+      "Where are you going?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) Put away your book.\n💡【重點提示】祈使句，收納整理課本。\n📖【例句應用】Time's up! Put away your book.\n\n【選項對照】\n(A) What's your name?\n(B) Put away your book. (正確答案)\n(C) How's the weather?\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-240A",
+    "groupKey": "G-240",
+    "version": "A",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "在教室或日常生活中看到/聽到英文 \"Good morning.\" 時，意思是？",
+    "options": [
+      "再見",
+      "午安",
+      "早安",
+      "晚安"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 早安\n💡【重點提示】晨間問候用語。\n📖【例句應用】Good morning, Principal!\n\n【選項解析】\n(A) 再見\n(B) 午安\n(C) 早安 (正確答案)\n(D) 晚安"
+  },
+  {
+    "id": "Q-240B",
+    "groupKey": "G-240",
+    "version": "B",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "當你想表達「早安」時，英文應該怎麼說？",
+    "options": [
+      "What's your name?",
+      "How's the weather?",
+      "Good morning.",
+      "Where are you going?"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) Good morning.\n💡【重點提示】晨間問候用語。\n📖【例句應用】Good morning, Principal!\n\n【選項對照】\n(A) What's your name?\n(B) How's the weather?\n(C) Good morning. (正確答案)\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-241A",
+    "groupKey": "G-241",
+    "version": "A",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "在教室或日常生活中看到/聽到英文 \"Good afternoon.\" 時，意思是？",
+    "options": [
+      "明天見",
+      "早安",
+      "晚安",
+      "午安"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) 午安\n💡【重點提示】午後問候用語。\n📖【例句應用】Good afternoon, boys and girls.\n\n【選項解析】\n(A) 明天見\n(B) 早安\n(C) 晚安\n(D) 午安 (正確答案)"
+  },
+  {
+    "id": "Q-241B",
+    "groupKey": "G-241",
+    "version": "B",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "當你想表達「午安」時，英文應該怎麼說？",
+    "options": [
+      "What's your name?",
+      "How's the weather?",
+      "Where are you going?",
+      "Good afternoon."
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) Good afternoon.\n💡【重點提示】午後問候用語。\n📖【例句應用】Good afternoon, boys and girls.\n\n【選項對照】\n(A) What's your name?\n(B) How's the weather?\n(C) Where are you going?\n(D) Good afternoon. (正確答案)"
+  },
+  {
+    "id": "Q-242A",
+    "groupKey": "G-242",
+    "version": "A",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "在教室或日常生活中看到/聽到英文 \"Are you OK?\" 時，意思是？",
+    "options": [
+      "你忙嗎？",
+      "你準備好了嗎？",
+      "你還好嗎？",
+      "你是學生嗎？"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 你還好嗎？\n💡【重點提示】關心對方狀態問句。\n📖【例句應用】You look pale. Are you OK?\n\n【選項解析】\n(A) 你忙嗎？\n(B) 你準備好了嗎？\n(C) 你還好嗎？ (正確答案)\n(D) 你是學生嗎？"
+  },
+  {
+    "id": "Q-242B",
+    "groupKey": "G-242",
+    "version": "B",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "當你想表達「你還好嗎？」時，英文應該怎麼說？",
+    "options": [
+      "What's your name?",
+      "Are you OK?",
+      "How's the weather?",
+      "Where are you going?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) Are you OK?\n💡【重點提示】關心對方狀態問句。\n📖【例句應用】You look pale. Are you OK?\n\n【選項對照】\n(A) What's your name?\n(B) Are you OK? (正確答案)\n(C) How's the weather?\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-243A",
+    "groupKey": "G-243",
+    "version": "A",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "在教室或日常生活中看到/聽到英文 \"Are you ready?\" 時，意思是？",
+    "options": [
+      "準備好了嗎？",
+      "你餓了嗎？",
+      "你還好嗎？",
+      "你好了沒？"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) 準備好了嗎？\n💡【重點提示】確認就緒狀態問句。\n📖【例句應用】Are you ready? Let me start the game!\n\n【選項解析】\n(A) 準備好了嗎？ (正確答案)\n(B) 你餓了嗎？\n(C) 你還好嗎？\n(D) 你好了沒？"
+  },
+  {
+    "id": "Q-243B",
+    "groupKey": "G-243",
+    "version": "B",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "當你想表達「準備好了嗎？」時，英文應該怎麼說？",
+    "options": [
+      "Where are you going?",
+      "Are you ready?",
+      "What's your name?",
+      "How's the weather?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) Are you ready?\n💡【重點提示】確認就緒狀態問句。\n📖【例句應用】Are you ready? Let me start the game!\n\n【選項對照】\n(A) Where are you going?\n(B) Are you ready? (正確答案)\n(C) What's your name?\n(D) How's the weather?"
+  },
+  {
+    "id": "Q-244A",
+    "groupKey": "G-244",
+    "version": "A",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "在教室或日常生活中看到/聽到英文 \"Thank you.\" 時，意思是？",
+    "options": [
+      "對不起",
+      "沒關係",
+      "不客氣",
+      "謝謝你"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) 謝謝你\n💡【重點提示】表達感謝感謝用語。\n📖【例句應用】Thank you for helping me.\n\n【選項解析】\n(A) 對不起\n(B) 沒關係\n(C) 不客氣\n(D) 謝謝你 (正確答案)"
+  },
+  {
+    "id": "Q-244B",
+    "groupKey": "G-244",
+    "version": "B",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "當你想表達「謝謝你」時，英文應該怎麼說？",
+    "options": [
+      "What's your name?",
+      "Where are you going?",
+      "Thank you.",
+      "How's the weather?"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) Thank you.\n💡【重點提示】表達感謝感謝用語。\n📖【例句應用】Thank you for helping me.\n\n【選項對照】\n(A) What's your name?\n(B) Where are you going?\n(C) Thank you. (正確答案)\n(D) How's the weather?"
+  },
+  {
+    "id": "Q-245A",
+    "groupKey": "G-245",
+    "version": "A",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "在教室或日常生活中看到/聽到英文 \"You're welcome.\" 時，意思是？",
+    "options": [
+      "很高興認識你",
+      "不客氣",
+      "謝謝你",
+      "請進"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 不客氣\n💡【重點提示】回應感謝客套用語。\n📖【例句應用】A: Thank you! B: You're welcome.\n\n【選項解析】\n(A) 很高興認識你\n(B) 不客氣 (正確答案)\n(C) 謝謝你\n(D) 請進"
+  },
+  {
+    "id": "Q-245B",
+    "groupKey": "G-245",
+    "version": "B",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "當你想表達「不客氣」時，英文應該怎麼說？",
+    "options": [
+      "What's your name?",
+      "How's the weather?",
+      "You're welcome.",
+      "Where are you going?"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) You're welcome.\n💡【重點提示】回應感謝客套用語。\n📖【例句應用】A: Thank you! B: You're welcome.\n\n【選項對照】\n(A) What's your name?\n(B) How's the weather?\n(C) You're welcome. (正確答案)\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-246A",
+    "groupKey": "G-246",
+    "version": "A",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "在教室或日常生活中看到/聽到英文 \"Please.\" 時，意思是？",
+    "options": [
+      "請",
+      "對不起",
+      "不客氣",
+      "沒關係"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) 請\n💡【重點提示】禮貌請求用語。\n📖【例句應用】Pass me the salt, please.\n\n【選項解析】\n(A) 請 (正確答案)\n(B) 對不起\n(C) 不客氣\n(D) 沒關係"
+  },
+  {
+    "id": "Q-246B",
+    "groupKey": "G-246",
+    "version": "B",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "當你想表達「請」時，英文應該怎麼說？",
+    "options": [
+      "What's your name?",
+      "Please.",
+      "Where are you going?",
+      "How's the weather?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) Please.\n💡【重點提示】禮貌請求用語。\n📖【例句應用】Pass me the salt, please.\n\n【選項對照】\n(A) What's your name?\n(B) Please. (正確答案)\n(C) Where are you going?\n(D) How's the weather?"
+  },
+  {
+    "id": "Q-247A",
+    "groupKey": "G-247",
+    "version": "A",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "在教室或日常生活中看到/聽到英文 \"Excuse me.\" 時，意思是？",
+    "options": [
+      "不好意思 / 打擾一下",
+      "對不起",
+      "再見",
+      "沒關係"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) 不好意思 / 打擾一下\n💡【重點提示】引起注意或禮貌讓路用語。\n📖【例句應用】Excuse me, where is the restroom?\n\n【選項解析】\n(A) 不好意思 / 打擾一下 (正確答案)\n(B) 對不起\n(C) 再見\n(D) 沒關係"
+  },
+  {
+    "id": "Q-247B",
+    "groupKey": "G-247",
+    "version": "B",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "當你想表達「不好意思 / 打擾一下」時，英文應該怎麼說？",
+    "options": [
+      "Excuse me.",
+      "How's the weather?",
+      "What's your name?",
+      "Where are you going?"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) Excuse me.\n💡【重點提示】引起注意或禮貌讓路用語。\n📖【例句應用】Excuse me, where is the restroom?\n\n【選項對照】\n(A) Excuse me. (正確答案)\n(B) How's the weather?\n(C) What's your name?\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-248A",
+    "groupKey": "G-248",
+    "version": "A",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "在教室或日常生活中看到/聽到英文 \"Sorry.\" 時，意思是？",
+    "options": [
+      "不客氣",
+      "謝謝你",
+      "對不起 / 抱歉",
+      "好的"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 對不起 / 抱歉\n💡【重點提示】致歉道歉用語。\n📖【例句應用】I am sorry for being late.\n\n【選項解析】\n(A) 不客氣\n(B) 謝謝你\n(C) 對不起 / 抱歉 (正確答案)\n(D) 好的"
+  },
+  {
+    "id": "Q-248B",
+    "groupKey": "G-248",
+    "version": "B",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "當你想表達「對不起 / 抱歉」時，英文應該怎麼說？",
+    "options": [
+      "What's your name?",
+      "Sorry.",
+      "How's the weather?",
+      "Where are you going?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) Sorry.\n💡【重點提示】致歉道歉用語。\n📖【例句應用】I am sorry for being late.\n\n【選項對照】\n(A) What's your name?\n(B) Sorry. (正確答案)\n(C) How's the weather?\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-249A",
+    "groupKey": "G-249",
+    "version": "A",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "在教室或日常生活中看到/聽到英文 \"Let's play.\" 時，意思是？",
+    "options": [
+      "讓我們回家吧",
+      "讓我們一起玩吧",
+      "讓我們一起讀書吧",
+      "讓我們吃午餐吧"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 讓我們一起玩吧\n💡【重點提示】提議共同遊玩提議句。\n📖【例句應用】Finish your homework and let's play.\n\n【選項解析】\n(A) 讓我們回家吧\n(B) 讓我們一起玩吧 (正確答案)\n(C) 讓我們一起讀書吧\n(D) 讓我們吃午餐吧"
+  },
+  {
+    "id": "Q-249B",
+    "groupKey": "G-249",
+    "version": "B",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "當你想表達「讓我們一起玩吧」時，英文應該怎麼說？",
+    "options": [
+      "Where are you going?",
+      "Let's play.",
+      "How's the weather?",
+      "What's your name?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) Let's play.\n💡【重點提示】提議共同遊玩提議句。\n📖【例句應用】Finish your homework and let's play.\n\n【選項對照】\n(A) Where are you going?\n(B) Let's play. (正確答案)\n(C) How's the weather?\n(D) What's your name?"
+  },
+  {
+    "id": "Q-250A",
+    "groupKey": "G-250",
+    "version": "A",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "在教室或日常生活中看到/聽到英文 \"Be careful.\" 時，意思是？",
+    "options": [
+      "快一點",
+      "小心 / 注意安全",
+      "別害怕",
+      "安靜"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 小心 / 注意安全\n💡【重點提示】警示注意安全用語。\n📖【例句應用】Be careful! The floor is wet.\n\n【選項解析】\n(A) 快一點\n(B) 小心 / 注意安全 (正確答案)\n(C) 別害怕\n(D) 安靜"
+  },
+  {
+    "id": "Q-250B",
+    "groupKey": "G-250",
+    "version": "B",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "當你想表達「小心 / 注意安全」時，英文應該怎麼說？",
+    "options": [
+      "Be careful.",
+      "Where are you going?",
+      "What's your name?",
+      "How's the weather?"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) Be careful.\n💡【重點提示】警示注意安全用語。\n📖【例句應用】Be careful! The floor is wet.\n\n【選項對照】\n(A) Be careful. (正確答案)\n(B) Where are you going?\n(C) What's your name?\n(D) How's the weather?"
+  },
+  {
+    "id": "Q-251A",
+    "groupKey": "G-251",
+    "version": "A",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "在教室或日常生活中看到/聽到英文 \"Hello! / Hi!\" 時，意思是？",
+    "options": [
+      "謝謝",
+      "晚安",
+      "再見",
+      "哈囉 / 嗨 (你好)"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) 哈囉 / 嗨 (你好)\n💡【重點提示】日常打招呼招呼語。\n📖【例句應用】Hello, nice to see you again.\n\n【選項解析】\n(A) 謝謝\n(B) 晚安\n(C) 再見\n(D) 哈囉 / 嗨 (你好) (正確答案)"
+  },
+  {
+    "id": "Q-251B",
+    "groupKey": "G-251",
+    "version": "B",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "當你想表達「哈囉 / 嗨 (你好)」時，英文應該怎麼說？",
+    "options": [
+      "How's the weather?",
+      "Where are you going?",
+      "What's your name?",
+      "Hello! / Hi!"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) Hello! / Hi!\n💡【重點提示】日常打招呼招呼語。\n📖【例句應用】Hello, nice to see you again.\n\n【選項對照】\n(A) How's the weather?\n(B) Where are you going?\n(C) What's your name?\n(D) Hello! / Hi! (正確答案)"
+  },
+  {
+    "id": "Q-252A",
+    "groupKey": "G-252",
+    "version": "A",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "在教室或日常生活中看到/聽到英文 \"Good-bye! / See you.\" 時，意思是？",
+    "options": [
+      "早安",
+      "沒關係",
+      "再見 / 下次見",
+      "你好"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 再見 / 下次見\n💡【重點提示】道別離去離別語。\n📖【例句應用】Good-bye, teacher! See you tomorrow.\n\n【選項解析】\n(A) 早安\n(B) 沒關係\n(C) 再見 / 下次見 (正確答案)\n(D) 你好"
+  },
+  {
+    "id": "Q-252B",
+    "groupKey": "G-252",
+    "version": "B",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "當你想表達「再見 / 下次見」時，英文應該怎麼說？",
+    "options": [
+      "Where are you going?",
+      "What's your name?",
+      "How's the weather?",
+      "Good-bye! / See you."
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) Good-bye! / See you.\n💡【重點提示】道別離去離別語。\n📖【例句應用】Good-bye, teacher! See you tomorrow.\n\n【選項對照】\n(A) Where are you going?\n(B) What's your name?\n(C) How's the weather?\n(D) Good-bye! / See you. (正確答案)"
+  },
+  {
+    "id": "Q-253A",
+    "groupKey": "G-253",
+    "version": "A",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "在教室或日常生活中看到/聽到英文 \"I don't know.\" 時，意思是？",
+    "options": [
+      "我不喜歡",
+      "我了解了",
+      "我不知道",
+      "我做不到"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 我不知道\n💡【重點提示】表達不清楚不了解狀況。\n📖【例句應用】Q: Where is my pen? A: I don't know.\n\n【選項解析】\n(A) 我不喜歡\n(B) 我了解了\n(C) 我不知道 (正確答案)\n(D) 我做不到"
+  },
+  {
+    "id": "Q-253B",
+    "groupKey": "G-253",
+    "version": "B",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "當你想表達「我不知道」時，英文應該怎麼說？",
+    "options": [
+      "I don't know.",
+      "Where are you going?",
+      "How's the weather?",
+      "What's your name?"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) I don't know.\n💡【重點提示】表達不清楚不了解狀況。\n📖【例句應用】Q: Where is my pen? A: I don't know.\n\n【選項對照】\n(A) I don't know. (正確答案)\n(B) Where are you going?\n(C) How's the weather?\n(D) What's your name?"
+  },
+  {
+    "id": "Q-254A",
+    "groupKey": "G-254",
+    "version": "A",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "在教室或日常生活中看到/聽到英文 \"Line up.\" 時，意思是？",
+    "options": [
+      "站起來",
+      "坐下",
+      "解散",
+      "排隊"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) 排隊\n💡【重點提示】祈使句，成一縱隊排隊。\n📖【例句應用】Line up at the door for lunch.\n\n【選項解析】\n(A) 站起來\n(B) 坐下\n(C) 解散\n(D) 排隊 (正確答案)"
+  },
+  {
+    "id": "Q-254B",
+    "groupKey": "G-254",
+    "version": "B",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "當你想表達「排隊」時，英文應該怎麼說？",
+    "options": [
+      "Where are you going?",
+      "What's your name?",
+      "How's the weather?",
+      "Line up."
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) Line up.\n💡【重點提示】祈使句，成一縱隊排隊。\n📖【例句應用】Line up at the door for lunch.\n\n【選項對照】\n(A) Where are you going?\n(B) What's your name?\n(C) How's the weather?\n(D) Line up. (正確答案)"
+  },
+  {
+    "id": "Q-255A",
+    "groupKey": "G-255",
+    "version": "A",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "在教室或日常生活中看到/聽到英文 \"Nice to meet you.\" 時，意思是？",
+    "options": [
+      "好久不見",
+      "再見",
+      "不客氣",
+      "很高興認識你"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) 很高興認識你\n💡【重點提示】初次見面禮貌客套語。\n📖【例句應用】Hello, I am Tom. Nice to meet you.\n\n【選項解析】\n(A) 好久不見\n(B) 再見\n(C) 不客氣\n(D) 很高興認識你 (正確答案)"
+  },
+  {
+    "id": "Q-255B",
+    "groupKey": "G-255",
+    "version": "B",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "當你想表達「很高興認識你」時，英文應該怎麼說？",
+    "options": [
+      "Where are you going?",
+      "Nice to meet you.",
+      "How's the weather?",
+      "What's your name?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) Nice to meet you.\n💡【重點提示】初次見面禮貌客套語。\n📖【例句應用】Hello, I am Tom. Nice to meet you.\n\n【選項對照】\n(A) Where are you going?\n(B) Nice to meet you. (正確答案)\n(C) How's the weather?\n(D) What's your name?"
+  },
+  {
+    "id": "Q-256A",
+    "groupKey": "G-256",
+    "version": "A",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "在教室或日常生活中看到/聽到英文 \"Come here.\" 時，意思是？",
+    "options": [
+      "過來這裡",
+      "坐下",
+      "走開",
+      "回座位"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) 過來這裡\n💡【重點提示】祈使句，招手前來。\n📖【例句應用】Come here and look at this picture.\n\n【選項解析】\n(A) 過來這裡 (正確答案)\n(B) 坐下\n(C) 走開\n(D) 回座位"
+  },
+  {
+    "id": "Q-256B",
+    "groupKey": "G-256",
+    "version": "B",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "當你想表達「過來這裡」時，英文應該怎麼說？",
+    "options": [
+      "Come here.",
+      "How's the weather?",
+      "Where are you going?",
+      "What's your name?"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) Come here.\n💡【重點提示】祈使句，招手前來。\n📖【例句應用】Come here and look at this picture.\n\n【選項對照】\n(A) Come here. (正確答案)\n(B) How's the weather?\n(C) Where are you going?\n(D) What's your name?"
+  },
+  {
+    "id": "Q-257A",
+    "groupKey": "G-257",
+    "version": "A",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "在教室或日常生活中看到/聽到英文 \"Wash your hands.\" 時，意思是？",
+    "options": [
+      "戴口罩",
+      "擦桌子",
+      "刷牙",
+      "洗手"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) 洗手\n💡【重點提示】個人衛生祈使句 (防疫宣導)。\n📖【例句應用】Wash your hands with soap before eating.\n\n【選項解析】\n(A) 戴口罩\n(B) 擦桌子\n(C) 刷牙\n(D) 洗手 (正確答案)"
+  },
+  {
+    "id": "Q-257B",
+    "groupKey": "G-257",
+    "version": "B",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "當你想表達「洗手」時，英文應該怎麼說？",
+    "options": [
+      "Where are you going?",
+      "What's your name?",
+      "Wash your hands.",
+      "How's the weather?"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) Wash your hands.\n💡【重點提示】個人衛生祈使句 (防疫宣導)。\n📖【例句應用】Wash your hands with soap before eating.\n\n【選項對照】\n(A) Where are you going?\n(B) What's your name?\n(C) Wash your hands. (正確答案)\n(D) How's the weather?"
+  },
+  {
+    "id": "Q-258A",
+    "groupKey": "G-258",
+    "version": "A",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "在教室或日常生活中看到/聽到英文 \"Wear a mask.\" 時，意思是？",
+    "options": [
+      "脫下口罩",
+      "戴上口罩",
+      "消毒",
+      "洗手"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 戴上口罩\n💡【重點提示】個人衛生祈使句 (學檢高頻)。\n📖【例句應用】Wear a mask when you take the bus.\n\n【選項解析】\n(A) 脫下口罩\n(B) 戴上口罩 (正確答案)\n(C) 消毒\n(D) 洗手"
+  },
+  {
+    "id": "Q-258B",
+    "groupKey": "G-258",
+    "version": "B",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "當你想表達「戴上口罩」時，英文應該怎麼說？",
+    "options": [
+      "How's the weather?",
+      "Where are you going?",
+      "What's your name?",
+      "Wear a mask."
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) Wear a mask.\n💡【重點提示】個人衛生祈使句 (學檢高頻)。\n📖【例句應用】Wear a mask when you take the bus.\n\n【選項對照】\n(A) How's the weather?\n(B) Where are you going?\n(C) What's your name?\n(D) Wear a mask. (正確答案)"
+  },
+  {
+    "id": "Q-259A",
+    "groupKey": "G-259",
+    "version": "A",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "在教室或日常生活中看到/聽到英文 \"No eating or drinking.\" 時，意思是？",
+    "options": [
+      "禁止飲食",
+      "請勿吸菸",
+      "請勿拍照",
+      "禁止攜帶寵物"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) 禁止飲食\n💡【重點提示】公共場所警示標語 (學檢高頻)。\n📖【例句應用】There is no eating or drinking on the MRT.\n\n【選項解析】\n(A) 禁止飲食 (正確答案)\n(B) 請勿吸菸\n(C) 請勿拍照\n(D) 禁止攜帶寵物"
+  },
+  {
+    "id": "Q-259B",
+    "groupKey": "G-259",
+    "version": "B",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "當你想表達「禁止飲食」時，英文應該怎麼說？",
+    "options": [
+      "No eating or drinking.",
+      "How's the weather?",
+      "Where are you going?",
+      "What's your name?"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) No eating or drinking.\n💡【重點提示】公共場所警示標語 (學檢高頻)。\n📖【例句應用】There is no eating or drinking on the MRT.\n\n【選項對照】\n(A) No eating or drinking. (正確答案)\n(B) How's the weather?\n(C) Where are you going?\n(D) What's your name?"
+  },
+  {
+    "id": "Q-260A",
+    "groupKey": "G-260",
+    "version": "A",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "在教室或日常生活中看到/聽到英文 \"NO PETS ALLOWED.\" 時，意思是？",
+    "options": [
+      "禁止攜帶寵物",
+      "請勿喧嘩",
+      "禁止飲食",
+      "禁止奔跑"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) 禁止攜帶寵物\n💡【重點提示】公共場所警示標語 (學檢高頻)。\n📖【例句應用】NO PETS ALLOWED in the grocery store.\n\n【選項解析】\n(A) 禁止攜帶寵物 (正確答案)\n(B) 請勿喧嘩\n(C) 禁止飲食\n(D) 禁止奔跑"
+  },
+  {
+    "id": "Q-260B",
+    "groupKey": "G-260",
+    "version": "B",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "當你想表達「禁止攜帶寵物」時，英文應該怎麼說？",
+    "options": [
+      "NO PETS ALLOWED.",
+      "Where are you going?",
+      "What's your name?",
+      "How's the weather?"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) NO PETS ALLOWED.\n💡【重點提示】公共場所警示標語 (學檢高頻)。\n📖【例句應用】NO PETS ALLOWED in the grocery store.\n\n【選項對照】\n(A) NO PETS ALLOWED. (正確答案)\n(B) Where are you going?\n(C) What's your name?\n(D) How's the weather?"
+  },
+  {
+    "id": "Q-261A",
+    "groupKey": "G-261",
+    "version": "A",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "在教室或日常生活中看到/聽到英文 \"NO SMOKING.\" 時，意思是？",
+    "options": [
+      "危險勿近",
+      "禁止停車",
+      "禁止吸菸",
+      "禁止飲食"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) 禁止吸菸\n💡【重點提示】公共場所警示標語 (學檢高頻)。\n📖【例句應用】NO SMOKING in the school yard.\n\n【選項解析】\n(A) 危險勿近\n(B) 禁止停車\n(C) 禁止吸菸 (正確答案)\n(D) 禁止飲食"
+  },
+  {
+    "id": "Q-261B",
+    "groupKey": "G-261",
+    "version": "B",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "當你想表達「禁止吸菸」時，英文應該怎麼說？",
+    "options": [
+      "NO SMOKING.",
+      "What's your name?",
+      "How's the weather?",
+      "Where are you going?"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) NO SMOKING.\n💡【重點提示】公共場所警示標語 (學檢高頻)。\n📖【例句應用】NO SMOKING in the school yard.\n\n【選項對照】\n(A) NO SMOKING. (正確答案)\n(B) What's your name?\n(C) How's the weather?\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-262A",
+    "groupKey": "G-262",
+    "version": "A",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "在教室或日常生活中看到/聽到英文 \"NO PARKING.\" 時，意思是？",
+    "options": [
+      "請勿拍照",
+      "禁止停車",
+      "禁止通行",
+      "出口"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) 禁止停車\n💡【重點提示】道路警示標語。\n📖【例句應用】NO PARKING in front of the gate.\n\n【選項解析】\n(A) 請勿拍照\n(B) 禁止停車 (正確答案)\n(C) 禁止通行\n(D) 出口"
+  },
+  {
+    "id": "Q-262B",
+    "groupKey": "G-262",
+    "version": "B",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "當你想表達「禁止停車」時，英文應該怎麼說？",
+    "options": [
+      "How's the weather?",
+      "What's your name?",
+      "NO PARKING.",
+      "Where are you going?"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) NO PARKING.\n💡【重點提示】道路警示標語。\n📖【例句應用】NO PARKING in front of the gate.\n\n【選項對照】\n(A) How's the weather?\n(B) What's your name?\n(C) NO PARKING. (正確答案)\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-263A",
+    "groupKey": "G-263",
+    "version": "A",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "在教室或日常生活中看到/聽到英文 \"PULL\" 時，意思是？",
+    "options": [
+      "推",
+      "按",
+      "滑",
+      "拉 (開門方向)"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) 拉 (開門方向)\n💡【重點提示】門扉標示。\n📖【例句應用】PULL the door to enter.\n\n【選項解析】\n(A) 推\n(B) 按\n(C) 滑\n(D) 拉 (開門方向) (正確答案)"
+  },
+  {
+    "id": "Q-263B",
+    "groupKey": "G-263",
+    "version": "B",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "當你想表達「拉 (開門方向)」時，英文應該怎麼說？",
+    "options": [
+      "How's the weather?",
+      "PULL",
+      "Where are you going?",
+      "What's your name?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) PULL\n💡【重點提示】門扉標示。\n📖【例句應用】PULL the door to enter.\n\n【選項對照】\n(A) How's the weather?\n(B) PULL (正確答案)\n(C) Where are you going?\n(D) What's your name?"
+  },
+  {
+    "id": "Q-264A",
+    "groupKey": "G-264",
+    "version": "A",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "在教室或日常生活中看到/聽到英文 \"PUSH\" 時，意思是？",
+    "options": [
+      "推 (開門方向)",
+      "拉",
+      "旋轉",
+      "鎖上"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) 推 (開門方向)\n💡【重點提示】門扉標示。\n📖【例句應用】PUSH the door open.\n\n【選項解析】\n(A) 推 (開門方向) (正確答案)\n(B) 拉\n(C) 旋轉\n(D) 鎖上"
+  },
+  {
+    "id": "Q-264B",
+    "groupKey": "G-264",
+    "version": "B",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "當你想表達「推 (開門方向)」時，英文應該怎麼說？",
+    "options": [
+      "How's the weather?",
+      "PUSH",
+      "What's your name?",
+      "Where are you going?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) PUSH\n💡【重點提示】門扉標示。\n📖【例句應用】PUSH the door open.\n\n【選項對照】\n(A) How's the weather?\n(B) PUSH (正確答案)\n(C) What's your name?\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-265A",
+    "groupKey": "G-265",
+    "version": "A",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "在教室或日常生活中看到/聽到英文 \"EXIT\" 時，意思是？",
+    "options": [
+      "緊急出口 / 安全門",
+      "入口",
+      "售票口",
+      "洗手資訊"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) 緊急出口 / 安全門\n💡【重點提示】公共場所安全標示。\n📖【例句應用】Follow the green light to the EXIT.\n\n【選項解析】\n(A) 緊急出口 / 安全門 (正確答案)\n(B) 入口\n(C) 售票口\n(D) 洗手資訊"
+  },
+  {
+    "id": "Q-265B",
+    "groupKey": "G-265",
+    "version": "B",
+    "chapter": "第二部分：日常生活與教室用語",
+    "gradeLevel": 1,
+    "question": "當你想表達「緊急出口 / 安全門」時，英文應該怎麼說？",
+    "options": [
+      "How's the weather?",
+      "EXIT",
+      "What's your name?",
+      "Where are you going?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) EXIT\n💡【重點提示】公共場所安全標示。\n📖【例句應用】Follow the green light to the EXIT.\n\n【選項對照】\n(A) How's the weather?\n(B) EXIT (正確答案)\n(C) What's your name?\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-266A",
+    "groupKey": "G-266",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"How are you?\" 時，最適當的回答是：",
+    "options": [
+      "It's Monday.",
+      "I'm fine. Thank you.",
+      "I'm ten years old.",
+      "My name is Bob."
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) I'm fine. Thank you.\n💡【重點提示】問候近況問答，回答近況良好的生活問答。\n📖【例句應用】A: How are you? B: I'm fine. Thank you.\n\n【選項解析】\n(A) It's Monday.\n(B) I'm fine. Thank you. (正確答案)\n(C) I'm ten years old.\n(D) My name is Bob."
+  },
+  {
+    "id": "Q-266B",
+    "groupKey": "G-266",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"I'm fine. Thank you.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Where are you going?",
+      "What's your name?",
+      "How are you?",
+      "How's the weather?"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) How are you?\n💡【重點提示】問候近況問答，回答近況良好的生活問答。\n📖【例句應用】A: How are you? B: I'm fine. Thank you.\n\n【選項對照】\n(A) Where are you going?\n(B) What's your name?\n(C) How are you? (正確答案)\n(D) How's the weather?"
+  },
+  {
+    "id": "Q-267A",
+    "groupKey": "G-267",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"How old are you?\" 時，最適當的回答是：",
+    "options": [
+      "I'm in the kitchen.",
+      "I'm ten years old.",
+      "I can swim.",
+      "It is sunny."
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) I'm ten years old.\n💡【重點提示】詢問年齡問答，回答使用主詞+be動詞+數字+years old。\n📖【例句應用】A: How old are you? B: I'm ten years old.\n\n【選項解析】\n(A) I'm in the kitchen.\n(B) I'm ten years old. (正確答案)\n(C) I can swim.\n(D) It is sunny."
+  },
+  {
+    "id": "Q-267B",
+    "groupKey": "G-267",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"I'm ten years old.\" 時，對應的英文問句應該是：",
+    "options": [
+      "How old are you?",
+      "Where are you going?",
+      "How's the weather?",
+      "What's your name?"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) How old are you?\n💡【重點提示】詢問年齡問答，回答使用主詞+be動詞+數字+years old。\n📖【例句應用】A: How old are you? B: I'm ten years old.\n\n【選項對照】\n(A) How old are you? (正確答案)\n(B) Where are you going?\n(C) How's the weather?\n(D) What's your name?"
+  },
+  {
+    "id": "Q-268A",
+    "groupKey": "G-268",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"How's the weather?\" 時，最適當的回答是：",
+    "options": [
+      "My name is Bob.",
+      "It is sunny and hot.",
+      "Yes, I am.",
+      "It's a pencil."
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) It is sunny and hot.\n💡【重點提示】詢問天氣問答，回答天氣狀況形容詞。\n📖【例句應用】A: How's the weather? B: It is sunny and hot.\n\n【選項解析】\n(A) My name is Bob.\n(B) It is sunny and hot. (正確答案)\n(C) Yes, I am.\n(D) It's a pencil."
+  },
+  {
+    "id": "Q-268B",
+    "groupKey": "G-268",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"It is sunny and hot.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What's your name?",
+      "How's the weather?",
+      "How's the weather?",
+      "Where are you going?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) How's the weather?\n💡【重點提示】詢問天氣問答，回答天氣狀況形容詞。\n📖【例句應用】A: How's the weather? B: It is sunny and hot.\n\n【選項對照】\n(A) What's your name?\n(B) How's the weather? (正確答案)\n(C) How's the weather? (正確答案)\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-269A",
+    "groupKey": "G-269",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What's your name?\" 時，最適當的回答是：",
+    "options": [
+      "It's five o'clock.",
+      "My name is Bob.",
+      "I can draw.",
+      "I'm fine. Thank you."
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) My name is Bob.\n💡【重點提示】詢問姓名問答，回答 My name is... 或 I am...\n📖【例句應用】A: What's your name? B: My name is Bob.\n\n【選項解析】\n(A) It's five o'clock.\n(B) My name is Bob. (正確答案)\n(C) I can draw.\n(D) I'm fine. Thank you."
+  },
+  {
+    "id": "Q-269B",
+    "groupKey": "G-269",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"My name is Bob.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What's your name?",
+      "What's your name?",
+      "How's the weather?",
+      "Where are you going?"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) What's your name?\n💡【重點提示】詢問姓名問答，回答 My name is... 或 I am...\n📖【例句應用】A: What's your name? B: My name is Bob.\n\n【選項對照】\n(A) What's your name? (正確答案)\n(B) What's your name? (正確答案)\n(C) How's the weather?\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-270A",
+    "groupKey": "G-270",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What's this?\" 時，最適當的回答是：",
+    "options": [
+      "He is my dad.",
+      "It's five o'clock.",
+      "It's red.",
+      "It's an eraser."
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) It's an eraser.\n💡【重點提示】詢問近處單數物品問答，回答使用 It's a/an...\n📖【例句應用】A: What's this? B: It's an eraser.\n\n【選項解析】\n(A) He is my dad.\n(B) It's five o'clock.\n(C) It's red.\n(D) It's an eraser. (正確答案)"
+  },
+  {
+    "id": "Q-270B",
+    "groupKey": "G-270",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"It's an eraser.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What's your name?",
+      "What's this?",
+      "How's the weather?",
+      "Where are you going?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) What's this?\n💡【重點提示】詢問近處單數物品問答，回答使用 It's a/an...\n📖【例句應用】A: What's this? B: It's an eraser.\n\n【選項對照】\n(A) What's your name?\n(B) What's this? (正確答案)\n(C) How's the weather?\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-271A",
+    "groupKey": "G-271",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What color is it?\" 時，最適當的回答是：",
+    "options": [
+      "It's five o'clock.",
+      "It's red.",
+      "No, it isn't.",
+      "I like pizza."
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) It's red.\n💡【重點提示】詢問顏色問答，回答使用 It's + 顏色形容詞。\n📖【例句應用】A: What color is it? B: It's red.\n\n【選項解析】\n(A) It's five o'clock.\n(B) It's red. (正確答案)\n(C) No, it isn't.\n(D) I like pizza."
+  },
+  {
+    "id": "Q-271B",
+    "groupKey": "G-271",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"It's red.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What color is it?",
+      "Where are you going?",
+      "How's the weather?",
+      "What's your name?"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) What color is it?\n💡【重點提示】詢問顏色問答，回答使用 It's + 顏色形容詞。\n📖【例句應用】A: What color is it? B: It's red.\n\n【選項對照】\n(A) What color is it? (正確答案)\n(B) Where are you going?\n(C) How's the weather?\n(D) What's your name?"
+  },
+  {
+    "id": "Q-272A",
+    "groupKey": "G-272",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What time is it?\" 時，最適當的回答是：",
+    "options": [
+      "It's five o'clock.",
+      "It is sunny.",
+      "I want an orange.",
+      "I'm in the living room."
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) It's five o'clock.\n💡【重點提示】詢問整點時間問答，回答使用 It's + 數字 + o'clock.\n📖【例句應用】A: What time is it? B: It's five o'clock.\n\n【選項解析】\n(A) It's five o'clock. (正確答案)\n(B) It is sunny.\n(C) I want an orange.\n(D) I'm in the living room."
+  },
+  {
+    "id": "Q-272B",
+    "groupKey": "G-272",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"It's five o'clock.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What's your name?",
+      "Where are you going?",
+      "How's the weather?",
+      "What time is it?"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) What time is it?\n💡【重點提示】詢問整點時間問答，回答使用 It's + 數字 + o'clock.\n📖【例句應用】A: What time is it? B: It's five o'clock.\n\n【選項對照】\n(A) What's your name?\n(B) Where are you going?\n(C) How's the weather?\n(D) What time is it? (正確答案)"
+  },
+  {
+    "id": "Q-273A",
+    "groupKey": "G-273",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Who's he?\" 時，最適當的回答是：",
+    "options": [
+      "She is my mother.",
+      "It's a cat.",
+      "He is my father.",
+      "My name is Bob."
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) He is my father.\n💡【重點提示】詢問男性身份問答，回答使用 He is...\n📖【例句應用】A: Who's he? B: He is my father.\n\n【選項解析】\n(A) She is my mother.\n(B) It's a cat.\n(C) He is my father. (正確答案)\n(D) My name is Bob."
+  },
+  {
+    "id": "Q-273B",
+    "groupKey": "G-273",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"He is my father.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What's your name?",
+      "How's the weather?",
+      "Where are you going?",
+      "Who's he?"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) Who's he?\n💡【重點提示】詢問男性身份問答，回答使用 He is...\n📖【例句應用】A: Who's he? B: He is my father.\n\n【選項對照】\n(A) What's your name?\n(B) How's the weather?\n(C) Where are you going?\n(D) Who's he? (正確答案)"
+  },
+  {
+    "id": "Q-274A",
+    "groupKey": "G-274",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Is she a student?\" 時，最適當的回答是：",
+    "options": [
+      "Yes, I am.",
+      "Yes, she is.",
+      "Yes, she can.",
+      "Yes, he is."
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) Yes, she is.\n💡【重點提示】確認女性職業與身份之 Yes/No 問答。\n📖【例句應用】A: Is she a student? B: Yes, she is.\n\n【選項解析】\n(A) Yes, I am.\n(B) Yes, she is. (正確答案)\n(C) Yes, she can.\n(D) Yes, he is."
+  },
+  {
+    "id": "Q-274B",
+    "groupKey": "G-274",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"Yes, she is.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What's your name?",
+      "Is she a student?",
+      "Where are you going?",
+      "How's the weather?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) Is she a student?\n💡【重點提示】確認女性職業與身份之 Yes/No 問答。\n📖【例句應用】A: Is she a student? B: Yes, she is.\n\n【選項對照】\n(A) What's your name?\n(B) Is she a student? (正確答案)\n(C) Where are you going?\n(D) How's the weather?"
+  },
+  {
+    "id": "Q-275A",
+    "groupKey": "G-275",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Are you happy?\" 時，最適當的回答是：",
+    "options": [
+      "No, I can't.",
+      "No, I'm not.",
+      "No, I don't.",
+      "No, it isn't."
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) No, I'm not.\n💡【重點提示】詢問心情之 Yes/No 簡答，Are you 否定回答 No, I'm not.\n📖【例句應用】A: Are you happy? B: No, I'm not.\n\n【選項解析】\n(A) No, I can't.\n(B) No, I'm not. (正確答案)\n(C) No, I don't.\n(D) No, it isn't."
+  },
+  {
+    "id": "Q-275B",
+    "groupKey": "G-275",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"No, I'm not.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Are you happy?",
+      "How's the weather?",
+      "What's your name?",
+      "Where are you going?"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) Are you happy?\n💡【重點提示】詢問心情之 Yes/No 簡答，Are you 否定回答 No, I'm not.\n📖【例句應用】A: Are you happy? B: No, I'm not.\n\n【選項對照】\n(A) Are you happy? (正確答案)\n(B) How's the weather?\n(C) What's your name?\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-276A",
+    "groupKey": "G-276",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Is this a pencil?\" 時，最適當的回答是：",
+    "options": [
+      "Yes, she is.",
+      "Yes, I can.",
+      "Yes, I do.",
+      "Yes, it is."
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) Yes, it is.\n💡【重點提示】確認單數物品之 Yes/No 簡答，回答使用 Yes, it is.\n📖【例句應用】A: Is this a pencil? B: Yes, it is.\n\n【選項解析】\n(A) Yes, she is.\n(B) Yes, I can.\n(C) Yes, I do.\n(D) Yes, it is. (正確答案)"
+  },
+  {
+    "id": "Q-276B",
+    "groupKey": "G-276",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"Yes, it is.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What's your name?",
+      "How's the weather?",
+      "Is this a pencil?",
+      "Where are you going?"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) Is this a pencil?\n💡【重點提示】確認單數物品之 Yes/No 簡答，回答使用 Yes, it is.\n📖【例句應用】A: Is this a pencil? B: Yes, it is.\n\n【選項對照】\n(A) What's your name?\n(B) How's the weather?\n(C) Is this a pencil? (正確答案)\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-277A",
+    "groupKey": "G-277",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Where is the cat?\" 時，最適當的回答是：",
+    "options": [
+      "It's red.",
+      "It's three o'clock.",
+      "I like cats.",
+      "It's in the box."
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) It's in the box.\n💡【重點提示】詢問單數物品/動物方位問答，回答需使用介係詞 in/on/under/by.\n📖【例句應用】A: Where is the cat? B: It's in the box.\n\n【選項解析】\n(A) It's red.\n(B) It's three o'clock.\n(C) I like cats.\n(D) It's in the box. (正確答案)"
+  },
+  {
+    "id": "Q-277B",
+    "groupKey": "G-277",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"It's in the box.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Where are you going?",
+      "How's the weather?",
+      "What's your name?",
+      "Where is the cat?"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) Where is the cat?\n💡【重點提示】詢問單數物品/動物方位問答，回答需使用介係詞 in/on/under/by.\n📖【例句應用】A: Where is the cat? B: It's in the box.\n\n【選項對照】\n(A) Where are you going?\n(B) How's the weather?\n(C) What's your name?\n(D) Where is the cat? (正確答案)"
+  },
+  {
+    "id": "Q-278A",
+    "groupKey": "G-278",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Where are you?\" 時，最適當的回答是：",
+    "options": [
+      "I like pizza.",
+      "I'm in the living room.",
+      "I'm reading.",
+      "I want an orange."
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) I'm in the living room.\n💡【重點提示】詢問對方所在地，回答使用 I'm in/at + 地點名詞。\n📖【例句應用】A: Where are you? B: I'm in the living room.\n\n【選項解析】\n(A) I like pizza.\n(B) I'm in the living room. (正確答案)\n(C) I'm reading.\n(D) I want an orange."
+  },
+  {
+    "id": "Q-278B",
+    "groupKey": "G-278",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"I'm in the living room.\" 時，對應的英文問句應該是：",
+    "options": [
+      "How's the weather?",
+      "What's your name?",
+      "Where are you going?",
+      "Where are you?"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) Where are you?\n💡【重點提示】詢問對方所在地，回答使用 I'm in/at + 地點名詞。\n📖【例句應用】A: Where are you? B: I'm in the living room.\n\n【選項對照】\n(A) How's the weather?\n(B) What's your name?\n(C) Where are you going?\n(D) Where are you? (正確答案)"
+  },
+  {
+    "id": "Q-279A",
+    "groupKey": "G-279",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What are you doing?\" 時，最適當的回答是：",
+    "options": [
+      "I like pizza.",
+      "I can draw.",
+      "I want an orange.",
+      "I'm reading."
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) I'm reading.\n💡【重點提示】詢問正在進行的動作，回答使用現在進行式 I'm + V-ing.\n📖【例句應用】A: What are you doing? B: I'm reading.\n\n【選項解析】\n(A) I like pizza.\n(B) I can draw.\n(C) I want an orange.\n(D) I'm reading. (正確答案)"
+  },
+  {
+    "id": "Q-279B",
+    "groupKey": "G-279",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"I'm reading.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What are you doing?",
+      "How's the weather?",
+      "Where are you going?",
+      "What's your name?"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) What are you doing?\n💡【重點提示】詢問正在進行的動作，回答使用現在進行式 I'm + V-ing.\n📖【例句應用】A: What are you doing? B: I'm reading.\n\n【選項對照】\n(A) What are you doing? (正確答案)\n(B) How's the weather?\n(C) Where are you going?\n(D) What's your name?"
+  },
+  {
+    "id": "Q-280A",
+    "groupKey": "G-280",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What can you do?\" 時，最適當的回答是：",
+    "options": [
+      "I'm reading.",
+      "I want an orange.",
+      "I can draw.",
+      "I like pizza."
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) I can draw.\n💡【重點提示】詢問個人能力，回答使用 I can + 原形動詞.\n📖【例句應用】A: What can you do? B: I can draw.\n\n【選項解析】\n(A) I'm reading.\n(B) I want an orange.\n(C) I can draw. (正確答案)\n(D) I like pizza."
+  },
+  {
+    "id": "Q-280B",
+    "groupKey": "G-280",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"I can draw.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What can you do?",
+      "What's your name?",
+      "Where are you going?",
+      "How's the weather?"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) What can you do?\n💡【重點提示】詢問個人能力，回答使用 I can + 原形動詞.\n📖【例句應用】A: What can you do? B: I can draw.\n\n【選項對照】\n(A) What can you do? (正確答案)\n(B) What's your name?\n(C) Where are you going?\n(D) How's the weather?"
+  },
+  {
+    "id": "Q-281A",
+    "groupKey": "G-281",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Can you swim?\" 時，最適當的回答是：",
+    "options": [
+      "No, I'm not.",
+      "No, I can't.",
+      "Yes, I am.",
+      "Yes, I do."
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) No, I can't.\n💡【重點提示】詢問能力的 Yes/No 問答，Can you 否定回答 No, I can't.\n📖【例句應用】A: Can you swim? B: No, I can't.\n\n【選項解析】\n(A) No, I'm not.\n(B) No, I can't. (正確答案)\n(C) Yes, I am.\n(D) Yes, I do."
+  },
+  {
+    "id": "Q-281B",
+    "groupKey": "G-281",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"No, I can't.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Can you swim?",
+      "Where are you going?",
+      "How's the weather?",
+      "What's your name?"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) Can you swim?\n💡【重點提示】詢問能力的 Yes/No 問答，Can you 否定回答 No, I can't.\n📖【例句應用】A: Can you swim? B: No, I can't.\n\n【選項對照】\n(A) Can you swim? (正確答案)\n(B) Where are you going?\n(C) How's the weather?\n(D) What's your name?"
+  },
+  {
+    "id": "Q-282A",
+    "groupKey": "G-282",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What do you want?\" 時，最適當的回答是：",
+    "options": [
+      "She is my mother.",
+      "I want an orange.",
+      "I can draw.",
+      "I'm fine."
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) I want an orange.\n💡【重點提示】詢問需求，回答使用 I want a/an + 名詞.\n📖【例句應用】A: What do you want? B: I want an orange.\n\n【選項解析】\n(A) She is my mother.\n(B) I want an orange. (正確答案)\n(C) I can draw.\n(D) I'm fine."
+  },
+  {
+    "id": "Q-282B",
+    "groupKey": "G-282",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"I want an orange.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Where are you going?",
+      "What do you want?",
+      "How's the weather?",
+      "What's your name?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) What do you want?\n💡【重點提示】詢問需求，回答使用 I want a/an + 名詞.\n📖【例句應用】A: What do you want? B: I want an orange.\n\n【選項對照】\n(A) Where are you going?\n(B) What do you want? (正確答案)\n(C) How's the weather?\n(D) What's your name?"
+  },
+  {
+    "id": "Q-283A",
+    "groupKey": "G-283",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What do you like?\" 時，最適當的回答是：",
+    "options": [
+      "I can make pizza.",
+      "I have pizza.",
+      "I like pizza.",
+      "I want pizza."
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) I like pizza.\n💡【重點提示】詢問喜好，回答使用 I like + 名詞.\n📖【例句應用】A: What do you like? B: I like pizza.\n\n【選項解析】\n(A) I can make pizza.\n(B) I have pizza.\n(C) I like pizza. (正確答案)\n(D) I want pizza."
+  },
+  {
+    "id": "Q-283B",
+    "groupKey": "G-283",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"I like pizza.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Where are you going?",
+      "What do you like?",
+      "How's the weather?",
+      "What's your name?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) What do you like?\n💡【重點提示】詢問喜好，回答使用 I like + 名詞.\n📖【例句應用】A: What do you like? B: I like pizza.\n\n【選項對照】\n(A) Where are you going?\n(B) What do you like? (正確答案)\n(C) How's the weather?\n(D) What's your name?"
+  },
+  {
+    "id": "Q-284A",
+    "groupKey": "G-284",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Do you like apples?\" 時，最適當的回答是：",
+    "options": [
+      "Yes, I am.",
+      "Yes, I can.",
+      "Yes, I do.",
+      "Yes, it is."
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) Yes, I do.\n💡【重點提示】詢問喜好的 Yes/No 問答，Do you 肯定回答 Yes, I do.\n📖【例句應用】A: Do you like apples? B: Yes, I do.\n\n【選項解析】\n(A) Yes, I am.\n(B) Yes, I can.\n(C) Yes, I do. (正確答案)\n(D) Yes, it is."
+  },
+  {
+    "id": "Q-284B",
+    "groupKey": "G-284",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"Yes, I do.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Where are you going?",
+      "What's your name?",
+      "How's the weather?",
+      "Do you like apples?"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) Do you like apples?\n💡【重點提示】詢問喜好的 Yes/No 問答，Do you 肯定回答 Yes, I do.\n📖【例句應用】A: Do you like apples? B: Yes, I do.\n\n【選項對照】\n(A) Where are you going?\n(B) What's your name?\n(C) How's the weather?\n(D) Do you like apples? (正確答案)"
+  },
+  {
+    "id": "Q-285A",
+    "groupKey": "G-285",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What day is today?\" 時，最適當的回答是：",
+    "options": [
+      "It's five o'clock.",
+      "It's Monday.",
+      "It's red.",
+      "It's sunny."
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) It's Monday.\n💡【重點提示】詢問星期幾，回答使用 It's + 星期名詞.\n📖【例句應用】A: What day is today? B: It's Monday.\n\n【選項解析】\n(A) It's five o'clock.\n(B) It's Monday. (正確答案)\n(C) It's red.\n(D) It's sunny."
+  },
+  {
+    "id": "Q-285B",
+    "groupKey": "G-285",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"It's Monday.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What's your name?",
+      "Where are you going?",
+      "How's the weather?",
+      "What day is today?"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) What day is today?\n💡【重點提示】詢問星期幾，回答使用 It's + 星期名詞.\n📖【例句應用】A: What day is today? B: It's Monday.\n\n【選項對照】\n(A) What's your name?\n(B) Where are you going?\n(C) How's the weather?\n(D) What day is today? (正確答案)"
+  },
+  {
+    "id": "Q-286A",
+    "groupKey": "G-286",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"May I go to the restroom?\" 時，最適當的回答是：",
+    "options": [
+      "It's on the table.",
+      "Sure. / Yes, you may.",
+      "No, thank you.",
+      "I am fine."
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) Sure. / Yes, you may.\n💡【重點提示】請求許可情境句型 (學檢極高頻)，回答使用 Sure / Yes, you may.\n📖【例句應用】A: May I go to the restroom? B: Sure.\n\n【選項解析】\n(A) It's on the table.\n(B) Sure. / Yes, you may. (正確答案)\n(C) No, thank you.\n(D) I am fine."
+  },
+  {
+    "id": "Q-286B",
+    "groupKey": "G-286",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"Sure. / Yes, you may.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Where are you going?",
+      "What's your name?",
+      "How's the weather?",
+      "May I go to the restroom?"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) May I go to the restroom?\n💡【重點提示】請求許可情境句型 (學檢極高頻)，回答使用 Sure / Yes, you may.\n📖【例句應用】A: May I go to the restroom? B: Sure.\n\n【選項對照】\n(A) Where are you going?\n(B) What's your name?\n(C) How's the weather?\n(D) May I go to the restroom? (正確答案)"
+  },
+  {
+    "id": "Q-287A",
+    "groupKey": "G-287",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"May I borrow your pencil?\" 時，最適當的回答是：",
+    "options": [
+      "No, I don't.",
+      "Thank you.",
+      "Sure. Here you go.",
+      "It's on the table."
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) Sure. Here you go.\n💡【重點提示】借用物品情境句型 (學檢極高頻)，回答 Sure. Here you go.\n📖【例句應用】A: May I borrow your pencil? B: Sure. Here you go.\n\n【選項解析】\n(A) No, I don't.\n(B) Thank you.\n(C) Sure. Here you go. (正確答案)\n(D) It's on the table."
+  },
+  {
+    "id": "Q-287B",
+    "groupKey": "G-287",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"Sure. Here you go.\" 時，對應的英文問句應該是：",
+    "options": [
+      "May I borrow your pencil?",
+      "Where are you going?",
+      "What's your name?",
+      "How's the weather?"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) May I borrow your pencil?\n💡【重點提示】借用物品情境句型 (學檢極高頻)，回答 Sure. Here you go.\n📖【例句應用】A: May I borrow your pencil? B: Sure. Here you go.\n\n【選項對照】\n(A) May I borrow your pencil? (正確答案)\n(B) Where are you going?\n(C) What's your name?\n(D) How's the weather?"
+  },
+  {
+    "id": "Q-288A",
+    "groupKey": "G-288",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What's wrong?\" 時，最適當的回答是：",
+    "options": [
+      "I like apples.",
+      "I have a headache.",
+      "I am ten.",
+      "It's two o'clock."
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) I have a headache.\n💡【重點提示】關心對方身體不適或困境 (學檢極高頻)，回答 I have a + 症狀名詞.\n📖【例句應用】A: What's wrong? B: I have a headache.\n\n【選項解析】\n(A) I like apples.\n(B) I have a headache. (正確答案)\n(C) I am ten.\n(D) It's two o'clock."
+  },
+  {
+    "id": "Q-288B",
+    "groupKey": "G-288",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"I have a headache.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What's wrong?",
+      "Where are you going?",
+      "How's the weather?",
+      "What's your name?"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) What's wrong?\n💡【重點提示】關心對方身體不適或困境 (學檢極高頻)，回答 I have a + 症狀名詞.\n📖【例句應用】A: What's wrong? B: I have a headache.\n\n【選項對照】\n(A) What's wrong? (正確答案)\n(B) Where are you going?\n(C) How's the weather?\n(D) What's your name?"
+  },
+  {
+    "id": "Q-289A",
+    "groupKey": "G-289",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What do you do on Dragon Boat Festival?\" 時，最適當的回答是：",
+    "options": [
+      "We wear costumes.",
+      "We paint eggs.",
+      "We open gifts.",
+      "We stand eggs and eat zongzi."
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) We stand eggs and eat zongzi.\n💡【重點提示】端午節活動節慶情境題 (學檢高頻)。\n📖【例句應用】A: What do you do on Dragon Boat Festival? B: We stand eggs.\n\n【選項解析】\n(A) We wear costumes.\n(B) We paint eggs.\n(C) We open gifts.\n(D) We stand eggs and eat zongzi. (正確答案)"
+  },
+  {
+    "id": "Q-289B",
+    "groupKey": "G-289",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"We stand eggs and eat zongzi.\" 時，對應的英文問句應該是：",
+    "options": [
+      "How's the weather?",
+      "What's your name?",
+      "What do you do on Dragon Boat Festival?",
+      "Where are you going?"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) What do you do on Dragon Boat Festival?\n💡【重點提示】端午節活動節慶情境題 (學檢高頻)。\n📖【例句應用】A: What do you do on Dragon Boat Festival? B: We stand eggs.\n\n【選項對照】\n(A) How's the weather?\n(B) What's your name?\n(C) What do you do on Dragon Boat Festival? (正確答案)\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-290A",
+    "groupKey": "G-290",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What do you do on Mid-Autumn Festival?\" 時，最適當的回答是：",
+    "options": [
+      "We hunt for Easter eggs.",
+      "We eat mooncakes and watch the full moon.",
+      "We go trick or treating.",
+      "We row dragon boats."
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) We eat mooncakes and watch the full moon.\n💡【重點提示】中秋節活動節慶情境題。\n📖【例句應用】A: What do you do on Mid-Autumn Festival? B: We eat mooncakes.\n\n【選項解析】\n(A) We hunt for Easter eggs.\n(B) We eat mooncakes and watch the full moon. (正確答案)\n(C) We go trick or treating.\n(D) We row dragon boats."
+  },
+  {
+    "id": "Q-290B",
+    "groupKey": "G-290",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"We eat mooncakes and watch the full moon.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What do you do on Mid-Autumn Festival?",
+      "Where are you going?",
+      "How's the weather?",
+      "What's your name?"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) What do you do on Mid-Autumn Festival?\n💡【重點提示】中秋節活動節慶情境題。\n📖【例句應用】A: What do you do on Mid-Autumn Festival? B: We eat mooncakes.\n\n【選項對照】\n(A) What do you do on Mid-Autumn Festival? (正確答案)\n(B) Where are you going?\n(C) How's the weather?\n(D) What's your name?"
+  },
+  {
+    "id": "Q-291A",
+    "groupKey": "G-291",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What are you going to be on Halloween?\" 時，最適當的回答是：",
+    "options": [
+      "I'm eating apples.",
+      "I am at home.",
+      "I'm going to be a witch.",
+      "I am ten years old."
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) I'm going to be a witch.\n💡【重點提示】萬聖節變裝角色角色扮演情境題。\n📖【例句應用】A: What are you going to be on Halloween? B: I'm going to be a witch.\n\n【選項解析】\n(A) I'm eating apples.\n(B) I am at home.\n(C) I'm going to be a witch. (正確答案)\n(D) I am ten years old."
+  },
+  {
+    "id": "Q-291B",
+    "groupKey": "G-291",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"I'm going to be a witch.\" 時，對應的英文問句應該是：",
+    "options": [
+      "How's the weather?",
+      "Where are you going?",
+      "What are you going to be on Halloween?",
+      "What's your name?"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) What are you going to be on Halloween?\n💡【重點提示】萬聖節變裝角色角色扮演情境題。\n📖【例句應用】A: What are you going to be on Halloween? B: I'm going to be a witch.\n\n【選項對照】\n(A) How's the weather?\n(B) Where are you going?\n(C) What are you going to be on Halloween? (正確答案)\n(D) What's your name?"
+  },
+  {
+    "id": "Q-292A",
+    "groupKey": "G-292",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Look! What is that in the sky?\" 時，最適當的回答是：",
+    "options": [
+      "It's a computer.",
+      "It's a dog.",
+      "It's a book.",
+      "It's a drone."
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) It's a drone.\n💡【重點提示】現代科技趨勢生活科技情境題。\n📖【例句應用】A: Look! What is that in the sky? B: It's a drone.\n\n【選項解析】\n(A) It's a computer.\n(B) It's a dog.\n(C) It's a book.\n(D) It's a drone. (正確答案)"
+  },
+  {
+    "id": "Q-292B",
+    "groupKey": "G-292",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"It's a drone.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Look! What is that in the sky?",
+      "What's your name?",
+      "How's the weather?",
+      "Where are you going?"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) Look! What is that in the sky?\n💡【重點提示】現代科技趨勢生活科技情境題。\n📖【例句應用】A: Look! What is that in the sky? B: It's a drone.\n\n【選項對照】\n(A) Look! What is that in the sky? (正確答案)\n(B) What's your name?\n(C) How's the weather?\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-293A",
+    "groupKey": "G-293",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Where is my English book?\" 時，最適當的回答是：",
+    "options": [
+      "Yes, I can.",
+      "It is under your chair.",
+      "It is three o'clock.",
+      "I am a student."
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) It is under your chair.\n💡【重點提示】物品方位尋找句型。\n📖【例句應用】A: Where is my English book? B: It is under your chair.\n\n【選項解析】\n(A) Yes, I can.\n(B) It is under your chair. (正確答案)\n(C) It is three o'clock.\n(D) I am a student."
+  },
+  {
+    "id": "Q-293B",
+    "groupKey": "G-293",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"It is under your chair.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Where is my English book?",
+      "How's the weather?",
+      "Where are you going?",
+      "What's your name?"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) Where is my English book?\n💡【重點提示】物品方位尋找句型。\n📖【例句應用】A: Where is my English book? B: It is under your chair.\n\n【選項對照】\n(A) Where is my English book? (正確答案)\n(B) How's the weather?\n(C) Where are you going?\n(D) What's your name?"
+  },
+  {
+    "id": "Q-294A",
+    "groupKey": "G-294",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Whose cap is this?\" 時，最適當的回答是：",
+    "options": [
+      "Yes, it is.",
+      "It's a dog.",
+      "It's blue.",
+      "It's John's cap."
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) It's John's cap.\n💡【重點提示】詢問物品所有權句型 (Whose)。\n📖【例句應用】A: Whose cap is this? B: It's John's cap.\n\n【選項解析】\n(A) Yes, it is.\n(B) It's a dog.\n(C) It's blue.\n(D) It's John's cap. (正確答案)"
+  },
+  {
+    "id": "Q-294B",
+    "groupKey": "G-294",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"It's John's cap.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Whose cap is this?",
+      "Where are you going?",
+      "What's your name?",
+      "How's the weather?"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) Whose cap is this?\n💡【重點提示】詢問物品所有權句型 (Whose)。\n📖【例句應用】A: Whose cap is this? B: It's John's cap.\n\n【選項對照】\n(A) Whose cap is this? (正確答案)\n(B) Where are you going?\n(C) What's your name?\n(D) How's the weather?"
+  },
+  {
+    "id": "Q-295A",
+    "groupKey": "G-295",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"How many pencils do you have?\" 時，最適當的回答是：",
+    "options": [
+      "It is red.",
+      "Yes, I do.",
+      "I have three pencils.",
+      "I am fine."
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) I have three pencils.\n💡【重點提示】詢問數量句型 (How many + 複數名詞)。\n📖【例句應用】A: How many pencils do you have? B: I have three pencils.\n\n【選項解析】\n(A) It is red.\n(B) Yes, I do.\n(C) I have three pencils. (正確答案)\n(D) I am fine."
+  },
+  {
+    "id": "Q-295B",
+    "groupKey": "G-295",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"I have three pencils.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Where are you going?",
+      "What's your name?",
+      "How many pencils do you have?",
+      "How's the weather?"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) How many pencils do you have?\n💡【重點提示】詢問數量句型 (How many + 複數名詞)。\n📖【例句應用】A: How many pencils do you have? B: I have three pencils.\n\n【選項對照】\n(A) Where are you going?\n(B) What's your name?\n(C) How many pencils do you have? (正確答案)\n(D) How's the weather?"
+  },
+  {
+    "id": "Q-296A",
+    "groupKey": "G-296",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What does your father do?\" 時，最適當的回答是：",
+    "options": [
+      "He is forty.",
+      "He is in the kitchen.",
+      "He is a firefighter.",
+      "He likes milk."
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) He is a firefighter.\n💡【重點提示】詢問職業句型 (What does... do?)。\n📖【例句應用】A: What does your father do? B: He is a firefighter.\n\n【選項解析】\n(A) He is forty.\n(B) He is in the kitchen.\n(C) He is a firefighter. (正確答案)\n(D) He likes milk."
+  },
+  {
+    "id": "Q-296B",
+    "groupKey": "G-296",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"He is a firefighter.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What does your father do?",
+      "Where are you going?",
+      "How's the weather?",
+      "What's your name?"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) What does your father do?\n💡【重點提示】詢問職業句型 (What does... do?)。\n📖【例句應用】A: What does your father do? B: He is a firefighter.\n\n【選項對照】\n(A) What does your father do? (正確答案)\n(B) Where are you going?\n(C) How's the weather?\n(D) What's your name?"
+  },
+  {
+    "id": "Q-297A",
+    "groupKey": "G-297",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What does your mother do?\" 時，最適當的回答是：",
+    "options": [
+      "She is home.",
+      "She likes tea.",
+      "She is happy.",
+      "She is a doctor."
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) She is a doctor.\n💡【重點提示】詢問母親職業句型。\n📖【例句應用】A: What does your mother do? B: She is a doctor.\n\n【選項解析】\n(A) She is home.\n(B) She likes tea.\n(C) She is happy.\n(D) She is a doctor. (正確答案)"
+  },
+  {
+    "id": "Q-297B",
+    "groupKey": "G-297",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"She is a doctor.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What's your name?",
+      "What does your mother do?",
+      "How's the weather?",
+      "Where are you going?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) What does your mother do?\n💡【重點提示】詢問母親職業句型。\n📖【例句應用】A: What does your mother do? B: She is a doctor.\n\n【選項對照】\n(A) What's your name?\n(B) What does your mother do? (正確答案)\n(C) How's the weather?\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-298A",
+    "groupKey": "G-298",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Where is your brother going?\" 時，最適當的回答是：",
+    "options": [
+      "He is fine.",
+      "He is going to the park.",
+      "He is ten.",
+      "He likes soccer."
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) He is going to the park.\n💡【重點提示】詢問目的地進行式句型 (Where is... going?)。\n📖【例句應用】A: Where is your brother going? B: He is going to the park.\n\n【選項解析】\n(A) He is fine.\n(B) He is going to the park. (正確答案)\n(C) He is ten.\n(D) He likes soccer."
+  },
+  {
+    "id": "Q-298B",
+    "groupKey": "G-298",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"He is going to the park.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Where are you going?",
+      "What's your name?",
+      "How's the weather?",
+      "Where is your brother going?"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) Where is your brother going?\n💡【重點提示】詢問目的地進行式句型 (Where is... going?)。\n📖【例句應用】A: Where is your brother going? B: He is going to the park.\n\n【選項對照】\n(A) Where are you going?\n(B) What's your name?\n(C) How's the weather?\n(D) Where is your brother going? (正確答案)"
+  },
+  {
+    "id": "Q-299A",
+    "groupKey": "G-299",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"How do you go to school?\" 時，最適當的回答是：",
+    "options": [
+      "I am nine.",
+      "I go to school by bus.",
+      "I like school.",
+      "It's sunny."
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) I go to school by bus.\n💡【重點提示】詢問交通工具方式句型 (How do you go to...?)。\n📖【例句應用】A: How do you go to school? B: I go to school by bus.\n\n【選項解析】\n(A) I am nine.\n(B) I go to school by bus. (正確答案)\n(C) I like school.\n(D) It's sunny."
+  },
+  {
+    "id": "Q-299B",
+    "groupKey": "G-299",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"I go to school by bus.\" 時，對應的英文問句應該是：",
+    "options": [
+      "How do you go to school?",
+      "How's the weather?",
+      "What's your name?",
+      "Where are you going?"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) How do you go to school?\n💡【重點提示】詢問交通工具方式句型 (How do you go to...?)。\n📖【例句應用】A: How do you go to school? B: I go to school by bus.\n\n【選項對照】\n(A) How do you go to school? (正確答案)\n(B) How's the weather?\n(C) What's your name?\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-300A",
+    "groupKey": "G-300",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"How does she go to the market?\" 時，最適當的回答是：",
+    "options": [
+      "She buys apples.",
+      "She is hungry.",
+      "She goes to the market on foot.",
+      "She likes fish."
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) She goes to the market on foot.\n💡【重點提示】詢問步行或交通工具 (on foot 步行)。\n📖【例句應用】A: How does she go to the market? B: She goes to the market on foot.\n\n【選項解析】\n(A) She buys apples.\n(B) She is hungry.\n(C) She goes to the market on foot. (正確答案)\n(D) She likes fish."
+  },
+  {
+    "id": "Q-300B",
+    "groupKey": "G-300",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"She goes to the market on foot.\" 時，對應的英文問句應該是：",
+    "options": [
+      "How's the weather?",
+      "What's your name?",
+      "How does she go to the market?",
+      "Where are you going?"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) How does she go to the market?\n💡【重點提示】詢問步行或交通工具 (on foot 步行)。\n📖【例句應用】A: How does she go to the market? B: She goes to the market on foot.\n\n【選項對照】\n(A) How's the weather?\n(B) What's your name?\n(C) How does she go to the market? (正確答案)\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-301A",
+    "groupKey": "G-301",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What do you want for breakfast?\" 時，最適當的回答是：",
+    "options": [
+      "I want milk and bread.",
+      "I like blue.",
+      "I am swimming.",
+      "It is eight o'clock."
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) I want milk and bread.\n💡【重點提示】點餐與飲食需求問答。\n📖【例句應用】A: What do you want for breakfast? B: I want milk and bread.\n\n【選項解析】\n(A) I want milk and bread. (正確答案)\n(B) I like blue.\n(C) I am swimming.\n(D) It is eight o'clock."
+  },
+  {
+    "id": "Q-301B",
+    "groupKey": "G-301",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"I want milk and bread.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Where are you going?",
+      "What do you want for breakfast?",
+      "What's your name?",
+      "How's the weather?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) What do you want for breakfast?\n💡【重點提示】點餐與飲食需求問答。\n📖【例句應用】A: What do you want for breakfast? B: I want milk and bread.\n\n【選項對照】\n(A) Where are you going?\n(B) What do you want for breakfast? (正確答案)\n(C) What's your name?\n(D) How's the weather?"
+  },
+  {
+    "id": "Q-302A",
+    "groupKey": "G-302",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Would you like some juice?\" 時，最適當的回答是：",
+    "options": [
+      "Yes, I am.",
+      "No, it isn't.",
+      "Yes, I can.",
+      "Yes, please."
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) Yes, please.\n💡【重點提示】禮貌款待提議之 Yes/No 答句 (Yes, please / No, thank you)。\n📖【例句應用】A: Would you like some juice? B: Yes, please.\n\n【選項解析】\n(A) Yes, I am.\n(B) No, it isn't.\n(C) Yes, I can.\n(D) Yes, please. (正確答案)"
+  },
+  {
+    "id": "Q-302B",
+    "groupKey": "G-302",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"Yes, please.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What's your name?",
+      "How's the weather?",
+      "Where are you going?",
+      "Would you like some juice?"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) Would you like some juice?\n💡【重點提示】禮貌款待提議之 Yes/No 答句 (Yes, please / No, thank you)。\n📖【例句應用】A: Would you like some juice? B: Yes, please.\n\n【選項對照】\n(A) What's your name?\n(B) How's the weather?\n(C) Where are you going?\n(D) Would you like some juice? (正確答案)"
+  },
+  {
+    "id": "Q-303A",
+    "groupKey": "G-303",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Do you have a water bottle?\" 時，最適當的回答是：",
+    "options": [
+      "Yes, I do.",
+      "Yes, it is.",
+      "Yes, I am.",
+      "Yes, I can."
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) Yes, I do.\n💡【重點提示】確認擁有物品之 Yes/No 簡答。\n📖【例句應用】A: Do you have a water bottle? B: Yes, I do.\n\n【選項解析】\n(A) Yes, I do. (正確答案)\n(B) Yes, it is.\n(C) Yes, I am.\n(D) Yes, I can."
+  },
+  {
+    "id": "Q-303B",
+    "groupKey": "G-303",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"Yes, I do.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What's your name?",
+      "Do you have a water bottle?",
+      "How's the weather?",
+      "Where are you going?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) Do you have a water bottle?\n💡【重點提示】確認擁有物品之 Yes/No 簡答。\n📖【例句應用】A: Do you have a water bottle? B: Yes, I do.\n\n【選項對照】\n(A) What's your name?\n(B) Do you have a water bottle? (正確答案)\n(C) How's the weather?\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-304A",
+    "groupKey": "G-304",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Is there a computer in the classroom?\" 時，最適當的回答是：",
+    "options": [
+      "Yes, he is.",
+      "Yes, there is.",
+      "Yes, I do.",
+      "Yes, it is."
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) Yes, there is.\n💡【重點提示】There is/are 存在句型之確認簡答。\n📖【例句應用】A: Is there a computer in the classroom? B: Yes, there is.\n\n【選項解析】\n(A) Yes, he is.\n(B) Yes, there is. (正確答案)\n(C) Yes, I do.\n(D) Yes, it is."
+  },
+  {
+    "id": "Q-304B",
+    "groupKey": "G-304",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"Yes, there is.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What's your name?",
+      "Where are you going?",
+      "How's the weather?",
+      "Is there a computer in the classroom?"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) Is there a computer in the classroom?\n💡【重點提示】There is/are 存在句型之確認簡答。\n📖【例句應用】A: Is there a computer in the classroom? B: Yes, there is.\n\n【選項對照】\n(A) What's your name?\n(B) Where are you going?\n(C) How's the weather?\n(D) Is there a computer in the classroom? (正確答案)"
+  },
+  {
+    "id": "Q-305A",
+    "groupKey": "G-305",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Are there any apples in the box?\" 時，最適當的回答是：",
+    "options": [
+      "No, there aren't.",
+      "No, it isn't.",
+      "No, I am not.",
+      "No, I don't."
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) No, there aren't.\n💡【重點提示】There are 複數存在句型之否定簡答。\n📖【例句應用】A: Are there any apples in the box? B: No, there aren't.\n\n【選項解析】\n(A) No, there aren't. (正確答案)\n(B) No, it isn't.\n(C) No, I am not.\n(D) No, I don't."
+  },
+  {
+    "id": "Q-305B",
+    "groupKey": "G-305",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"No, there aren't.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Are there any apples in the box?",
+      "What's your name?",
+      "Where are you going?",
+      "How's the weather?"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) Are there any apples in the box?\n💡【重點提示】There are 複數存在句型之否定簡答。\n📖【例句應用】A: Are there any apples in the box? B: No, there aren't.\n\n【選項對照】\n(A) Are there any apples in the box? (正確答案)\n(B) What's your name?\n(C) Where are you going?\n(D) How's the weather?"
+  },
+  {
+    "id": "Q-306A",
+    "groupKey": "G-306",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What is your favorite subject?\" 時，最適當的回答是：",
+    "options": [
+      "I want a sandwich.",
+      "I like blue.",
+      "My favorite subject is English.",
+      "I am ten."
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) My favorite subject is English.\n💡【重點提示】詢問最喜愛的學科領域。\n📖【例句應用】A: What is your favorite subject? B: My favorite subject is English.\n\n【選項解析】\n(A) I want a sandwich.\n(B) I like blue.\n(C) My favorite subject is English. (正確答案)\n(D) I am ten."
+  },
+  {
+    "id": "Q-306B",
+    "groupKey": "G-306",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"My favorite subject is English.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What's your name?",
+      "How's the weather?",
+      "What is your favorite subject?",
+      "Where are you going?"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) What is your favorite subject?\n💡【重點提示】詢問最喜愛的學科領域。\n📖【例句應用】A: What is your favorite subject? B: My favorite subject is English.\n\n【選項對照】\n(A) What's your name?\n(B) How's the weather?\n(C) What is your favorite subject? (正確答案)\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-307A",
+    "groupKey": "G-307",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What is your favorite color?\" 時，最適當的回答是：",
+    "options": [
+      "My favorite color is blue.",
+      "I like dogs.",
+      "I can swim.",
+      "It is five o'clock."
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) My favorite color is blue.\n💡【重點提示】詢問最喜愛的顏色。\n📖【例句應用】A: What is your favorite color? B: My favorite color is blue.\n\n【選項解析】\n(A) My favorite color is blue. (正確答案)\n(B) I like dogs.\n(C) I can swim.\n(D) It is five o'clock."
+  },
+  {
+    "id": "Q-307B",
+    "groupKey": "G-307",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"My favorite color is blue.\" 時，對應的英文問句應該是：",
+    "options": [
+      "How's the weather?",
+      "What's your name?",
+      "Where are you going?",
+      "What is your favorite color?"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) What is your favorite color?\n💡【重點提示】詢問最喜愛的顏色。\n📖【例句應用】A: What is your favorite color? B: My favorite color is blue.\n\n【選項對照】\n(A) How's the weather?\n(B) What's your name?\n(C) Where are you going?\n(D) What is your favorite color? (正確答案)"
+  },
+  {
+    "id": "Q-308A",
+    "groupKey": "G-308",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What is your favorite animal?\" 時，最適當的回答是：",
+    "options": [
+      "Yes, I do.",
+      "I am fine.",
+      "My favorite animal is the rabbit.",
+      "It is green."
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) My favorite animal is the rabbit.\n💡【重點提示】詢問最喜愛的動物。\n📖【例句應用】A: What is your favorite animal? B: My favorite animal is the rabbit.\n\n【選項解析】\n(A) Yes, I do.\n(B) I am fine.\n(C) My favorite animal is the rabbit. (正確答案)\n(D) It is green."
+  },
+  {
+    "id": "Q-308B",
+    "groupKey": "G-308",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"My favorite animal is the rabbit.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Where are you going?",
+      "What is your favorite animal?",
+      "How's the weather?",
+      "What's your name?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) What is your favorite animal?\n💡【重點提示】詢問最喜愛的動物。\n📖【例句應用】A: What is your favorite animal? B: My favorite animal is the rabbit.\n\n【選項對照】\n(A) Where are you going?\n(B) What is your favorite animal? (正確答案)\n(C) How's the weather?\n(D) What's your name?"
+  },
+  {
+    "id": "Q-309A",
+    "groupKey": "G-309",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Why are you wearing a coat?\" 時，最適當的回答是：",
+    "options": [
+      "Because it is cold outside.",
+      "It's two o'clock.",
+      "I am nine.",
+      "Yes, I do."
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) Because it is cold outside.\n💡【重點提示】Why 詢問原因，答句搭配 Because...\n📖【例句應用】A: Why are you wearing a coat? B: Because it is cold outside.\n\n【選項解析】\n(A) Because it is cold outside. (正確答案)\n(B) It's two o'clock.\n(C) I am nine.\n(D) Yes, I do."
+  },
+  {
+    "id": "Q-309B",
+    "groupKey": "G-309",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"Because it is cold outside.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Where are you going?",
+      "How's the weather?",
+      "Why are you wearing a coat?",
+      "What's your name?"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) Why are you wearing a coat?\n💡【重點提示】Why 詢問原因，答句搭配 Because...\n📖【例句應用】A: Why are you wearing a coat? B: Because it is cold outside.\n\n【選項對照】\n(A) Where are you going?\n(B) How's the weather?\n(C) Why are you wearing a coat? (正確答案)\n(D) What's your name?"
+  },
+  {
+    "id": "Q-310A",
+    "groupKey": "G-310",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Can I help you?\" 時，最適當的回答是：",
+    "options": [
+      "No, I am not.",
+      "I am fine.",
+      "Yes, please. I'm looking for a notebook.",
+      "It's red."
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) Yes, please. I'm looking for a notebook.\n💡【重點提示】商店與服務人員主動提供協助用語。\n📖【例句應用】A: Can I help you? B: Yes, please. I'm looking for a notebook.\n\n【選項解析】\n(A) No, I am not.\n(B) I am fine.\n(C) Yes, please. I'm looking for a notebook. (正確答案)\n(D) It's red."
+  },
+  {
+    "id": "Q-310B",
+    "groupKey": "G-310",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"Yes, please. I'm looking for a notebook.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Where are you going?",
+      "What's your name?",
+      "Can I help you?",
+      "How's the weather?"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) Can I help you?\n💡【重點提示】商店與服務人員主動提供協助用語。\n📖【例句應用】A: Can I help you? B: Yes, please. I'm looking for a notebook.\n\n【選項對照】\n(A) Where are you going?\n(B) What's your name?\n(C) Can I help you? (正確答案)\n(D) How's the weather?"
+  },
+  {
+    "id": "Q-311A",
+    "groupKey": "G-311",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"How much is this pencil case?\" 時，最適當的回答是：",
+    "options": [
+      "Yes, please.",
+      "It is fifty dollars.",
+      "It is ten.",
+      "It is blue."
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) It is fifty dollars.\n💡【重點提示】How much 詢問價格問答。\n📖【例句應用】A: How much is this pencil case? B: It is fifty dollars.\n\n【選項解析】\n(A) Yes, please.\n(B) It is fifty dollars. (正確答案)\n(C) It is ten.\n(D) It is blue."
+  },
+  {
+    "id": "Q-311B",
+    "groupKey": "G-311",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"It is fifty dollars.\" 時，對應的英文問句應該是：",
+    "options": [
+      "How much is this pencil case?",
+      "How's the weather?",
+      "What's your name?",
+      "Where are you going?"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) How much is this pencil case?\n💡【重點提示】How much 詢問價格問答。\n📖【例句應用】A: How much is this pencil case? B: It is fifty dollars.\n\n【選項對照】\n(A) How much is this pencil case? (正確答案)\n(B) How's the weather?\n(C) What's your name?\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-312A",
+    "groupKey": "G-312",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What season do you like best?\" 時，最適當的回答是：",
+    "options": [
+      "I want ice cream.",
+      "It is hot.",
+      "I am swimming.",
+      "I like summer best."
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) I like summer best.\n💡【重點提示】詢問最喜愛的季節。\n📖【例句應用】A: What season do you like best? B: I like summer best.\n\n【選項解析】\n(A) I want ice cream.\n(B) It is hot.\n(C) I am swimming.\n(D) I like summer best. (正確答案)"
+  },
+  {
+    "id": "Q-312B",
+    "groupKey": "G-312",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"I like summer best.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What's your name?",
+      "Where are you going?",
+      "What season do you like best?",
+      "How's the weather?"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) What season do you like best?\n💡【重點提示】詢問最喜愛的季節。\n📖【例句應用】A: What season do you like best? B: I like summer best.\n\n【選項對照】\n(A) What's your name?\n(B) Where are you going?\n(C) What season do you like best? (正確答案)\n(D) How's the weather?"
+  },
+  {
+    "id": "Q-313A",
+    "groupKey": "G-313",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"When is your birthday?\" 時，最適當的回答是：",
+    "options": [
+      "I am ten.",
+      "It is fine.",
+      "Yes, I do.",
+      "It is on May 5th."
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) It is on May 5th.\n💡【重點提示】When 詢問日期與時間。\n📖【例句應用】A: When is your birthday? B: It is on May 5th.\n\n【選項解析】\n(A) I am ten.\n(B) It is fine.\n(C) Yes, I do.\n(D) It is on May 5th. (正確答案)"
+  },
+  {
+    "id": "Q-313B",
+    "groupKey": "G-313",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"It is on May 5th.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What's your name?",
+      "Where are you going?",
+      "How's the weather?",
+      "When is your birthday?"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) When is your birthday?\n💡【重點提示】When 詢問日期與時間。\n📖【例句應用】A: When is your birthday? B: It is on May 5th.\n\n【選項對照】\n(A) What's your name?\n(B) Where are you going?\n(C) How's the weather?\n(D) When is your birthday? (正確答案)"
+  },
+  {
+    "id": "Q-314A",
+    "groupKey": "G-314",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Where is my English book? (變式2)\" 時，最適當的回答是：",
+    "options": [
+      "It is under your chair.",
+      "It is three o'clock.",
+      "Yes, I can.",
+      "I am a student."
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) It is under your chair.\n💡【重點提示】物品方位尋找句型。 [學檢模擬情境題組2]\n📖【例句應用】A: Where is my English book? B: It is under your chair.\n\n【選項解析】\n(A) It is under your chair. (正確答案)\n(B) It is three o'clock.\n(C) Yes, I can.\n(D) I am a student."
+  },
+  {
+    "id": "Q-314B",
+    "groupKey": "G-314",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"It is under your chair.\" 時，對應的英文問句應該是：",
+    "options": [
+      "How's the weather?",
+      "Where is my English book? (變式2)",
+      "What's your name?",
+      "Where are you going?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) Where is my English book? (變式2)\n💡【重點提示】物品方位尋找句型。 [學檢模擬情境題組2]\n📖【例句應用】A: Where is my English book? B: It is under your chair.\n\n【選項對照】\n(A) How's the weather?\n(B) Where is my English book? (變式2) (正確答案)\n(C) What's your name?\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-315A",
+    "groupKey": "G-315",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Whose cap is this? (變式2)\" 時，最適當的回答是：",
+    "options": [
+      "It's blue.",
+      "It's a dog.",
+      "It's John's cap.",
+      "Yes, it is."
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) It's John's cap.\n💡【重點提示】詢問物品所有權句型 (Whose)。 [學檢模擬情境題組2]\n📖【例句應用】A: Whose cap is this? B: It's John's cap.\n\n【選項解析】\n(A) It's blue.\n(B) It's a dog.\n(C) It's John's cap. (正確答案)\n(D) Yes, it is."
+  },
+  {
+    "id": "Q-315B",
+    "groupKey": "G-315",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"It's John's cap.\" 時，對應的英文問句應該是：",
+    "options": [
+      "How's the weather?",
+      "Where are you going?",
+      "Whose cap is this? (變式2)",
+      "What's your name?"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) Whose cap is this? (變式2)\n💡【重點提示】詢問物品所有權句型 (Whose)。 [學檢模擬情境題組2]\n📖【例句應用】A: Whose cap is this? B: It's John's cap.\n\n【選項對照】\n(A) How's the weather?\n(B) Where are you going?\n(C) Whose cap is this? (變式2) (正確答案)\n(D) What's your name?"
+  },
+  {
+    "id": "Q-316A",
+    "groupKey": "G-316",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"How many pencils do you have? (變式2)\" 時，最適當的回答是：",
+    "options": [
+      "I am fine.",
+      "I have three pencils.",
+      "Yes, I do.",
+      "It is red."
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) I have three pencils.\n💡【重點提示】詢問數量句型 (How many + 複數名詞)。 [學檢模擬情境題組2]\n📖【例句應用】A: How many pencils do you have? B: I have three pencils.\n\n【選項解析】\n(A) I am fine.\n(B) I have three pencils. (正確答案)\n(C) Yes, I do.\n(D) It is red."
+  },
+  {
+    "id": "Q-316B",
+    "groupKey": "G-316",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"I have three pencils.\" 時，對應的英文問句應該是：",
+    "options": [
+      "How many pencils do you have? (變式2)",
+      "What's your name?",
+      "Where are you going?",
+      "How's the weather?"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) How many pencils do you have? (變式2)\n💡【重點提示】詢問數量句型 (How many + 複數名詞)。 [學檢模擬情境題組2]\n📖【例句應用】A: How many pencils do you have? B: I have three pencils.\n\n【選項對照】\n(A) How many pencils do you have? (變式2) (正確答案)\n(B) What's your name?\n(C) Where are you going?\n(D) How's the weather?"
+  },
+  {
+    "id": "Q-317A",
+    "groupKey": "G-317",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What does your father do? (變式2)\" 時，最適當的回答是：",
+    "options": [
+      "He is in the kitchen.",
+      "He likes milk.",
+      "He is forty.",
+      "He is a firefighter."
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) He is a firefighter.\n💡【重點提示】詢問職業句型 (What does... do?)。 [學檢模擬情境題組2]\n📖【例句應用】A: What does your father do? B: He is a firefighter.\n\n【選項解析】\n(A) He is in the kitchen.\n(B) He likes milk.\n(C) He is forty.\n(D) He is a firefighter. (正確答案)"
+  },
+  {
+    "id": "Q-317B",
+    "groupKey": "G-317",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"He is a firefighter.\" 時，對應的英文問句應該是：",
+    "options": [
+      "How's the weather?",
+      "What does your father do? (變式2)",
+      "Where are you going?",
+      "What's your name?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) What does your father do? (變式2)\n💡【重點提示】詢問職業句型 (What does... do?)。 [學檢模擬情境題組2]\n📖【例句應用】A: What does your father do? B: He is a firefighter.\n\n【選項對照】\n(A) How's the weather?\n(B) What does your father do? (變式2) (正確答案)\n(C) Where are you going?\n(D) What's your name?"
+  },
+  {
+    "id": "Q-318A",
+    "groupKey": "G-318",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What does your mother do? (變式2)\" 時，最適當的回答是：",
+    "options": [
+      "She is happy.",
+      "She likes tea.",
+      "She is home.",
+      "She is a doctor."
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) She is a doctor.\n💡【重點提示】詢問母親職業句型。 [學檢模擬情境題組2]\n📖【例句應用】A: What does your mother do? B: She is a doctor.\n\n【選項解析】\n(A) She is happy.\n(B) She likes tea.\n(C) She is home.\n(D) She is a doctor. (正確答案)"
+  },
+  {
+    "id": "Q-318B",
+    "groupKey": "G-318",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"She is a doctor.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What's your name?",
+      "Where are you going?",
+      "How's the weather?",
+      "What does your mother do? (變式2)"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) What does your mother do? (變式2)\n💡【重點提示】詢問母親職業句型。 [學檢模擬情境題組2]\n📖【例句應用】A: What does your mother do? B: She is a doctor.\n\n【選項對照】\n(A) What's your name?\n(B) Where are you going?\n(C) How's the weather?\n(D) What does your mother do? (變式2) (正確答案)"
+  },
+  {
+    "id": "Q-319A",
+    "groupKey": "G-319",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Where is your brother going? (變式2)\" 時，最適當的回答是：",
+    "options": [
+      "He likes soccer.",
+      "He is fine.",
+      "He is ten.",
+      "He is going to the park."
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) He is going to the park.\n💡【重點提示】詢問目的地進行式句型 (Where is... going?)。 [學檢模擬情境題組2]\n📖【例句應用】A: Where is your brother going? B: He is going to the park.\n\n【選項解析】\n(A) He likes soccer.\n(B) He is fine.\n(C) He is ten.\n(D) He is going to the park. (正確答案)"
+  },
+  {
+    "id": "Q-319B",
+    "groupKey": "G-319",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"He is going to the park.\" 時，對應的英文問句應該是：",
+    "options": [
+      "How's the weather?",
+      "What's your name?",
+      "Where are you going?",
+      "Where is your brother going? (變式2)"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) Where is your brother going? (變式2)\n💡【重點提示】詢問目的地進行式句型 (Where is... going?)。 [學檢模擬情境題組2]\n📖【例句應用】A: Where is your brother going? B: He is going to the park.\n\n【選項對照】\n(A) How's the weather?\n(B) What's your name?\n(C) Where are you going?\n(D) Where is your brother going? (變式2) (正確答案)"
+  },
+  {
+    "id": "Q-320A",
+    "groupKey": "G-320",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"How do you go to school? (變式2)\" 時，最適當的回答是：",
+    "options": [
+      "I go to school by bus.",
+      "It's sunny.",
+      "I like school.",
+      "I am nine."
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) I go to school by bus.\n💡【重點提示】詢問交通工具方式句型 (How do you go to...?)。 [學檢模擬情境題組2]\n📖【例句應用】A: How do you go to school? B: I go to school by bus.\n\n【選項解析】\n(A) I go to school by bus. (正確答案)\n(B) It's sunny.\n(C) I like school.\n(D) I am nine."
+  },
+  {
+    "id": "Q-320B",
+    "groupKey": "G-320",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"I go to school by bus.\" 時，對應的英文問句應該是：",
+    "options": [
+      "How's the weather?",
+      "What's your name?",
+      "How do you go to school? (變式2)",
+      "Where are you going?"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) How do you go to school? (變式2)\n💡【重點提示】詢問交通工具方式句型 (How do you go to...?)。 [學檢模擬情境題組2]\n📖【例句應用】A: How do you go to school? B: I go to school by bus.\n\n【選項對照】\n(A) How's the weather?\n(B) What's your name?\n(C) How do you go to school? (變式2) (正確答案)\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-321A",
+    "groupKey": "G-321",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"How does she go to the market? (變式2)\" 時，最適當的回答是：",
+    "options": [
+      "She is hungry.",
+      "She goes to the market on foot.",
+      "She likes fish.",
+      "She buys apples."
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) She goes to the market on foot.\n💡【重點提示】詢問步行或交通工具 (on foot 步行)。 [學檢模擬情境題組2]\n📖【例句應用】A: How does she go to the market? B: She goes to the market on foot.\n\n【選項解析】\n(A) She is hungry.\n(B) She goes to the market on foot. (正確答案)\n(C) She likes fish.\n(D) She buys apples."
+  },
+  {
+    "id": "Q-321B",
+    "groupKey": "G-321",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"She goes to the market on foot.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What's your name?",
+      "Where are you going?",
+      "How does she go to the market? (變式2)",
+      "How's the weather?"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) How does she go to the market? (變式2)\n💡【重點提示】詢問步行或交通工具 (on foot 步行)。 [學檢模擬情境題組2]\n📖【例句應用】A: How does she go to the market? B: She goes to the market on foot.\n\n【選項對照】\n(A) What's your name?\n(B) Where are you going?\n(C) How does she go to the market? (變式2) (正確答案)\n(D) How's the weather?"
+  },
+  {
+    "id": "Q-322A",
+    "groupKey": "G-322",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What do you want for breakfast? (變式2)\" 時，最適當的回答是：",
+    "options": [
+      "It is eight o'clock.",
+      "I like blue.",
+      "I want milk and bread.",
+      "I am swimming."
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) I want milk and bread.\n💡【重點提示】點餐與飲食需求問答。 [學檢模擬情境題組2]\n📖【例句應用】A: What do you want for breakfast? B: I want milk and bread.\n\n【選項解析】\n(A) It is eight o'clock.\n(B) I like blue.\n(C) I want milk and bread. (正確答案)\n(D) I am swimming."
+  },
+  {
+    "id": "Q-322B",
+    "groupKey": "G-322",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"I want milk and bread.\" 時，對應的英文問句應該是：",
+    "options": [
+      "How's the weather?",
+      "What's your name?",
+      "Where are you going?",
+      "What do you want for breakfast? (變式2)"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) What do you want for breakfast? (變式2)\n💡【重點提示】點餐與飲食需求問答。 [學檢模擬情境題組2]\n📖【例句應用】A: What do you want for breakfast? B: I want milk and bread.\n\n【選項對照】\n(A) How's the weather?\n(B) What's your name?\n(C) Where are you going?\n(D) What do you want for breakfast? (變式2) (正確答案)"
+  },
+  {
+    "id": "Q-323A",
+    "groupKey": "G-323",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Would you like some juice? (變式2)\" 時，最適當的回答是：",
+    "options": [
+      "Yes, please.",
+      "No, it isn't.",
+      "Yes, I am.",
+      "Yes, I can."
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) Yes, please.\n💡【重點提示】禮貌款待提議之 Yes/No 答句 (Yes, please / No, thank you)。 [學檢模擬情境題組2]\n📖【例句應用】A: Would you like some juice? B: Yes, please.\n\n【選項解析】\n(A) Yes, please. (正確答案)\n(B) No, it isn't.\n(C) Yes, I am.\n(D) Yes, I can."
+  },
+  {
+    "id": "Q-323B",
+    "groupKey": "G-323",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"Yes, please.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What's your name?",
+      "Would you like some juice? (變式2)",
+      "How's the weather?",
+      "Where are you going?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) Would you like some juice? (變式2)\n💡【重點提示】禮貌款待提議之 Yes/No 答句 (Yes, please / No, thank you)。 [學檢模擬情境題組2]\n📖【例句應用】A: Would you like some juice? B: Yes, please.\n\n【選項對照】\n(A) What's your name?\n(B) Would you like some juice? (變式2) (正確答案)\n(C) How's the weather?\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-324A",
+    "groupKey": "G-324",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Do you have a water bottle? (變式2)\" 時，最適當的回答是：",
+    "options": [
+      "Yes, I can.",
+      "Yes, it is.",
+      "Yes, I am.",
+      "Yes, I do."
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) Yes, I do.\n💡【重點提示】確認擁有物品之 Yes/No 簡答。 [學檢模擬情境題組2]\n📖【例句應用】A: Do you have a water bottle? B: Yes, I do.\n\n【選項解析】\n(A) Yes, I can.\n(B) Yes, it is.\n(C) Yes, I am.\n(D) Yes, I do. (正確答案)"
+  },
+  {
+    "id": "Q-324B",
+    "groupKey": "G-324",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"Yes, I do.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Where are you going?",
+      "What's your name?",
+      "How's the weather?",
+      "Do you have a water bottle? (變式2)"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) Do you have a water bottle? (變式2)\n💡【重點提示】確認擁有物品之 Yes/No 簡答。 [學檢模擬情境題組2]\n📖【例句應用】A: Do you have a water bottle? B: Yes, I do.\n\n【選項對照】\n(A) Where are you going?\n(B) What's your name?\n(C) How's the weather?\n(D) Do you have a water bottle? (變式2) (正確答案)"
+  },
+  {
+    "id": "Q-325A",
+    "groupKey": "G-325",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Is there a computer in the classroom? (變式2)\" 時，最適當的回答是：",
+    "options": [
+      "Yes, there is.",
+      "Yes, I do.",
+      "Yes, he is.",
+      "Yes, it is."
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) Yes, there is.\n💡【重點提示】There is/are 存在句型之確認簡答。 [學檢模擬情境題組2]\n📖【例句應用】A: Is there a computer in the classroom? B: Yes, there is.\n\n【選項解析】\n(A) Yes, there is. (正確答案)\n(B) Yes, I do.\n(C) Yes, he is.\n(D) Yes, it is."
+  },
+  {
+    "id": "Q-325B",
+    "groupKey": "G-325",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"Yes, there is.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Where are you going?",
+      "Is there a computer in the classroom? (變式2)",
+      "How's the weather?",
+      "What's your name?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) Is there a computer in the classroom? (變式2)\n💡【重點提示】There is/are 存在句型之確認簡答。 [學檢模擬情境題組2]\n📖【例句應用】A: Is there a computer in the classroom? B: Yes, there is.\n\n【選項對照】\n(A) Where are you going?\n(B) Is there a computer in the classroom? (變式2) (正確答案)\n(C) How's the weather?\n(D) What's your name?"
+  },
+  {
+    "id": "Q-326A",
+    "groupKey": "G-326",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Are there any apples in the box? (變式2)\" 時，最適當的回答是：",
+    "options": [
+      "No, there aren't.",
+      "No, I am not.",
+      "No, it isn't.",
+      "No, I don't."
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) No, there aren't.\n💡【重點提示】There are 複數存在句型之否定簡答。 [學檢模擬情境題組2]\n📖【例句應用】A: Are there any apples in the box? B: No, there aren't.\n\n【選項解析】\n(A) No, there aren't. (正確答案)\n(B) No, I am not.\n(C) No, it isn't.\n(D) No, I don't."
+  },
+  {
+    "id": "Q-326B",
+    "groupKey": "G-326",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"No, there aren't.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What's your name?",
+      "Are there any apples in the box? (變式2)",
+      "How's the weather?",
+      "Where are you going?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) Are there any apples in the box? (變式2)\n💡【重點提示】There are 複數存在句型之否定簡答。 [學檢模擬情境題組2]\n📖【例句應用】A: Are there any apples in the box? B: No, there aren't.\n\n【選項對照】\n(A) What's your name?\n(B) Are there any apples in the box? (變式2) (正確答案)\n(C) How's the weather?\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-327A",
+    "groupKey": "G-327",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What is your favorite subject? (變式2)\" 時，最適當的回答是：",
+    "options": [
+      "I like blue.",
+      "I want a sandwich.",
+      "My favorite subject is English.",
+      "I am ten."
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) My favorite subject is English.\n💡【重點提示】詢問最喜愛的學科領域。 [學檢模擬情境題組2]\n📖【例句應用】A: What is your favorite subject? B: My favorite subject is English.\n\n【選項解析】\n(A) I like blue.\n(B) I want a sandwich.\n(C) My favorite subject is English. (正確答案)\n(D) I am ten."
+  },
+  {
+    "id": "Q-327B",
+    "groupKey": "G-327",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"My favorite subject is English.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What is your favorite subject? (變式2)",
+      "What's your name?",
+      "How's the weather?",
+      "Where are you going?"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) What is your favorite subject? (變式2)\n💡【重點提示】詢問最喜愛的學科領域。 [學檢模擬情境題組2]\n📖【例句應用】A: What is your favorite subject? B: My favorite subject is English.\n\n【選項對照】\n(A) What is your favorite subject? (變式2) (正確答案)\n(B) What's your name?\n(C) How's the weather?\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-328A",
+    "groupKey": "G-328",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What is your favorite color? (變式2)\" 時，最適當的回答是：",
+    "options": [
+      "My favorite color is blue.",
+      "It is five o'clock.",
+      "I like dogs.",
+      "I can swim."
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) My favorite color is blue.\n💡【重點提示】詢問最喜愛的顏色。 [學檢模擬情境題組2]\n📖【例句應用】A: What is your favorite color? B: My favorite color is blue.\n\n【選項解析】\n(A) My favorite color is blue. (正確答案)\n(B) It is five o'clock.\n(C) I like dogs.\n(D) I can swim."
+  },
+  {
+    "id": "Q-328B",
+    "groupKey": "G-328",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"My favorite color is blue.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What is your favorite color? (變式2)",
+      "What's your name?",
+      "How's the weather?",
+      "Where are you going?"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) What is your favorite color? (變式2)\n💡【重點提示】詢問最喜愛的顏色。 [學檢模擬情境題組2]\n📖【例句應用】A: What is your favorite color? B: My favorite color is blue.\n\n【選項對照】\n(A) What is your favorite color? (變式2) (正確答案)\n(B) What's your name?\n(C) How's the weather?\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-329A",
+    "groupKey": "G-329",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What is your favorite animal? (變式2)\" 時，最適當的回答是：",
+    "options": [
+      "It is green.",
+      "Yes, I do.",
+      "My favorite animal is the rabbit.",
+      "I am fine."
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) My favorite animal is the rabbit.\n💡【重點提示】詢問最喜愛的動物。 [學檢模擬情境題組2]\n📖【例句應用】A: What is your favorite animal? B: My favorite animal is the rabbit.\n\n【選項解析】\n(A) It is green.\n(B) Yes, I do.\n(C) My favorite animal is the rabbit. (正確答案)\n(D) I am fine."
+  },
+  {
+    "id": "Q-329B",
+    "groupKey": "G-329",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"My favorite animal is the rabbit.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What's your name?",
+      "Where are you going?",
+      "What is your favorite animal? (變式2)",
+      "How's the weather?"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) What is your favorite animal? (變式2)\n💡【重點提示】詢問最喜愛的動物。 [學檢模擬情境題組2]\n📖【例句應用】A: What is your favorite animal? B: My favorite animal is the rabbit.\n\n【選項對照】\n(A) What's your name?\n(B) Where are you going?\n(C) What is your favorite animal? (變式2) (正確答案)\n(D) How's the weather?"
+  },
+  {
+    "id": "Q-330A",
+    "groupKey": "G-330",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Why are you wearing a coat? (變式2)\" 時，最適當的回答是：",
+    "options": [
+      "It's two o'clock.",
+      "Yes, I do.",
+      "Because it is cold outside.",
+      "I am nine."
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) Because it is cold outside.\n💡【重點提示】Why 詢問原因，答句搭配 Because... [學檢模擬情境題組2]\n📖【例句應用】A: Why are you wearing a coat? B: Because it is cold outside.\n\n【選項解析】\n(A) It's two o'clock.\n(B) Yes, I do.\n(C) Because it is cold outside. (正確答案)\n(D) I am nine."
+  },
+  {
+    "id": "Q-330B",
+    "groupKey": "G-330",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"Because it is cold outside.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What's your name?",
+      "Where are you going?",
+      "How's the weather?",
+      "Why are you wearing a coat? (變式2)"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) Why are you wearing a coat? (變式2)\n💡【重點提示】Why 詢問原因，答句搭配 Because... [學檢模擬情境題組2]\n📖【例句應用】A: Why are you wearing a coat? B: Because it is cold outside.\n\n【選項對照】\n(A) What's your name?\n(B) Where are you going?\n(C) How's the weather?\n(D) Why are you wearing a coat? (變式2) (正確答案)"
+  },
+  {
+    "id": "Q-331A",
+    "groupKey": "G-331",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Can I help you? (變式2)\" 時，最適當的回答是：",
+    "options": [
+      "Yes, please. I'm looking for a notebook.",
+      "No, I am not.",
+      "It's red.",
+      "I am fine."
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) Yes, please. I'm looking for a notebook.\n💡【重點提示】商店與服務人員主動提供協助用語。 [學檢模擬情境題組2]\n📖【例句應用】A: Can I help you? B: Yes, please. I'm looking for a notebook.\n\n【選項解析】\n(A) Yes, please. I'm looking for a notebook. (正確答案)\n(B) No, I am not.\n(C) It's red.\n(D) I am fine."
+  },
+  {
+    "id": "Q-331B",
+    "groupKey": "G-331",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"Yes, please. I'm looking for a notebook.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What's your name?",
+      "Can I help you? (變式2)",
+      "Where are you going?",
+      "How's the weather?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) Can I help you? (變式2)\n💡【重點提示】商店與服務人員主動提供協助用語。 [學檢模擬情境題組2]\n📖【例句應用】A: Can I help you? B: Yes, please. I'm looking for a notebook.\n\n【選項對照】\n(A) What's your name?\n(B) Can I help you? (變式2) (正確答案)\n(C) Where are you going?\n(D) How's the weather?"
+  },
+  {
+    "id": "Q-332A",
+    "groupKey": "G-332",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"How much is this pencil case? (變式2)\" 時，最適當的回答是：",
+    "options": [
+      "It is ten.",
+      "It is blue.",
+      "It is fifty dollars.",
+      "Yes, please."
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) It is fifty dollars.\n💡【重點提示】How much 詢問價格問答。 [學檢模擬情境題組2]\n📖【例句應用】A: How much is this pencil case? B: It is fifty dollars.\n\n【選項解析】\n(A) It is ten.\n(B) It is blue.\n(C) It is fifty dollars. (正確答案)\n(D) Yes, please."
+  },
+  {
+    "id": "Q-332B",
+    "groupKey": "G-332",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"It is fifty dollars.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What's your name?",
+      "How much is this pencil case? (變式2)",
+      "Where are you going?",
+      "How's the weather?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) How much is this pencil case? (變式2)\n💡【重點提示】How much 詢問價格問答。 [學檢模擬情境題組2]\n📖【例句應用】A: How much is this pencil case? B: It is fifty dollars.\n\n【選項對照】\n(A) What's your name?\n(B) How much is this pencil case? (變式2) (正確答案)\n(C) Where are you going?\n(D) How's the weather?"
+  },
+  {
+    "id": "Q-333A",
+    "groupKey": "G-333",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What season do you like best? (變式2)\" 時，最適當的回答是：",
+    "options": [
+      "I want ice cream.",
+      "It is hot.",
+      "I am swimming.",
+      "I like summer best."
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) I like summer best.\n💡【重點提示】詢問最喜愛的季節。 [學檢模擬情境題組2]\n📖【例句應用】A: What season do you like best? B: I like summer best.\n\n【選項解析】\n(A) I want ice cream.\n(B) It is hot.\n(C) I am swimming.\n(D) I like summer best. (正確答案)"
+  },
+  {
+    "id": "Q-333B",
+    "groupKey": "G-333",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"I like summer best.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What season do you like best? (變式2)",
+      "How's the weather?",
+      "Where are you going?",
+      "What's your name?"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) What season do you like best? (變式2)\n💡【重點提示】詢問最喜愛的季節。 [學檢模擬情境題組2]\n📖【例句應用】A: What season do you like best? B: I like summer best.\n\n【選項對照】\n(A) What season do you like best? (變式2) (正確答案)\n(B) How's the weather?\n(C) Where are you going?\n(D) What's your name?"
+  },
+  {
+    "id": "Q-334A",
+    "groupKey": "G-334",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"When is your birthday? (變式2)\" 時，最適當的回答是：",
+    "options": [
+      "I am ten.",
+      "Yes, I do.",
+      "It is on May 5th.",
+      "It is fine."
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) It is on May 5th.\n💡【重點提示】When 詢問日期與時間。 [學檢模擬情境題組2]\n📖【例句應用】A: When is your birthday? B: It is on May 5th.\n\n【選項解析】\n(A) I am ten.\n(B) Yes, I do.\n(C) It is on May 5th. (正確答案)\n(D) It is fine."
+  },
+  {
+    "id": "Q-334B",
+    "groupKey": "G-334",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"It is on May 5th.\" 時，對應的英文問句應該是：",
+    "options": [
+      "When is your birthday? (變式2)",
+      "What's your name?",
+      "How's the weather?",
+      "Where are you going?"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) When is your birthday? (變式2)\n💡【重點提示】When 詢問日期與時間。 [學檢模擬情境題組2]\n📖【例句應用】A: When is your birthday? B: It is on May 5th.\n\n【選項對照】\n(A) When is your birthday? (變式2) (正確答案)\n(B) What's your name?\n(C) How's the weather?\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-335A",
+    "groupKey": "G-335",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Where is my English book? (變式3)\" 時，最適當的回答是：",
+    "options": [
+      "It is under your chair.",
+      "Yes, I can.",
+      "It is three o'clock.",
+      "I am a student."
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) It is under your chair.\n💡【重點提示】物品方位尋找句型。 [學檢模擬情境題組3]\n📖【例句應用】A: Where is my English book? B: It is under your chair.\n\n【選項解析】\n(A) It is under your chair. (正確答案)\n(B) Yes, I can.\n(C) It is three o'clock.\n(D) I am a student."
+  },
+  {
+    "id": "Q-335B",
+    "groupKey": "G-335",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"It is under your chair.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Where are you going?",
+      "Where is my English book? (變式3)",
+      "What's your name?",
+      "How's the weather?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) Where is my English book? (變式3)\n💡【重點提示】物品方位尋找句型。 [學檢模擬情境題組3]\n📖【例句應用】A: Where is my English book? B: It is under your chair.\n\n【選項對照】\n(A) Where are you going?\n(B) Where is my English book? (變式3) (正確答案)\n(C) What's your name?\n(D) How's the weather?"
+  },
+  {
+    "id": "Q-336A",
+    "groupKey": "G-336",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Whose cap is this? (變式3)\" 時，最適當的回答是：",
+    "options": [
+      "It's John's cap.",
+      "It's blue.",
+      "It's a dog.",
+      "Yes, it is."
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) It's John's cap.\n💡【重點提示】詢問物品所有權句型 (Whose)。 [學檢模擬情境題組3]\n📖【例句應用】A: Whose cap is this? B: It's John's cap.\n\n【選項解析】\n(A) It's John's cap. (正確答案)\n(B) It's blue.\n(C) It's a dog.\n(D) Yes, it is."
+  },
+  {
+    "id": "Q-336B",
+    "groupKey": "G-336",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"It's John's cap.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Whose cap is this? (變式3)",
+      "How's the weather?",
+      "Where are you going?",
+      "What's your name?"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) Whose cap is this? (變式3)\n💡【重點提示】詢問物品所有權句型 (Whose)。 [學檢模擬情境題組3]\n📖【例句應用】A: Whose cap is this? B: It's John's cap.\n\n【選項對照】\n(A) Whose cap is this? (變式3) (正確答案)\n(B) How's the weather?\n(C) Where are you going?\n(D) What's your name?"
+  },
+  {
+    "id": "Q-337A",
+    "groupKey": "G-337",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"How many pencils do you have? (變式3)\" 時，最適當的回答是：",
+    "options": [
+      "It is red.",
+      "I am fine.",
+      "I have three pencils.",
+      "Yes, I do."
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) I have three pencils.\n💡【重點提示】詢問數量句型 (How many + 複數名詞)。 [學檢模擬情境題組3]\n📖【例句應用】A: How many pencils do you have? B: I have three pencils.\n\n【選項解析】\n(A) It is red.\n(B) I am fine.\n(C) I have three pencils. (正確答案)\n(D) Yes, I do."
+  },
+  {
+    "id": "Q-337B",
+    "groupKey": "G-337",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"I have three pencils.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What's your name?",
+      "How many pencils do you have? (變式3)",
+      "How's the weather?",
+      "Where are you going?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) How many pencils do you have? (變式3)\n💡【重點提示】詢問數量句型 (How many + 複數名詞)。 [學檢模擬情境題組3]\n📖【例句應用】A: How many pencils do you have? B: I have three pencils.\n\n【選項對照】\n(A) What's your name?\n(B) How many pencils do you have? (變式3) (正確答案)\n(C) How's the weather?\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-338A",
+    "groupKey": "G-338",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What does your father do? (變式3)\" 時，最適當的回答是：",
+    "options": [
+      "He likes milk.",
+      "He is forty.",
+      "He is a firefighter.",
+      "He is in the kitchen."
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) He is a firefighter.\n💡【重點提示】詢問職業句型 (What does... do?)。 [學檢模擬情境題組3]\n📖【例句應用】A: What does your father do? B: He is a firefighter.\n\n【選項解析】\n(A) He likes milk.\n(B) He is forty.\n(C) He is a firefighter. (正確答案)\n(D) He is in the kitchen."
+  },
+  {
+    "id": "Q-338B",
+    "groupKey": "G-338",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"He is a firefighter.\" 時，對應的英文問句應該是：",
+    "options": [
+      "How's the weather?",
+      "What does your father do? (變式3)",
+      "What's your name?",
+      "Where are you going?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) What does your father do? (變式3)\n💡【重點提示】詢問職業句型 (What does... do?)。 [學檢模擬情境題組3]\n📖【例句應用】A: What does your father do? B: He is a firefighter.\n\n【選項對照】\n(A) How's the weather?\n(B) What does your father do? (變式3) (正確答案)\n(C) What's your name?\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-339A",
+    "groupKey": "G-339",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What does your mother do? (變式3)\" 時，最適當的回答是：",
+    "options": [
+      "She likes tea.",
+      "She is a doctor.",
+      "She is happy.",
+      "She is home."
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) She is a doctor.\n💡【重點提示】詢問母親職業句型。 [學檢模擬情境題組3]\n📖【例句應用】A: What does your mother do? B: She is a doctor.\n\n【選項解析】\n(A) She likes tea.\n(B) She is a doctor. (正確答案)\n(C) She is happy.\n(D) She is home."
+  },
+  {
+    "id": "Q-339B",
+    "groupKey": "G-339",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"She is a doctor.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Where are you going?",
+      "What does your mother do? (變式3)",
+      "What's your name?",
+      "How's the weather?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) What does your mother do? (變式3)\n💡【重點提示】詢問母親職業句型。 [學檢模擬情境題組3]\n📖【例句應用】A: What does your mother do? B: She is a doctor.\n\n【選項對照】\n(A) Where are you going?\n(B) What does your mother do? (變式3) (正確答案)\n(C) What's your name?\n(D) How's the weather?"
+  },
+  {
+    "id": "Q-340A",
+    "groupKey": "G-340",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Where is your brother going? (變式3)\" 時，最適當的回答是：",
+    "options": [
+      "He likes soccer.",
+      "He is ten.",
+      "He is fine.",
+      "He is going to the park."
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) He is going to the park.\n💡【重點提示】詢問目的地進行式句型 (Where is... going?)。 [學檢模擬情境題組3]\n📖【例句應用】A: Where is your brother going? B: He is going to the park.\n\n【選項解析】\n(A) He likes soccer.\n(B) He is ten.\n(C) He is fine.\n(D) He is going to the park. (正確答案)"
+  },
+  {
+    "id": "Q-340B",
+    "groupKey": "G-340",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"He is going to the park.\" 時，對應的英文問句應該是：",
+    "options": [
+      "How's the weather?",
+      "What's your name?",
+      "Where are you going?",
+      "Where is your brother going? (變式3)"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) Where is your brother going? (變式3)\n💡【重點提示】詢問目的地進行式句型 (Where is... going?)。 [學檢模擬情境題組3]\n📖【例句應用】A: Where is your brother going? B: He is going to the park.\n\n【選項對照】\n(A) How's the weather?\n(B) What's your name?\n(C) Where are you going?\n(D) Where is your brother going? (變式3) (正確答案)"
+  },
+  {
+    "id": "Q-341A",
+    "groupKey": "G-341",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"How do you go to school? (變式3)\" 時，最適當的回答是：",
+    "options": [
+      "I like school.",
+      "I go to school by bus.",
+      "It's sunny.",
+      "I am nine."
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) I go to school by bus.\n💡【重點提示】詢問交通工具方式句型 (How do you go to...?)。 [學檢模擬情境題組3]\n📖【例句應用】A: How do you go to school? B: I go to school by bus.\n\n【選項解析】\n(A) I like school.\n(B) I go to school by bus. (正確答案)\n(C) It's sunny.\n(D) I am nine."
+  },
+  {
+    "id": "Q-341B",
+    "groupKey": "G-341",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"I go to school by bus.\" 時，對應的英文問句應該是：",
+    "options": [
+      "How's the weather?",
+      "What's your name?",
+      "How do you go to school? (變式3)",
+      "Where are you going?"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) How do you go to school? (變式3)\n💡【重點提示】詢問交通工具方式句型 (How do you go to...?)。 [學檢模擬情境題組3]\n📖【例句應用】A: How do you go to school? B: I go to school by bus.\n\n【選項對照】\n(A) How's the weather?\n(B) What's your name?\n(C) How do you go to school? (變式3) (正確答案)\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-342A",
+    "groupKey": "G-342",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"How does she go to the market? (變式3)\" 時，最適當的回答是：",
+    "options": [
+      "She is hungry.",
+      "She goes to the market on foot.",
+      "She likes fish.",
+      "She buys apples."
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) She goes to the market on foot.\n💡【重點提示】詢問步行或交通工具 (on foot 步行)。 [學檢模擬情境題組3]\n📖【例句應用】A: How does she go to the market? B: She goes to the market on foot.\n\n【選項解析】\n(A) She is hungry.\n(B) She goes to the market on foot. (正確答案)\n(C) She likes fish.\n(D) She buys apples."
+  },
+  {
+    "id": "Q-342B",
+    "groupKey": "G-342",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"She goes to the market on foot.\" 時，對應的英文問句應該是：",
+    "options": [
+      "How's the weather?",
+      "How does she go to the market? (變式3)",
+      "What's your name?",
+      "Where are you going?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) How does she go to the market? (變式3)\n💡【重點提示】詢問步行或交通工具 (on foot 步行)。 [學檢模擬情境題組3]\n📖【例句應用】A: How does she go to the market? B: She goes to the market on foot.\n\n【選項對照】\n(A) How's the weather?\n(B) How does she go to the market? (變式3) (正確答案)\n(C) What's your name?\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-343A",
+    "groupKey": "G-343",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What do you want for breakfast? (變式3)\" 時，最適當的回答是：",
+    "options": [
+      "I want milk and bread.",
+      "It is eight o'clock.",
+      "I like blue.",
+      "I am swimming."
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) I want milk and bread.\n💡【重點提示】點餐與飲食需求問答。 [學檢模擬情境題組3]\n📖【例句應用】A: What do you want for breakfast? B: I want milk and bread.\n\n【選項解析】\n(A) I want milk and bread. (正確答案)\n(B) It is eight o'clock.\n(C) I like blue.\n(D) I am swimming."
+  },
+  {
+    "id": "Q-343B",
+    "groupKey": "G-343",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"I want milk and bread.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Where are you going?",
+      "How's the weather?",
+      "What's your name?",
+      "What do you want for breakfast? (變式3)"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) What do you want for breakfast? (變式3)\n💡【重點提示】點餐與飲食需求問答。 [學檢模擬情境題組3]\n📖【例句應用】A: What do you want for breakfast? B: I want milk and bread.\n\n【選項對照】\n(A) Where are you going?\n(B) How's the weather?\n(C) What's your name?\n(D) What do you want for breakfast? (變式3) (正確答案)"
+  },
+  {
+    "id": "Q-344A",
+    "groupKey": "G-344",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Would you like some juice? (變式3)\" 時，最適當的回答是：",
+    "options": [
+      "Yes, please.",
+      "Yes, I am.",
+      "No, it isn't.",
+      "Yes, I can."
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) Yes, please.\n💡【重點提示】禮貌款待提議之 Yes/No 答句 (Yes, please / No, thank you)。 [學檢模擬情境題組3]\n📖【例句應用】A: Would you like some juice? B: Yes, please.\n\n【選項解析】\n(A) Yes, please. (正確答案)\n(B) Yes, I am.\n(C) No, it isn't.\n(D) Yes, I can."
+  },
+  {
+    "id": "Q-344B",
+    "groupKey": "G-344",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"Yes, please.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Where are you going?",
+      "Would you like some juice? (變式3)",
+      "How's the weather?",
+      "What's your name?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) Would you like some juice? (變式3)\n💡【重點提示】禮貌款待提議之 Yes/No 答句 (Yes, please / No, thank you)。 [學檢模擬情境題組3]\n📖【例句應用】A: Would you like some juice? B: Yes, please.\n\n【選項對照】\n(A) Where are you going?\n(B) Would you like some juice? (變式3) (正確答案)\n(C) How's the weather?\n(D) What's your name?"
+  },
+  {
+    "id": "Q-345A",
+    "groupKey": "G-345",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Do you have a water bottle? (變式3)\" 時，最適當的回答是：",
+    "options": [
+      "Yes, it is.",
+      "Yes, I do.",
+      "Yes, I am.",
+      "Yes, I can."
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) Yes, I do.\n💡【重點提示】確認擁有物品之 Yes/No 簡答。 [學檢模擬情境題組3]\n📖【例句應用】A: Do you have a water bottle? B: Yes, I do.\n\n【選項解析】\n(A) Yes, it is.\n(B) Yes, I do. (正確答案)\n(C) Yes, I am.\n(D) Yes, I can."
+  },
+  {
+    "id": "Q-345B",
+    "groupKey": "G-345",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"Yes, I do.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What's your name?",
+      "How's the weather?",
+      "Where are you going?",
+      "Do you have a water bottle? (變式3)"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) Do you have a water bottle? (變式3)\n💡【重點提示】確認擁有物品之 Yes/No 簡答。 [學檢模擬情境題組3]\n📖【例句應用】A: Do you have a water bottle? B: Yes, I do.\n\n【選項對照】\n(A) What's your name?\n(B) How's the weather?\n(C) Where are you going?\n(D) Do you have a water bottle? (變式3) (正確答案)"
+  },
+  {
+    "id": "Q-346A",
+    "groupKey": "G-346",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Is there a computer in the classroom? (變式3)\" 時，最適當的回答是：",
+    "options": [
+      "Yes, it is.",
+      "Yes, he is.",
+      "Yes, I do.",
+      "Yes, there is."
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) Yes, there is.\n💡【重點提示】There is/are 存在句型之確認簡答。 [學檢模擬情境題組3]\n📖【例句應用】A: Is there a computer in the classroom? B: Yes, there is.\n\n【選項解析】\n(A) Yes, it is.\n(B) Yes, he is.\n(C) Yes, I do.\n(D) Yes, there is. (正確答案)"
+  },
+  {
+    "id": "Q-346B",
+    "groupKey": "G-346",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"Yes, there is.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Where are you going?",
+      "What's your name?",
+      "How's the weather?",
+      "Is there a computer in the classroom? (變式3)"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) Is there a computer in the classroom? (變式3)\n💡【重點提示】There is/are 存在句型之確認簡答。 [學檢模擬情境題組3]\n📖【例句應用】A: Is there a computer in the classroom? B: Yes, there is.\n\n【選項對照】\n(A) Where are you going?\n(B) What's your name?\n(C) How's the weather?\n(D) Is there a computer in the classroom? (變式3) (正確答案)"
+  },
+  {
+    "id": "Q-347A",
+    "groupKey": "G-347",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Are there any apples in the box? (變式3)\" 時，最適當的回答是：",
+    "options": [
+      "No, it isn't.",
+      "No, I don't.",
+      "No, I am not.",
+      "No, there aren't."
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) No, there aren't.\n💡【重點提示】There are 複數存在句型之否定簡答。 [學檢模擬情境題組3]\n📖【例句應用】A: Are there any apples in the box? B: No, there aren't.\n\n【選項解析】\n(A) No, it isn't.\n(B) No, I don't.\n(C) No, I am not.\n(D) No, there aren't. (正確答案)"
+  },
+  {
+    "id": "Q-347B",
+    "groupKey": "G-347",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"No, there aren't.\" 時，對應的英文問句應該是：",
+    "options": [
+      "How's the weather?",
+      "What's your name?",
+      "Where are you going?",
+      "Are there any apples in the box? (變式3)"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) Are there any apples in the box? (變式3)\n💡【重點提示】There are 複數存在句型之否定簡答。 [學檢模擬情境題組3]\n📖【例句應用】A: Are there any apples in the box? B: No, there aren't.\n\n【選項對照】\n(A) How's the weather?\n(B) What's your name?\n(C) Where are you going?\n(D) Are there any apples in the box? (變式3) (正確答案)"
+  },
+  {
+    "id": "Q-348A",
+    "groupKey": "G-348",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What is your favorite subject? (變式3)\" 時，最適當的回答是：",
+    "options": [
+      "I like blue.",
+      "I want a sandwich.",
+      "I am ten.",
+      "My favorite subject is English."
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) My favorite subject is English.\n💡【重點提示】詢問最喜愛的學科領域。 [學檢模擬情境題組3]\n📖【例句應用】A: What is your favorite subject? B: My favorite subject is English.\n\n【選項解析】\n(A) I like blue.\n(B) I want a sandwich.\n(C) I am ten.\n(D) My favorite subject is English. (正確答案)"
+  },
+  {
+    "id": "Q-348B",
+    "groupKey": "G-348",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"My favorite subject is English.\" 時，對應的英文問句應該是：",
+    "options": [
+      "How's the weather?",
+      "Where are you going?",
+      "What's your name?",
+      "What is your favorite subject? (變式3)"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) What is your favorite subject? (變式3)\n💡【重點提示】詢問最喜愛的學科領域。 [學檢模擬情境題組3]\n📖【例句應用】A: What is your favorite subject? B: My favorite subject is English.\n\n【選項對照】\n(A) How's the weather?\n(B) Where are you going?\n(C) What's your name?\n(D) What is your favorite subject? (變式3) (正確答案)"
+  },
+  {
+    "id": "Q-349A",
+    "groupKey": "G-349",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What is your favorite color? (變式3)\" 時，最適當的回答是：",
+    "options": [
+      "I like dogs.",
+      "It is five o'clock.",
+      "I can swim.",
+      "My favorite color is blue."
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) My favorite color is blue.\n💡【重點提示】詢問最喜愛的顏色。 [學檢模擬情境題組3]\n📖【例句應用】A: What is your favorite color? B: My favorite color is blue.\n\n【選項解析】\n(A) I like dogs.\n(B) It is five o'clock.\n(C) I can swim.\n(D) My favorite color is blue. (正確答案)"
+  },
+  {
+    "id": "Q-349B",
+    "groupKey": "G-349",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"My favorite color is blue.\" 時，對應的英文問句應該是：",
+    "options": [
+      "How's the weather?",
+      "Where are you going?",
+      "What's your name?",
+      "What is your favorite color? (變式3)"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) What is your favorite color? (變式3)\n💡【重點提示】詢問最喜愛的顏色。 [學檢模擬情境題組3]\n📖【例句應用】A: What is your favorite color? B: My favorite color is blue.\n\n【選項對照】\n(A) How's the weather?\n(B) Where are you going?\n(C) What's your name?\n(D) What is your favorite color? (變式3) (正確答案)"
+  },
+  {
+    "id": "Q-350A",
+    "groupKey": "G-350",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What is your favorite animal? (變式3)\" 時，最適當的回答是：",
+    "options": [
+      "My favorite animal is the rabbit.",
+      "It is green.",
+      "I am fine.",
+      "Yes, I do."
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) My favorite animal is the rabbit.\n💡【重點提示】詢問最喜愛的動物。 [學檢模擬情境題組3]\n📖【例句應用】A: What is your favorite animal? B: My favorite animal is the rabbit.\n\n【選項解析】\n(A) My favorite animal is the rabbit. (正確答案)\n(B) It is green.\n(C) I am fine.\n(D) Yes, I do."
+  },
+  {
+    "id": "Q-350B",
+    "groupKey": "G-350",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"My favorite animal is the rabbit.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What is your favorite animal? (變式3)",
+      "Where are you going?",
+      "What's your name?",
+      "How's the weather?"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) What is your favorite animal? (變式3)\n💡【重點提示】詢問最喜愛的動物。 [學檢模擬情境題組3]\n📖【例句應用】A: What is your favorite animal? B: My favorite animal is the rabbit.\n\n【選項對照】\n(A) What is your favorite animal? (變式3) (正確答案)\n(B) Where are you going?\n(C) What's your name?\n(D) How's the weather?"
+  },
+  {
+    "id": "Q-351A",
+    "groupKey": "G-351",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Why are you wearing a coat? (變式3)\" 時，最適當的回答是：",
+    "options": [
+      "I am nine.",
+      "Yes, I do.",
+      "It's two o'clock.",
+      "Because it is cold outside."
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) Because it is cold outside.\n💡【重點提示】Why 詢問原因，答句搭配 Because... [學檢模擬情境題組3]\n📖【例句應用】A: Why are you wearing a coat? B: Because it is cold outside.\n\n【選項解析】\n(A) I am nine.\n(B) Yes, I do.\n(C) It's two o'clock.\n(D) Because it is cold outside. (正確答案)"
+  },
+  {
+    "id": "Q-351B",
+    "groupKey": "G-351",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"Because it is cold outside.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What's your name?",
+      "How's the weather?",
+      "Why are you wearing a coat? (變式3)",
+      "Where are you going?"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) Why are you wearing a coat? (變式3)\n💡【重點提示】Why 詢問原因，答句搭配 Because... [學檢模擬情境題組3]\n📖【例句應用】A: Why are you wearing a coat? B: Because it is cold outside.\n\n【選項對照】\n(A) What's your name?\n(B) How's the weather?\n(C) Why are you wearing a coat? (變式3) (正確答案)\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-352A",
+    "groupKey": "G-352",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Can I help you? (變式3)\" 時，最適當的回答是：",
+    "options": [
+      "Yes, please. I'm looking for a notebook.",
+      "I am fine.",
+      "It's red.",
+      "No, I am not."
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) Yes, please. I'm looking for a notebook.\n💡【重點提示】商店與服務人員主動提供協助用語。 [學檢模擬情境題組3]\n📖【例句應用】A: Can I help you? B: Yes, please. I'm looking for a notebook.\n\n【選項解析】\n(A) Yes, please. I'm looking for a notebook. (正確答案)\n(B) I am fine.\n(C) It's red.\n(D) No, I am not."
+  },
+  {
+    "id": "Q-352B",
+    "groupKey": "G-352",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"Yes, please. I'm looking for a notebook.\" 時，對應的英文問句應該是：",
+    "options": [
+      "How's the weather?",
+      "Can I help you? (變式3)",
+      "What's your name?",
+      "Where are you going?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) Can I help you? (變式3)\n💡【重點提示】商店與服務人員主動提供協助用語。 [學檢模擬情境題組3]\n📖【例句應用】A: Can I help you? B: Yes, please. I'm looking for a notebook.\n\n【選項對照】\n(A) How's the weather?\n(B) Can I help you? (變式3) (正確答案)\n(C) What's your name?\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-353A",
+    "groupKey": "G-353",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"How much is this pencil case? (變式3)\" 時，最適當的回答是：",
+    "options": [
+      "It is fifty dollars.",
+      "Yes, please.",
+      "It is ten.",
+      "It is blue."
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) It is fifty dollars.\n💡【重點提示】How much 詢問價格問答。 [學檢模擬情境題組3]\n📖【例句應用】A: How much is this pencil case? B: It is fifty dollars.\n\n【選項解析】\n(A) It is fifty dollars. (正確答案)\n(B) Yes, please.\n(C) It is ten.\n(D) It is blue."
+  },
+  {
+    "id": "Q-353B",
+    "groupKey": "G-353",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"It is fifty dollars.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Where are you going?",
+      "What's your name?",
+      "How's the weather?",
+      "How much is this pencil case? (變式3)"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) How much is this pencil case? (變式3)\n💡【重點提示】How much 詢問價格問答。 [學檢模擬情境題組3]\n📖【例句應用】A: How much is this pencil case? B: It is fifty dollars.\n\n【選項對照】\n(A) Where are you going?\n(B) What's your name?\n(C) How's the weather?\n(D) How much is this pencil case? (變式3) (正確答案)"
+  },
+  {
+    "id": "Q-354A",
+    "groupKey": "G-354",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What season do you like best? (變式3)\" 時，最適當的回答是：",
+    "options": [
+      "It is hot.",
+      "I want ice cream.",
+      "I am swimming.",
+      "I like summer best."
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) I like summer best.\n💡【重點提示】詢問最喜愛的季節。 [學檢模擬情境題組3]\n📖【例句應用】A: What season do you like best? B: I like summer best.\n\n【選項解析】\n(A) It is hot.\n(B) I want ice cream.\n(C) I am swimming.\n(D) I like summer best. (正確答案)"
+  },
+  {
+    "id": "Q-354B",
+    "groupKey": "G-354",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"I like summer best.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What season do you like best? (變式3)",
+      "Where are you going?",
+      "What's your name?",
+      "How's the weather?"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) What season do you like best? (變式3)\n💡【重點提示】詢問最喜愛的季節。 [學檢模擬情境題組3]\n📖【例句應用】A: What season do you like best? B: I like summer best.\n\n【選項對照】\n(A) What season do you like best? (變式3) (正確答案)\n(B) Where are you going?\n(C) What's your name?\n(D) How's the weather?"
+  },
+  {
+    "id": "Q-355A",
+    "groupKey": "G-355",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"When is your birthday? (變式3)\" 時，最適當的回答是：",
+    "options": [
+      "It is fine.",
+      "It is on May 5th.",
+      "Yes, I do.",
+      "I am ten."
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) It is on May 5th.\n💡【重點提示】When 詢問日期與時間。 [學檢模擬情境題組3]\n📖【例句應用】A: When is your birthday? B: It is on May 5th.\n\n【選項解析】\n(A) It is fine.\n(B) It is on May 5th. (正確答案)\n(C) Yes, I do.\n(D) I am ten."
+  },
+  {
+    "id": "Q-355B",
+    "groupKey": "G-355",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"It is on May 5th.\" 時，對應的英文問句應該是：",
+    "options": [
+      "When is your birthday? (變式3)",
+      "How's the weather?",
+      "What's your name?",
+      "Where are you going?"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) When is your birthday? (變式3)\n💡【重點提示】When 詢問日期與時間。 [學檢模擬情境題組3]\n📖【例句應用】A: When is your birthday? B: It is on May 5th.\n\n【選項對照】\n(A) When is your birthday? (變式3) (正確答案)\n(B) How's the weather?\n(C) What's your name?\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-356A",
+    "groupKey": "G-356",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Where is my English book? (變式4)\" 時，最適當的回答是：",
+    "options": [
+      "Yes, I can.",
+      "It is three o'clock.",
+      "I am a student.",
+      "It is under your chair."
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) It is under your chair.\n💡【重點提示】物品方位尋找句型。 [學檢模擬情境題組4]\n📖【例句應用】A: Where is my English book? B: It is under your chair.\n\n【選項解析】\n(A) Yes, I can.\n(B) It is three o'clock.\n(C) I am a student.\n(D) It is under your chair. (正確答案)"
+  },
+  {
+    "id": "Q-356B",
+    "groupKey": "G-356",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"It is under your chair.\" 時，對應的英文問句應該是：",
+    "options": [
+      "How's the weather?",
+      "Where is my English book? (變式4)",
+      "What's your name?",
+      "Where are you going?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) Where is my English book? (變式4)\n💡【重點提示】物品方位尋找句型。 [學檢模擬情境題組4]\n📖【例句應用】A: Where is my English book? B: It is under your chair.\n\n【選項對照】\n(A) How's the weather?\n(B) Where is my English book? (變式4) (正確答案)\n(C) What's your name?\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-357A",
+    "groupKey": "G-357",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Whose cap is this? (變式4)\" 時，最適當的回答是：",
+    "options": [
+      "It's John's cap.",
+      "It's blue.",
+      "It's a dog.",
+      "Yes, it is."
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) It's John's cap.\n💡【重點提示】詢問物品所有權句型 (Whose)。 [學檢模擬情境題組4]\n📖【例句應用】A: Whose cap is this? B: It's John's cap.\n\n【選項解析】\n(A) It's John's cap. (正確答案)\n(B) It's blue.\n(C) It's a dog.\n(D) Yes, it is."
+  },
+  {
+    "id": "Q-357B",
+    "groupKey": "G-357",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"It's John's cap.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Where are you going?",
+      "How's the weather?",
+      "Whose cap is this? (變式4)",
+      "What's your name?"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) Whose cap is this? (變式4)\n💡【重點提示】詢問物品所有權句型 (Whose)。 [學檢模擬情境題組4]\n📖【例句應用】A: Whose cap is this? B: It's John's cap.\n\n【選項對照】\n(A) Where are you going?\n(B) How's the weather?\n(C) Whose cap is this? (變式4) (正確答案)\n(D) What's your name?"
+  },
+  {
+    "id": "Q-358A",
+    "groupKey": "G-358",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"How many pencils do you have? (變式4)\" 時，最適當的回答是：",
+    "options": [
+      "It is red.",
+      "I have three pencils.",
+      "I am fine.",
+      "Yes, I do."
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) I have three pencils.\n💡【重點提示】詢問數量句型 (How many + 複數名詞)。 [學檢模擬情境題組4]\n📖【例句應用】A: How many pencils do you have? B: I have three pencils.\n\n【選項解析】\n(A) It is red.\n(B) I have three pencils. (正確答案)\n(C) I am fine.\n(D) Yes, I do."
+  },
+  {
+    "id": "Q-358B",
+    "groupKey": "G-358",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"I have three pencils.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Where are you going?",
+      "How many pencils do you have? (變式4)",
+      "What's your name?",
+      "How's the weather?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) How many pencils do you have? (變式4)\n💡【重點提示】詢問數量句型 (How many + 複數名詞)。 [學檢模擬情境題組4]\n📖【例句應用】A: How many pencils do you have? B: I have three pencils.\n\n【選項對照】\n(A) Where are you going?\n(B) How many pencils do you have? (變式4) (正確答案)\n(C) What's your name?\n(D) How's the weather?"
+  },
+  {
+    "id": "Q-359A",
+    "groupKey": "G-359",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What does your father do? (變式4)\" 時，最適當的回答是：",
+    "options": [
+      "He is forty.",
+      "He is in the kitchen.",
+      "He is a firefighter.",
+      "He likes milk."
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) He is a firefighter.\n💡【重點提示】詢問職業句型 (What does... do?)。 [學檢模擬情境題組4]\n📖【例句應用】A: What does your father do? B: He is a firefighter.\n\n【選項解析】\n(A) He is forty.\n(B) He is in the kitchen.\n(C) He is a firefighter. (正確答案)\n(D) He likes milk."
+  },
+  {
+    "id": "Q-359B",
+    "groupKey": "G-359",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"He is a firefighter.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What's your name?",
+      "What does your father do? (變式4)",
+      "Where are you going?",
+      "How's the weather?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) What does your father do? (變式4)\n💡【重點提示】詢問職業句型 (What does... do?)。 [學檢模擬情境題組4]\n📖【例句應用】A: What does your father do? B: He is a firefighter.\n\n【選項對照】\n(A) What's your name?\n(B) What does your father do? (變式4) (正確答案)\n(C) Where are you going?\n(D) How's the weather?"
+  },
+  {
+    "id": "Q-360A",
+    "groupKey": "G-360",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What does your mother do? (變式4)\" 時，最適當的回答是：",
+    "options": [
+      "She likes tea.",
+      "She is a doctor.",
+      "She is happy.",
+      "She is home."
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) She is a doctor.\n💡【重點提示】詢問母親職業句型。 [學檢模擬情境題組4]\n📖【例句應用】A: What does your mother do? B: She is a doctor.\n\n【選項解析】\n(A) She likes tea.\n(B) She is a doctor. (正確答案)\n(C) She is happy.\n(D) She is home."
+  },
+  {
+    "id": "Q-360B",
+    "groupKey": "G-360",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"She is a doctor.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What does your mother do? (變式4)",
+      "What's your name?",
+      "How's the weather?",
+      "Where are you going?"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) What does your mother do? (變式4)\n💡【重點提示】詢問母親職業句型。 [學檢模擬情境題組4]\n📖【例句應用】A: What does your mother do? B: She is a doctor.\n\n【選項對照】\n(A) What does your mother do? (變式4) (正確答案)\n(B) What's your name?\n(C) How's the weather?\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-361A",
+    "groupKey": "G-361",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Where is your brother going? (變式4)\" 時，最適當的回答是：",
+    "options": [
+      "He is fine.",
+      "He is going to the park.",
+      "He is ten.",
+      "He likes soccer."
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) He is going to the park.\n💡【重點提示】詢問目的地進行式句型 (Where is... going?)。 [學檢模擬情境題組4]\n📖【例句應用】A: Where is your brother going? B: He is going to the park.\n\n【選項解析】\n(A) He is fine.\n(B) He is going to the park. (正確答案)\n(C) He is ten.\n(D) He likes soccer."
+  },
+  {
+    "id": "Q-361B",
+    "groupKey": "G-361",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"He is going to the park.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Where are you going?",
+      "What's your name?",
+      "How's the weather?",
+      "Where is your brother going? (變式4)"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) Where is your brother going? (變式4)\n💡【重點提示】詢問目的地進行式句型 (Where is... going?)。 [學檢模擬情境題組4]\n📖【例句應用】A: Where is your brother going? B: He is going to the park.\n\n【選項對照】\n(A) Where are you going?\n(B) What's your name?\n(C) How's the weather?\n(D) Where is your brother going? (變式4) (正確答案)"
+  },
+  {
+    "id": "Q-362A",
+    "groupKey": "G-362",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"How do you go to school? (變式4)\" 時，最適當的回答是：",
+    "options": [
+      "I like school.",
+      "I am nine.",
+      "It's sunny.",
+      "I go to school by bus."
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) I go to school by bus.\n💡【重點提示】詢問交通工具方式句型 (How do you go to...?)。 [學檢模擬情境題組4]\n📖【例句應用】A: How do you go to school? B: I go to school by bus.\n\n【選項解析】\n(A) I like school.\n(B) I am nine.\n(C) It's sunny.\n(D) I go to school by bus. (正確答案)"
+  },
+  {
+    "id": "Q-362B",
+    "groupKey": "G-362",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"I go to school by bus.\" 時，對應的英文問句應該是：",
+    "options": [
+      "How's the weather?",
+      "How do you go to school? (變式4)",
+      "Where are you going?",
+      "What's your name?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) How do you go to school? (變式4)\n💡【重點提示】詢問交通工具方式句型 (How do you go to...?)。 [學檢模擬情境題組4]\n📖【例句應用】A: How do you go to school? B: I go to school by bus.\n\n【選項對照】\n(A) How's the weather?\n(B) How do you go to school? (變式4) (正確答案)\n(C) Where are you going?\n(D) What's your name?"
+  },
+  {
+    "id": "Q-363A",
+    "groupKey": "G-363",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"How does she go to the market? (變式4)\" 時，最適當的回答是：",
+    "options": [
+      "She goes to the market on foot.",
+      "She is hungry.",
+      "She buys apples.",
+      "She likes fish."
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) She goes to the market on foot.\n💡【重點提示】詢問步行或交通工具 (on foot 步行)。 [學檢模擬情境題組4]\n📖【例句應用】A: How does she go to the market? B: She goes to the market on foot.\n\n【選項解析】\n(A) She goes to the market on foot. (正確答案)\n(B) She is hungry.\n(C) She buys apples.\n(D) She likes fish."
+  },
+  {
+    "id": "Q-363B",
+    "groupKey": "G-363",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"She goes to the market on foot.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Where are you going?",
+      "How does she go to the market? (變式4)",
+      "What's your name?",
+      "How's the weather?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) How does she go to the market? (變式4)\n💡【重點提示】詢問步行或交通工具 (on foot 步行)。 [學檢模擬情境題組4]\n📖【例句應用】A: How does she go to the market? B: She goes to the market on foot.\n\n【選項對照】\n(A) Where are you going?\n(B) How does she go to the market? (變式4) (正確答案)\n(C) What's your name?\n(D) How's the weather?"
+  },
+  {
+    "id": "Q-364A",
+    "groupKey": "G-364",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What do you want for breakfast? (變式4)\" 時，最適當的回答是：",
+    "options": [
+      "It is eight o'clock.",
+      "I want milk and bread.",
+      "I like blue.",
+      "I am swimming."
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) I want milk and bread.\n💡【重點提示】點餐與飲食需求問答。 [學檢模擬情境題組4]\n📖【例句應用】A: What do you want for breakfast? B: I want milk and bread.\n\n【選項解析】\n(A) It is eight o'clock.\n(B) I want milk and bread. (正確答案)\n(C) I like blue.\n(D) I am swimming."
+  },
+  {
+    "id": "Q-364B",
+    "groupKey": "G-364",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"I want milk and bread.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What's your name?",
+      "How's the weather?",
+      "Where are you going?",
+      "What do you want for breakfast? (變式4)"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) What do you want for breakfast? (變式4)\n💡【重點提示】點餐與飲食需求問答。 [學檢模擬情境題組4]\n📖【例句應用】A: What do you want for breakfast? B: I want milk and bread.\n\n【選項對照】\n(A) What's your name?\n(B) How's the weather?\n(C) Where are you going?\n(D) What do you want for breakfast? (變式4) (正確答案)"
+  },
+  {
+    "id": "Q-365A",
+    "groupKey": "G-365",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Would you like some juice? (變式4)\" 時，最適當的回答是：",
+    "options": [
+      "No, it isn't.",
+      "Yes, I can.",
+      "Yes, please.",
+      "Yes, I am."
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) Yes, please.\n💡【重點提示】禮貌款待提議之 Yes/No 答句 (Yes, please / No, thank you)。 [學檢模擬情境題組4]\n📖【例句應用】A: Would you like some juice? B: Yes, please.\n\n【選項解析】\n(A) No, it isn't.\n(B) Yes, I can.\n(C) Yes, please. (正確答案)\n(D) Yes, I am."
+  },
+  {
+    "id": "Q-365B",
+    "groupKey": "G-365",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"Yes, please.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Would you like some juice? (變式4)",
+      "Where are you going?",
+      "What's your name?",
+      "How's the weather?"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) Would you like some juice? (變式4)\n💡【重點提示】禮貌款待提議之 Yes/No 答句 (Yes, please / No, thank you)。 [學檢模擬情境題組4]\n📖【例句應用】A: Would you like some juice? B: Yes, please.\n\n【選項對照】\n(A) Would you like some juice? (變式4) (正確答案)\n(B) Where are you going?\n(C) What's your name?\n(D) How's the weather?"
+  },
+  {
+    "id": "Q-366A",
+    "groupKey": "G-366",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Do you have a water bottle? (變式4)\" 時，最適當的回答是：",
+    "options": [
+      "Yes, it is.",
+      "Yes, I am.",
+      "Yes, I can.",
+      "Yes, I do."
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) Yes, I do.\n💡【重點提示】確認擁有物品之 Yes/No 簡答。 [學檢模擬情境題組4]\n📖【例句應用】A: Do you have a water bottle? B: Yes, I do.\n\n【選項解析】\n(A) Yes, it is.\n(B) Yes, I am.\n(C) Yes, I can.\n(D) Yes, I do. (正確答案)"
+  },
+  {
+    "id": "Q-366B",
+    "groupKey": "G-366",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"Yes, I do.\" 時，對應的英文問句應該是：",
+    "options": [
+      "How's the weather?",
+      "Where are you going?",
+      "What's your name?",
+      "Do you have a water bottle? (變式4)"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) Do you have a water bottle? (變式4)\n💡【重點提示】確認擁有物品之 Yes/No 簡答。 [學檢模擬情境題組4]\n📖【例句應用】A: Do you have a water bottle? B: Yes, I do.\n\n【選項對照】\n(A) How's the weather?\n(B) Where are you going?\n(C) What's your name?\n(D) Do you have a water bottle? (變式4) (正確答案)"
+  },
+  {
+    "id": "Q-367A",
+    "groupKey": "G-367",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Is there a computer in the classroom? (變式4)\" 時，最適當的回答是：",
+    "options": [
+      "Yes, I do.",
+      "Yes, he is.",
+      "Yes, it is.",
+      "Yes, there is."
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) Yes, there is.\n💡【重點提示】There is/are 存在句型之確認簡答。 [學檢模擬情境題組4]\n📖【例句應用】A: Is there a computer in the classroom? B: Yes, there is.\n\n【選項解析】\n(A) Yes, I do.\n(B) Yes, he is.\n(C) Yes, it is.\n(D) Yes, there is. (正確答案)"
+  },
+  {
+    "id": "Q-367B",
+    "groupKey": "G-367",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"Yes, there is.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Is there a computer in the classroom? (變式4)",
+      "How's the weather?",
+      "Where are you going?",
+      "What's your name?"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) Is there a computer in the classroom? (變式4)\n💡【重點提示】There is/are 存在句型之確認簡答。 [學檢模擬情境題組4]\n📖【例句應用】A: Is there a computer in the classroom? B: Yes, there is.\n\n【選項對照】\n(A) Is there a computer in the classroom? (變式4) (正確答案)\n(B) How's the weather?\n(C) Where are you going?\n(D) What's your name?"
+  },
+  {
+    "id": "Q-368A",
+    "groupKey": "G-368",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Are there any apples in the box? (變式4)\" 時，最適當的回答是：",
+    "options": [
+      "No, there aren't.",
+      "No, I am not.",
+      "No, it isn't.",
+      "No, I don't."
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) No, there aren't.\n💡【重點提示】There are 複數存在句型之否定簡答。 [學檢模擬情境題組4]\n📖【例句應用】A: Are there any apples in the box? B: No, there aren't.\n\n【選項解析】\n(A) No, there aren't. (正確答案)\n(B) No, I am not.\n(C) No, it isn't.\n(D) No, I don't."
+  },
+  {
+    "id": "Q-368B",
+    "groupKey": "G-368",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"No, there aren't.\" 時，對應的英文問句應該是：",
+    "options": [
+      "How's the weather?",
+      "What's your name?",
+      "Are there any apples in the box? (變式4)",
+      "Where are you going?"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) Are there any apples in the box? (變式4)\n💡【重點提示】There are 複數存在句型之否定簡答。 [學檢模擬情境題組4]\n📖【例句應用】A: Are there any apples in the box? B: No, there aren't.\n\n【選項對照】\n(A) How's the weather?\n(B) What's your name?\n(C) Are there any apples in the box? (變式4) (正確答案)\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-369A",
+    "groupKey": "G-369",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What is your favorite subject? (變式4)\" 時，最適當的回答是：",
+    "options": [
+      "I am ten.",
+      "I want a sandwich.",
+      "I like blue.",
+      "My favorite subject is English."
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) My favorite subject is English.\n💡【重點提示】詢問最喜愛的學科領域。 [學檢模擬情境題組4]\n📖【例句應用】A: What is your favorite subject? B: My favorite subject is English.\n\n【選項解析】\n(A) I am ten.\n(B) I want a sandwich.\n(C) I like blue.\n(D) My favorite subject is English. (正確答案)"
+  },
+  {
+    "id": "Q-369B",
+    "groupKey": "G-369",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"My favorite subject is English.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Where are you going?",
+      "How's the weather?",
+      "What is your favorite subject? (變式4)",
+      "What's your name?"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) What is your favorite subject? (變式4)\n💡【重點提示】詢問最喜愛的學科領域。 [學檢模擬情境題組4]\n📖【例句應用】A: What is your favorite subject? B: My favorite subject is English.\n\n【選項對照】\n(A) Where are you going?\n(B) How's the weather?\n(C) What is your favorite subject? (變式4) (正確答案)\n(D) What's your name?"
+  },
+  {
+    "id": "Q-370A",
+    "groupKey": "G-370",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What is your favorite color? (變式4)\" 時，最適當的回答是：",
+    "options": [
+      "I like dogs.",
+      "My favorite color is blue.",
+      "I can swim.",
+      "It is five o'clock."
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) My favorite color is blue.\n💡【重點提示】詢問最喜愛的顏色。 [學檢模擬情境題組4]\n📖【例句應用】A: What is your favorite color? B: My favorite color is blue.\n\n【選項解析】\n(A) I like dogs.\n(B) My favorite color is blue. (正確答案)\n(C) I can swim.\n(D) It is five o'clock."
+  },
+  {
+    "id": "Q-370B",
+    "groupKey": "G-370",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"My favorite color is blue.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What's your name?",
+      "Where are you going?",
+      "How's the weather?",
+      "What is your favorite color? (變式4)"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) What is your favorite color? (變式4)\n💡【重點提示】詢問最喜愛的顏色。 [學檢模擬情境題組4]\n📖【例句應用】A: What is your favorite color? B: My favorite color is blue.\n\n【選項對照】\n(A) What's your name?\n(B) Where are you going?\n(C) How's the weather?\n(D) What is your favorite color? (變式4) (正確答案)"
+  },
+  {
+    "id": "Q-371A",
+    "groupKey": "G-371",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What is your favorite animal? (變式4)\" 時，最適當的回答是：",
+    "options": [
+      "I am fine.",
+      "Yes, I do.",
+      "My favorite animal is the rabbit.",
+      "It is green."
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) My favorite animal is the rabbit.\n💡【重點提示】詢問最喜愛的動物。 [學檢模擬情境題組4]\n📖【例句應用】A: What is your favorite animal? B: My favorite animal is the rabbit.\n\n【選項解析】\n(A) I am fine.\n(B) Yes, I do.\n(C) My favorite animal is the rabbit. (正確答案)\n(D) It is green."
+  },
+  {
+    "id": "Q-371B",
+    "groupKey": "G-371",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"My favorite animal is the rabbit.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Where are you going?",
+      "How's the weather?",
+      "What is your favorite animal? (變式4)",
+      "What's your name?"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) What is your favorite animal? (變式4)\n💡【重點提示】詢問最喜愛的動物。 [學檢模擬情境題組4]\n📖【例句應用】A: What is your favorite animal? B: My favorite animal is the rabbit.\n\n【選項對照】\n(A) Where are you going?\n(B) How's the weather?\n(C) What is your favorite animal? (變式4) (正確答案)\n(D) What's your name?"
+  },
+  {
+    "id": "Q-372A",
+    "groupKey": "G-372",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Why are you wearing a coat? (變式4)\" 時，最適當的回答是：",
+    "options": [
+      "Yes, I do.",
+      "It's two o'clock.",
+      "I am nine.",
+      "Because it is cold outside."
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) Because it is cold outside.\n💡【重點提示】Why 詢問原因，答句搭配 Because... [學檢模擬情境題組4]\n📖【例句應用】A: Why are you wearing a coat? B: Because it is cold outside.\n\n【選項解析】\n(A) Yes, I do.\n(B) It's two o'clock.\n(C) I am nine.\n(D) Because it is cold outside. (正確答案)"
+  },
+  {
+    "id": "Q-372B",
+    "groupKey": "G-372",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"Because it is cold outside.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Where are you going?",
+      "How's the weather?",
+      "What's your name?",
+      "Why are you wearing a coat? (變式4)"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) Why are you wearing a coat? (變式4)\n💡【重點提示】Why 詢問原因，答句搭配 Because... [學檢模擬情境題組4]\n📖【例句應用】A: Why are you wearing a coat? B: Because it is cold outside.\n\n【選項對照】\n(A) Where are you going?\n(B) How's the weather?\n(C) What's your name?\n(D) Why are you wearing a coat? (變式4) (正確答案)"
+  },
+  {
+    "id": "Q-373A",
+    "groupKey": "G-373",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Can I help you? (變式4)\" 時，最適當的回答是：",
+    "options": [
+      "I am fine.",
+      "Yes, please. I'm looking for a notebook.",
+      "It's red.",
+      "No, I am not."
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) Yes, please. I'm looking for a notebook.\n💡【重點提示】商店與服務人員主動提供協助用語。 [學檢模擬情境題組4]\n📖【例句應用】A: Can I help you? B: Yes, please. I'm looking for a notebook.\n\n【選項解析】\n(A) I am fine.\n(B) Yes, please. I'm looking for a notebook. (正確答案)\n(C) It's red.\n(D) No, I am not."
+  },
+  {
+    "id": "Q-373B",
+    "groupKey": "G-373",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"Yes, please. I'm looking for a notebook.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Can I help you? (變式4)",
+      "What's your name?",
+      "How's the weather?",
+      "Where are you going?"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) Can I help you? (變式4)\n💡【重點提示】商店與服務人員主動提供協助用語。 [學檢模擬情境題組4]\n📖【例句應用】A: Can I help you? B: Yes, please. I'm looking for a notebook.\n\n【選項對照】\n(A) Can I help you? (變式4) (正確答案)\n(B) What's your name?\n(C) How's the weather?\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-374A",
+    "groupKey": "G-374",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"How much is this pencil case? (變式4)\" 時，最適當的回答是：",
+    "options": [
+      "It is blue.",
+      "It is ten.",
+      "Yes, please.",
+      "It is fifty dollars."
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) It is fifty dollars.\n💡【重點提示】How much 詢問價格問答。 [學檢模擬情境題組4]\n📖【例句應用】A: How much is this pencil case? B: It is fifty dollars.\n\n【選項解析】\n(A) It is blue.\n(B) It is ten.\n(C) Yes, please.\n(D) It is fifty dollars. (正確答案)"
+  },
+  {
+    "id": "Q-374B",
+    "groupKey": "G-374",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"It is fifty dollars.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Where are you going?",
+      "How's the weather?",
+      "What's your name?",
+      "How much is this pencil case? (變式4)"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) How much is this pencil case? (變式4)\n💡【重點提示】How much 詢問價格問答。 [學檢模擬情境題組4]\n📖【例句應用】A: How much is this pencil case? B: It is fifty dollars.\n\n【選項對照】\n(A) Where are you going?\n(B) How's the weather?\n(C) What's your name?\n(D) How much is this pencil case? (變式4) (正確答案)"
+  },
+  {
+    "id": "Q-375A",
+    "groupKey": "G-375",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What season do you like best? (變式4)\" 時，最適當的回答是：",
+    "options": [
+      "I am swimming.",
+      "It is hot.",
+      "I want ice cream.",
+      "I like summer best."
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) I like summer best.\n💡【重點提示】詢問最喜愛的季節。 [學檢模擬情境題組4]\n📖【例句應用】A: What season do you like best? B: I like summer best.\n\n【選項解析】\n(A) I am swimming.\n(B) It is hot.\n(C) I want ice cream.\n(D) I like summer best. (正確答案)"
+  },
+  {
+    "id": "Q-375B",
+    "groupKey": "G-375",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"I like summer best.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What's your name?",
+      "Where are you going?",
+      "How's the weather?",
+      "What season do you like best? (變式4)"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) What season do you like best? (變式4)\n💡【重點提示】詢問最喜愛的季節。 [學檢模擬情境題組4]\n📖【例句應用】A: What season do you like best? B: I like summer best.\n\n【選項對照】\n(A) What's your name?\n(B) Where are you going?\n(C) How's the weather?\n(D) What season do you like best? (變式4) (正確答案)"
+  },
+  {
+    "id": "Q-376A",
+    "groupKey": "G-376",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"When is your birthday? (變式4)\" 時，最適當的回答是：",
+    "options": [
+      "It is on May 5th.",
+      "Yes, I do.",
+      "I am ten.",
+      "It is fine."
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) It is on May 5th.\n💡【重點提示】When 詢問日期與時間。 [學檢模擬情境題組4]\n📖【例句應用】A: When is your birthday? B: It is on May 5th.\n\n【選項解析】\n(A) It is on May 5th. (正確答案)\n(B) Yes, I do.\n(C) I am ten.\n(D) It is fine."
+  },
+  {
+    "id": "Q-376B",
+    "groupKey": "G-376",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"It is on May 5th.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What's your name?",
+      "Where are you going?",
+      "When is your birthday? (變式4)",
+      "How's the weather?"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) When is your birthday? (變式4)\n💡【重點提示】When 詢問日期與時間。 [學檢模擬情境題組4]\n📖【例句應用】A: When is your birthday? B: It is on May 5th.\n\n【選項對照】\n(A) What's your name?\n(B) Where are you going?\n(C) When is your birthday? (變式4) (正確答案)\n(D) How's the weather?"
+  },
+  {
+    "id": "Q-377A",
+    "groupKey": "G-377",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Where is my English book? (變式5)\" 時，最適當的回答是：",
+    "options": [
+      "It is under your chair.",
+      "Yes, I can.",
+      "I am a student.",
+      "It is three o'clock."
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) It is under your chair.\n💡【重點提示】物品方位尋找句型。 [學檢模擬情境題組5]\n📖【例句應用】A: Where is my English book? B: It is under your chair.\n\n【選項解析】\n(A) It is under your chair. (正確答案)\n(B) Yes, I can.\n(C) I am a student.\n(D) It is three o'clock."
+  },
+  {
+    "id": "Q-377B",
+    "groupKey": "G-377",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"It is under your chair.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What's your name?",
+      "How's the weather?",
+      "Where are you going?",
+      "Where is my English book? (變式5)"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) Where is my English book? (變式5)\n💡【重點提示】物品方位尋找句型。 [學檢模擬情境題組5]\n📖【例句應用】A: Where is my English book? B: It is under your chair.\n\n【選項對照】\n(A) What's your name?\n(B) How's the weather?\n(C) Where are you going?\n(D) Where is my English book? (變式5) (正確答案)"
+  },
+  {
+    "id": "Q-378A",
+    "groupKey": "G-378",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Whose cap is this? (變式5)\" 時，最適當的回答是：",
+    "options": [
+      "It's blue.",
+      "It's a dog.",
+      "Yes, it is.",
+      "It's John's cap."
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) It's John's cap.\n💡【重點提示】詢問物品所有權句型 (Whose)。 [學檢模擬情境題組5]\n📖【例句應用】A: Whose cap is this? B: It's John's cap.\n\n【選項解析】\n(A) It's blue.\n(B) It's a dog.\n(C) Yes, it is.\n(D) It's John's cap. (正確答案)"
+  },
+  {
+    "id": "Q-378B",
+    "groupKey": "G-378",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"It's John's cap.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What's your name?",
+      "Whose cap is this? (變式5)",
+      "How's the weather?",
+      "Where are you going?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) Whose cap is this? (變式5)\n💡【重點提示】詢問物品所有權句型 (Whose)。 [學檢模擬情境題組5]\n📖【例句應用】A: Whose cap is this? B: It's John's cap.\n\n【選項對照】\n(A) What's your name?\n(B) Whose cap is this? (變式5) (正確答案)\n(C) How's the weather?\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-379A",
+    "groupKey": "G-379",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"How many pencils do you have? (變式5)\" 時，最適當的回答是：",
+    "options": [
+      "It is red.",
+      "I am fine.",
+      "Yes, I do.",
+      "I have three pencils."
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) I have three pencils.\n💡【重點提示】詢問數量句型 (How many + 複數名詞)。 [學檢模擬情境題組5]\n📖【例句應用】A: How many pencils do you have? B: I have three pencils.\n\n【選項解析】\n(A) It is red.\n(B) I am fine.\n(C) Yes, I do.\n(D) I have three pencils. (正確答案)"
+  },
+  {
+    "id": "Q-379B",
+    "groupKey": "G-379",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"I have three pencils.\" 時，對應的英文問句應該是：",
+    "options": [
+      "How's the weather?",
+      "How many pencils do you have? (變式5)",
+      "Where are you going?",
+      "What's your name?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) How many pencils do you have? (變式5)\n💡【重點提示】詢問數量句型 (How many + 複數名詞)。 [學檢模擬情境題組5]\n📖【例句應用】A: How many pencils do you have? B: I have three pencils.\n\n【選項對照】\n(A) How's the weather?\n(B) How many pencils do you have? (變式5) (正確答案)\n(C) Where are you going?\n(D) What's your name?"
+  },
+  {
+    "id": "Q-380A",
+    "groupKey": "G-380",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What does your father do? (變式5)\" 時，最適當的回答是：",
+    "options": [
+      "He likes milk.",
+      "He is a firefighter.",
+      "He is in the kitchen.",
+      "He is forty."
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) He is a firefighter.\n💡【重點提示】詢問職業句型 (What does... do?)。 [學檢模擬情境題組5]\n📖【例句應用】A: What does your father do? B: He is a firefighter.\n\n【選項解析】\n(A) He likes milk.\n(B) He is a firefighter. (正確答案)\n(C) He is in the kitchen.\n(D) He is forty."
+  },
+  {
+    "id": "Q-380B",
+    "groupKey": "G-380",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"He is a firefighter.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What's your name?",
+      "What does your father do? (變式5)",
+      "Where are you going?",
+      "How's the weather?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) What does your father do? (變式5)\n💡【重點提示】詢問職業句型 (What does... do?)。 [學檢模擬情境題組5]\n📖【例句應用】A: What does your father do? B: He is a firefighter.\n\n【選項對照】\n(A) What's your name?\n(B) What does your father do? (變式5) (正確答案)\n(C) Where are you going?\n(D) How's the weather?"
+  },
+  {
+    "id": "Q-381A",
+    "groupKey": "G-381",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What does your mother do? (變式5)\" 時，最適當的回答是：",
+    "options": [
+      "She is home.",
+      "She likes tea.",
+      "She is a doctor.",
+      "She is happy."
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) She is a doctor.\n💡【重點提示】詢問母親職業句型。 [學檢模擬情境題組5]\n📖【例句應用】A: What does your mother do? B: She is a doctor.\n\n【選項解析】\n(A) She is home.\n(B) She likes tea.\n(C) She is a doctor. (正確答案)\n(D) She is happy."
+  },
+  {
+    "id": "Q-381B",
+    "groupKey": "G-381",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"She is a doctor.\" 時，對應的英文問句應該是：",
+    "options": [
+      "How's the weather?",
+      "What's your name?",
+      "What does your mother do? (變式5)",
+      "Where are you going?"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) What does your mother do? (變式5)\n💡【重點提示】詢問母親職業句型。 [學檢模擬情境題組5]\n📖【例句應用】A: What does your mother do? B: She is a doctor.\n\n【選項對照】\n(A) How's the weather?\n(B) What's your name?\n(C) What does your mother do? (變式5) (正確答案)\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-382A",
+    "groupKey": "G-382",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Where is your brother going? (變式5)\" 時，最適當的回答是：",
+    "options": [
+      "He is fine.",
+      "He is going to the park.",
+      "He likes soccer.",
+      "He is ten."
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) He is going to the park.\n💡【重點提示】詢問目的地進行式句型 (Where is... going?)。 [學檢模擬情境題組5]\n📖【例句應用】A: Where is your brother going? B: He is going to the park.\n\n【選項解析】\n(A) He is fine.\n(B) He is going to the park. (正確答案)\n(C) He likes soccer.\n(D) He is ten."
+  },
+  {
+    "id": "Q-382B",
+    "groupKey": "G-382",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"He is going to the park.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Where are you going?",
+      "How's the weather?",
+      "Where is your brother going? (變式5)",
+      "What's your name?"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) Where is your brother going? (變式5)\n💡【重點提示】詢問目的地進行式句型 (Where is... going?)。 [學檢模擬情境題組5]\n📖【例句應用】A: Where is your brother going? B: He is going to the park.\n\n【選項對照】\n(A) Where are you going?\n(B) How's the weather?\n(C) Where is your brother going? (變式5) (正確答案)\n(D) What's your name?"
+  },
+  {
+    "id": "Q-383A",
+    "groupKey": "G-383",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"How do you go to school? (變式5)\" 時，最適當的回答是：",
+    "options": [
+      "I go to school by bus.",
+      "I am nine.",
+      "I like school.",
+      "It's sunny."
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) I go to school by bus.\n💡【重點提示】詢問交通工具方式句型 (How do you go to...?)。 [學檢模擬情境題組5]\n📖【例句應用】A: How do you go to school? B: I go to school by bus.\n\n【選項解析】\n(A) I go to school by bus. (正確答案)\n(B) I am nine.\n(C) I like school.\n(D) It's sunny."
+  },
+  {
+    "id": "Q-383B",
+    "groupKey": "G-383",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"I go to school by bus.\" 時，對應的英文問句應該是：",
+    "options": [
+      "How do you go to school? (變式5)",
+      "How's the weather?",
+      "Where are you going?",
+      "What's your name?"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) How do you go to school? (變式5)\n💡【重點提示】詢問交通工具方式句型 (How do you go to...?)。 [學檢模擬情境題組5]\n📖【例句應用】A: How do you go to school? B: I go to school by bus.\n\n【選項對照】\n(A) How do you go to school? (變式5) (正確答案)\n(B) How's the weather?\n(C) Where are you going?\n(D) What's your name?"
+  },
+  {
+    "id": "Q-384A",
+    "groupKey": "G-384",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"How does she go to the market? (變式5)\" 時，最適當的回答是：",
+    "options": [
+      "She likes fish.",
+      "She goes to the market on foot.",
+      "She buys apples.",
+      "She is hungry."
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) She goes to the market on foot.\n💡【重點提示】詢問步行或交通工具 (on foot 步行)。 [學檢模擬情境題組5]\n📖【例句應用】A: How does she go to the market? B: She goes to the market on foot.\n\n【選項解析】\n(A) She likes fish.\n(B) She goes to the market on foot. (正確答案)\n(C) She buys apples.\n(D) She is hungry."
+  },
+  {
+    "id": "Q-384B",
+    "groupKey": "G-384",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"She goes to the market on foot.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Where are you going?",
+      "How does she go to the market? (變式5)",
+      "What's your name?",
+      "How's the weather?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) How does she go to the market? (變式5)\n💡【重點提示】詢問步行或交通工具 (on foot 步行)。 [學檢模擬情境題組5]\n📖【例句應用】A: How does she go to the market? B: She goes to the market on foot.\n\n【選項對照】\n(A) Where are you going?\n(B) How does she go to the market? (變式5) (正確答案)\n(C) What's your name?\n(D) How's the weather?"
+  },
+  {
+    "id": "Q-385A",
+    "groupKey": "G-385",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What do you want for breakfast? (變式5)\" 時，最適當的回答是：",
+    "options": [
+      "I am swimming.",
+      "It is eight o'clock.",
+      "I want milk and bread.",
+      "I like blue."
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) I want milk and bread.\n💡【重點提示】點餐與飲食需求問答。 [學檢模擬情境題組5]\n📖【例句應用】A: What do you want for breakfast? B: I want milk and bread.\n\n【選項解析】\n(A) I am swimming.\n(B) It is eight o'clock.\n(C) I want milk and bread. (正確答案)\n(D) I like blue."
+  },
+  {
+    "id": "Q-385B",
+    "groupKey": "G-385",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"I want milk and bread.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Where are you going?",
+      "What do you want for breakfast? (變式5)",
+      "What's your name?",
+      "How's the weather?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) What do you want for breakfast? (變式5)\n💡【重點提示】點餐與飲食需求問答。 [學檢模擬情境題組5]\n📖【例句應用】A: What do you want for breakfast? B: I want milk and bread.\n\n【選項對照】\n(A) Where are you going?\n(B) What do you want for breakfast? (變式5) (正確答案)\n(C) What's your name?\n(D) How's the weather?"
+  },
+  {
+    "id": "Q-386A",
+    "groupKey": "G-386",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Would you like some juice? (變式5)\" 時，最適當的回答是：",
+    "options": [
+      "No, it isn't.",
+      "Yes, I am.",
+      "Yes, please.",
+      "Yes, I can."
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) Yes, please.\n💡【重點提示】禮貌款待提議之 Yes/No 答句 (Yes, please / No, thank you)。 [學檢模擬情境題組5]\n📖【例句應用】A: Would you like some juice? B: Yes, please.\n\n【選項解析】\n(A) No, it isn't.\n(B) Yes, I am.\n(C) Yes, please. (正確答案)\n(D) Yes, I can."
+  },
+  {
+    "id": "Q-386B",
+    "groupKey": "G-386",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"Yes, please.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What's your name?",
+      "How's the weather?",
+      "Would you like some juice? (變式5)",
+      "Where are you going?"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) Would you like some juice? (變式5)\n💡【重點提示】禮貌款待提議之 Yes/No 答句 (Yes, please / No, thank you)。 [學檢模擬情境題組5]\n📖【例句應用】A: Would you like some juice? B: Yes, please.\n\n【選項對照】\n(A) What's your name?\n(B) How's the weather?\n(C) Would you like some juice? (變式5) (正確答案)\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-387A",
+    "groupKey": "G-387",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Do you have a water bottle? (變式5)\" 時，最適當的回答是：",
+    "options": [
+      "Yes, I am.",
+      "Yes, I do.",
+      "Yes, I can.",
+      "Yes, it is."
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) Yes, I do.\n💡【重點提示】確認擁有物品之 Yes/No 簡答。 [學檢模擬情境題組5]\n📖【例句應用】A: Do you have a water bottle? B: Yes, I do.\n\n【選項解析】\n(A) Yes, I am.\n(B) Yes, I do. (正確答案)\n(C) Yes, I can.\n(D) Yes, it is."
+  },
+  {
+    "id": "Q-387B",
+    "groupKey": "G-387",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"Yes, I do.\" 時，對應的英文問句應該是：",
+    "options": [
+      "How's the weather?",
+      "Do you have a water bottle? (變式5)",
+      "What's your name?",
+      "Where are you going?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) Do you have a water bottle? (變式5)\n💡【重點提示】確認擁有物品之 Yes/No 簡答。 [學檢模擬情境題組5]\n📖【例句應用】A: Do you have a water bottle? B: Yes, I do.\n\n【選項對照】\n(A) How's the weather?\n(B) Do you have a water bottle? (變式5) (正確答案)\n(C) What's your name?\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-388A",
+    "groupKey": "G-388",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Is there a computer in the classroom? (變式5)\" 時，最適當的回答是：",
+    "options": [
+      "Yes, I do.",
+      "Yes, it is.",
+      "Yes, there is.",
+      "Yes, he is."
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) Yes, there is.\n💡【重點提示】There is/are 存在句型之確認簡答。 [學檢模擬情境題組5]\n📖【例句應用】A: Is there a computer in the classroom? B: Yes, there is.\n\n【選項解析】\n(A) Yes, I do.\n(B) Yes, it is.\n(C) Yes, there is. (正確答案)\n(D) Yes, he is."
+  },
+  {
+    "id": "Q-388B",
+    "groupKey": "G-388",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"Yes, there is.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What's your name?",
+      "Is there a computer in the classroom? (變式5)",
+      "Where are you going?",
+      "How's the weather?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) Is there a computer in the classroom? (變式5)\n💡【重點提示】There is/are 存在句型之確認簡答。 [學檢模擬情境題組5]\n📖【例句應用】A: Is there a computer in the classroom? B: Yes, there is.\n\n【選項對照】\n(A) What's your name?\n(B) Is there a computer in the classroom? (變式5) (正確答案)\n(C) Where are you going?\n(D) How's the weather?"
+  },
+  {
+    "id": "Q-389A",
+    "groupKey": "G-389",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Are there any apples in the box? (變式5)\" 時，最適當的回答是：",
+    "options": [
+      "No, there aren't.",
+      "No, I am not.",
+      "No, it isn't.",
+      "No, I don't."
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) No, there aren't.\n💡【重點提示】There are 複數存在句型之否定簡答。 [學檢模擬情境題組5]\n📖【例句應用】A: Are there any apples in the box? B: No, there aren't.\n\n【選項解析】\n(A) No, there aren't. (正確答案)\n(B) No, I am not.\n(C) No, it isn't.\n(D) No, I don't."
+  },
+  {
+    "id": "Q-389B",
+    "groupKey": "G-389",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"No, there aren't.\" 時，對應的英文問句應該是：",
+    "options": [
+      "How's the weather?",
+      "Where are you going?",
+      "Are there any apples in the box? (變式5)",
+      "What's your name?"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) Are there any apples in the box? (變式5)\n💡【重點提示】There are 複數存在句型之否定簡答。 [學檢模擬情境題組5]\n📖【例句應用】A: Are there any apples in the box? B: No, there aren't.\n\n【選項對照】\n(A) How's the weather?\n(B) Where are you going?\n(C) Are there any apples in the box? (變式5) (正確答案)\n(D) What's your name?"
+  },
+  {
+    "id": "Q-390A",
+    "groupKey": "G-390",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What is your favorite subject? (變式5)\" 時，最適當的回答是：",
+    "options": [
+      "I want a sandwich.",
+      "I like blue.",
+      "My favorite subject is English.",
+      "I am ten."
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) My favorite subject is English.\n💡【重點提示】詢問最喜愛的學科領域。 [學檢模擬情境題組5]\n📖【例句應用】A: What is your favorite subject? B: My favorite subject is English.\n\n【選項解析】\n(A) I want a sandwich.\n(B) I like blue.\n(C) My favorite subject is English. (正確答案)\n(D) I am ten."
+  },
+  {
+    "id": "Q-390B",
+    "groupKey": "G-390",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"My favorite subject is English.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What is your favorite subject? (變式5)",
+      "Where are you going?",
+      "What's your name?",
+      "How's the weather?"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) What is your favorite subject? (變式5)\n💡【重點提示】詢問最喜愛的學科領域。 [學檢模擬情境題組5]\n📖【例句應用】A: What is your favorite subject? B: My favorite subject is English.\n\n【選項對照】\n(A) What is your favorite subject? (變式5) (正確答案)\n(B) Where are you going?\n(C) What's your name?\n(D) How's the weather?"
+  },
+  {
+    "id": "Q-391A",
+    "groupKey": "G-391",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What is your favorite color? (變式5)\" 時，最適當的回答是：",
+    "options": [
+      "I can swim.",
+      "My favorite color is blue.",
+      "It is five o'clock.",
+      "I like dogs."
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) My favorite color is blue.\n💡【重點提示】詢問最喜愛的顏色。 [學檢模擬情境題組5]\n📖【例句應用】A: What is your favorite color? B: My favorite color is blue.\n\n【選項解析】\n(A) I can swim.\n(B) My favorite color is blue. (正確答案)\n(C) It is five o'clock.\n(D) I like dogs."
+  },
+  {
+    "id": "Q-391B",
+    "groupKey": "G-391",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"My favorite color is blue.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What is your favorite color? (變式5)",
+      "Where are you going?",
+      "How's the weather?",
+      "What's your name?"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) What is your favorite color? (變式5)\n💡【重點提示】詢問最喜愛的顏色。 [學檢模擬情境題組5]\n📖【例句應用】A: What is your favorite color? B: My favorite color is blue.\n\n【選項對照】\n(A) What is your favorite color? (變式5) (正確答案)\n(B) Where are you going?\n(C) How's the weather?\n(D) What's your name?"
+  },
+  {
+    "id": "Q-392A",
+    "groupKey": "G-392",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What is your favorite animal? (變式5)\" 時，最適當的回答是：",
+    "options": [
+      "Yes, I do.",
+      "It is green.",
+      "My favorite animal is the rabbit.",
+      "I am fine."
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) My favorite animal is the rabbit.\n💡【重點提示】詢問最喜愛的動物。 [學檢模擬情境題組5]\n📖【例句應用】A: What is your favorite animal? B: My favorite animal is the rabbit.\n\n【選項解析】\n(A) Yes, I do.\n(B) It is green.\n(C) My favorite animal is the rabbit. (正確答案)\n(D) I am fine."
+  },
+  {
+    "id": "Q-392B",
+    "groupKey": "G-392",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"My favorite animal is the rabbit.\" 時，對應的英文問句應該是：",
+    "options": [
+      "How's the weather?",
+      "What's your name?",
+      "What is your favorite animal? (變式5)",
+      "Where are you going?"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) What is your favorite animal? (變式5)\n💡【重點提示】詢問最喜愛的動物。 [學檢模擬情境題組5]\n📖【例句應用】A: What is your favorite animal? B: My favorite animal is the rabbit.\n\n【選項對照】\n(A) How's the weather?\n(B) What's your name?\n(C) What is your favorite animal? (變式5) (正確答案)\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-393A",
+    "groupKey": "G-393",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Why are you wearing a coat? (變式5)\" 時，最適當的回答是：",
+    "options": [
+      "Yes, I do.",
+      "It's two o'clock.",
+      "I am nine.",
+      "Because it is cold outside."
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) Because it is cold outside.\n💡【重點提示】Why 詢問原因，答句搭配 Because... [學檢模擬情境題組5]\n📖【例句應用】A: Why are you wearing a coat? B: Because it is cold outside.\n\n【選項解析】\n(A) Yes, I do.\n(B) It's two o'clock.\n(C) I am nine.\n(D) Because it is cold outside. (正確答案)"
+  },
+  {
+    "id": "Q-393B",
+    "groupKey": "G-393",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"Because it is cold outside.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Why are you wearing a coat? (變式5)",
+      "How's the weather?",
+      "Where are you going?",
+      "What's your name?"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) Why are you wearing a coat? (變式5)\n💡【重點提示】Why 詢問原因，答句搭配 Because... [學檢模擬情境題組5]\n📖【例句應用】A: Why are you wearing a coat? B: Because it is cold outside.\n\n【選項對照】\n(A) Why are you wearing a coat? (變式5) (正確答案)\n(B) How's the weather?\n(C) Where are you going?\n(D) What's your name?"
+  },
+  {
+    "id": "Q-394A",
+    "groupKey": "G-394",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Can I help you? (變式5)\" 時，最適當的回答是：",
+    "options": [
+      "It's red.",
+      "No, I am not.",
+      "Yes, please. I'm looking for a notebook.",
+      "I am fine."
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) Yes, please. I'm looking for a notebook.\n💡【重點提示】商店與服務人員主動提供協助用語。 [學檢模擬情境題組5]\n📖【例句應用】A: Can I help you? B: Yes, please. I'm looking for a notebook.\n\n【選項解析】\n(A) It's red.\n(B) No, I am not.\n(C) Yes, please. I'm looking for a notebook. (正確答案)\n(D) I am fine."
+  },
+  {
+    "id": "Q-394B",
+    "groupKey": "G-394",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"Yes, please. I'm looking for a notebook.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What's your name?",
+      "How's the weather?",
+      "Can I help you? (變式5)",
+      "Where are you going?"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) Can I help you? (變式5)\n💡【重點提示】商店與服務人員主動提供協助用語。 [學檢模擬情境題組5]\n📖【例句應用】A: Can I help you? B: Yes, please. I'm looking for a notebook.\n\n【選項對照】\n(A) What's your name?\n(B) How's the weather?\n(C) Can I help you? (變式5) (正確答案)\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-395A",
+    "groupKey": "G-395",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"How much is this pencil case? (變式5)\" 時，最適當的回答是：",
+    "options": [
+      "Yes, please.",
+      "It is ten.",
+      "It is blue.",
+      "It is fifty dollars."
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) It is fifty dollars.\n💡【重點提示】How much 詢問價格問答。 [學檢模擬情境題組5]\n📖【例句應用】A: How much is this pencil case? B: It is fifty dollars.\n\n【選項解析】\n(A) Yes, please.\n(B) It is ten.\n(C) It is blue.\n(D) It is fifty dollars. (正確答案)"
+  },
+  {
+    "id": "Q-395B",
+    "groupKey": "G-395",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"It is fifty dollars.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Where are you going?",
+      "How much is this pencil case? (變式5)",
+      "How's the weather?",
+      "What's your name?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) How much is this pencil case? (變式5)\n💡【重點提示】How much 詢問價格問答。 [學檢模擬情境題組5]\n📖【例句應用】A: How much is this pencil case? B: It is fifty dollars.\n\n【選項對照】\n(A) Where are you going?\n(B) How much is this pencil case? (變式5) (正確答案)\n(C) How's the weather?\n(D) What's your name?"
+  },
+  {
+    "id": "Q-396A",
+    "groupKey": "G-396",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What season do you like best? (變式5)\" 時，最適當的回答是：",
+    "options": [
+      "I am swimming.",
+      "I like summer best.",
+      "It is hot.",
+      "I want ice cream."
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) I like summer best.\n💡【重點提示】詢問最喜愛的季節。 [學檢模擬情境題組5]\n📖【例句應用】A: What season do you like best? B: I like summer best.\n\n【選項解析】\n(A) I am swimming.\n(B) I like summer best. (正確答案)\n(C) It is hot.\n(D) I want ice cream."
+  },
+  {
+    "id": "Q-396B",
+    "groupKey": "G-396",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"I like summer best.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What's your name?",
+      "Where are you going?",
+      "How's the weather?",
+      "What season do you like best? (變式5)"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) What season do you like best? (變式5)\n💡【重點提示】詢問最喜愛的季節。 [學檢模擬情境題組5]\n📖【例句應用】A: What season do you like best? B: I like summer best.\n\n【選項對照】\n(A) What's your name?\n(B) Where are you going?\n(C) How's the weather?\n(D) What season do you like best? (變式5) (正確答案)"
+  },
+  {
+    "id": "Q-397A",
+    "groupKey": "G-397",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"When is your birthday? (變式5)\" 時，最適當的回答是：",
+    "options": [
+      "Yes, I do.",
+      "I am ten.",
+      "It is fine.",
+      "It is on May 5th."
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) It is on May 5th.\n💡【重點提示】When 詢問日期與時間。 [學檢模擬情境題組5]\n📖【例句應用】A: When is your birthday? B: It is on May 5th.\n\n【選項解析】\n(A) Yes, I do.\n(B) I am ten.\n(C) It is fine.\n(D) It is on May 5th. (正確答案)"
+  },
+  {
+    "id": "Q-397B",
+    "groupKey": "G-397",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"It is on May 5th.\" 時，對應的英文問句應該是：",
+    "options": [
+      "When is your birthday? (變式5)",
+      "What's your name?",
+      "How's the weather?",
+      "Where are you going?"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) When is your birthday? (變式5)\n💡【重點提示】When 詢問日期與時間。 [學檢模擬情境題組5]\n📖【例句應用】A: When is your birthday? B: It is on May 5th.\n\n【選項對照】\n(A) When is your birthday? (變式5) (正確答案)\n(B) What's your name?\n(C) How's the weather?\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-398A",
+    "groupKey": "G-398",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Where is my English book? (變式6)\" 時，最適當的回答是：",
+    "options": [
+      "Yes, I can.",
+      "It is three o'clock.",
+      "It is under your chair.",
+      "I am a student."
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) It is under your chair.\n💡【重點提示】物品方位尋找句型。 [學檢模擬情境題組6]\n📖【例句應用】A: Where is my English book? B: It is under your chair.\n\n【選項解析】\n(A) Yes, I can.\n(B) It is three o'clock.\n(C) It is under your chair. (正確答案)\n(D) I am a student."
+  },
+  {
+    "id": "Q-398B",
+    "groupKey": "G-398",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"It is under your chair.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What's your name?",
+      "How's the weather?",
+      "Where is my English book? (變式6)",
+      "Where are you going?"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) Where is my English book? (變式6)\n💡【重點提示】物品方位尋找句型。 [學檢模擬情境題組6]\n📖【例句應用】A: Where is my English book? B: It is under your chair.\n\n【選項對照】\n(A) What's your name?\n(B) How's the weather?\n(C) Where is my English book? (變式6) (正確答案)\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-399A",
+    "groupKey": "G-399",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Whose cap is this? (變式6)\" 時，最適當的回答是：",
+    "options": [
+      "It's John's cap.",
+      "It's blue.",
+      "Yes, it is.",
+      "It's a dog."
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) It's John's cap.\n💡【重點提示】詢問物品所有權句型 (Whose)。 [學檢模擬情境題組6]\n📖【例句應用】A: Whose cap is this? B: It's John's cap.\n\n【選項解析】\n(A) It's John's cap. (正確答案)\n(B) It's blue.\n(C) Yes, it is.\n(D) It's a dog."
+  },
+  {
+    "id": "Q-399B",
+    "groupKey": "G-399",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"It's John's cap.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What's your name?",
+      "Where are you going?",
+      "How's the weather?",
+      "Whose cap is this? (變式6)"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) Whose cap is this? (變式6)\n💡【重點提示】詢問物品所有權句型 (Whose)。 [學檢模擬情境題組6]\n📖【例句應用】A: Whose cap is this? B: It's John's cap.\n\n【選項對照】\n(A) What's your name?\n(B) Where are you going?\n(C) How's the weather?\n(D) Whose cap is this? (變式6) (正確答案)"
+  },
+  {
+    "id": "Q-400A",
+    "groupKey": "G-400",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"How many pencils do you have? (變式6)\" 時，最適當的回答是：",
+    "options": [
+      "Yes, I do.",
+      "I have three pencils.",
+      "It is red.",
+      "I am fine."
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) I have three pencils.\n💡【重點提示】詢問數量句型 (How many + 複數名詞)。 [學檢模擬情境題組6]\n📖【例句應用】A: How many pencils do you have? B: I have three pencils.\n\n【選項解析】\n(A) Yes, I do.\n(B) I have three pencils. (正確答案)\n(C) It is red.\n(D) I am fine."
+  },
+  {
+    "id": "Q-400B",
+    "groupKey": "G-400",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"I have three pencils.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Where are you going?",
+      "How's the weather?",
+      "How many pencils do you have? (變式6)",
+      "What's your name?"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) How many pencils do you have? (變式6)\n💡【重點提示】詢問數量句型 (How many + 複數名詞)。 [學檢模擬情境題組6]\n📖【例句應用】A: How many pencils do you have? B: I have three pencils.\n\n【選項對照】\n(A) Where are you going?\n(B) How's the weather?\n(C) How many pencils do you have? (變式6) (正確答案)\n(D) What's your name?"
+  },
+  {
+    "id": "Q-401A",
+    "groupKey": "G-401",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What does your father do? (變式6)\" 時，最適當的回答是：",
+    "options": [
+      "He is in the kitchen.",
+      "He is forty.",
+      "He likes milk.",
+      "He is a firefighter."
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) He is a firefighter.\n💡【重點提示】詢問職業句型 (What does... do?)。 [學檢模擬情境題組6]\n📖【例句應用】A: What does your father do? B: He is a firefighter.\n\n【選項解析】\n(A) He is in the kitchen.\n(B) He is forty.\n(C) He likes milk.\n(D) He is a firefighter. (正確答案)"
+  },
+  {
+    "id": "Q-401B",
+    "groupKey": "G-401",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"He is a firefighter.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Where are you going?",
+      "How's the weather?",
+      "What's your name?",
+      "What does your father do? (變式6)"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) What does your father do? (變式6)\n💡【重點提示】詢問職業句型 (What does... do?)。 [學檢模擬情境題組6]\n📖【例句應用】A: What does your father do? B: He is a firefighter.\n\n【選項對照】\n(A) Where are you going?\n(B) How's the weather?\n(C) What's your name?\n(D) What does your father do? (變式6) (正確答案)"
+  },
+  {
+    "id": "Q-402A",
+    "groupKey": "G-402",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What does your mother do? (變式6)\" 時，最適當的回答是：",
+    "options": [
+      "She is happy.",
+      "She is a doctor.",
+      "She likes tea.",
+      "She is home."
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) She is a doctor.\n💡【重點提示】詢問母親職業句型。 [學檢模擬情境題組6]\n📖【例句應用】A: What does your mother do? B: She is a doctor.\n\n【選項解析】\n(A) She is happy.\n(B) She is a doctor. (正確答案)\n(C) She likes tea.\n(D) She is home."
+  },
+  {
+    "id": "Q-402B",
+    "groupKey": "G-402",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"She is a doctor.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What's your name?",
+      "What does your mother do? (變式6)",
+      "How's the weather?",
+      "Where are you going?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) What does your mother do? (變式6)\n💡【重點提示】詢問母親職業句型。 [學檢模擬情境題組6]\n📖【例句應用】A: What does your mother do? B: She is a doctor.\n\n【選項對照】\n(A) What's your name?\n(B) What does your mother do? (變式6) (正確答案)\n(C) How's the weather?\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-403A",
+    "groupKey": "G-403",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Where is your brother going? (變式6)\" 時，最適當的回答是：",
+    "options": [
+      "He likes soccer.",
+      "He is going to the park.",
+      "He is fine.",
+      "He is ten."
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) He is going to the park.\n💡【重點提示】詢問目的地進行式句型 (Where is... going?)。 [學檢模擬情境題組6]\n📖【例句應用】A: Where is your brother going? B: He is going to the park.\n\n【選項解析】\n(A) He likes soccer.\n(B) He is going to the park. (正確答案)\n(C) He is fine.\n(D) He is ten."
+  },
+  {
+    "id": "Q-403B",
+    "groupKey": "G-403",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"He is going to the park.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Where is your brother going? (變式6)",
+      "What's your name?",
+      "How's the weather?",
+      "Where are you going?"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) Where is your brother going? (變式6)\n💡【重點提示】詢問目的地進行式句型 (Where is... going?)。 [學檢模擬情境題組6]\n📖【例句應用】A: Where is your brother going? B: He is going to the park.\n\n【選項對照】\n(A) Where is your brother going? (變式6) (正確答案)\n(B) What's your name?\n(C) How's the weather?\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-404A",
+    "groupKey": "G-404",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"How do you go to school? (變式6)\" 時，最適當的回答是：",
+    "options": [
+      "I go to school by bus.",
+      "It's sunny.",
+      "I like school.",
+      "I am nine."
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) I go to school by bus.\n💡【重點提示】詢問交通工具方式句型 (How do you go to...?)。 [學檢模擬情境題組6]\n📖【例句應用】A: How do you go to school? B: I go to school by bus.\n\n【選項解析】\n(A) I go to school by bus. (正確答案)\n(B) It's sunny.\n(C) I like school.\n(D) I am nine."
+  },
+  {
+    "id": "Q-404B",
+    "groupKey": "G-404",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"I go to school by bus.\" 時，對應的英文問句應該是：",
+    "options": [
+      "How do you go to school? (變式6)",
+      "How's the weather?",
+      "Where are you going?",
+      "What's your name?"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) How do you go to school? (變式6)\n💡【重點提示】詢問交通工具方式句型 (How do you go to...?)。 [學檢模擬情境題組6]\n📖【例句應用】A: How do you go to school? B: I go to school by bus.\n\n【選項對照】\n(A) How do you go to school? (變式6) (正確答案)\n(B) How's the weather?\n(C) Where are you going?\n(D) What's your name?"
+  },
+  {
+    "id": "Q-405A",
+    "groupKey": "G-405",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"How does she go to the market? (變式6)\" 時，最適當的回答是：",
+    "options": [
+      "She is hungry.",
+      "She buys apples.",
+      "She likes fish.",
+      "She goes to the market on foot."
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) She goes to the market on foot.\n💡【重點提示】詢問步行或交通工具 (on foot 步行)。 [學檢模擬情境題組6]\n📖【例句應用】A: How does she go to the market? B: She goes to the market on foot.\n\n【選項解析】\n(A) She is hungry.\n(B) She buys apples.\n(C) She likes fish.\n(D) She goes to the market on foot. (正確答案)"
+  },
+  {
+    "id": "Q-405B",
+    "groupKey": "G-405",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"She goes to the market on foot.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Where are you going?",
+      "How does she go to the market? (變式6)",
+      "What's your name?",
+      "How's the weather?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) How does she go to the market? (變式6)\n💡【重點提示】詢問步行或交通工具 (on foot 步行)。 [學檢模擬情境題組6]\n📖【例句應用】A: How does she go to the market? B: She goes to the market on foot.\n\n【選項對照】\n(A) Where are you going?\n(B) How does she go to the market? (變式6) (正確答案)\n(C) What's your name?\n(D) How's the weather?"
+  },
+  {
+    "id": "Q-406A",
+    "groupKey": "G-406",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What do you want for breakfast? (變式6)\" 時，最適當的回答是：",
+    "options": [
+      "I want milk and bread.",
+      "I am swimming.",
+      "I like blue.",
+      "It is eight o'clock."
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) I want milk and bread.\n💡【重點提示】點餐與飲食需求問答。 [學檢模擬情境題組6]\n📖【例句應用】A: What do you want for breakfast? B: I want milk and bread.\n\n【選項解析】\n(A) I want milk and bread. (正確答案)\n(B) I am swimming.\n(C) I like blue.\n(D) It is eight o'clock."
+  },
+  {
+    "id": "Q-406B",
+    "groupKey": "G-406",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"I want milk and bread.\" 時，對應的英文問句應該是：",
+    "options": [
+      "How's the weather?",
+      "What's your name?",
+      "Where are you going?",
+      "What do you want for breakfast? (變式6)"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) What do you want for breakfast? (變式6)\n💡【重點提示】點餐與飲食需求問答。 [學檢模擬情境題組6]\n📖【例句應用】A: What do you want for breakfast? B: I want milk and bread.\n\n【選項對照】\n(A) How's the weather?\n(B) What's your name?\n(C) Where are you going?\n(D) What do you want for breakfast? (變式6) (正確答案)"
+  },
+  {
+    "id": "Q-407A",
+    "groupKey": "G-407",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Would you like some juice? (變式6)\" 時，最適當的回答是：",
+    "options": [
+      "Yes, I can.",
+      "No, it isn't.",
+      "Yes, please.",
+      "Yes, I am."
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) Yes, please.\n💡【重點提示】禮貌款待提議之 Yes/No 答句 (Yes, please / No, thank you)。 [學檢模擬情境題組6]\n📖【例句應用】A: Would you like some juice? B: Yes, please.\n\n【選項解析】\n(A) Yes, I can.\n(B) No, it isn't.\n(C) Yes, please. (正確答案)\n(D) Yes, I am."
+  },
+  {
+    "id": "Q-407B",
+    "groupKey": "G-407",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"Yes, please.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Where are you going?",
+      "What's your name?",
+      "Would you like some juice? (變式6)",
+      "How's the weather?"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) Would you like some juice? (變式6)\n💡【重點提示】禮貌款待提議之 Yes/No 答句 (Yes, please / No, thank you)。 [學檢模擬情境題組6]\n📖【例句應用】A: Would you like some juice? B: Yes, please.\n\n【選項對照】\n(A) Where are you going?\n(B) What's your name?\n(C) Would you like some juice? (變式6) (正確答案)\n(D) How's the weather?"
+  },
+  {
+    "id": "Q-408A",
+    "groupKey": "G-408",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Do you have a water bottle? (變式6)\" 時，最適當的回答是：",
+    "options": [
+      "Yes, I do.",
+      "Yes, it is.",
+      "Yes, I am.",
+      "Yes, I can."
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) Yes, I do.\n💡【重點提示】確認擁有物品之 Yes/No 簡答。 [學檢模擬情境題組6]\n📖【例句應用】A: Do you have a water bottle? B: Yes, I do.\n\n【選項解析】\n(A) Yes, I do. (正確答案)\n(B) Yes, it is.\n(C) Yes, I am.\n(D) Yes, I can."
+  },
+  {
+    "id": "Q-408B",
+    "groupKey": "G-408",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"Yes, I do.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Where are you going?",
+      "Do you have a water bottle? (變式6)",
+      "How's the weather?",
+      "What's your name?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) Do you have a water bottle? (變式6)\n💡【重點提示】確認擁有物品之 Yes/No 簡答。 [學檢模擬情境題組6]\n📖【例句應用】A: Do you have a water bottle? B: Yes, I do.\n\n【選項對照】\n(A) Where are you going?\n(B) Do you have a water bottle? (變式6) (正確答案)\n(C) How's the weather?\n(D) What's your name?"
+  },
+  {
+    "id": "Q-409A",
+    "groupKey": "G-409",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Is there a computer in the classroom? (變式6)\" 時，最適當的回答是：",
+    "options": [
+      "Yes, he is.",
+      "Yes, there is.",
+      "Yes, it is.",
+      "Yes, I do."
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) Yes, there is.\n💡【重點提示】There is/are 存在句型之確認簡答。 [學檢模擬情境題組6]\n📖【例句應用】A: Is there a computer in the classroom? B: Yes, there is.\n\n【選項解析】\n(A) Yes, he is.\n(B) Yes, there is. (正確答案)\n(C) Yes, it is.\n(D) Yes, I do."
+  },
+  {
+    "id": "Q-409B",
+    "groupKey": "G-409",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"Yes, there is.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What's your name?",
+      "How's the weather?",
+      "Where are you going?",
+      "Is there a computer in the classroom? (變式6)"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) Is there a computer in the classroom? (變式6)\n💡【重點提示】There is/are 存在句型之確認簡答。 [學檢模擬情境題組6]\n📖【例句應用】A: Is there a computer in the classroom? B: Yes, there is.\n\n【選項對照】\n(A) What's your name?\n(B) How's the weather?\n(C) Where are you going?\n(D) Is there a computer in the classroom? (變式6) (正確答案)"
+  },
+  {
+    "id": "Q-410A",
+    "groupKey": "G-410",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Are there any apples in the box? (變式6)\" 時，最適當的回答是：",
+    "options": [
+      "No, there aren't.",
+      "No, I don't.",
+      "No, I am not.",
+      "No, it isn't."
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) No, there aren't.\n💡【重點提示】There are 複數存在句型之否定簡答。 [學檢模擬情境題組6]\n📖【例句應用】A: Are there any apples in the box? B: No, there aren't.\n\n【選項解析】\n(A) No, there aren't. (正確答案)\n(B) No, I don't.\n(C) No, I am not.\n(D) No, it isn't."
+  },
+  {
+    "id": "Q-410B",
+    "groupKey": "G-410",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"No, there aren't.\" 時，對應的英文問句應該是：",
+    "options": [
+      "How's the weather?",
+      "Are there any apples in the box? (變式6)",
+      "Where are you going?",
+      "What's your name?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) Are there any apples in the box? (變式6)\n💡【重點提示】There are 複數存在句型之否定簡答。 [學檢模擬情境題組6]\n📖【例句應用】A: Are there any apples in the box? B: No, there aren't.\n\n【選項對照】\n(A) How's the weather?\n(B) Are there any apples in the box? (變式6) (正確答案)\n(C) Where are you going?\n(D) What's your name?"
+  },
+  {
+    "id": "Q-411A",
+    "groupKey": "G-411",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What is your favorite subject? (變式6)\" 時，最適當的回答是：",
+    "options": [
+      "My favorite subject is English.",
+      "I want a sandwich.",
+      "I am ten.",
+      "I like blue."
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) My favorite subject is English.\n💡【重點提示】詢問最喜愛的學科領域。 [學檢模擬情境題組6]\n📖【例句應用】A: What is your favorite subject? B: My favorite subject is English.\n\n【選項解析】\n(A) My favorite subject is English. (正確答案)\n(B) I want a sandwich.\n(C) I am ten.\n(D) I like blue."
+  },
+  {
+    "id": "Q-411B",
+    "groupKey": "G-411",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"My favorite subject is English.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What is your favorite subject? (變式6)",
+      "Where are you going?",
+      "What's your name?",
+      "How's the weather?"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) What is your favorite subject? (變式6)\n💡【重點提示】詢問最喜愛的學科領域。 [學檢模擬情境題組6]\n📖【例句應用】A: What is your favorite subject? B: My favorite subject is English.\n\n【選項對照】\n(A) What is your favorite subject? (變式6) (正確答案)\n(B) Where are you going?\n(C) What's your name?\n(D) How's the weather?"
+  },
+  {
+    "id": "Q-412A",
+    "groupKey": "G-412",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What is your favorite color? (變式6)\" 時，最適當的回答是：",
+    "options": [
+      "I can swim.",
+      "It is five o'clock.",
+      "I like dogs.",
+      "My favorite color is blue."
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) My favorite color is blue.\n💡【重點提示】詢問最喜愛的顏色。 [學檢模擬情境題組6]\n📖【例句應用】A: What is your favorite color? B: My favorite color is blue.\n\n【選項解析】\n(A) I can swim.\n(B) It is five o'clock.\n(C) I like dogs.\n(D) My favorite color is blue. (正確答案)"
+  },
+  {
+    "id": "Q-412B",
+    "groupKey": "G-412",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"My favorite color is blue.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Where are you going?",
+      "What is your favorite color? (變式6)",
+      "What's your name?",
+      "How's the weather?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) What is your favorite color? (變式6)\n💡【重點提示】詢問最喜愛的顏色。 [學檢模擬情境題組6]\n📖【例句應用】A: What is your favorite color? B: My favorite color is blue.\n\n【選項對照】\n(A) Where are you going?\n(B) What is your favorite color? (變式6) (正確答案)\n(C) What's your name?\n(D) How's the weather?"
+  },
+  {
+    "id": "Q-413A",
+    "groupKey": "G-413",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What is your favorite animal? (變式6)\" 時，最適當的回答是：",
+    "options": [
+      "It is green.",
+      "My favorite animal is the rabbit.",
+      "I am fine.",
+      "Yes, I do."
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) My favorite animal is the rabbit.\n💡【重點提示】詢問最喜愛的動物。 [學檢模擬情境題組6]\n📖【例句應用】A: What is your favorite animal? B: My favorite animal is the rabbit.\n\n【選項解析】\n(A) It is green.\n(B) My favorite animal is the rabbit. (正確答案)\n(C) I am fine.\n(D) Yes, I do."
+  },
+  {
+    "id": "Q-413B",
+    "groupKey": "G-413",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"My favorite animal is the rabbit.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What's your name?",
+      "Where are you going?",
+      "How's the weather?",
+      "What is your favorite animal? (變式6)"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) What is your favorite animal? (變式6)\n💡【重點提示】詢問最喜愛的動物。 [學檢模擬情境題組6]\n📖【例句應用】A: What is your favorite animal? B: My favorite animal is the rabbit.\n\n【選項對照】\n(A) What's your name?\n(B) Where are you going?\n(C) How's the weather?\n(D) What is your favorite animal? (變式6) (正確答案)"
+  },
+  {
+    "id": "Q-414A",
+    "groupKey": "G-414",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Why are you wearing a coat? (變式6)\" 時，最適當的回答是：",
+    "options": [
+      "Because it is cold outside.",
+      "It's two o'clock.",
+      "I am nine.",
+      "Yes, I do."
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) Because it is cold outside.\n💡【重點提示】Why 詢問原因，答句搭配 Because... [學檢模擬情境題組6]\n📖【例句應用】A: Why are you wearing a coat? B: Because it is cold outside.\n\n【選項解析】\n(A) Because it is cold outside. (正確答案)\n(B) It's two o'clock.\n(C) I am nine.\n(D) Yes, I do."
+  },
+  {
+    "id": "Q-414B",
+    "groupKey": "G-414",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"Because it is cold outside.\" 時，對應的英文問句應該是：",
+    "options": [
+      "How's the weather?",
+      "Where are you going?",
+      "What's your name?",
+      "Why are you wearing a coat? (變式6)"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) Why are you wearing a coat? (變式6)\n💡【重點提示】Why 詢問原因，答句搭配 Because... [學檢模擬情境題組6]\n📖【例句應用】A: Why are you wearing a coat? B: Because it is cold outside.\n\n【選項對照】\n(A) How's the weather?\n(B) Where are you going?\n(C) What's your name?\n(D) Why are you wearing a coat? (變式6) (正確答案)"
+  },
+  {
+    "id": "Q-415A",
+    "groupKey": "G-415",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Can I help you? (變式6)\" 時，最適當的回答是：",
+    "options": [
+      "It's red.",
+      "I am fine.",
+      "No, I am not.",
+      "Yes, please. I'm looking for a notebook."
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) Yes, please. I'm looking for a notebook.\n💡【重點提示】商店與服務人員主動提供協助用語。 [學檢模擬情境題組6]\n📖【例句應用】A: Can I help you? B: Yes, please. I'm looking for a notebook.\n\n【選項解析】\n(A) It's red.\n(B) I am fine.\n(C) No, I am not.\n(D) Yes, please. I'm looking for a notebook. (正確答案)"
+  },
+  {
+    "id": "Q-415B",
+    "groupKey": "G-415",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"Yes, please. I'm looking for a notebook.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Can I help you? (變式6)",
+      "What's your name?",
+      "Where are you going?",
+      "How's the weather?"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) Can I help you? (變式6)\n💡【重點提示】商店與服務人員主動提供協助用語。 [學檢模擬情境題組6]\n📖【例句應用】A: Can I help you? B: Yes, please. I'm looking for a notebook.\n\n【選項對照】\n(A) Can I help you? (變式6) (正確答案)\n(B) What's your name?\n(C) Where are you going?\n(D) How's the weather?"
+  },
+  {
+    "id": "Q-416A",
+    "groupKey": "G-416",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"How much is this pencil case? (變式6)\" 時，最適當的回答是：",
+    "options": [
+      "It is fifty dollars.",
+      "It is blue.",
+      "It is ten.",
+      "Yes, please."
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) It is fifty dollars.\n💡【重點提示】How much 詢問價格問答。 [學檢模擬情境題組6]\n📖【例句應用】A: How much is this pencil case? B: It is fifty dollars.\n\n【選項解析】\n(A) It is fifty dollars. (正確答案)\n(B) It is blue.\n(C) It is ten.\n(D) Yes, please."
+  },
+  {
+    "id": "Q-416B",
+    "groupKey": "G-416",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"It is fifty dollars.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Where are you going?",
+      "What's your name?",
+      "How much is this pencil case? (變式6)",
+      "How's the weather?"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) How much is this pencil case? (變式6)\n💡【重點提示】How much 詢問價格問答。 [學檢模擬情境題組6]\n📖【例句應用】A: How much is this pencil case? B: It is fifty dollars.\n\n【選項對照】\n(A) Where are you going?\n(B) What's your name?\n(C) How much is this pencil case? (變式6) (正確答案)\n(D) How's the weather?"
+  },
+  {
+    "id": "Q-417A",
+    "groupKey": "G-417",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What season do you like best? (變式6)\" 時，最適當的回答是：",
+    "options": [
+      "I want ice cream.",
+      "I like summer best.",
+      "It is hot.",
+      "I am swimming."
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) I like summer best.\n💡【重點提示】詢問最喜愛的季節。 [學檢模擬情境題組6]\n📖【例句應用】A: What season do you like best? B: I like summer best.\n\n【選項解析】\n(A) I want ice cream.\n(B) I like summer best. (正確答案)\n(C) It is hot.\n(D) I am swimming."
+  },
+  {
+    "id": "Q-417B",
+    "groupKey": "G-417",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"I like summer best.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Where are you going?",
+      "What season do you like best? (變式6)",
+      "How's the weather?",
+      "What's your name?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) What season do you like best? (變式6)\n💡【重點提示】詢問最喜愛的季節。 [學檢模擬情境題組6]\n📖【例句應用】A: What season do you like best? B: I like summer best.\n\n【選項對照】\n(A) Where are you going?\n(B) What season do you like best? (變式6) (正確答案)\n(C) How's the weather?\n(D) What's your name?"
+  },
+  {
+    "id": "Q-418A",
+    "groupKey": "G-418",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"When is your birthday? (變式6)\" 時，最適當的回答是：",
+    "options": [
+      "It is on May 5th.",
+      "It is fine.",
+      "Yes, I do.",
+      "I am ten."
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) It is on May 5th.\n💡【重點提示】When 詢問日期與時間。 [學檢模擬情境題組6]\n📖【例句應用】A: When is your birthday? B: It is on May 5th.\n\n【選項解析】\n(A) It is on May 5th. (正確答案)\n(B) It is fine.\n(C) Yes, I do.\n(D) I am ten."
+  },
+  {
+    "id": "Q-418B",
+    "groupKey": "G-418",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"It is on May 5th.\" 時，對應的英文問句應該是：",
+    "options": [
+      "When is your birthday? (變式6)",
+      "How's the weather?",
+      "Where are you going?",
+      "What's your name?"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) When is your birthday? (變式6)\n💡【重點提示】When 詢問日期與時間。 [學檢模擬情境題組6]\n📖【例句應用】A: When is your birthday? B: It is on May 5th.\n\n【選項對照】\n(A) When is your birthday? (變式6) (正確答案)\n(B) How's the weather?\n(C) Where are you going?\n(D) What's your name?"
+  },
+  {
+    "id": "Q-419A",
+    "groupKey": "G-419",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Where is my English book? (變式7)\" 時，最適當的回答是：",
+    "options": [
+      "It is three o'clock.",
+      "I am a student.",
+      "It is under your chair.",
+      "Yes, I can."
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) It is under your chair.\n💡【重點提示】物品方位尋找句型。 [學檢模擬情境題組7]\n📖【例句應用】A: Where is my English book? B: It is under your chair.\n\n【選項解析】\n(A) It is three o'clock.\n(B) I am a student.\n(C) It is under your chair. (正確答案)\n(D) Yes, I can."
+  },
+  {
+    "id": "Q-419B",
+    "groupKey": "G-419",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"It is under your chair.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Where is my English book? (變式7)",
+      "What's your name?",
+      "How's the weather?",
+      "Where are you going?"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) Where is my English book? (變式7)\n💡【重點提示】物品方位尋找句型。 [學檢模擬情境題組7]\n📖【例句應用】A: Where is my English book? B: It is under your chair.\n\n【選項對照】\n(A) Where is my English book? (變式7) (正確答案)\n(B) What's your name?\n(C) How's the weather?\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-420A",
+    "groupKey": "G-420",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Whose cap is this? (變式7)\" 時，最適當的回答是：",
+    "options": [
+      "It's John's cap.",
+      "It's blue.",
+      "Yes, it is.",
+      "It's a dog."
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) It's John's cap.\n💡【重點提示】詢問物品所有權句型 (Whose)。 [學檢模擬情境題組7]\n📖【例句應用】A: Whose cap is this? B: It's John's cap.\n\n【選項解析】\n(A) It's John's cap. (正確答案)\n(B) It's blue.\n(C) Yes, it is.\n(D) It's a dog."
+  },
+  {
+    "id": "Q-420B",
+    "groupKey": "G-420",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"It's John's cap.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What's your name?",
+      "Whose cap is this? (變式7)",
+      "Where are you going?",
+      "How's the weather?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) Whose cap is this? (變式7)\n💡【重點提示】詢問物品所有權句型 (Whose)。 [學檢模擬情境題組7]\n📖【例句應用】A: Whose cap is this? B: It's John's cap.\n\n【選項對照】\n(A) What's your name?\n(B) Whose cap is this? (變式7) (正確答案)\n(C) Where are you going?\n(D) How's the weather?"
+  },
+  {
+    "id": "Q-421A",
+    "groupKey": "G-421",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"How many pencils do you have? (變式7)\" 時，最適當的回答是：",
+    "options": [
+      "Yes, I do.",
+      "I am fine.",
+      "I have three pencils.",
+      "It is red."
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) I have three pencils.\n💡【重點提示】詢問數量句型 (How many + 複數名詞)。 [學檢模擬情境題組7]\n📖【例句應用】A: How many pencils do you have? B: I have three pencils.\n\n【選項解析】\n(A) Yes, I do.\n(B) I am fine.\n(C) I have three pencils. (正確答案)\n(D) It is red."
+  },
+  {
+    "id": "Q-421B",
+    "groupKey": "G-421",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"I have three pencils.\" 時，對應的英文問句應該是：",
+    "options": [
+      "How many pencils do you have? (變式7)",
+      "Where are you going?",
+      "How's the weather?",
+      "What's your name?"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) How many pencils do you have? (變式7)\n💡【重點提示】詢問數量句型 (How many + 複數名詞)。 [學檢模擬情境題組7]\n📖【例句應用】A: How many pencils do you have? B: I have three pencils.\n\n【選項對照】\n(A) How many pencils do you have? (變式7) (正確答案)\n(B) Where are you going?\n(C) How's the weather?\n(D) What's your name?"
+  },
+  {
+    "id": "Q-422A",
+    "groupKey": "G-422",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What does your father do? (變式7)\" 時，最適當的回答是：",
+    "options": [
+      "He is in the kitchen.",
+      "He is a firefighter.",
+      "He is forty.",
+      "He likes milk."
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) He is a firefighter.\n💡【重點提示】詢問職業句型 (What does... do?)。 [學檢模擬情境題組7]\n📖【例句應用】A: What does your father do? B: He is a firefighter.\n\n【選項解析】\n(A) He is in the kitchen.\n(B) He is a firefighter. (正確答案)\n(C) He is forty.\n(D) He likes milk."
+  },
+  {
+    "id": "Q-422B",
+    "groupKey": "G-422",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"He is a firefighter.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What's your name?",
+      "How's the weather?",
+      "Where are you going?",
+      "What does your father do? (變式7)"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) What does your father do? (變式7)\n💡【重點提示】詢問職業句型 (What does... do?)。 [學檢模擬情境題組7]\n📖【例句應用】A: What does your father do? B: He is a firefighter.\n\n【選項對照】\n(A) What's your name?\n(B) How's the weather?\n(C) Where are you going?\n(D) What does your father do? (變式7) (正確答案)"
+  },
+  {
+    "id": "Q-423A",
+    "groupKey": "G-423",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What does your mother do? (變式7)\" 時，最適當的回答是：",
+    "options": [
+      "She is happy.",
+      "She is home.",
+      "She is a doctor.",
+      "She likes tea."
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) She is a doctor.\n💡【重點提示】詢問母親職業句型。 [學檢模擬情境題組7]\n📖【例句應用】A: What does your mother do? B: She is a doctor.\n\n【選項解析】\n(A) She is happy.\n(B) She is home.\n(C) She is a doctor. (正確答案)\n(D) She likes tea."
+  },
+  {
+    "id": "Q-423B",
+    "groupKey": "G-423",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"She is a doctor.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What does your mother do? (變式7)",
+      "What's your name?",
+      "How's the weather?",
+      "Where are you going?"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) What does your mother do? (變式7)\n💡【重點提示】詢問母親職業句型。 [學檢模擬情境題組7]\n📖【例句應用】A: What does your mother do? B: She is a doctor.\n\n【選項對照】\n(A) What does your mother do? (變式7) (正確答案)\n(B) What's your name?\n(C) How's the weather?\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-424A",
+    "groupKey": "G-424",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Where is your brother going? (變式7)\" 時，最適當的回答是：",
+    "options": [
+      "He is going to the park.",
+      "He is ten.",
+      "He likes soccer.",
+      "He is fine."
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) He is going to the park.\n💡【重點提示】詢問目的地進行式句型 (Where is... going?)。 [學檢模擬情境題組7]\n📖【例句應用】A: Where is your brother going? B: He is going to the park.\n\n【選項解析】\n(A) He is going to the park. (正確答案)\n(B) He is ten.\n(C) He likes soccer.\n(D) He is fine."
+  },
+  {
+    "id": "Q-424B",
+    "groupKey": "G-424",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"He is going to the park.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What's your name?",
+      "How's the weather?",
+      "Where is your brother going? (變式7)",
+      "Where are you going?"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) Where is your brother going? (變式7)\n💡【重點提示】詢問目的地進行式句型 (Where is... going?)。 [學檢模擬情境題組7]\n📖【例句應用】A: Where is your brother going? B: He is going to the park.\n\n【選項對照】\n(A) What's your name?\n(B) How's the weather?\n(C) Where is your brother going? (變式7) (正確答案)\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-425A",
+    "groupKey": "G-425",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"How do you go to school? (變式7)\" 時，最適當的回答是：",
+    "options": [
+      "I like school.",
+      "It's sunny.",
+      "I am nine.",
+      "I go to school by bus."
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) I go to school by bus.\n💡【重點提示】詢問交通工具方式句型 (How do you go to...?)。 [學檢模擬情境題組7]\n📖【例句應用】A: How do you go to school? B: I go to school by bus.\n\n【選項解析】\n(A) I like school.\n(B) It's sunny.\n(C) I am nine.\n(D) I go to school by bus. (正確答案)"
+  },
+  {
+    "id": "Q-425B",
+    "groupKey": "G-425",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"I go to school by bus.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Where are you going?",
+      "How do you go to school? (變式7)",
+      "What's your name?",
+      "How's the weather?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) How do you go to school? (變式7)\n💡【重點提示】詢問交通工具方式句型 (How do you go to...?)。 [學檢模擬情境題組7]\n📖【例句應用】A: How do you go to school? B: I go to school by bus.\n\n【選項對照】\n(A) Where are you going?\n(B) How do you go to school? (變式7) (正確答案)\n(C) What's your name?\n(D) How's the weather?"
+  },
+  {
+    "id": "Q-426A",
+    "groupKey": "G-426",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"How does she go to the market? (變式7)\" 時，最適當的回答是：",
+    "options": [
+      "She likes fish.",
+      "She is hungry.",
+      "She buys apples.",
+      "She goes to the market on foot."
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) She goes to the market on foot.\n💡【重點提示】詢問步行或交通工具 (on foot 步行)。 [學檢模擬情境題組7]\n📖【例句應用】A: How does she go to the market? B: She goes to the market on foot.\n\n【選項解析】\n(A) She likes fish.\n(B) She is hungry.\n(C) She buys apples.\n(D) She goes to the market on foot. (正確答案)"
+  },
+  {
+    "id": "Q-426B",
+    "groupKey": "G-426",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"She goes to the market on foot.\" 時，對應的英文問句應該是：",
+    "options": [
+      "How's the weather?",
+      "What's your name?",
+      "Where are you going?",
+      "How does she go to the market? (變式7)"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) How does she go to the market? (變式7)\n💡【重點提示】詢問步行或交通工具 (on foot 步行)。 [學檢模擬情境題組7]\n📖【例句應用】A: How does she go to the market? B: She goes to the market on foot.\n\n【選項對照】\n(A) How's the weather?\n(B) What's your name?\n(C) Where are you going?\n(D) How does she go to the market? (變式7) (正確答案)"
+  },
+  {
+    "id": "Q-427A",
+    "groupKey": "G-427",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What do you want for breakfast? (變式7)\" 時，最適當的回答是：",
+    "options": [
+      "I want milk and bread.",
+      "I like blue.",
+      "It is eight o'clock.",
+      "I am swimming."
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) I want milk and bread.\n💡【重點提示】點餐與飲食需求問答。 [學檢模擬情境題組7]\n📖【例句應用】A: What do you want for breakfast? B: I want milk and bread.\n\n【選項解析】\n(A) I want milk and bread. (正確答案)\n(B) I like blue.\n(C) It is eight o'clock.\n(D) I am swimming."
+  },
+  {
+    "id": "Q-427B",
+    "groupKey": "G-427",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"I want milk and bread.\" 時，對應的英文問句應該是：",
+    "options": [
+      "How's the weather?",
+      "What's your name?",
+      "What do you want for breakfast? (變式7)",
+      "Where are you going?"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) What do you want for breakfast? (變式7)\n💡【重點提示】點餐與飲食需求問答。 [學檢模擬情境題組7]\n📖【例句應用】A: What do you want for breakfast? B: I want milk and bread.\n\n【選項對照】\n(A) How's the weather?\n(B) What's your name?\n(C) What do you want for breakfast? (變式7) (正確答案)\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-428A",
+    "groupKey": "G-428",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Would you like some juice? (變式7)\" 時，最適當的回答是：",
+    "options": [
+      "Yes, I can.",
+      "Yes, please.",
+      "Yes, I am.",
+      "No, it isn't."
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) Yes, please.\n💡【重點提示】禮貌款待提議之 Yes/No 答句 (Yes, please / No, thank you)。 [學檢模擬情境題組7]\n📖【例句應用】A: Would you like some juice? B: Yes, please.\n\n【選項解析】\n(A) Yes, I can.\n(B) Yes, please. (正確答案)\n(C) Yes, I am.\n(D) No, it isn't."
+  },
+  {
+    "id": "Q-428B",
+    "groupKey": "G-428",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"Yes, please.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Where are you going?",
+      "How's the weather?",
+      "What's your name?",
+      "Would you like some juice? (變式7)"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) Would you like some juice? (變式7)\n💡【重點提示】禮貌款待提議之 Yes/No 答句 (Yes, please / No, thank you)。 [學檢模擬情境題組7]\n📖【例句應用】A: Would you like some juice? B: Yes, please.\n\n【選項對照】\n(A) Where are you going?\n(B) How's the weather?\n(C) What's your name?\n(D) Would you like some juice? (變式7) (正確答案)"
+  },
+  {
+    "id": "Q-429A",
+    "groupKey": "G-429",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Do you have a water bottle? (變式7)\" 時，最適當的回答是：",
+    "options": [
+      "Yes, I am.",
+      "Yes, I can.",
+      "Yes, it is.",
+      "Yes, I do."
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) Yes, I do.\n💡【重點提示】確認擁有物品之 Yes/No 簡答。 [學檢模擬情境題組7]\n📖【例句應用】A: Do you have a water bottle? B: Yes, I do.\n\n【選項解析】\n(A) Yes, I am.\n(B) Yes, I can.\n(C) Yes, it is.\n(D) Yes, I do. (正確答案)"
+  },
+  {
+    "id": "Q-429B",
+    "groupKey": "G-429",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"Yes, I do.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Where are you going?",
+      "Do you have a water bottle? (變式7)",
+      "What's your name?",
+      "How's the weather?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) Do you have a water bottle? (變式7)\n💡【重點提示】確認擁有物品之 Yes/No 簡答。 [學檢模擬情境題組7]\n📖【例句應用】A: Do you have a water bottle? B: Yes, I do.\n\n【選項對照】\n(A) Where are you going?\n(B) Do you have a water bottle? (變式7) (正確答案)\n(C) What's your name?\n(D) How's the weather?"
+  },
+  {
+    "id": "Q-430A",
+    "groupKey": "G-430",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Is there a computer in the classroom? (變式7)\" 時，最適當的回答是：",
+    "options": [
+      "Yes, I do.",
+      "Yes, he is.",
+      "Yes, it is.",
+      "Yes, there is."
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) Yes, there is.\n💡【重點提示】There is/are 存在句型之確認簡答。 [學檢模擬情境題組7]\n📖【例句應用】A: Is there a computer in the classroom? B: Yes, there is.\n\n【選項解析】\n(A) Yes, I do.\n(B) Yes, he is.\n(C) Yes, it is.\n(D) Yes, there is. (正確答案)"
+  },
+  {
+    "id": "Q-430B",
+    "groupKey": "G-430",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"Yes, there is.\" 時，對應的英文問句應該是：",
+    "options": [
+      "Where are you going?",
+      "Is there a computer in the classroom? (變式7)",
+      "How's the weather?",
+      "What's your name?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) Is there a computer in the classroom? (變式7)\n💡【重點提示】There is/are 存在句型之確認簡答。 [學檢模擬情境題組7]\n📖【例句應用】A: Is there a computer in the classroom? B: Yes, there is.\n\n【選項對照】\n(A) Where are you going?\n(B) Is there a computer in the classroom? (變式7) (正確答案)\n(C) How's the weather?\n(D) What's your name?"
+  },
+  {
+    "id": "Q-431A",
+    "groupKey": "G-431",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Are there any apples in the box? (變式7)\" 時，最適當的回答是：",
+    "options": [
+      "No, there aren't.",
+      "No, I am not.",
+      "No, I don't.",
+      "No, it isn't."
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) No, there aren't.\n💡【重點提示】There are 複數存在句型之否定簡答。 [學檢模擬情境題組7]\n📖【例句應用】A: Are there any apples in the box? B: No, there aren't.\n\n【選項解析】\n(A) No, there aren't. (正確答案)\n(B) No, I am not.\n(C) No, I don't.\n(D) No, it isn't."
+  },
+  {
+    "id": "Q-431B",
+    "groupKey": "G-431",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"No, there aren't.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What's your name?",
+      "Are there any apples in the box? (變式7)",
+      "How's the weather?",
+      "Where are you going?"
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) Are there any apples in the box? (變式7)\n💡【重點提示】There are 複數存在句型之否定簡答。 [學檢模擬情境題組7]\n📖【例句應用】A: Are there any apples in the box? B: No, there aren't.\n\n【選項對照】\n(A) What's your name?\n(B) Are there any apples in the box? (變式7) (正確答案)\n(C) How's the weather?\n(D) Where are you going?"
+  },
+  {
+    "id": "Q-432A",
+    "groupKey": "G-432",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What is your favorite subject? (變式7)\" 時，最適當的回答是：",
+    "options": [
+      "I like blue.",
+      "I am ten.",
+      "My favorite subject is English.",
+      "I want a sandwich."
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) My favorite subject is English.\n💡【重點提示】詢問最喜愛的學科領域。 [學檢模擬情境題組7]\n📖【例句應用】A: What is your favorite subject? B: My favorite subject is English.\n\n【選項解析】\n(A) I like blue.\n(B) I am ten.\n(C) My favorite subject is English. (正確答案)\n(D) I want a sandwich."
+  },
+  {
+    "id": "Q-432B",
+    "groupKey": "G-432",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"My favorite subject is English.\" 時，對應的英文問句應該是：",
+    "options": [
+      "How's the weather?",
+      "Where are you going?",
+      "What is your favorite subject? (變式7)",
+      "What's your name?"
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) What is your favorite subject? (變式7)\n💡【重點提示】詢問最喜愛的學科領域。 [學檢模擬情境題組7]\n📖【例句應用】A: What is your favorite subject? B: My favorite subject is English.\n\n【選項對照】\n(A) How's the weather?\n(B) Where are you going?\n(C) What is your favorite subject? (變式7) (正確答案)\n(D) What's your name?"
+  },
+  {
+    "id": "Q-433A",
+    "groupKey": "G-433",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What is your favorite color? (變式7)\" 時，最適當的回答是：",
+    "options": [
+      "It is five o'clock.",
+      "I like dogs.",
+      "I can swim.",
+      "My favorite color is blue."
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) My favorite color is blue.\n💡【重點提示】詢問最喜愛的顏色。 [學檢模擬情境題組7]\n📖【例句應用】A: What is your favorite color? B: My favorite color is blue.\n\n【選項解析】\n(A) It is five o'clock.\n(B) I like dogs.\n(C) I can swim.\n(D) My favorite color is blue. (正確答案)"
+  },
+  {
+    "id": "Q-433B",
+    "groupKey": "G-433",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"My favorite color is blue.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What is your favorite color? (變式7)",
+      "How's the weather?",
+      "Where are you going?",
+      "What's your name?"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) What is your favorite color? (變式7)\n💡【重點提示】詢問最喜愛的顏色。 [學檢模擬情境題組7]\n📖【例句應用】A: What is your favorite color? B: My favorite color is blue.\n\n【選項對照】\n(A) What is your favorite color? (變式7) (正確答案)\n(B) How's the weather?\n(C) Where are you going?\n(D) What's your name?"
+  },
+  {
+    "id": "Q-434A",
+    "groupKey": "G-434",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"What is your favorite animal? (變式7)\" 時，最適當的回答是：",
+    "options": [
+      "I am fine.",
+      "My favorite animal is the rabbit.",
+      "It is green.",
+      "Yes, I do."
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) My favorite animal is the rabbit.\n💡【重點提示】詢問最喜愛的動物。 [學檢模擬情境題組7]\n📖【例句應用】A: What is your favorite animal? B: My favorite animal is the rabbit.\n\n【選項解析】\n(A) I am fine.\n(B) My favorite animal is the rabbit. (正確答案)\n(C) It is green.\n(D) Yes, I do."
+  },
+  {
+    "id": "Q-434B",
+    "groupKey": "G-434",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"My favorite animal is the rabbit.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What is your favorite animal? (變式7)",
+      "Where are you going?",
+      "How's the weather?",
+      "What's your name?"
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) What is your favorite animal? (變式7)\n💡【重點提示】詢問最喜愛的動物。 [學檢模擬情境題組7]\n📖【例句應用】A: What is your favorite animal? B: My favorite animal is the rabbit.\n\n【選項對照】\n(A) What is your favorite animal? (變式7) (正確答案)\n(B) Where are you going?\n(C) How's the weather?\n(D) What's your name?"
+  },
+  {
+    "id": "Q-435A",
+    "groupKey": "G-435",
+    "version": "A",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當對方跟你說 \"Why are you wearing a coat? (變式7)\" 時，最適當的回答是：",
+    "options": [
+      "Because it is cold outside.",
+      "It's two o'clock.",
+      "Yes, I do.",
+      "I am nine."
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) Because it is cold outside.\n💡【重點提示】Why 詢問原因，答句搭配 Because... [學檢模擬情境題組7]\n📖【例句應用】A: Why are you wearing a coat? B: Because it is cold outside.\n\n【選項解析】\n(A) Because it is cold outside. (正確答案)\n(B) It's two o'clock.\n(C) Yes, I do.\n(D) I am nine."
+  },
+  {
+    "id": "Q-435B",
+    "groupKey": "G-435",
+    "version": "B",
+    "chapter": "第三部分：核心問答句型",
+    "gradeLevel": 3,
+    "question": "當別人回答 \"Because it is cold outside.\" 時，對應的英文問句應該是：",
+    "options": [
+      "What's your name?",
+      "How's the weather?",
+      "Where are you going?",
+      "Why are you wearing a coat? (變式7)"
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) Why are you wearing a coat? (變式7)\n💡【重點提示】Why 詢問原因，答句搭配 Because... [學檢模擬情境題組7]\n📖【例句應用】A: Why are you wearing a coat? B: Because it is cold outside.\n\n【選項對照】\n(A) What's your name?\n(B) How's the weather?\n(C) Where are you going?\n(D) Why are you wearing a coat? (變式7) (正確答案)"
+  },
+  {
+    "id": "EXAM-110-0",
+    "groupKey": "EXAM-110-0",
+    "version": "A",
+    "chapter": "📘 閱讀理解練習（原卷來源待核對）",
+    "gradeLevel": 3,
+    "question": "【歷屆考題特訓】\nRead and Choose:\nSam: \"Where is the library?\"\nTom: \"It is beside the music room on the second floor.\"\nQ: Where is the library?",
+    "options": [
+      "Beside the music room.",
+      "On the first floor.",
+      "Next to the playground.",
+      "Behind the gym."
+    ],
+    "answer": "A",
+    "explanation": "【正確答案】(A) Beside the music room.\n【文章翻譯】Sam：「圖書館在哪裡？」Tom：「在二樓的音樂教室旁邊。」\n【解題線索】Tom 說 “beside the music room”，beside 就是「在……旁邊」；“on the second floor” 是「在二樓」。因此答案是音樂教室旁邊。\n【選項解析】\n(A) Beside the music room. 在音樂教室旁邊。符合對話內容。\n(B) On the first floor. 在一樓。文章說的是二樓，不是一樓。\n(C) Next to the playground. 在操場旁邊。對話沒有提到操場。\n(D) Behind the gym. 在體育館後面。對話沒有提到體育館。\n【學習補充】beside / next to 都可以表示「在……旁邊」；first 是第一，second 是第二。\n【來源提醒】這是網站閱讀練習示例，正式標示為歷屆原題前仍須與原卷核對。"
+  },
+  {
+    "id": "EXAM-110-1",
+    "groupKey": "EXAM-110-1",
+    "version": "A",
+    "chapter": "📘 閱讀理解練習（原卷來源待核對）",
+    "gradeLevel": 3,
+    "question": "【歷屆考題特訓】\nRead and Choose:\nMom: \"What do you want for dinner?\"\nKevin: \"I want some noodles and soup.\"\nQ: What does Kevin want to eat?",
+    "options": [
+      "Hamburger and fries.",
+      "Noodles and soup.",
+      "Salad and juice.",
+      "Rice and pork."
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) Noodles and soup.\n【文章翻譯】媽媽：「晚餐你想吃什麼？」Kevin：「我想吃一些麵和湯。」\n【解題線索】題目問 “What does Kevin want to eat?”（Kevin 想吃什麼？），直接回到 Kevin 的回答 “I want some noodles and soup.”，即可找到答案。\n【選項解析】\n(A) Hamburger and fries. 漢堡和薯條。對話沒有提到。\n(B) Noodles and soup. 麵和湯。與 Kevin 的回答一致。\n(C) Salad and juice. 沙拉和果汁。對話沒有提到。\n(D) Rice and pork. 飯和豬肉。對話沒有提到。\n【學習補充】want some + 食物，可用來表達「想要一些……」；dinner 是晚餐。\n【來源提醒】這是網站閱讀練習示例，正式標示為歷屆原題前仍須與原卷核對。"
+  },
+  {
+    "id": "EXAM-110-2",
+    "groupKey": "EXAM-110-2",
+    "version": "A",
+    "chapter": "📘 閱讀理解練習（原卷來源待核對）",
+    "gradeLevel": 3,
+    "question": "【歷屆考題特訓】\nRead and Choose:\nToday is sunny and warm. Mary is flying a kite in the park with her brother.\nQ: What is the weather like today?",
+    "options": [
+      "It's raining.",
+      "It's snowing.",
+      "It's cold and windy.",
+      "It's sunny and warm."
+    ],
+    "answer": "D",
+    "explanation": "【正確答案】(D) It's sunny and warm.\n【文章翻譯】今天天氣晴朗又溫暖。Mary 正和她的哥哥／弟弟在公園放風箏。\n【解題線索】文章第一句直接寫出 “sunny and warm”，所以天氣是晴朗而溫暖。\n【選項解析】\n(A) It's raining. 正在下雨。與 sunny（晴朗）不符。\n(B) It's snowing. 正在下雪。文章沒有提到下雪。\n(C) It's cold and windy. 天氣寒冷又有風。與 warm（溫暖）不符。\n(D) It's sunny and warm. 晴朗又溫暖。與文章第一句一致。\n【學習補充】sunny 是晴朗的，warm 是溫暖的，fly a kite 是放風箏。\n【來源提醒】這是網站閱讀練習示例，正式標示為歷屆原題前仍須與原卷核對。"
+  },
+  {
+    "id": "EXAM-110-3",
+    "groupKey": "EXAM-110-3",
+    "version": "A",
+    "chapter": "📘 閱讀理解練習（原卷來源待核對）",
+    "gradeLevel": 3,
+    "question": "【歷屆考題特訓】\nRead and Choose:\nLook at the sign: \"Please Do Not Eat or Drink in the Library.\"\nQ: What can you do in the library?",
+    "options": [
+      "Eat an apple.",
+      "Read books quietly.",
+      "Drink water.",
+      "Run and shout."
+    ],
+    "answer": "B",
+    "explanation": "【正確答案】(B) Read books quietly.\n【告示翻譯】“Please Do Not Eat or Drink in the Library.” 意思是「請勿在圖書館內飲食。」\n【題目翻譯】在圖書館裡，你可以做什麼？\n【解題線索】告示禁止吃東西和喝飲料；圖書館適合安靜閱讀，因此選擇 Read books quietly。\n【選項解析】\n(A) Eat an apple. 吃蘋果。告示禁止飲食。\n(B) Read books quietly. 安靜地閱讀書籍。符合圖書館情境，也沒有違反告示。\n(C) Drink water. 喝水。告示禁止喝飲料。\n(D) Run and shout. 跑跳和大叫。會干擾他人，不符合圖書館的安靜環境。\n【學習補充】Do not + 動詞原形表示「不要……」；quietly 是「安靜地」。\n【來源提醒】這是網站閱讀練習示例，正式標示為歷屆原題前仍須與原卷核對。"
+  },
+  {
+    "id": "EXAM-110-4",
+    "groupKey": "EXAM-110-4",
+    "version": "A",
+    "chapter": "📘 閱讀理解練習（原卷來源待核對）",
+    "gradeLevel": 3,
+    "question": "【歷屆考題特訓】\nRead and Choose:\nPeter goes to school by bus every morning. It takes him 20 minutes to get to school.\nQ: How does Peter go to school?",
+    "options": [
+      "By car.",
+      "By MRT.",
+      "By bus.",
+      "By train."
+    ],
+    "answer": "C",
+    "explanation": "【正確答案】(C) By bus.\n【文章翻譯】Peter 每天早上搭公車去上學。他到學校需要花 20 分鐘。\n【題目翻譯】Peter 如何去上學？\n【解題線索】文章第一句 “Peter goes to school by bus” 已直接說明交通方式是搭公車。\n【選項解析】\n(A) By car. 開車／搭汽車。文章沒有提到汽車。\n(B) By MRT. 搭捷運。文章沒有提到捷運。\n(C) By bus. 搭公車。與文章第一句一致。\n(D) By train. 搭火車。文章沒有提到火車。\n【學習補充】by + 交通工具可表示交通方式，例如 by bus（搭公車）、by train（搭火車）；It takes + 時間表示「花費……時間」。\n【來源提醒】這是網站閱讀練習示例，正式標示為歷屆原題前仍須與原卷核對。"
+  }
+]
+  };
+})();

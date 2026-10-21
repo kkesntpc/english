@@ -1,0 +1,9 @@
+{
+  "name": "guoguang-hero-english-learning",
+  "version": "1.0.1",
+  "private": true,
+  "description": "國光英雄網靜態英語學習網站",
+  "scripts": {
+    "check": "node --check build.js"
+  }
+}

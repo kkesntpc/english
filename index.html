@@ -1,0 +1,1065 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>國光英雄網 - 英語學習與集章認證平台</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</head>
+<body>
+
+<div class="app">
+  <header>
+    <div class="header-container">
+      <div class="header-brand" style="cursor: pointer;" onclick="go('home')" title="點擊返回首頁">
+        <h1>🦸 國光英雄網 <span class="sub">新北市國光國小</span></h1>
+      </div>
+      <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+        <button class="theme-toggle-btn" id="bgmToggle" onclick="toggleBGM()">
+          <span id="bgmIcon">🎵</span> <span id="bgmText">音樂：開啟</span>
+        </button>
+        <button class="theme-toggle-btn" id="soundToggle" onclick="toggleSound()">
+          <span id="soundIcon">🔊</span> <span id="soundText">音效：開啟</span>
+        </button>
+        <button class="theme-toggle-btn" id="themeToggle" onclick="toggleTheme()">
+          <span id="themeIcon">☀️</span> <span id="themeText">切換模式</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <nav class="nav" id="nav"></nav>
+    <div id="view"></div>
+  </main>
+
+  <footer style="text-align: center; padding: 20px; margin-top: 40px; border-top: 1px solid var(--border);">
+    <button class="secondary" style="font-size: 0.85rem;" onclick="openHelp()">❓ 檢視認證制度與兌獎說明</button>
+  </footer>
+</div>
+
+<div id="modalRoot"></div>
+
+<script src="questions.js"></script>
+<script>
+const ALL_TOPICS = [
+  "單字-A.數字與時間",
+  "單字-B.顏色與形容詞",
+  "單字-C.人物、家人與職業",
+  "單字-D.身體健康與症狀",
+  "單字-E.服裝與配件",
+  "單字-F.學校、文具與學科",
+  "單字-G.動物",
+  "單字-H.食物、飲料與水果",
+  "單字-I.節慶與重要傳統",
+  "單字-J.現代科技與生活",
+  "單字-K.地點與交通",
+  "單字-L.介係詞與代名詞",
+  "第二部分：日常生活與教室用語",
+  "第三部分：核心問答句型"
+];
+
+
+const VOCAB_ITEMS = [{"category": "單字-A.數字", "level": 1, "word": "zero", "meaning": "零", "note": "0 的英文，代表沒有數量。"}, {"category": "單字-A.數字", "level": 1, "word": "one", "meaning": "一", "note": "基數 1，複數形需注意名詞加 s。"}, {"category": "單字-A.數字", "level": 1, "word": "two", "meaning": "二", "note": "基數 2，發音與 to, too 相同。"}, {"category": "單字-A.數字", "level": 1, "word": "three", "meaning": "三", "note": "基數 3，注意 th 發音需咬舌。"}, {"category": "單字-A.數字", "level": 1, "word": "four", "meaning": "四", "note": "基數 4，注意與 fourteen (14) 和 forty (40) 的拼法差異。"}, {"category": "單字-A.數字", "level": 1, "word": "five", "meaning": "五", "note": "基數 5，序數形為 fifth。"}, {"category": "單字-A.數字", "level": 1, "word": "six", "meaning": "六", "note": "基數 6，加 teen 變成 sixteen (16)。"}, {"category": "單字-A.數字", "level": 1, "word": "seven", "meaning": "七", "note": "基數 7。"}, {"category": "單字-A.數字", "level": 1, "word": "eight", "meaning": "八", "note": "基數 8，注意與 height (高度) 拼法不同。"}, {"category": "單字-A.數字", "level": 1, "word": "nine", "meaning": "九", "note": "基數 9，加 teen 變成 nineteen (19)。"}, {"category": "單字-A.數字", "level": 1, "word": "ten", "meaning": "十", "note": "基數 10。"}, {"category": "單字-A.數字", "level": 1, "word": "eleven", "meaning": "十一", "note": "基數 11。"}, {"category": "單字-A.數字", "level": 1, "word": "twelve", "meaning": "十二", "note": "基數 12，序數形為 twelfth。"}, {"category": "單字-A.數字", "level": 1, "word": "thirty", "meaning": "三十", "note": "數字 30，常與 thirteen (13) 混淆。"}, {"category": "單字-B.顏色", "level": 1, "word": "color", "meaning": "顏色", "note": "名詞，美式拼法為 color，英式為 colour。"}, {"category": "單字-B.顏色", "level": 1, "word": "black", "meaning": "黑色", "note": "形容詞/名詞，黑色的。"}, {"category": "單字-B.顏色", "level": 1, "word": "blue", "meaning": "藍色", "note": "形容詞/名詞，藍色；也有「憂鬱的」意思。"}, {"category": "單字-B.顏色", "level": 1, "word": "green", "meaning": "綠色", "note": "形容詞/名詞，綠色；常象徵自然與環保。"}, {"category": "單字-B.顏色", "level": 1, "word": "red", "meaning": "紅色", "note": "形容詞/名詞，紅色。"}, {"category": "單字-B.顏色", "level": 1, "word": "white", "meaning": "白色", "note": "形容詞/名詞，白色。"}, {"category": "單字-B.顏色", "level": 1, "word": "yellow", "meaning": "黃色", "note": "形容詞/名詞，黃色。"}, {"category": "單字-C.星期與時間", "level": 2, "word": "Monday", "meaning": "星期一", "note": "專有名詞，字首 M 必須大寫。"}, {"category": "單字-C.星期與時間", "level": 2, "word": "Tuesday", "meaning": "星期二", "note": "專有名詞，字首 T 必須大寫，勿與 Thursday 混淆。"}, {"category": "單字-C.星期與時間", "level": 2, "word": "Wednesday", "meaning": "星期三", "note": "專有名詞，注意 d 不發音。"}, {"category": "單字-C.星期與時間", "level": 2, "word": "Thursday", "meaning": "星期四", "note": "專有名詞，字首 Th 發音需咬舌。"}, {"category": "單字-C.星期與時間", "level": 2, "word": "Friday", "meaning": "星期五", "note": "專有名詞，週末前的最後一個工作天。"}, {"category": "單字-C.星期與時間", "level": 2, "word": "Saturday", "meaning": "星期六", "note": "專有名詞，週末的第一天。"}, {"category": "單字-C.星期與時間", "level": 2, "word": "Sunday", "meaning": "星期日", "note": "專有名詞，一週的第一天或最後一天。"}, {"category": "單字-C.星期與時間", "level": 2, "word": "today", "meaning": "今天", "note": "副詞/名詞，指現今這一天。"}, {"category": "單字-C.星期與時間", "level": 2, "word": "yesterday", "meaning": "昨天", "note": "副詞/名詞，過去的這一天。"}, {"category": "單字-D.家人與職業", "level": 2, "word": "grandfather", "meaning": "爺爺 / 外公", "note": "名詞，亦可簡稱為 grandpa。"}, {"category": "單字-D.家人與職業", "level": 2, "word": "grandmother", "meaning": "奶奶 / 外婆", "note": "名詞，亦可簡稱為 grandma。"}, {"category": "單字-D.家人與職業", "level": 2, "word": "father", "meaning": "爸爸", "note": "名詞，亦可簡稱為 dad。"}, {"category": "單字-D.家人與職業", "level": 2, "word": "mother", "meaning": "媽媽", "note": "名詞，亦可簡稱為 mom。"}, {"category": "單字-D.家人與職業", "level": 2, "word": "teacher", "meaning": "老師", "note": "名詞，來自動詞 teach (教導) + er。"}, {"category": "單字-D.家人與職業", "level": 2, "word": "student", "meaning": "學生", "note": "名詞，指在學校學習的人。"}, {"category": "單字-D.家人與職業", "level": 2, "word": "doctor", "meaning": "醫生", "note": "名詞，在醫院診治病人的人。"}, {"category": "單字-D.家人與職業", "level": 2, "word": "nurse", "meaning": "護理師", "note": "名詞，協助醫生照顧病人的人。"}, {"category": "單字-E.身體部位", "level": 1, "word": "head", "meaning": "頭", "note": "名詞，身體最上方的部位。"}, {"category": "單字-E.身體部位", "level": 1, "word": "face", "meaning": "臉", "note": "名詞，面孔。"}, {"category": "單字-E.身體部位", "level": 1, "word": "eye", "meaning": "眼睛", "note": "名詞，複數為 eyes。"}, {"category": "單字-E.身體部位", "level": 1, "word": "ear", "meaning": "耳朵", "note": "名詞，複數為 ears。"}, {"category": "單字-E.身體部位", "level": 1, "word": "nose", "meaning": "鼻子", "note": "名詞，呼吸與嗅覺器官。"}, {"category": "單字-E.身體部位", "level": 1, "word": "mouth", "meaning": "嘴巴", "note": "名詞，說話與進食器官。"}];
+const EXAM_FILES = [{"year": 113, "grade": 4, "kind": "paper", "file": "歷屆考題練習資料/113年_四年級英語題本.pdf"}, {"year": 114, "grade": 5, "kind": "paper", "file": "歷屆考題練習資料/114年_五年級英語題本.pdf"}, {"year": 113, "grade": 4, "kind": "answer", "file": "歷屆考題練習資料/113年_四年級英語答案.xlsx"}, {"year": 115, "grade": 4, "kind": "paper", "file": "歷屆考題練習資料/115年_四年級英語題本.pdf"}, {"year": 112, "grade": 5, "kind": "paper", "file": "歷屆考題練習資料/112年_五年級英語題本.pdf"}, {"year": 111, "grade": 5, "kind": "paper", "file": "歷屆考題練習資料/111年_五年級英語題本.pdf"}, {"year": 115, "grade": 5, "kind": "answer", "file": "歷屆考題練習資料/115年_五年級英語答案.xlsx"}, {"year": 111, "grade": 5, "kind": "answer", "file": "歷屆考題練習資料/111年_五年級英語答案.xlsx"}, {"year": 115, "grade": 4, "kind": "answer", "file": "歷屆考題練習資料/115年_四年級英語答案.xlsx"}, {"year": 114, "grade": 5, "kind": "answer", "file": "歷屆考題練習資料/114年_五年級英語答案.xlsx"}, {"year": 113, "grade": 5, "kind": "answer", "file": "歷屆考題練習資料/113年_五年級英語答案.xlsx"}, {"year": 112, "grade": 4, "kind": "answer", "file": "歷屆考題練習資料/112年_四年級英語答案.xlsx"}, {"year": 114, "grade": 4, "kind": "answer", "file": "歷屆考題練習資料/114年_四年級英語答案.xlsx"}, {"year": 112, "grade": 4, "kind": "paper", "file": "歷屆考題練習資料/112年_四年級英語題本.pdf"}, {"year": 115, "grade": 5, "kind": "paper", "file": "歷屆考題練習資料/115年_五年級英語題本.pdf"}, {"year": 111, "grade": 4, "kind": "paper", "file": "歷屆考題練習資料/111年_四年級英語題本.pdf"}, {"year": 110, "grade": 5, "kind": "answer", "file": "歷屆考題練習資料/110年_五年級英語答案.xlsx"}, {"year": 112, "grade": 5, "kind": "answer", "file": "歷屆考題練習資料/112年_五年級英語答案.xlsx"}, {"year": 110, "grade": 4, "kind": "answer", "file": "歷屆考題練習資料/110年_四年級英語答案.xlsx"}, {"year": 110, "grade": 4, "kind": "paper", "file": "歷屆考題練習資料/110年_四年級英語題本.pdf"}, {"year": 110, "grade": 5, "kind": "paper", "file": "歷屆考題練習資料/110年_五年級英語題本.pdf"}, {"year": 113, "grade": 5, "kind": "paper", "file": "歷屆考題練習資料/113年_五年級英語題本.pdf"}, {"year": 111, "grade": 4, "kind": "answer", "file": "歷屆考題練習資料/111年_四年級英語答案.xlsx"}, {"year": 114, "grade": 4, "kind": "paper", "file": "歷屆考題練習資料/114年_四年級英語題本.pdf"}];
+
+const LEVEL_CONFIGS = {
+  1: { name: "Level 1: 初心者基本功 (30題)", total: 30, passRate: 0.80, reqCorrect: 24, timeLimitMin: null, poolFilter: 1, stampKey: "challenge_30", badgeName: "🌱 國光英語小學習章", icon: "🌱", description: "每天一小步，從簡單單字與生活情境建立信心。" },
+  2: { name: "Level 2: 50週年校慶挑戰 (50題)", total: 50, passRate: 0.80, reqCorrect: 40, timeLimitMin: null, poolFilter: 2, stampKey: "challenge_50", badgeName: "🥉 50週年校慶紀念徽章", icon: "🥉", description: "把單字放進句子與生活情境，練習穩定應用。" },
+  3: { name: "Level 3: 核心能力關鍵挑戰 (100題)", total: 100, passRate: 0.90, reqCorrect: 90, timeLimitMin: 40, poolFilter: 3, stampKey: "challenge_100", badgeName: "🥈 核心能力達標徽章", icon: "🥈", description: "核心關卡：整合單字、句型與閱讀理解，檢視能否運用基本英語能力。" },
+  4: { name: "Level 4: 325巷仔內進階挑戰 (325題)", total: 325, passRate: 0.90, reqCorrect: 293, timeLimitMin: 60, poolFilter: "ALL", stampKey: "challenge_325", badgeName: "🥇 325巷內英語通徽章", icon: "🥇", description: "進階熟練關卡：運用累積的能力完成更長的挑戰，逐步建立成就感。" },
+  5: { name: "Level 5: 435英雄最終挑戰 (435題)", total: 435, passRate: 0.95, reqCorrect: 414, timeLimitMin: 60, poolFilter: "ALL", stampKey: "king", badgeName: "🏆 435終極勇士榮譽徽章", icon: "🏆", description: "最終完成關卡：以明快音樂與清楚進度陪伴孩子完成整段學習旅程。" }
+};
+
+let state = {
+  page: 'home',
+  quizActive: false,
+  name: localStorage.getItem('kgName') || '',
+  selectedGradeLevel: 0,
+  topic: null,
+  currentLevel: 1,
+  quiz: [],
+  idx: 0,
+  userSelections: {}, 
+  submittedQuestions: {}, 
+  answers: [],
+  mode: 'topic',
+  correctCount: 0,
+  totalAnswered: 0,
+  deadline: null,
+  bgmEnabled: true,
+  soundEnabled: true,
+  history: JSON.parse(localStorage.getItem('kgHistory') || '[]'),
+  stamps: JSON.parse(localStorage.getItem('kgStamps') || '{}')
+};
+
+let bgmInterval = null;
+let audioCtx = null;
+
+function getAudioContext() {
+  if (!audioCtx) {
+    audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+  }
+  if (audioCtx.state === 'suspended') {
+    audioCtx.resume();
+  }
+  return audioCtx;
+}
+
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+const pages = [
+  ['home', '🏵️ 我的集章冊'],
+  ['topics', '📚 主題練習'],
+  ['challenges', '🏆 關卡挑戰'],
+  ['vocabulary', '📖 單字大全']
+];
+
+function pickABQuestions(sourcePool) {
+  let groups = {};
+  sourcePool.forEach(q => {
+    let key = q.groupKey || q.id;
+    (groups[key] ??= []).push(q);
+  });
+
+  let selected = [];
+  Object.values(groups).forEach(versions => {
+    let picked = shuffle(versions)[0];
+    selected.push({...picked, shuffledOptions: null});
+  });
+  return shuffle(selected);
+}
+
+function renderNav() {
+  const navEl = $('nav');
+  if (!navEl) return;
+  navEl.innerHTML = pages.map(([id, name]) => 
+    `<button class="${state.page === id ? 'active' : ''}" onclick="go('${id}')">${name}</button>`
+  ).join('');
+}
+
+function go(p) {
+  state.quizActive = false;
+  stopBGM();
+  if (window.kgTimer) { clearInterval(window.kgTimer); window.kgTimer = null; }
+  state.page = p;
+  renderNav();
+  render();
+}
+
+function render() {
+  renderNav();
+  const v = $('view');
+  if (!v) return;
+  if (state.page === 'home') home(v);
+  if (state.page === 'topics') topics(v);
+  if (state.page === 'challenges') challenges(v);
+  if (state.page === 'vocabulary') vocabulary(v);
+}
+
+function home(v) {
+  stopBGM();
+  let unlockedTopics = Object.keys(state.stamps).filter(k => !['king', 'challenge_50', 'challenge_100', 'challenge_30', 'challenge_325'].includes(k)).length;
+
+  v.innerHTML = `
+    <div id="stampCardContainer">
+      <section class="panel heroMain">
+        <span class="pill gold">國光英語集章總覽</span>
+        <h2 style="margin:10px 0;">🏵️ ${esc(state.name || '國光英雄')} 的認證集章冊</h2>
+        <p>每天練一點，從單字打底、主題探索到核心能力檢測，勇敢走完自己的英語學習旅程。</p>
+        <p class="hero-purpose">🌱 四年級可以從 Level 1、2 暖身；Level 3 是核心能力檢視；Level 4、5 鼓勵自主挑戰與完成。</p>
+        <div class="row" style="margin-top:14px;">
+          <button class="gold" onclick="go('topics')">開始主題集章</button>
+          <div style="display:flex; gap:8px; flex-wrap:wrap;">
+            <button class="gold" onclick="downloadStampImage()">📸 下載集章卡圖片</button>
+            <button class="secondary" onclick="exportHistory()">📥 匯出備份檔</button>
+            <button class="secondary" onclick="$('importFileInput').click()">📤 匯入備份檔</button>
+            <input type="file" id="importFileInput" accept=".csv" style="display:none;" onchange="importHistory(event)">
+          </div>
+        </div>
+      </section>
+
+      <div class="kpis">
+        <div class="kpi">
+          <strong>${unlockedTopics} / ${ALL_TOPICS.length}</strong>
+          <span>主題章</span>
+        </div>
+        ${Object.values(LEVEL_CONFIGS).map(cfg => {
+          let st = state.stamps[cfg.stampKey];
+          return `
+            <div class="kpi">
+              <strong>${st ? '已獲得' : '未解鎖'}</strong>
+              <span>${cfg.name.split(':')[0]}</span>
+            </div>
+          `;
+        }).join('')}
+      </div>
+
+      <section class="panel">
+        <h3>🎖️ 五大等級榮譽挑戰賽卡冊</h3>
+        <div class="challenge-cards-grid">
+          ${Object.entries(LEVEL_CONFIGS).map(([lvlKey, cfg]) => {
+            let st = state.stamps[cfg.stampKey];
+            return `
+              <div class="hero-photo-card ${st ? 'unlocked' : 'locked'}" style="cursor:pointer;" onclick="${!st ? "startLevel(" + lvlKey + ")" : ""}">
+                <div class="hero-img-wrapper" style="background: linear-gradient(135deg, #1e3a8a, #3b82f6);">
+                  <div class="placeholder-medal">${cfg.icon}</div>${!st ? `
+                    <div class="lock-overlay">
+                      <span class="lock-icon">🔒</span>
+                      <span class="lock-text">點擊挑戰 (${cfg.passRate*100}%)</span>
+                    </div>
+                  ` : ''}
+                </div>
+                <div class="hero-card-info">
+                  <h4>${cfg.badgeName}</h4>
+                  <p class="status-desc">${st ? `高分：${st.score}分` : `門檻：${cfg.passRate*100}%`}</p>
+                  ${st ? `<button class="gold" style="padding:4px 12px; font-size:0.8rem; width:100%;" onclick="event.stopPropagation(); openCert('${esc(cfg.name)}', '${cfg.icon}')">📜 檢視證書</button>` : ''}
+                </div>
+              </div>
+            `;
+          }).join('')}
+        </div>
+      </section>
+
+      <section class="panel">
+        <h3>📚 十四大主題集點章 (答對率 80% 解鎖)</h3>
+        <div class="stamp-grid">
+          ${ALL_TOPICS.map(t => {
+            let st = state.stamps[t];
+            return `
+              <div class="stamp-card ${st ? 'unlocked' : ''}" onclick="startTopic('${encodeURIComponent(t)}')">
+                <div class="stamp-card-body">
+                  <div class="stamp-icon">${st ? '🌱' : '🔒'}</div>
+                  <div class="stamp-title">${esc(t.replace('單字-', ''))}</div>
+                  <div class="stamp-status">${st ? `高分：${st.score}分` : '點擊開始測驗'}</div>
+                  ${st ? `<div class="stamp-date">${st.date}</div>` : ''}
+                </div>
+                <div class="stamp-card-action">
+                  ${st ? `<button class="gold cert-btn" onclick="event.stopPropagation(); openCert('${esc(t)}', '🏅')">📜 檢視證書</button>` : `<button class="secondary start-btn">開始測驗</button>`}
+                </div>
+              </div>
+            `;
+          }).join('')}
+        </div>
+      </section>
+    </div>
+  `;
+}
+
+function challenges(v) {
+  stopBGM();
+  v.innerHTML = `
+    <div class="panel">
+      <h2>🏆 國光英語五大等級挑戰賽</h2>
+      <p class="muted">選擇你要挑戰的關卡，達成高分門檻即可解鎖對應的榮譽章！</p>
+      
+      <div class="field">
+        <label>學生姓名：</label>
+        <input id="challengeName" value="${esc(state.name)}" placeholder="請輸入姓名" onchange="saveName(this.value)">
+      </div>
+
+      <div class="grid">
+        ${Object.entries(LEVEL_CONFIGS).map(([lvl, cfg]) => `
+          <div class="card">
+            <div>
+              <div class="card-header">
+                <h3 class="card-title">${cfg.name}</h3>
+                <span class="pill ${lvl==='5'?'gold':''}">${cfg.total} 題</span>
+              </div>
+              <p class="muted" style="font-size:0.85rem; margin:10px 0;">
+                ${cfg.description ? `<span>${cfg.description}</span><br>` : ''}
+                晉級門檻：<b>${cfg.passRate * 100}\% (至少答對 ${cfg.reqCorrect} 題)</b><br>
+                時間限制：<b>${cfg.timeLimitMin ? cfg.timeLimitMin + ' 分鐘' : '無限制'}</b>
+              </p>
+            </div>
+            <button class="gold" onclick="startLevel(${lvl})">開始 ${cfg.name}</button>
+          </div>
+        `).join('')}
+      </div>
+    </div>
+  `;
+}
+
+function startLevel(lvlKey) {
+  saveName($('challengeName')?.value || state.name);
+  if (!state.name) { alert('請先輸入學生姓名，再開始認證挑戰。'); if (state.page !== 'challenges') go('challenges'); return; }
+
+  state.currentLevel = Number(lvlKey);
+  const cfg = LEVEL_CONFIGS[lvlKey];
+
+  let pool = DATA.questions.filter(q => cfg.poolFilter === "ALL" || (q.gradeLevel || 1) <= cfg.poolFilter);
+  let picked = pickABQuestions(pool);
+  if (picked.length < cfg.total) {
+    alert(`此關卡目前只有 ${picked.length} 道不重複題目，尚不足 ${cfg.total} 題。請先補足題庫，避免重複題影響評量。`);
+    return;
+  }
+  picked = picked.slice(0, cfg.total).map(q => ({...q, shuffledOptions: null}));
+
+  resetExamState();
+  state.quiz = picked;
+  state.mode = 'challenge';
+  state.quizActive = true;
+  state.topic = cfg.name;
+
+  if (cfg.timeLimitMin) {
+    state.deadline = Date.now() + cfg.timeLimitMin * 60 * 1000;
+    startTimer();
+  }
+
+  prepareQuestionsData();
+  startBGM();
+  renderQuiz();
+}
+
+function openCert(topicTitle, badgeIcon = '🏅') {
+  let certName = state.name || '國光小英雄';
+  
+  $('modalRoot').innerHTML = `
+    <div class="modal" onclick="if(event.target===this)closeHelp()">
+      <div class="modalbox cert-modal-box">
+        <p class="cert-school-name">新北市板橋區國光國民小學</p>
+        <h1 class="cert-modal-title">🏅 英語學習榮譽認證書</h1>
+        <div class="cert-badge-icon">${badgeIcon}</div>
+        <p class="cert-student-line">
+          茲證明學生 <span class="cert-student-name">${esc(certName)}</span>
+        </p>
+        <p class="cert-desc-text">
+          參加<b>【${esc(topicTitle)}】</b>考核表現優異，成功獲得認證章！
+        </p>
+        <div class="cert-btn-group">
+          <button class="gold" onclick="printCertFromModal('${esc(topicTitle)}', '${badgeIcon}')">🖨️ 列印此證書</button>
+          <button class="secondary" onclick="closeHelp()">關閉</button>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+function printCertFromModal(topicTitle, badgeIcon) {
+  let certName = state.name || '國光小英雄';
+  downloadResultDirect(certName, topicTitle, badgeIcon);
+}
+
+function downloadStampImage() {
+  const container = document.getElementById('stampCardContainer');
+  if (!container) return;
+
+  alert('正在匯出認證集章卡圖片，請稍候...');
+
+  html2canvas(container, {
+    backgroundColor: getComputedStyle(document.body).backgroundColor,
+    scale: 2
+  }).then(canvas => {
+    let a = document.createElement('a');
+    a.href = canvas.toDataURL('image/png');
+    a.download = `國光英雄網_認證集章卡_${state.name || '學生'}.png`;
+    a.click();
+  });
+}
+
+function topics(v) {
+  stopBGM();
+  let allQs = (typeof DATA !== 'undefined' && DATA.questions) ? DATA.questions : [];
+  let userLevel = state.selectedGradeLevel;
+
+  let filteredQuestions = allQs.filter(q => {
+    let qLevel = q.gradeLevel || 1;
+    if (userLevel === 0) return true;
+    if (userLevel === 1) return qLevel === 1;
+    if (userLevel === 2) return qLevel <= 2;
+    if (userLevel === 3) return qLevel <= 3;
+    return true;
+  });
+
+  let groups = {};
+  filteredQuestions.forEach(q => (groups[q.chapter] ??= []).push(q));
+
+  v.innerHTML = `
+    <div class="panel">
+      <h2>📚 各主題驗證與集章</h2>
+      <p class="muted">選擇想加強的主題與推薦難度；也可以直接前往單字大全查詢，或使用歷屆考題練習。</p>
+      <div class="row topic-shortcuts"><button class="secondary" onclick="go('vocabulary')">📖 單字大全／考古題練習</button></div>
+      
+      <div class="grade-filter-group">
+        <button class="grade-filter-btn ${userLevel===0?'active':''}" onclick="setGradeFilter(0)">全部主題</button>
+        <button class="grade-filter-btn ${userLevel===1?'active':''}" onclick="setGradeFilter(1)">🌱 低年級推薦</button>
+        <button class="grade-filter-btn ${userLevel===2?'active':''}" onclick="setGradeFilter(2)">🌿 中年級推薦</button>
+        <button class="grade-filter-btn ${userLevel===3?'active':''}" onclick="setGradeFilter(3)">🌳 高年級推薦</button>
+      </div>
+
+      <div class="field">
+        <label>學生姓名（認證將顯示於證書與集章卡）：</label>
+        <input id="studentName" value="${esc(state.name)}" placeholder="請輸入姓名" onchange="saveName(this.value)">
+      </div>
+
+      <div class="grid">
+        ${ALL_TOPICS.map(t => {
+          let qs = groups[t] || [];
+          if (!qs.length) return '';
+          let st = state.stamps[t];
+          let groupCount = new Set(qs.map(q => q.groupKey || q.id)).size;
+          return `
+            <div class="card">
+              <div>
+                <div class="card-header">
+                  <h3 class="card-title">${esc(t)}</h3>
+                  <span class="pill">${groupCount} 題</span>
+                </div>
+                <div class="progress"><span style="width:${st ? 100 : 0}%"></span></div>
+              </div>
+              <button onclick="startTopic('${encodeURIComponent(t)}')" style="margin-top:14px; width:100%;">
+                ${st ? '再次挑戰 (已蓋章)' : '開始測驗'}
+              </button>
+            </div>
+          `;
+        }).join('')}
+      </div>
+    </div>
+  `;
+}
+
+function setGradeFilter(lvl) {
+  state.selectedGradeLevel = lvl;
+  render();
+}
+
+function saveName(val) {
+  state.name = val.trim();
+  localStorage.setItem('kgName', state.name);
+}
+
+function vocabulary(v) {
+  stopBGM();
+  const years = [...new Set(EXAM_FILES.map(x => x.year))].sort((a,b)=>b-a);
+  v.innerHTML = `
+    <section class="panel vocab-hero">
+      <span class="pill gold">國光英語工具箱</span>
+      <h2>📖 單字大全與歷屆考題練習</h2>
+      <p>查單字、看學習提示，也可以打開歷屆題本練習。題本與答案檔保留原始檔案，互動隨機練習則使用網站題庫，兩者清楚區分。</p>
+    </section>
+    <section class="panel">
+      <div class="row"><h3>🔎 單字圖鑑</h3><span class="pill">目前整理 ${VOCAB_ITEMS.length} 個基礎單字</span></div>
+      <label for="vocabSearch">搜尋英文、中文或主題</label>
+      <input id="vocabSearch" type="search" placeholder="例如：apple、星期、顏色" oninput="filterVocab(this.value)" autocomplete="off">
+      <div id="vocabResults" class="vocab-grid">${renderVocabCards(VOCAB_ITEMS)}</div>
+      <p class="muted">單字圖鑑目前先整合專案既有的基礎單字資料；後續可依完整題庫與課程範圍持續擴充，不會擅自覆蓋原題。</p>
+    </section>
+    <section class="panel">
+      <div class="row"><h3>📝 歷屆考古題練習</h3><span class="pill gold">原卷可開啟</span></div>
+      <p>選擇年級與年度，開啟正式題本作答；答案檔可在完成後核對。題本內容仍以原始檔為準。</p>
+      <div class="exam-controls">
+        <div class="field"><label for="examGrade">年級</label><select id="examGrade"><option value="4">四年級</option><option value="5">五年級</option></select></div>
+        <div class="field"><label for="examYear">年度</label><select id="examYear">${years.map(y=>`<option value="${y}">${y} 年</option>`).join('')}</select></div>
+      </div>
+      <div class="row exam-actions"><button class="gold" onclick="openExamFile('paper')">📄 開啟歷屆題本</button><button class="secondary" onclick="openExamFile('answer')">✅ 開啟答案檔</button><button onclick="startPastPaperPractice()">🎲 題庫隨機練習</button><button class="secondary" onclick="startReadingPractice()">📘 閱讀理解練習</button></div>
+      <p class="muted">說明：題本與答案檔是原始歷屆資料；「題庫隨機練習」是從網站題庫抽題的互動練習，尚未逐題轉錄成原卷版，不會冒稱為原卷逐題模擬。</p>
+    </section>`;
+}
+
+function renderVocabCards(items) {
+  if (!items.length) return '<p class="muted">找不到符合的單字，試試其他關鍵字。</p>';
+  return items.map(item => `<article class="vocab-card"><div class="vocab-word">${esc(item.word)}</div><div class="vocab-meaning">${esc(item.meaning)}</div><div class="vocab-meta">${esc(item.category)}・${['','低年級推薦','中年級推薦','高年級推薦'][item.level] || '基礎'}</div><p>${esc(item.note)}</p></article>`).join('');
+}
+
+function filterVocab(value) {
+  const term = String(value || '').trim().toLowerCase();
+  const results = VOCAB_ITEMS.filter(item => [item.word,item.meaning,item.category,item.note].some(v => String(v).toLowerCase().includes(term)));
+  const target = $('vocabResults');
+  if (target) target.innerHTML = renderVocabCards(results);
+}
+
+function openExamFile(kind) {
+  const year = Number($('examYear')?.value || 115);
+  const grade = Number($('examGrade')?.value || 4);
+  const record = EXAM_FILES.find(x => x.year === year && x.grade === grade && x.kind === kind);
+  if (!record) { alert(`目前沒有找到 ${year} 年${grade}年級的${kind === 'paper' ? '題本' : '答案檔'}。請改選其他年度或年級。`); return; }
+  window.open(encodeURI(record.file), '_blank', 'noopener');
+}
+
+function startReadingPractice() {
+  const pool = DATA.questions.filter(q => String(q.chapter || '').includes('閱讀理解'));
+  if (!pool.length) { alert('目前沒有閱讀理解練習題。'); return; }
+  resetExamState();
+  state.quiz = shuffle(pool).map(q => ({...q, shuffledOptions: null}));
+  state.mode = 'practice';
+  state.quizActive = true;
+  state.topic = '閱讀理解練習（部分示例題來源待核對）';
+  prepareQuestionsData();
+  startBGM();
+  renderQuiz();
+}
+
+function startPastPaperPractice() {
+  // This is an interactive bank practice mode, not a claim that questions are transcribed verbatim from a particular paper.
+  let pool = DATA.questions.filter(q => q.gradeLevel >= 1 && q.options && q.options.length >= 2 && !String(q.chapter).includes('閱讀理解'));
+  let selected = pickABQuestions(pool).slice(0, 20);
+  if (!selected.length) { alert('目前沒有足夠的題目可供練習。'); return; }
+  resetExamState();
+  state.quiz = selected.map(q => ({...q, shuffledOptions: null}));
+  state.mode = 'practice';
+  state.quizActive = true;
+  state.topic = '考古題準備｜題庫隨機練習';
+  state.deadline = null;
+  prepareQuestionsData();
+  startBGM();
+  renderQuiz();
+}
+
+function startTopic(enc) {
+  saveName($('studentName')?.value || state.name);
+  state.topic = decodeURIComponent(enc);
+  
+  let allQs = DATA.questions;
+  let userLevel = state.selectedGradeLevel;
+
+  let pool = allQs.filter(q => {
+    if (q.chapter !== state.topic) return false;
+    let qLevel = q.gradeLevel || 1;
+    if (userLevel === 0) return true;
+    if (userLevel === 1) return qLevel === 1;
+    if (userLevel === 2) return qLevel <= 2;
+    if (userLevel === 3) return qLevel <= 3;
+    return true;
+  });
+
+  resetExamState();
+  state.quiz = pickABQuestions(pool).map(q => ({...q, shuffledOptions: null}));
+  if (!state.quiz.length) { alert('這個主題在目前推薦難度下暫時沒有題目，請切換難度或選擇其他主題。'); return; }
+  state.mode = 'topic';
+  state.quizActive = true;
+  prepareQuestionsData();
+  startBGM();
+  renderQuiz();
+}
+
+function resetExamState() {
+  if (window.kgTimer) { clearInterval(window.kgTimer); window.kgTimer = null; }
+  state.deadline = null;
+  state.idx = 0;
+  state.userSelections = {};
+  state.submittedQuestions = {};
+  state.answers = [];
+  state.correctCount = 0;
+  state.totalAnswered = 0;
+}
+
+function prepareQuestionsData() {
+  state.quiz.forEach((q) => {
+    // 題庫選項順序本身已打散，且 explanation 的 A/B/C/D 對應此原始順序。
+    // 顯示時不可再次洗牌，否則詳解中的選項字母會與畫面不一致。
+    const options = Array.isArray(q.options) && q.options.length ? q.options : ['O', 'X'];
+    q.shuffledOptions = options.map((text, i) => ({ text, orig: i }));
+  });
+}
+
+function startTimer() {
+  if (window.kgTimer) clearInterval(window.kgTimer);
+  
+  window.kgTimer = setInterval(() => {
+    let remain = Math.max(0, Math.ceil((state.deadline - Date.now()) / 1000));
+    let el = $('timerText');
+    if (el) {
+      let mins = String(Math.floor(remain / 60)).padStart(2, '0');
+      let secs = String(remain % 60).padStart(2, '0');
+      el.textContent = `${mins}:${secs}`;
+    }
+
+    if (remain <= 0) {
+      clearInterval(window.kgTimer);
+      window.kgTimer = null;
+      alert('⏰ 時間到！系統將自動為您交卷結算成績。');
+      finishQuiz();
+    }
+  }, 1000);
+}
+
+function renderQuiz() {
+  let q = state.quiz[state.idx];
+  if (!q) { finishQuiz(); return; }
+
+  let v = $('view');
+  let isSubmitted = !!state.submittedQuestions[state.idx];
+  let selectedIndex = state.userSelections[state.idx];
+
+  let initialTimerText = "";
+  if (state.deadline) {
+    let remain = Math.max(0, Math.ceil((state.deadline - Date.now()) / 1000));
+    let mins = String(Math.floor(remain / 60)).padStart(2, '0');
+    let secs = String(remain % 60).padStart(2, '0');
+    initialTimerText = `${mins}:${secs}`;
+  }
+
+  let targetAnsText = q.options[q.answer.charCodeAt(0) - 65] || q.answer;
+  let praiseWord = state.quiz[state.idx].praiseWord || "Great";
+
+  let accuracy = state.totalAnswered > 0 
+    ? Math.round((state.correctCount / state.totalAnswered) * 100) 
+    : 100;
+
+  v.innerHTML = `
+    <div class="panel quiz-panel">
+      <div class="row">
+        <div>
+          <span class="pill">${esc(q.chapter)}</span>
+        </div>
+        <span class="muted">
+          ${state.deadline ? `⏱️ 剩餘時間：<b id="timerText" style="color:#ef4444;">${initialTimerText}</b> ・ ` : ''}
+          第 ${state.idx + 1} / ${state.quiz.length} 題 （即時答對率：<b style="color:#22c55e;">${accuracy}%</b>）
+        </span>
+      </div>
+      <div class="progress"><span style="width:${((state.idx + 1) / state.quiz.length) * 100}%"></span></div>
+      
+      <div class="qtext">${esc(q.question)}</div>
+
+<div class="row quiz-action-row" style="margin-bottom: 16px; margin-top: 10px;">
+        <!-- 1. 將主要的送出/下一題按鈕移到左邊 -->
+        ${isSubmitted ? `
+          ${state.idx === state.quiz.length - 1 ? 
+            `<button class="gold" onclick="finishQuiz()">完成結算 🏆</button>` : 
+            `<button class="gold" onclick="nextQuestion()">下一題 ➡️</button>`
+          }
+        ` : `
+          <button id="submitBtn" ${selectedIndex === undefined ? 'disabled' : ''} onclick="submitAnswer()" class="gold">送出答案</button>
+        `}
+
+        <!-- 2. 次要按鈕（上一題、離開測驗）移至右側 -->
+        <div style="display: flex; gap: 8px;">
+          ${state.idx > 0 ? `<button class="secondary" onclick="prevQuestion()">⬅️ 上一題</button>` : ''}
+          <button class="secondary" onclick="leaveQuiz()">離開測驗</button>
+        </div>
+      </div>
+
+      <div class="options">
+        ${q.shuffledOptions.map((o, i) => {
+          let btnClass = "";
+          if (isSubmitted) {
+            if (o.text === targetAnsText) {
+              btnClass = "correct";
+            } else if (i === selectedIndex && o.text !== targetAnsText) {
+              btnClass = "wrong";
+            }
+          } else if (i === selectedIndex) {
+            btnClass = "selected";
+          }
+
+          return `
+            <button id="opt${i}" class="${btnClass}" onclick="selectOption(${i})">
+              <span class="opt-prefix">${String.fromCharCode(65 + i)}</span>
+              <span class="opt-text">${esc(o.text)}</span>
+            </button>
+          `;
+        }).join('')}
+      </div>
+
+      <div id="feedback">
+        ${isSubmitted ? `
+          <div class="feedback ${q.shuffledOptions[selectedIndex]?.text === targetAnsText ? 'pass' : 'fail'}">
+            <b>${q.shuffledOptions[selectedIndex]?.text === targetAnsText ? `🎉 ${praiseWord}! 答對了！` : '❌ 答錯囉，再接再勵！'}</b>
+            <p style="white-space: pre-line; line-height: 1.6; margin-top: 8px;">${esc(q.explanation)}</p>
+          </div>
+        ` : ''}
+      </div>
+    </div>
+  `;
+}
+
+function selectOption(i) {
+  if (state.submittedQuestions[state.idx]) return;
+  state.userSelections[state.idx] = i;
+
+  for (let bIdx = 0; bIdx < state.quiz[state.idx].shuffledOptions.length; bIdx++) {
+    let btn = $(`opt${bIdx}`);
+    if (btn) btn.classList.remove('selected');
+  }
+
+  let selBtn = $(`opt${i}`);
+  if (selBtn) selBtn.classList.add('selected');
+
+  $('submitBtn').disabled = false;
+}
+
+function submitAnswer() {
+  let selectedIndex = state.userSelections[state.idx];
+  if (selectedIndex === undefined || state.submittedQuestions[state.idx]) return;
+
+  state.submittedQuestions[state.idx] = true;
+  state.totalAnswered++;
+
+  let q = state.quiz[state.idx];
+  let selectedText = q.shuffledOptions[selectedIndex].text;
+  let targetAnsText = q.options[q.answer.charCodeAt(0) - 65] || q.answer;
+  let isCorrect = (selectedText === targetAnsText);
+
+  if (isCorrect) {
+    state.correctCount++;
+    const praiseList = ["Great", "Good", "Nice", "Perfect"];
+    let randomPraise = praiseList[Math.floor(Math.random() * praiseList.length)];
+    state.quiz[state.idx].praiseWord = randomPraise;
+    playCorrectFeedback(randomPraise);
+  } else {
+    playWrongFeedback();
+  }
+
+  renderQuiz();
+}
+
+function prevQuestion() {
+  if (state.idx > 0) {
+    state.idx--;
+    renderQuiz();
+  }
+}
+
+function nextQuestion() {
+  if (state.idx < state.quiz.length - 1) {
+    state.idx++;
+    renderQuiz();
+  }
+}
+
+function leaveQuiz() { 
+  if (confirm("確定要離開測驗嗎？未完成的成績將不會被儲存。")) {
+    state.quizActive = false;
+    stopBGM();
+    if (window.kgTimer) { clearInterval(window.kgTimer); window.kgTimer = null; }
+    go('home'); 
+  }
+}
+
+function finishQuiz() {
+  state.quizActive = false;
+  stopBGM();
+  if (window.kgTimer) { clearInterval(window.kgTimer); window.kgTimer = null; }
+
+  let total = state.quiz.length;
+  let correct = state.correctCount;
+  let score = total > 0 ? Math.round((correct / total) * 100) : 0;
+
+  let reqScore = 80;
+  let requiredCorrect = null;
+  if (state.mode === 'challenge') {
+    let cfg = LEVEL_CONFIGS[state.currentLevel];
+    reqScore = cfg ? cfg.passRate * 100 : 80;
+    requiredCorrect = cfg ? cfg.reqCorrect : null;
+  }
+
+  // 關卡以明確答對題數判定，避免 94.94% 四捨五入成 95% 而誤判通過。
+  let isPass = requiredCorrect !== null ? correct >= requiredCorrect : score >= reqScore;
+  
+  let stampKey = state.mode === 'challenge' 
+    ? LEVEL_CONFIGS[state.currentLevel].stampKey 
+    : (state.mode === 'practice' ? null : state.topic);
+
+  let badgeIcon = isPass 
+    ? (state.mode === 'challenge' ? (LEVEL_CONFIGS[state.currentLevel]?.icon || '🏅') : '🌟') 
+    : '💪';
+
+  if (isPass) playVictorySound();
+
+  let dateStr = new Date().toLocaleDateString('zh-TW');
+  if (isPass && stampKey) {
+    state.stamps[stampKey] = {
+      score, date: dateStr, name: state.name || '國光小英雄'
+    };
+    localStorage.setItem('kgStamps', JSON.stringify(state.stamps));
+  }
+
+  state.history.unshift({
+    date: new Date().toLocaleString('zh-TW', { hour12: false }),
+    name: state.name || '國光小英雄',
+    title: state.topic, score, correct, total, isPass
+  });
+  localStorage.setItem('kgHistory', JSON.stringify(state.history));
+
+  $('view').innerHTML = `
+    <div class="panel" style="text-align:center;">
+      <div style="font-size:4rem">${badgeIcon}</div>
+      <h2>${esc(state.topic)} - 測驗結果</h2>
+      <p class="muted">英雄玩家：<b>${esc(state.name || '國光小英雄')}</b></p>
+      <div style="font-size:3rem; font-weight:900; color:${isPass ? '#22c55e' : '#f3b63f'};">${score} 分</div>
+      <p>答對 ${correct} 題 / 共 ${total} 題</p>
+
+      <div class="notice">
+        <b>認證印章狀況：${state.mode === 'practice' ? (isPass ? '練習表現很棒！' : '這次先找出需要加強的地方。') : (isPass ? '成功解鎖認證章！' : '未達標準（需 ' + reqScore + '%）')}</b><br>
+        ${state.mode === 'practice' ? '這是題庫隨機練習紀錄，不會冒充正式歷屆原卷，也不會自動解鎖認證章。' : (isPass ? '恭喜成功蓋章！已為您儲存至【我的認證集章冊】中。' : '再試一次即可順利解鎖印章！')}
+      </div>
+
+      <div class="row" style="justify-content:center;">
+        ${isPass && state.mode !== 'practice' ? `<button class="gold" onclick="downloadResult()">📜 列印 / 下載認證證書</button>` : ''}
+        <button class="secondary" onclick="go('home')">檢視我的集章冊</button>
+      </div>
+    </div>
+  `;
+}
+
+function importHistory(event) {
+  const file = event.target.files[0];
+  if (!file) return;
+
+  const reader = new FileReader();
+  reader.onload = function(e) {
+    const text = e.target.result;
+    const lines = text.split('\n');
+    let importedCount = 0;
+
+    for (let i = 1; i < lines.length; i++) {
+      let line = lines[i].trim();
+      if (!line) continue;
+
+      let cols = line.match(/(".*?"|[^",\s]+)(?=\s*,|\s*$)/g);
+      if (!cols || cols.length < 4) continue;
+
+      let title = cols[0].replace(/"/g, '').trim();
+      let score = parseInt(cols[1].replace(/"/g, '').trim(), 10);
+      let date = cols[2].replace(/"/g, '').trim();
+      let name = cols[3].replace(/"/g, '').trim();
+
+      let key = title.includes('435') || title.includes('425') ? 'king' 
+              : title.includes('325') ? 'challenge_325'
+              : title.includes('100') ? 'challenge_100' 
+              : title.includes('50') ? 'challenge_50' 
+              : title.includes('30') ? 'challenge_30'
+              : title;
+
+      if (!state.stamps[key] || score >= state.stamps[key].score) {
+        state.stamps[key] = { score, date, name };
+        importedCount++;
+      }
+
+      if (name && !state.name) {
+        saveName(name);
+      }
+    }
+
+    if (importedCount > 0) {
+      localStorage.setItem('kgStamps', JSON.stringify(state.stamps));
+      alert(`🎉 成功匯入並更新了 ${importedCount} 項認證紀錄！`);
+      render();
+    } else {
+      alert('⚠️ 備份檔中無新紀錄，或分數未高於現有紀錄。');
+    }
+    event.target.value = '';
+  };
+  reader.readAsText(file, 'UTF-8');
+}
+
+function exportHistory() {
+  if (!Object.keys(state.stamps).length && !state.history.length) {
+    alert('目前尚無集章與歷程紀錄！'); return;
+  }
+  let csv = "\uFEFF認證項目/主題,高分紀錄,獲章日期,英雄姓名\n";
+  Object.entries(state.stamps).forEach(([k, v]) => {
+    let title = (k==='king')?'435英雄金章':(k==='challenge_325')?'325題金章':(k==='challenge_100')?'100題銀章':(k==='challenge_50')?'50題銅章':(k==='challenge_30')?'30題新手章':k;
+    csv += `"${title}",${v.score},"${v.date}","${v.name}"\n`;
+  });
+  let blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+  let a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = `國光英雄網_認證集章冊_${state.name||'學生'}.csv`;
+  a.click();
+}
+
+function downloadResult() {
+  let stampKey = state.mode === 'challenge' ? LEVEL_CONFIGS[state.currentLevel].stampKey : state.topic;
+  let badgeIcon = state.mode === 'challenge' ? (LEVEL_CONFIGS[state.currentLevel]?.icon || '🏅') : '🏅';
+  downloadResultDirect(state.name || '國光小英雄', state.topic, badgeIcon);
+}
+
+function downloadResultDirect(studentName, topicTitle, badgeIcon) {
+  let certHtml = `
+    <!doctype html>
+    <html lang="zh-Hant"><head><meta charset="utf-8"><title>國光國小英語認證證書</title>
+    <style>
+      @page { size: A4 landscape; margin: 0; }
+      body { font-family: "Noto Sans TC", sans-serif; text-align: center; padding: 20px; background: #fff; color: #1e293b; margin:0; }
+      .cert-card { border: 8px double #d8a62e; background: #fffdfa; padding: 40px 20px; max-width: 680px; margin: 20px auto; border-radius: 16px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); box-sizing: border-box; }
+      h1 { color: #1e40af; font-size: 2.2rem; margin: 10px 0; font-weight: 900; }
+      .badge { font-size: 4.5rem; margin: 10px 0; }
+      .name { font-size: 1.8rem; font-weight: bold; color: #b45309; border-bottom: 2px solid #b45309; padding: 0 15px; }
+      .btn-print { background: #1e40af; color: #fff; border: none; padding: 12px 28px; font-size: 1rem; border-radius: 8px; cursor: pointer; margin-top: 25px; font-weight:bold; }
+      @media print { .btn-print { display: none; } .cert-card { box-shadow: none; max-width: 100%; border-width: 4px; } }
+    </style></head><body>
+    <div class="cert-card">
+      <p style="font-size:1.1rem; color:#64748b; letter-spacing:2px; margin:0;">新北市板橋區國光國民小學</p>
+      <h1>🏅 英語學習榮譽認證書</h1>
+      <div class="badge">${badgeIcon}</div>
+      <p style="font-size:1.3rem; line-height:2; margin:15px 0;">茲證明學生 <span class="name">${esc(studentName)}</span></p>
+      <p style="font-size:1.1rem; margin:15px 0;">參加<b>【${esc(topicTitle)}】</b>考核表現優異，成功獲得認證章！</p>
+      <button class="btn-print" onclick="window.print()">🖨️ 列印此證書</button>
+    </div>
+    </body></html>
+  `;
+  let win = window.open('', '_blank');
+  win.document.write(certHtml);
+  win.document.close();
+}
+
+function toggleTheme() {
+  let dark = document.documentElement.dataset.theme !== 'dark';
+  document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+  localStorage.setItem('kgTheme', dark ? 'dark' : 'light');
+  $('themeIcon').textContent = dark ? '🌙' : '☀️';
+  $('themeText').textContent = dark ? '切換亮色' : '切換暗色';
+}
+
+function toggleSound() {
+  state.soundEnabled = !state.soundEnabled;
+  $('soundIcon').textContent = state.soundEnabled ? '🔊' : '🔇';
+  $('soundText').textContent = state.soundEnabled ? '音效：開啟' : '音效：靜音';
+}
+
+function toggleBGM() {
+  state.bgmEnabled = !state.bgmEnabled;
+  $('bgmIcon').textContent = state.bgmEnabled ? '🎵' : '🔇';
+  $('bgmText').textContent = state.bgmEnabled ? '音樂：開啟' : '音樂：靜音';
+  
+  if (!state.bgmEnabled) {
+    stopBGM();
+  } else if (state.quizActive) {
+    startBGM();
+  }
+}
+
+function startBGM() {
+  if (!state.bgmEnabled || !state.quizActive || bgmInterval) return;
+  
+  let ctx = getAudioContext();
+  let step = 0;
+  const isFinalBattle = state.mode === 'challenge' && state.currentLevel === 5;
+  const notes = isFinalBattle
+    ? [523.25, 659.25, 783.99, 1046.50, 783.99, 880.00, 987.77, 1046.50]
+    : [261.63, 329.63, 392.00, 523.25, 392.00, 329.63, 261.63, 349.23];
+
+  bgmInterval = setInterval(() => {
+    if (!state.bgmEnabled) return;
+    try {
+      let osc = ctx.createOscillator();
+      let gain = ctx.createGain();
+      
+      osc.type = 'triangle';
+      osc.frequency.setValueAtTime(notes[step % notes.length], ctx.currentTime);
+      
+      gain.gain.setValueAtTime(isFinalBattle ? 0.035 : 0.018, ctx.currentTime); 
+      gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + (isFinalBattle ? 0.20 : 0.16));
+      
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+      
+      osc.start();
+      osc.stop(ctx.currentTime + 0.2);
+      step++;
+    } catch(e) {}
+  }, isFinalBattle ? 180 : 340);
+}
+
+function stopBGM() {
+  if (bgmInterval) {
+    clearInterval(bgmInterval);
+    bgmInterval = null;
+  }
+}
+
+function playCorrectFeedback(word) {
+  if (!state.soundEnabled) return;
+  try {
+    let ctx = getAudioContext();
+    let osc = ctx.createOscillator();
+    let gain = ctx.createGain();
+    osc.type = 'triangle';
+    osc.frequency.setValueAtTime(523.25, ctx.currentTime);
+    osc.frequency.setValueAtTime(659.25, ctx.currentTime + 0.12);
+    gain.gain.setValueAtTime(0.25, ctx.currentTime);
+    gain.gain.exponentialRampToValueAtTime(0.01, ctx.currentTime + 0.28);
+    osc.connect(gain);
+    gain.connect(ctx.destination);
+    osc.start();
+    osc.stop(ctx.currentTime + 0.28);
+  } catch(e) {}
+  
+}
+
+function playWrongFeedback() {
+  if (!state.soundEnabled) return;
+  try {
+    let ctx = getAudioContext();
+    let osc = ctx.createOscillator();
+    let gain = ctx.createGain();
+    osc.type = 'sine';
+    osc.frequency.setValueAtTime(240, ctx.currentTime);
+    osc.frequency.setValueAtTime(210, ctx.currentTime + 0.08);
+    gain.gain.setValueAtTime(0.08, ctx.currentTime);
+    gain.gain.exponentialRampToValueAtTime(0.005, ctx.currentTime + 0.18);
+    osc.connect(gain);
+    gain.connect(ctx.destination);
+    osc.start();
+    osc.stop(ctx.currentTime + 0.18);
+  } catch(e) {}
+}
+
+function playVictorySound() {
+  if (!state.soundEnabled) return;
+  try {
+    let ctx = getAudioContext();
+    let notes = [523.25, 659.25, 783.99, 1046.50];
+    notes.forEach((freq, idx) => {
+      let osc = ctx.createOscillator();
+      let gain = ctx.createGain();
+      osc.type = 'triangle';
+      osc.frequency.setValueAtTime(freq, ctx.currentTime + idx * 0.12);
+      gain.gain.setValueAtTime(0.3, ctx.currentTime + idx * 0.12);
+      gain.gain.exponentialRampToValueAtTime(0.01, ctx.currentTime + idx * 0.12 + 0.4);
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+      osc.start(ctx.currentTime + idx * 0.12);
+      osc.stop(ctx.currentTime + idx * 0.12 + 0.45);
+    });
+  } catch(e) {}
+}
+
+function openHelp() {
+  $('modalRoot').innerHTML = `
+    <div class="modal" onclick="if(event.target===this)closeHelp()">
+      <div class="modalbox">
+        <h2>📜 國光英雄網 - 集章與兌獎規則</h2>
+        <hr>
+        <h3>🌱 主題小集點章</h3>
+        <p>完成任一單字主題測驗且分數達 80 分以上，即可解鎖該主題集點章！</p>
+
+        <h3>🎖️ 五大等級挑戰賽獎章</h3>
+        <p>🌱 <b>Level 1 (30題)</b>：達 80% 解鎖新手章。</p>
+        <p>🥉 <b>Level 2 (50題)</b>：達 80% 解鎖銅牌卡。</p>
+        <p>🥈 <b>Level 3 (100題)</b>：核心能力關卡，至少答對 90 題，檢視單字、句型與閱讀理解。</p>
+        <p>🥇 <b>Level 4 (325題)</b>：至少答對 293 題（約 90%）解鎖金牌卡。</p>
+        <p>🏆 <b>Level 5 (435題)</b>：至少答對 414 題（至少 95%）解鎖終極英雄金章。兌獎方式依學校公告辦理。</p>
+
+        <button onclick="closeHelp()">我知道了</button>
+      </div>
+    </div>
+  `;
+}
+
+function closeHelp() { 
+  $('modalRoot').innerHTML = ''; 
+}
+
+function shuffle(a) {
+  a = [...a];
+  for (let i = a.length - 1; i > 0; i--) {
+    let j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+window.addEventListener('DOMContentLoaded', () => {
+  const theme = localStorage.getItem('kgTheme') || 'light';
+  document.documentElement.dataset.theme = theme;
+  $('themeIcon').textContent = theme === 'dark' ? '🌙' : '☀️';
+  $('themeText').textContent = theme === 'dark' ? '切換亮色' : '切換暗色';
+  render();
+});
+</script>
+</body>
+</html>
