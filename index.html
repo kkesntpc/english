@@ -42,6 +42,8 @@
 <div id="modalRoot"></div>
 
 <script src="questions.js"></script>
+<script src="vocabulary_cards.js"></script>
+<script src="historical_exam_keys.js"></script>
 <script>
 const ALL_TOPICS = [
   "單字-A.數字與時間",
@@ -440,34 +442,41 @@ function vocabulary(v) {
       <p>查單字、看學習提示，也可以打開歷屆題本練習。題本與答案檔保留原始檔案，互動隨機練習則使用網站題庫，兩者清楚區分。</p>
     </section>
     <section class="panel">
-      <div class="row"><h3>🔎 單字圖鑑</h3><span class="pill">目前整理 ${VOCAB_ITEMS.length} 個基礎單字</span></div>
+      <div class="row"><h3>🃏 單字卡／句型卡</h3><span class="pill">${VOCAB_FLASHCARDS.length} 張｜來自總複習講義</span></div>
+      <p>點卡片翻面，先看英文或句型，再確認中文意思。搜尋後也可以用「上一張／下一張」練習。</p>
       <label for="vocabSearch">搜尋英文、中文或主題</label>
-      <input id="vocabSearch" type="search" placeholder="例如：apple、星期、顏色" oninput="filterVocab(this.value)" autocomplete="off">
-      <div id="vocabResults" class="vocab-grid">${renderVocabCards(VOCAB_ITEMS)}</div>
-      <p class="muted">單字圖鑑目前先整合專案既有的基礎單字資料；後續可依完整題庫與課程範圍持續擴充，不會擅自覆蓋原題。</p>
+      <input id="vocabSearch" type="search" placeholder="例如：apple、星期、顏色、How are you" oninput="filterVocab(this.value)" autocomplete="off">
+      <div id="vocabResults" class="vocab-grid">${renderVocabCards(VOCAB_FLASHCARDS)}</div>
+      <div class="row flashcard-controls"><button class="secondary" onclick="moveFlashcard(-1)">← 上一張</button><button onclick="flipAllFlashcards()">🔄 翻面／看答案</button><button class="secondary" onclick="moveFlashcard(1)">下一張 →</button></div>
+      <p class="muted">卡片以你提供的 111–115 年五年級英語檢測總複習講義整理，保留原資料，不以少量網站既有單字代替完整講義。</p>
     </section>
     <section class="panel">
-      <div class="row"><h3>📝 歷屆考古題練習</h3><span class="pill gold">原卷可開啟</span></div>
-      <p>選擇年級與年度，開啟正式題本作答；答案檔可在完成後核對。題本內容仍以原始檔為準。</p>
-      <div class="exam-controls">
-        <div class="field"><label for="examGrade">年級</label><select id="examGrade"><option value="4">四年級</option><option value="5">五年級</option></select></div>
-        <div class="field"><label for="examYear">年度</label><select id="examYear">${years.map(y=>`<option value="${y}">${y} 年</option>`).join('')}</select></div>
-      </div>
-      <div class="row exam-actions"><button class="gold" onclick="openExamFile('paper')">📄 開啟歷屆題本</button><button class="secondary" onclick="openExamFile('answer')">✅ 開啟答案檔</button><button onclick="startPastPaperPractice()">🎲 題庫隨機練習</button><button class="secondary" onclick="startReadingPractice()">📘 閱讀理解練習</button></div>
-      <p class="muted">說明：題本與答案檔是原始歷屆資料；「題庫隨機練習」是從網站題庫抽題的互動練習，尚未逐題轉錄成原卷版，不會冒稱為原卷逐題模擬。</p>
+      <div class="row"><h3>📝 歷屆考題互動版</h3><span class="pill gold">建置中</span></div>
+      <p>已把 110–115 年五年級官方答案表整理成 <code>historical_exam_keys.js</code>，共 6 份、每份 35 題。接下來要逐題核對原卷的題幹、選項與圖片，再完成可作答版本及詳解。</p>
+      <p class="muted">為避免學生點開後只看到 PDF 或答案表，未完成互動作答與逐題詳解的歷屆考題暫不放成可作答按鈕。聽力題若原始資料沒有音檔／逐字稿，會標示限制，不會憑空編造題目。</p>
     </section>`;
 }
 
+let visibleFlashcards = VOCAB_FLASHCARDS.slice();
+let flashcardIndex = 0;
 function renderVocabCards(items) {
   if (!items.length) return '<p class="muted">找不到符合的單字，試試其他關鍵字。</p>';
-  return items.map(item => `<article class="vocab-card"><div class="vocab-word">${esc(item.word)}</div><div class="vocab-meaning">${esc(item.meaning)}</div><div class="vocab-meta">${esc(item.category)}・${['','低年級推薦','中年級推薦','高年級推薦'][item.level] || '基礎'}</div><p>${esc(item.note)}</p></article>`).join('');
+  return items.map((item,i) => `<button type="button" class="vocab-card flashcard" aria-label="翻轉卡片：${esc(item.word)}" onclick="flipFlashcard(this)" data-card-index="${i}"><span class="flashcard-front"><span class="vocab-word">${esc(item.word)}</span><span class="vocab-meta">${esc(item.category)}</span><span class="muted">點擊翻面看中文</span></span><span class="flashcard-back"><span class="vocab-meaning">${esc(item.meaning)}</span><span class="vocab-meta">${esc(item.note)}</span></span></button>`).join('');
 }
-
+function flipFlashcard(card) { card.classList.toggle('is-flipped'); }
+function flipAllFlashcards() { document.querySelectorAll('#vocabResults .flashcard').forEach(card=>card.classList.toggle('is-flipped')); }
+function moveFlashcard(step) {
+  const cards=[...document.querySelectorAll('#vocabResults .flashcard')]; if(!cards.length)return;
+  cards.forEach(c=>c.classList.remove('is-current'));
+  flashcardIndex=(flashcardIndex+step+cards.length)%cards.length;
+  cards[flashcardIndex].classList.add('is-current'); cards[flashcardIndex].scrollIntoView({behavior:'smooth',block:'nearest'});
+}
 function filterVocab(value) {
   const term = String(value || '').trim().toLowerCase();
-  const results = VOCAB_ITEMS.filter(item => [item.word,item.meaning,item.category,item.note].some(v => String(v).toLowerCase().includes(term)));
+  visibleFlashcards = VOCAB_FLASHCARDS.filter(item => [item.word,item.meaning,item.category,item.note].some(v => String(v).toLowerCase().includes(term)));
+  flashcardIndex=0;
   const target = $('vocabResults');
-  if (target) target.innerHTML = renderVocabCards(results);
+  if (target) target.innerHTML = renderVocabCards(visibleFlashcards);
 }
 
 function openExamFile(kind) {
