@@ -438,22 +438,22 @@ function vocabulary(v) {
   v.innerHTML = `
     <section class="panel vocab-hero">
       <span class="pill gold">國光英語工具箱</span>
-      <h2>📖 單字大全與歷屆考題練習</h2>
-      <p>查單字、看學習提示，也可以打開歷屆題本練習。題本與答案檔保留原始檔案，互動隨機練習則使用網站題庫，兩者清楚區分。</p>
+      <h2>🎯 隨堂考與刷題中心</h2>
+      <p>直接開始作答，不必先翻找題目。系統會從現有 875 題網站題庫隨機抽出 20 題，完成後立即計分並查看逐題解析。</p>
+      <div class="practice-start-grid">
+        <button class="practice-start" onclick="startPastPaperPractice()">🚀 開始隨機刷題（20 題）</button>
+        <button class="secondary" onclick="startReadingPractice()">📚 閱讀理解練習</button>
+      </div>
+      <p class="muted">說明：此 20 題模式從網站現有題庫隨機抽題，並非宣稱已逐題轉錄的歷屆原卷。歷屆原卷仍需逐題核對題幹、圖像與答案後，才可作為正式歷屆考題測驗。</p>
     </section>
     <section class="panel">
       <div class="row"><h3>🃏 單字卡／句型卡</h3><span class="pill">${VOCAB_FLASHCARDS.length} 張｜來自總複習講義</span></div>
-      <p>點卡片翻面，先看英文或句型，再確認中文意思。搜尋後也可以用「上一張／下一張」練習。</p>
+      <p>輸入關鍵字查找卡片，點卡片翻面查看中文；不會一進頁面就把所有卡片全部展開。</p>
       <label for="vocabSearch">搜尋英文、中文或主題</label>
       <input id="vocabSearch" type="search" placeholder="例如：apple、星期、顏色、How are you" oninput="filterVocab(this.value)" autocomplete="off">
-      <div id="vocabResults" class="vocab-grid">${renderVocabCards(VOCAB_FLASHCARDS)}</div>
+      <div id="vocabResults" class="vocab-grid">${renderVocabCards(VOCAB_FLASHCARDS.slice(0,12))}</div>
+      <p id="vocabCount" class="muted">先顯示 12 張卡片；輸入搜尋詞可查找完整卡片庫。</p>
       <div class="row flashcard-controls"><button class="secondary" onclick="moveFlashcard(-1)">← 上一張</button><button onclick="flipAllFlashcards()">🔄 翻面／看答案</button><button class="secondary" onclick="moveFlashcard(1)">下一張 →</button></div>
-      <p class="muted">卡片以你提供的 111–115 年五年級英語檢測總複習講義整理，保留原資料，不以少量網站既有單字代替完整講義。</p>
-    </section>
-    <section class="panel">
-      <div class="row"><h3>📝 歷屆考題互動版</h3><span class="pill gold">建置中</span></div>
-      <p>已把 110–115 年五年級官方答案表整理成 <code>historical_exam_keys.js</code>，共 6 份、每份 35 題。接下來要逐題核對原卷的題幹、選項與圖片，再完成可作答版本及詳解。</p>
-      <p class="muted">為避免學生點開後只看到 PDF 或答案表，未完成互動作答與逐題詳解的歷屆考題暫不放成可作答按鈕。聽力題若原始資料沒有音檔／逐字稿，會標示限制，不會憑空編造題目。</p>
     </section>`;
 }
 
@@ -476,7 +476,8 @@ function filterVocab(value) {
   visibleFlashcards = VOCAB_FLASHCARDS.filter(item => [item.word,item.meaning,item.category,item.note].some(v => String(v).toLowerCase().includes(term)));
   flashcardIndex=0;
   const target = $('vocabResults');
-  if (target) target.innerHTML = renderVocabCards(visibleFlashcards);
+  if (target) target.innerHTML = renderVocabCards(term ? visibleFlashcards : visibleFlashcards.slice(0,12));
+  const count = $('vocabCount'); if (count) count.textContent = term ? `找到 ${visibleFlashcards.length} 張卡片` : `共 ${visibleFlashcards.length} 張卡片；先顯示 12 張，輸入搜尋詞可查找完整卡片庫。`;
 }
 
 function openExamFile(kind) {
@@ -504,6 +505,7 @@ function startPastPaperPractice() {
   // This is an interactive bank practice mode, not a claim that questions are transcribed verbatim from a particular paper.
   let pool = DATA.questions.filter(q => q.gradeLevel >= 1 && q.options && q.options.length >= 2 && !String(q.chapter).includes('閱讀理解'));
   let selected = pickABQuestions(pool).slice(0, 20);
+  if (selected.length < 20) selected = shuffle(pool).slice(0, 20);
   if (!selected.length) { alert('目前沒有足夠的題目可供練習。'); return; }
   resetExamState();
   state.quiz = selected.map(q => ({...q, shuffledOptions: null}));
