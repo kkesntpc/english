@@ -1,0 +1,25 @@
+[
+  {
+    "id": "Q-NEW-001",
+    "type": "MC",
+    "chapter": "單字-K.交通",
+    "difficulty": "易",
+    "question": "英文單字 \"bus\" 的中文意思是？",
+    "options": [
+      "公車",
+      "蘋果",
+      "星期一",
+      "藍色"
+    ],
+    "answer": "公車",
+    "explanation": "bus 是公車。",
+    "year": "自編",
+    "grade": "三年級",
+    "source": "教師自編",
+    "tags": [
+      "單字",
+      "交通"
+    ],
+    "vocabulary_id": "VOC-BUS-001"
+  }
+]

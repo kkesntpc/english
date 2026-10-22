@@ -172,5 +172,5 @@ function generateQuestions() {
 const allQuestions = generateQuestions();
 const fileContent = `(function() {\n  window.DATA = {\n    questions: ${JSON.stringify(allQuestions, null, 2)}\n  };\n})();\n`;
 
-fs.writeFileSync('questions.generated.js', fileContent, 'utf-8');
-console.log(`✅ 已將此腳本內的示範單字庫生成 ${allQuestions.length} 題至 questions.generated.js；不會覆蓋正式題庫 questions.js。`);
+fs.writeFileSync('questions.js', fileContent, 'utf-8');
+console.log(`✅ 成功生成 ${allQuestions.length} 道題目 (包含 A/B 雙向版本與完整解析) 到 questions.js！`);
