@@ -1,0 +1,722 @@
+/* ==========================================================================
+   英語英雄網 - 全域樣式表 (專業響應式防破版版)
+   ========================================================================== */
+
+:root {
+  --primary: #1e40af;
+  --primary-light: #3b82f6;
+  --primary-hover: #1d4ed8;
+  --secondary: #f59e0b;
+  --secondary-hover: #d97706;
+  --success: #16a34a;
+  --danger: #dc2626;
+  
+  --bg-light: #f8fafc;
+  --text-light: #0f172a;
+  --card-light: #ffffff;
+  --border-light: #cbd5e1;
+  --muted-light: #64748b;
+  --pill-bg-light: #eff6ff;
+  --pill-text-light: #1e40af;
+  --input-bg-light: #ffffff;
+
+  --bg-dark: #0f172a;
+  --text-dark: #f8fafc;
+  --card-dark: #1e293b;
+  --border-dark: #334155;
+  --muted-dark: #94a3b8;
+  --pill-bg-dark: #334155;
+  --pill-text-dark: #38bdf8;
+  --input-bg-dark: #020617;
+
+  --font-main: system-ui, -apple-system, "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+  color-scheme: light dark;
+}
+
+[data-theme="light"] {
+  --bg: var(--bg-light);
+  --text: var(--text-light);
+  --card: var(--card-light);
+  --border: var(--border-light);
+  --muted: var(--muted-light);
+  --pill-bg: var(--pill-bg-light);
+  --pill-text: var(--pill-text-light);
+  --input-bg: var(--input-bg-light);
+}
+
+[data-theme="dark"] {
+  --bg: var(--bg-dark);
+  --text: var(--text-dark);
+  --card: var(--card-dark);
+  --border: var(--border-dark);
+  --muted: var(--muted-dark);
+  --pill-bg: var(--pill-bg-dark);
+  --pill-text: var(--pill-text-dark);
+  --input-bg: var(--input-bg-dark);
+}
+
+/* 基礎重置與盒模型 */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  transition: background-color 0.25s ease, color 0.25s ease;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.app {
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 頂部頁首 */
+header {
+  background: linear-gradient(135deg, #1e3a8a, #2563eb);
+  color: #ffffff;
+  padding: 12px 16px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+.header-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.header-brand h1 {
+  font-size: 1.35rem;
+  font-weight: 900;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  letter-spacing: 0.5px;
+}
+
+.theme-toggle-btn {
+  background: rgba(255, 255, 255, 0.2) !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(255, 255, 255, 0.35) !important;
+  border-radius: 20px;
+  padding: 6px 12px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+/* 主容器 */
+.wrap {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 16px 16px 80px;
+  flex: 1;
+}
+
+/* ==========================================================================
+   1. 導覽列 (Navigation Bar) - 防破版彈性排列
+   ========================================================================== */
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.nav button {
+  flex: 1 1 160px;
+  max-width: 200px;
+  min-height: 44px;
+  padding: 10px 14px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: var(--card);
+  color: var(--text);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+}
+
+.nav button:hover {
+  background: var(--pill-bg);
+  color: var(--primary);
+  border-color: var(--primary-light);
+}
+
+.nav button.active {
+  background: var(--primary) !important;
+  color: #ffffff !important;
+  border-color: var(--primary) !important;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.35);
+}
+
+@media (max-width: 640px) {
+  .nav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+  .nav button {
+    max-width: 100%;
+    font-size: 0.9rem;
+    padding: 8px 10px;
+  }
+  .nav button:last-child:nth-child(odd) {
+    grid-column: span 2;
+  }
+}
+
+/* ==========================================================================
+   通用按鈕與表單
+   ========================================================================== */
+button, input, select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: 0;
+  border-radius: 10px;
+  padding: 10px 16px;
+  font-weight: 700;
+  background: var(--primary);
+  color: #ffffff;
+  transition: transform 0.15s ease, background-color 0.2s ease, box-shadow 0.2s ease;
+  touch-action: manipulation;
+  min-height: 42px;
+}
+
+button:hover { opacity: 0.96; }
+button:active { transform: scale(0.98); }
+
+button.secondary {
+  background: var(--pill-bg) !important;
+  color: var(--pill-text) !important;
+  border: 1px solid var(--border) !important;
+}
+
+button.gold {
+  background: #f59e0b !important;
+  color: #0f172a !important;
+  box-shadow: 0 4px 12px rgba(245, 158, 11, 0.3);
+}
+button.gold:hover {
+  background: #d97706 !important;
+  color: #ffffff !important;
+}
+
+button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+  transform: none !important;
+}
+
+/* 面板與卡片 */
+.panel {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+}
+
+.heroMain {
+  background: linear-gradient(135deg, #1d4ed8, #3b82f6);
+  color: #ffffff;
+  border: none;
+}
+.heroMain p { color: #f0fdf4; margin-top: 6px; }
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.muted {
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+.kpis {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 10px;
+  margin: 16px 0;
+}
+
+.kpi {
+  padding: 12px;
+  background: var(--pill-bg);
+  border-radius: 12px;
+  text-align: center;
+  border: 1px solid var(--border);
+}
+
+.kpi strong {
+  font-size: 1.25rem;
+  display: block;
+  color: var(--primary);
+}
+
+.pill {
+  display: inline-block;
+  background: var(--pill-bg);
+  color: var(--pill-text);
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.pill.gold {
+  background: #fef3c7;
+  color: #78350f;
+}
+
+/* ==========================================================================
+   2. 五大挑戰賽卡冊 (修復手機版 5 張卡被壓扁破版)
+   ========================================================================== */
+.challenge-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 12px;
+  margin-top: 24px;
+}
+
+@media (max-width: 1000px) {
+  .challenge-cards-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .challenge-cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  /* 第 5 張卡片在手機版跨 2 欄置中 */
+  .challenge-cards-grid .hero-photo-card:last-child {
+    grid-column: span 2;
+    max-width: 260px;
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
+.hero-photo-card {
+  position: relative;
+  border: 2px dashed var(--border);
+  border-radius: 14px;
+  background: var(--card);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.25s ease;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.hero-photo-card.unlocked {
+  border: 2px solid #f59e0b;
+  box-shadow: 0 4px 16px rgba(245, 158, 11, 0.25);
+}
+
+.hero-img-wrapper {
+  border-radius: 12px 12px 0 0;
+  position: relative;
+  width: 100%;
+  height: 105px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.placeholder-medal {
+  font-size: 3.2rem;
+  filter: drop-shadow(0 4px 6px rgba(0,0,0,0.2));
+}
+
+.hero-photo-card.locked .hero-img-wrapper {
+  filter: grayscale(85%) opacity(0.55);
+}
+
+.lock-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.45);
+  color: #1e293b;
+  font-weight: bold;
+}
+
+.hero-card-info {
+  padding: 10px 8px;
+  text-align: center;
+}
+
+.hero-card-info h4 {
+  margin: 0 0 4px 0;
+  font-size: 0.85rem;
+  color: var(--text);
+  line-height: 1.3;
+}
+
+.hero-card-info .status-desc {
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin-bottom: 8px;
+}
+
+/* Level 3 標籤 */
+.highlight-baseline {
+  border: 3px solid #ef4444 !important;
+}
+.baseline-ribbon {
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #ef4444;
+  color: #ffffff;
+  padding: 3px 12px;
+  border-radius: 16px;
+  font-size: 0.75rem;
+  font-weight: 900;
+  z-index: 10;
+  white-space: nowrap;
+  box-shadow: 0 2px 8px rgba(239, 68, 68, 0.4);
+}
+
+/* ==========================================================================
+   3. 十五大主題集點章 (3排 × 5欄 完美對稱矩陣)
+   ========================================================================== */
+.stamp-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr) !important;
+  gap: 12px;
+  margin: 16px 0;
+}
+
+@media (max-width: 1000px) {
+  .stamp-grid {
+    grid-template-columns: repeat(3, 1fr) !important; /* 平板 3 欄，剛好 5 排 */
+  }
+}
+
+@media (max-width: 600px) {
+  .stamp-grid {
+    grid-template-columns: repeat(2, 1fr) !important; /* 手機 2 欄 */
+    gap: 10px;
+  }
+  .stamp-grid .stamp-card:last-child {
+    grid-column: span 2;
+    max-width: 280px;
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
+.stamp-card {
+  border: 2px dashed var(--border);
+  border-radius: 14px;
+  padding: 14px 10px;
+  background: var(--card);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  min-height: 200px;
+  transition: all 0.25s ease;
+}
+
+.stamp-card.unlocked {
+  border: 2px solid #f59e0b;
+  box-shadow: 0 4px 14px rgba(245, 158, 11, 0.2);
+}
+
+.stamp-card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  flex: 1;
+}
+
+.stamp-icon {
+  font-size: 2.4rem;
+  margin-bottom: 6px;
+  opacity: 0.35;
+  filter: grayscale(100%);
+}
+
+.stamp-card.unlocked .stamp-icon {
+  opacity: 1;
+  filter: grayscale(0%) drop-shadow(0 2px 6px rgba(245, 158, 11, 0.35));
+}
+
+.stamp-title {
+  font-weight: 800;
+  font-size: 0.9rem;
+  margin-bottom: 4px;
+  color: var(--text);
+  line-height: 1.3;
+}
+
+.stamp-status {
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+
+.stamp-card-action {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.stamp-card-action button {
+  width: 100%;
+  padding: 8px 10px;
+  font-size: 0.85rem;
+  min-height: 38px;
+}
+
+/* ==========================================================================
+   4. 主題日常修練頁面卡片網格
+   ========================================================================== */
+.practice-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 14px;
+}
+
+/* ==========================================================================
+   5. 考古題練功區難度卡片 (高年級特訓)
+   ========================================================================== */
+.difficulty-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.diff-card {
+  border-radius: 16px;
+  padding: 20px;
+  border: 2px solid var(--border);
+  background: var(--card);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+}
+
+/* ==========================================================================
+   6. 單字大全：精裝摺頁手札 (Accordion)
+   ========================================================================== */
+.vocab-accordion {
+  margin-bottom: 12px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--card);
+  overflow: hidden;
+}
+
+.vocab-accordion-header {
+  padding: 14px 18px;
+  background: var(--pill-bg);
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+  user-select: none;
+  transition: background 0.2s;
+}
+
+.vocab-accordion-header:hover {
+  background: rgba(59, 130, 246, 0.15);
+}
+
+.vocab-accordion-content {
+  padding: 14px;
+  display: none;
+  background: var(--bg);
+}
+
+.vocab-accordion.open .vocab-accordion-content {
+  display: block;
+}
+
+.vocab-accordion-arrow {
+  transition: transform 0.25s ease;
+  font-size: 0.85rem;
+}
+
+.vocab-accordion.open .vocab-accordion-arrow {
+  transform: rotate(180deg);
+}
+
+.vocab-word-card {
+  padding: 12px 14px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--card);
+  cursor: pointer;
+  transition: transform 0.15s, border-color 0.15s;
+}
+
+.vocab-word-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--primary-light);
+}
+
+/* ==========================================================================
+   7. 測驗介面與彈窗
+   ========================================================================== */
+.quiz-panel {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.qtext {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  font-weight: 700;
+  margin: 16px 0;
+}
+
+.options {
+  display: grid;
+  gap: 10px;
+}
+
+.options button {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  text-align: left;
+  background: var(--card);
+  color: var(--text);
+  border: 2px solid var(--border);
+  padding: 12px 16px;
+  border-radius: 12px;
+  font-size: 1rem;
+}
+
+.options button.selected {
+  border-color: var(--primary-light) !important;
+  background: var(--pill-bg) !important;
+  color: var(--primary) !important;
+}
+
+.options button.correct {
+  background: #15803d !important;
+  color: #ffffff !important;
+  border-color: #22c55e !important;
+}
+
+.options button.wrong {
+  background: #b91c1c !important;
+  color: #ffffff !important;
+  border-color: #ef4444 !important;
+}
+
+.opt-prefix {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+  background: var(--pill-bg);
+  color: var(--pill-text);
+  border-radius: 6px;
+  font-weight: 800;
+  font-size: 0.9rem;
+}
+
+.progress {
+  height: 8px;
+  border-radius: 8px;
+  background: var(--border);
+  overflow: hidden;
+  margin: 12px 0;
+}
+
+.progress span {
+  display: block;
+  height: 100%;
+  background: #22c55e;
+  width: 0%;
+  transition: width 0.3s ease;
+}
+
+.feedback {
+  padding: 14px;
+  border-radius: 10px;
+  margin-top: 16px;
+  background: var(--pill-bg);
+}
+.feedback.pass { border-left: 5px solid #22c55e; }
+.feedback.fail { border-left: 5px solid #ef4444; }
+
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.65);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  z-index: 1000;
+  backdrop-filter: blur(4px);
+}
+
+.modalbox {
+  max-width: 580px;
+  width: 100%;
+  max-height: 85vh;
+  overflow-y: auto;
+  background: var(--card);
+  color: var(--text);
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 12px 36px rgba(0,0,0,0.3);
+}
+
+.cert-modal-box {
+  border: 6px double #d8a62e !important;
+  background: #fffdfa !important;
+  color: #1e293b !important;
+  text-align: center !important;
+}
