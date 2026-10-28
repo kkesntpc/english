@@ -720,3 +720,77 @@ button:disabled {
   color: #1e293b !important;
   text-align: center !important;
 }
+
+
+/* ===== 挑戰關卡頁補齊樣式：修復 .grid/.card/.field 等缺漏 ===== */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
+  gap: 18px;
+  align-items: stretch;
+  margin-top: 18px;
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 18px;
+  min-width: 0;
+  padding: 20px;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: var(--card);
+  color: var(--text);
+  box-shadow: 0 4px 14px rgba(15, 23, 42, .07);
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px rgba(15, 23, 42, .11);
+}
+.card-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.card-title {
+  font-size: 1.1rem;
+  line-height: 1.45;
+  font-weight: 800;
+  color: var(--text);
+}
+.field {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin: 14px 0 20px;
+}
+.field label { font-weight: 700; }
+.field input, .field select {
+  min-width: 0;
+  max-width: 100%;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--input-bg);
+  color: var(--text);
+}
+/* Level 3 是標準能力檢測：以金橘色重點提示，避免刺眼紅框 */
+.highlight-baseline {
+  border: 2px solid #f59e0b !important;
+  background: linear-gradient(180deg, rgba(245, 158, 11, .08), var(--card) 42%);
+}
+.baseline-ribbon {
+  top: -13px;
+  background: #b45309;
+}
+@media (max-width: 640px) {
+  .card { padding: 16px; gap: 14px; }
+  .card-header { align-items: flex-start; }
+  .field { align-items: flex-start; flex-direction: column; }
+  .field input { width: 100%; }
+}
