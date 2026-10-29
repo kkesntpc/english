@@ -36,8 +36,9 @@
 
   <footer style="text-align: center; padding: 25px 20px; margin-top: 40px; border-top: 1px solid var(--border); display: flex; flex-direction: column; align-items: center; gap: 12px;">
     <div style="display: flex; gap: 10px; flex-wrap: wrap; justify-content: center;">
-      <button class="gold" style="font-size: 0.9rem;" onclick="promptChangeName(false)">✏️ 修改勇者代號 / 學生姓名</button>
-      <button class="secondary" style="font-size: 0.9rem;" onclick="openHelp()">❓ 檢視認證制度與兌獎說明</button>
+      <button class="gold" style="font-size: 0.9rem;" onclick="promptChangeName(false)">✏️ 修改勇者代號</button>
+      <button class="secondary" style="font-size: 0.9rem;" onclick="openHelp()">❓ 兌獎說明</button>
+      <button class="primary" style="font-size: 0.9rem; background: #ef4444; color: white; border: none; padding: 6px 14px; border-radius: 6px; cursor: pointer;" onclick="resetDevice()">🔄 更換學生 (清空本機紀錄)</button>
     </div>
     <div style="font-size: 0.85rem; color: var(--muted);">目前勇者代號：<b id="footerHeroName" style="color: var(--primary);">尚未設定</b></div>
   </footer>
@@ -45,6 +46,7 @@
 
 <div id="modalRoot"></div>
 
+<script src="config.js"></script>
 <script src="questions.js"></script>
 <script src="questions_exam.js"></script>
 <script>
@@ -63,6 +65,7 @@ const ALL_TOPICS = [
   "單字-L.介係詞與代名詞",
   "第二部分：日常生活與教室用語",
   "第三部分：核心問答句型",
+  "單字-M.新興議題與時事",
   "歷屆學檢特訓章 (須完成3次)"
 ];
 
@@ -164,7 +167,7 @@ function render() {
 
 function home(v) {
   // 隱藏密技：kkes 全解鎖
-  if (state.name.trim().toLowerCase() === 'kkes') {
+  if (state.name.trim().toLowerCase() === 'kkes_admin_888') {
     let magicStamps = {};
     let mockDate = new Date().toLocaleDateString('zh-TW');
     ALL_TOPICS.forEach(t => { magicStamps[t] = { score: 100, date: mockDate, name: 'KKES' }; });
@@ -192,7 +195,7 @@ function home(v) {
       <section class="panel heroMain">
         <span class="pill gold">⚔️ 勇者冒險日誌</span>
         <h2 style="margin:10px 0;">🛡️ 歡迎來到英語英雄網，勇者 ${esc(state.name || '無名勇者')} 請闖關！</h2>
-        <p>傳說中，唯有集滿十五大主題奧義與突破五大極限關卡的勇者，才能斬斷英語迷思魔王！準備好接受正式試煉了嗎？</p>
+        <p>傳說中，唯有集滿各大主題奧義與突破極限關卡的勇者，才能斬斷英語迷思魔王！準備好接受正式試煉了嗎？</p>
         
         <div class="row" style="margin-top:14px;">
           <!-- 讓預設導向頁面明確往下捲動到集章區，或者只是提示 -->
@@ -222,7 +225,7 @@ function home(v) {
       </div>
 
       <section class="panel">
-        <h3>🎖️ 五大等級榮譽挑戰賽卡冊</h3>
+        <h3>🎖️ 各等級榮譽挑戰賽卡冊</h3>
         <p class="muted" style="margin-bottom:16px;">完成下方集章後，即可進行最終大挑戰！</p>
         <div class="challenge-cards-grid">
           ${Object.entries(LEVEL_CONFIGS).map(([lvlKey, cfg]) => {
@@ -250,7 +253,7 @@ function home(v) {
       </section>
 
       <section class="panel">
-        <h3>📚 十五大主題正式集點章 (3排×5欄對稱矩陣)</h3>
+        <h3>📚 主題正式集點章</h3>
         <p class="muted" style="margin-bottom:16px; color:#b91c1c; font-weight:bold;">⚠️ 這裡的測驗是「正式考核」，難度較高（限時 10 分鐘 20 題，需達 85% 及格），通過才能蓋章！</p>
         <div class="stamp-grid">
           ${ALL_TOPICS.map(t => {
@@ -287,7 +290,7 @@ function challenges(v) {
   stopBGM();
   v.innerHTML = `
     <div class="panel">
-      <h2>🏆 英語五大等級挑戰賽</h2>
+      <h2>🏆 英語分級挑戰賽</h2>
       <p class="muted">選擇你要挑戰的關卡，達成高分門檻即可解鎖對應的榮譽章！</p>
       
       <div class="field">
@@ -490,12 +493,13 @@ function startOfficialCertification(enc) {
 
 function examsPage(v) {
   stopBGM();
-  let examPassCount = state.history.filter(h => h.title.includes('歷屆學檢') && h.isPass).length;
+  let examPassCount = state.history.filter(h => h.title.includes('學檢挑戰篇') && h.isPass).length;
+  let allQsCount = (typeof DATA_EXAM !== 'undefined' && DATA_EXAM.questions) ? DATA_EXAM.questions.length : 175;
 
   v.innerHTML = `
     <div class="panel">
       <h2>📝 歷屆學檢考古特訓（高年級真題專區）</h2>
-      <p class="muted">嚴選 110～115 學年度縣市學檢官方真題！累積完成 3 次達標測驗即可解鎖第 15 號【歷屆學檢特訓章】！</p>
+      <p class="muted">嚴選 110～115 學年度縣市學檢官方真題及仿真猜題！累積完成 3 次【學檢挑戰篇】達標測驗，即可解鎖第 15 號【學檢特訓章】！</p>
       
       <div style="background: rgba(59, 130, 246, 0.1); border-left: 4px solid #3b82f6; padding: 12px 16px; border-radius: 6px; margin: 16px 0; font-size:1.05rem;">
         📌 <b>目前特訓進度：</b>已達標 <b>${examPassCount}</b> / 3 次 <br>
@@ -507,48 +511,131 @@ function examsPage(v) {
         <input id="examStudentName" value="${esc(state.name)}" placeholder="請輸入姓名" onchange="saveName(this.value)">
       </div>
 
-      <div class="difficulty-grid">
-        <div class="diff-card" style="border-color: #22c55e;">
+      <div class="difficulty-grid" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; align-items: stretch;">
+        
+        <div class="diff-card" style="border-color: #22c55e; display: flex; flex-direction: column; justify-content: space-between;">
           <div>
             <div class="row">
-              <h3 style="margin:0; color:#15803d;">🟢 基礎素養篇</h3>
+              <h3 style="margin:0; color:#15803d; font-size:1.1rem;">🟢 基礎素養篇</h3>
               <span class="pill" style="background:#dcfce7; color:#15803d;">15 題</span>
             </div>
-            <p class="muted" style="font-size:0.88rem; margin:10px 0;">
+            <p class="muted" style="font-size:0.85rem; margin:10px 0;">
               直觀圖文對應、日常生活基本詞彙與看圖問答，適合建立答題自信心。
             </p>
           </div>
-          <button style="background: #16a34a; width: 100%; margin-top: 12px; font-size:1.05rem;" onclick="startExamByDifficulty(2, 15, '基礎素養篇')">開始基礎特訓</button>
+          <button style="background: #16a34a; width: 100%; margin-top: 12px; font-size:1rem;" onclick="startExamByDifficulty(2, 15, '基礎素養篇')">開始特訓</button>
         </div>
 
-        <div class="diff-card" style="border-color: #3b82f6;">
+        <div class="diff-card" style="border-color: #3b82f6; display: flex; flex-direction: column; justify-content: space-between;">
           <div>
             <div class="row">
-              <h3 style="margin:0; color:#1d4ed8;">🟡 進階應用篇</h3>
+              <h3 style="margin:0; color:#1d4ed8; font-size:1.1rem;">🟡 進階應用篇</h3>
               <span class="pill" style="background:#dbeafe; color:#1e40af;">15 題</span>
             </div>
-            <p class="muted" style="font-size:0.88rem; margin:10px 0;">
+            <p class="muted" style="font-size:0.85rem; margin:10px 0;">
               包含對話理解、方位介係詞、時間時鐘推算與生活短句應用。
             </p>
           </div>
-          <button style="background: #2563eb; width: 100%; margin-top: 12px; font-size:1.05rem;" onclick="startExamByDifficulty(3, 15, '進階應用篇')">開始進階特訓</button>
+          <button style="background: #2563eb; width: 100%; margin-top: 12px; font-size:1rem;" onclick="startExamByDifficulty(3, 15, '進階應用篇')">開始特訓</button>
         </div>
-
-        <div class="diff-card" style="border-color: #f59e0b;">
+        
+        <div class="diff-card" style="border-color: #8b5cf6; display: flex; flex-direction: column; justify-content: space-between;">
           <div>
             <div class="row">
-              <h3 style="margin:0; color:#b45309;">🔴 魔王挑戰篇</h3>
-              <span class="pill gold">20 題</span>
+              <h3 style="margin:0; color:#6d28d9; font-size:1.1rem;">🟣 自選題數</h3>
+              <span class="pill" style="background:#ede9fe; color:#6d28d9;">不限時</span>
             </div>
-            <p class="muted" style="font-size:0.88rem; margin:10px 0;">
+            <p class="muted" style="font-size:0.85rem; margin:10px 0;">
+              自由設定題數（1～${allQsCount}），無時間壓力，適合平日慢慢練習。
+            </p>
+            <div style="margin-top:8px; display:flex; align-items:center; gap:5px; flex-wrap:wrap;">
+               <input type="number" id="customExamCount" value="20" min="1" max="${allQsCount}" 
+                      style="width: 60px; padding: 4px; border: 2px solid #8b5cf6; border-radius: 6px; font-size:0.9rem; font-weight:bold; text-align:center;"
+                      oninput="if(parseInt(this.value)>${allQsCount}) this.value=${allQsCount}; if(parseInt(this.value)<1 && this.value!=='') this.value=1;">
+               <span style="font-size:0.8rem; color:#6d28d9;">/ ${allQsCount}</span>
+               <button type="button" class="secondary" style="padding: 2px 6px; font-size: 0.75rem; border-color:#c4b5fd; color:#6d28d9;" onclick="$('customExamCount').value=${allQsCount}">全選</button>
+            </div>
+          </div>
+          <button style="background: #7c3aed; width: 100%; margin-top: 12px; font-size:1rem;" onclick="startCustomExam()">開始特訓</button>
+        </div>
+
+        <div class="diff-card" style="border: 3px solid #ea580c; background: #fffbeb; display: flex; flex-direction: column; justify-content: space-between; transform: scale(1.02); box-shadow: 0 4px 15px rgba(234, 88, 12, 0.2);">
+          <div>
+            <div class="row">
+              <h3 style="margin:0; color:#b45309; font-size:1.1rem;">🔥 學檢挑戰篇</h3>
+              <span class="pill gold" style="animation: pulse 2s infinite;">必考認證</span>
+            </div>
+            <p class="muted" style="font-size:0.85rem; margin:10px 0;">
+              <b style="color:#ea580c;">※ 通過此模式才能蓋章！</b><br>
               全真素養閱讀題：菜單票價表、失物招領、時區計算、短篇故事推論。
             </p>
           </div>
-          <button class="gold" style="width: 100%; margin-top: 12px; font-size:1.05rem;" onclick="startExamByDifficulty(0, 20, '魔王挑戰篇')">決戰魔王挑戰</button>
+          <button class="gold" style="width: 100%; margin-top: 12px; font-size:1.05rem; font-weight:bold;" onclick="startExamByDifficulty(0, 20, '學檢挑戰篇')">🚀 開始特訓</button>
         </div>
+
       </div>
+      
+      <div style="margin-top: 30px; text-align: center; border-top: 1px dashed #cbd5e1; padding-top: 20px;">
+        <h3 style="color:#0f172a; margin-bottom: 10px;">🏆 終極隱藏任務：一鍵總題庫攻略</h3>
+        <p style="font-size:0.95rem; color:#64748b; margin-bottom: 15px; line-height:1.6;">傳說中，唯有準備好集滿各大主題奧義與突破極限關卡的勇者，才能斬斷英語迷思魔王！<br>挑戰一次做完指定考題！成功通關者將獲得「超級隱藏章」，可至教務處找資訊組長兌換神祕大獎！</p>
+        <button style="background: linear-gradient(135deg, #0f172a, #334155); color: white; border: none; padding: 12px 24px; border-radius: 30px; font-size: 1.1rem; font-weight: bold; cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.3);" onclick="startUltimateChallenge()">👑 開始百題特訓</button>
+
+      <div style="margin-top: 40px; padding: 15px; border-radius: 8px; background: #f8fafc; border: 1px solid #e2e8f0; font-size: 0.85rem; color: #64748b; text-align: left; line-height: 1.6;">
+        <b style="color: #475569;">⚠️ 家長與同學請注意（免責與素養說明）：</b><br>
+        本練習網收錄之歷屆考古真題與改編挑戰中，含有少部分看似「超出國小課綱範圍」的單字（如：水豚、AI、疫苗等）。這些是為了符合近年縣市學力檢測<b>「素養導向」</b>的長文閱讀情境而特別設計。素養題的核心在於「透過上下文推論」，而非死背艱澀單字。本站純屬教學輔助與趣味練習用途，旨在提升孩子的閱讀自信與應變能力，請以輕鬆的心情挑戰，若有疑義敬請見諒。
+      </div>
+
+      </div>
+
     </div>
   `;
+}
+function startCustomExam() {
+  saveName($('examStudentName')?.value || state.name);
+  if (!state.name) { alert('請輸入姓名才能開始喔！'); return; }
+  
+  let allExamQs = (typeof DATA_EXAM !== 'undefined' && DATA_EXAM.questions) ? DATA_EXAM.questions : [];
+  if (allExamQs.length === 0) { alert("題庫載入中或沒有題目"); return; }
+  
+  let count = parseInt($('customExamCount').value) || 20;
+  if (count < 1) count = 1;
+  if (count > allExamQs.length) count = allExamQs.length;
+  
+  resetExamState();
+  state.quiz = shuffle(allExamQs).slice(0, count);
+  state.mode = 'exam_cert'; 
+  state.topic = `歷屆學檢特訓 - 自選題數 (${count}題)`;
+  state.deadline = null; // 不限時
+  
+  prepareQuestionsData();
+  startBGM();
+  renderQuiz();
+}
+
+function startUltimateChallenge() {
+  saveName($('examStudentName')?.value || state.name);
+  if (!state.name) { alert('請先輸入學生姓名！'); return; }
+  
+  let allExamQs = (typeof DATA_EXAM !== 'undefined' && DATA_EXAM.questions) ? DATA_EXAM.questions : [];
+  if (allExamQs.length === 0) { alert("題庫載入中，請稍候！"); return; }
+  
+  // 篩選五年級題庫 (gradeLevel === 3)
+  let grade5Qs = allExamQs.filter(q => q.gradeLevel === 3);
+  
+  // 精準抽出 100 題
+  let selectedQs = shuffle(grade5Qs).slice(0, 100);
+  
+  if(!confirm(`即將挑戰教務處指定考題（精選 ${selectedQs.length} 題）！這將會是一場硬仗，你準備好了嗎？`)) return;
+  
+  resetExamState();
+  state.quiz = selectedQs;
+  state.mode = 'ultimate_cert'; 
+  state.topic = `👑 終極一鍵百題攻略 (${selectedQs.length}題)`;
+  state.deadline = null; // 不限時，讓學生慢慢磨
+  
+  prepareQuestionsData();
+  startBGM();
+  renderQuiz();
 }
 
 function startExamByDifficulty(diffLevel, count, titleText) {
@@ -611,7 +698,7 @@ function vocabPage(v) {
 
       <div id="accordionContainer">
         ${Array.from(chaptersMap.entries()).map(([ch, words], idx) => `
-          <div class="vocab-accordion ${idx === 0 ? 'open' : ''}" id="acc_${idx}">
+          <div class="vocab-accordion " id="acc_${idx}">
             <div class="vocab-accordion-header" onclick="toggleAccordion('acc_${idx}')">
               <span>📁 ${esc(ch.replace('單字-', ''))} <span class="pill" style="margin-left:8px;">${words.length} 詞</span></span>
               <span class="vocab-accordion-arrow">▼</span>
@@ -900,6 +987,7 @@ function finishQuiz() {
   // 判定門檻：日常練習不設門檻，正式蓋章預設 85%，考古題預設 80%，關卡依據設定
   let reqScore = 0;
   if (state.mode === 'official_cert') reqScore = 85;
+  if (state.mode === 'ultimate_cert') reqScore = 90; // 終極挑戰需 90 分
   if (state.mode === 'exam_cert') reqScore = 80;
   if (state.mode === 'challenge') {
     let cfg = LEVEL_CONFIGS[state.currentLevel];
@@ -916,6 +1004,11 @@ function finishQuiz() {
       score, date: new Date().toLocaleDateString('zh-TW'), name: state.name || '英語小英雄'
     };
     localStorage.setItem('kgStamps', JSON.stringify(state.stamps));
+  } else if (isPass && state.mode === 'ultimate_cert') {
+    state.stamps["👑 終極超級隱藏章"] = {
+      score, date: new Date().toLocaleDateString('zh-TW'), name: state.name || '無名勇者'
+    };
+    localStorage.setItem('kgStamps', JSON.stringify(state.stamps));
   } else if (isPass && state.mode === 'challenge') {
     state.stamps[LEVEL_CONFIGS[state.currentLevel].stampKey] = {
       score, date: new Date().toLocaleDateString('zh-TW'), name: state.name || '英語小英雄'
@@ -928,6 +1021,7 @@ function finishQuiz() {
   if (state.mode === 'practice') titleStr += ' (自主練習)';
   if (state.mode === 'official_cert') titleStr += ' [正式認證]';
   if (state.mode === 'exam_cert') titleStr += ' [歷屆學檢特訓]';
+  if (state.mode === 'ultimate_cert') titleStr += ' [教務處隱藏任務]';
 
   state.history.unshift({
     date: new Date().toLocaleString('zh-TW', { hour12: false }),
@@ -938,10 +1032,15 @@ function finishQuiz() {
 
   let badgeIcon = isPass ? '🏅' : '💪';
   if (state.mode === 'challenge') badgeIcon = isPass ? (LEVEL_CONFIGS[state.currentLevel]?.icon || '🏅') : '💪';
+  if (state.mode === 'ultimate_cert') badgeIcon = isPass ? '🏆👑🎖️' : '💥';
   
+  let extraStyle = (isPass && state.mode === 'ultimate_cert') ? 'animation: pulse 1.5s infinite; color: #fbbf24; text-shadow: 0 0 20px rgba(251, 191, 36, 0.5); font-size: 5rem;' : '';
+  let extraTitle = (isPass && state.mode === 'ultimate_cert') ? '<h2 style="color: #ea580c; font-size: 2rem; margin-top:0;">🎉 傳奇誕生！神祕大獎解鎖 🎉</h2><p style="color:#b45309; font-weight:bold; font-size:1.15rem; margin:10px 0 20px 0;">🏆 恭喜英雄勇者達成 90% 傳奇通關！請憑此畫面至教務處領取神祕大獎！</p>' : '';
+
   let resultHtml = `
-    <div class="panel" style="text-align:center;">
-      <div style="font-size:4rem">${badgeIcon}</div>
+    <div class="panel" style="text-align:center; ${(isPass && state.mode === 'ultimate_cert') ? 'border: 4px solid #f59e0b; background: #fffbeb;' : ''}">
+      ${extraTitle}
+      <div style="font-size:4rem; ${extraStyle}">${badgeIcon}</div>
       <h2>${esc(state.topic)} - 測驗結果</h2>
       <p class="muted">英雄玩家：<b>${esc(state.name || '英語小英雄')}</b></p>
       <div style="font-size:3.5rem; font-weight:900; color:${isPass ? '#22c55e' : '#f3b63f'};">${score} 分</div>
@@ -969,14 +1068,95 @@ function finishQuiz() {
   }
 
   resultHtml += `
-      <div class="row" style="justify-content:center; margin-top:20px;">
-        ${(isPass && state.mode !== 'practice' && state.mode !== 'exam_cert') ? `<button class="gold" style="font-size:1.05rem;" onclick="downloadResult()">📜 列印 / 下載認證證書</button>` : ''}
-        <button class="secondary" style="font-size:1.05rem;" onclick="go('home')">檢視我的集章冊</button>
+      <div class="row" style="justify-content:center; margin-top:20px; gap:10px; flex-wrap:wrap;">
+        ${(isPass && state.mode !== 'practice' && state.mode !== 'exam_cert') ? `<button class="gold" style="font-size:1.05rem;" onclick="downloadResult()">📜 列印認證證書</button>` : ''}
+        ${state.correctCount < state.quiz.length ? `<button class="primary" style="font-size:1.05rem; background:#3b82f6; border:none; color:white; padding:8px 18px; border-radius:8px; cursor:pointer;" onclick="showMistakes()">📋 查看本次錯題</button>` : ''}
+        <button class="secondary" style="font-size:1.05rem;" onclick="go('home')">🏠 返回集章冊</button>
       </div>
     </div>
   `;
 
+
   $('view').innerHTML = resultHtml;
+  if (isPass && state.mode === 'ultimate_cert') {
+    // 華麗噴發效果
+    let confetti = document.createElement('div');
+    confetti.innerHTML = '🎊✨🎉🎊✨🎉';
+    confetti.style.position = 'fixed';
+    confetti.style.top = '10%';
+    confetti.style.left = '0';
+    confetti.style.width = '100%';
+    confetti.style.textAlign = 'center';
+    confetti.style.fontSize = '4rem';
+    confetti.style.pointerEvents = 'none';
+    confetti.style.animation = 'pulse 1s infinite';
+    document.body.appendChild(confetti);
+    setTimeout(() => confetti.remove(), 5000);
+  }
+}
+
+
+
+
+function showMistakes() {
+  let v = $('view');
+  let wrongCount = state.quiz.length - state.correctCount;
+  let mistakesHtml = `
+    <div class="panel">
+      <h2>📋 本次測驗錯題回顧</h2>
+      <p class="muted">本次挑戰共答錯 <b>${wrongCount}</b> 題，已為您整理正確解析如下：</p>
+      <div style="display:flex; flex-direction:column; gap:16px; margin-top:20px;">
+  `;
+  
+  let hasMistakes = false;
+  for (let i = 0; i < state.quiz.length; i++) {
+    let q = state.quiz[i];
+    let selectedIndex = state.userSelections[i];
+    let targetAnsText = q.answerText;
+    
+    if (selectedIndex === undefined || q.shuffledOptions[selectedIndex]?.text !== targetAnsText) {
+      hasMistakes = true;
+      let wrongDesc = selectedIndex !== undefined ? q.shuffledOptions[selectedIndex].desc : "未作答";
+      let correctIdx = q.shuffledOptions.findIndex(o => o.text === targetAnsText);
+      let correctDesc = correctIdx !== -1 ? q.shuffledOptions[correctIdx].desc : targetAnsText;
+      
+      mistakesHtml += `
+        <div class="card" style="border-left: 5px solid #ef4444; background: #fff1f2; padding: 16px;">
+          <div style="font-weight:bold; margin-bottom:8px; font-size:1.05rem; color:#0f172a;">第 ${i+1} 題：${esc(q.question)}</div>
+          <div style="color:#b91c1c; margin-bottom:6px; font-size:0.95rem;">❌ 你的選擇：${esc(wrongDesc)}</div>
+          <div style="color:#15803d; margin-bottom:10px; font-size:0.95rem; font-weight:bold;">✅ 正確答案：(${String.fromCharCode(65 + correctIdx)}) ${esc(correctDesc)}</div>
+          <div style="background:#ffffff; border:1px solid #fed7aa; padding:12px; border-radius:6px; font-size:0.92rem; color:#334155; line-height:1.6; white-space:pre-wrap;">${esc(q.hint)}</div>
+        </div>
+      `;
+    }
+  }
+  
+  if (!hasMistakes) {
+    mistakesHtml += `<div class="card" style="text-align:center; padding:30px; font-size:1.2rem; color:#15803d;">🎉 太神啦！本次測驗全數答對，沒有任何錯題！</div>`;
+  }
+  
+  mistakesHtml += `
+      </div>
+      <div style="margin-top:24px; text-align:center;">
+        <button class="secondary" style="font-size:1.05rem; padding: 10px 30px;" onclick="go('home')">🏠 返回集章冊</button>
+      </div>
+    </div>
+  `;
+  v.innerHTML = mistakesHtml;
+}
+
+function resetDevice() {
+  if (confirm("⚠️ 警告：這將會徹底清空本台平板／電腦上所有的學生姓名、印章與測驗紀錄！\n\n如果你是下一位要使用的同學，請點擊「確定」。\n如果你想保留成績，請點擊「取消」。")) {
+    try {
+      localStorage.clear();
+      sessionStorage.clear();
+    } catch(e) {}
+    state.name = '';
+    state.stamps = {};
+    state.history = [];
+    alert("✅ 紀錄已成功清空！即將重新載入頁面，請新同學輸入姓名。");
+    window.location.reload();
+  }
 }
 
 
@@ -1066,7 +1246,20 @@ function downloadResultDirect(studentName, topicTitle, badgeIcon) {
       .name { font-size: 1.8rem; font-weight: bold; color: #b45309; border-bottom: 2px solid #b45309; padding: 0 15px; }
       .btn-print { background: #1e40af; color: #fff; border: none; padding: 12px 28px; font-size: 1rem; border-radius: 8px; cursor: pointer; margin-top: 25px; font-weight:bold; }
       @media print { .btn-print { display: none; } .cert-card { box-shadow: none; max-width: 100%; border-width: 4px; } }
-    </style></head><body>
+    
+@keyframes pulse {
+  0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(234, 88, 12, 0.4); }
+  70% { transform: scale(1.05); box-shadow: 0 0 0 10px rgba(234, 88, 12, 0); }
+  100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(234, 88, 12, 0); }
+}
+
+@media (max-width: 1024px) {
+  .difficulty-grid { grid-template-columns: repeat(2, 1fr) !important; }
+}
+@media (max-width: 600px) {
+  .difficulty-grid { grid-template-columns: 1fr !important; }
+}
+</style></head><body>
     <div class="cert-card">
       <p style="font-size:1.1rem; color:#64748b; letter-spacing:2px; margin:0;">英語學習榮譽認證中心</p>
       <h1>🏅 英語學習榮譽認證書</h1>
@@ -1364,6 +1557,12 @@ window.addEventListener('DOMContentLoaded', () => {
   document.documentElement.dataset.theme = 'light';
   render();
   checkFirstTimeUser();
+  // Hide flashcards by default
+  const fContainer = document.getElementById("flashcards-container");
+  const fToggleBtn = document.getElementById("toggle-cards-btn");
+  if (fContainer) fContainer.style.display = "none";
+  if (fToggleBtn) fToggleBtn.innerText = "展開單字卡";
+
 });
 </script>
 </body>
