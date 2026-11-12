@@ -12,7 +12,7 @@
 <div class="app">
   <header>
     <div class="header-container">
-      <div class="header-brand" style="cursor: pointer;" onclick="go('home')" title="點擊返回首頁">
+      <div class="header-brand" style="cursor: pointer; user-select: none;" onclick="handleHeaderTap()" title="點擊返回首頁">
         <h1>🦸 英語英雄網 </h1>
       </div>
       <div style="display: flex; gap: 8px; flex-wrap: wrap;">
@@ -168,14 +168,7 @@ function render() {
 }
 
 function home(v) {
-  // 隱藏密技：kkes 全解鎖
-  if (state.name.trim().toLowerCase() === 'kkesadmin') {
-    let magicStamps = {};
-    let mockDate = new Date().toLocaleDateString('zh-TW');
-    ALL_TOPICS.forEach(t => { magicStamps[t] = { score: 100, date: mockDate, name: 'KKES' }; });
-    Object.values(LEVEL_CONFIGS).forEach(cfg => { magicStamps[cfg.stampKey] = { score: 100, date: mockDate, name: 'KKES' }; });
-    state.stamps = magicStamps;
-  }
+  // 老師隱藏救援模式改由專屬後台管理，直接持久化至 localStorage
 
   stopBGM();
   
@@ -1553,11 +1546,11 @@ function openHelp() {
         <p>2. 第 15 號【歷屆學檢特訓章】，須至「考古練功區」累積完成 <b>3次</b> 特訓即可蓋章！</p>
 
         <h3>🎖️ 勇者挑戰賽獎章</h3>
-        <p>🌱 <b>Level 1 (30題)</b>：達 80% 解鎖新手章。</p>
-        <p>🥉 <b>Level 2 (50題)</b>：達 80% 解鎖銅牌卡。</p>
-        <p>🥈 <b>Level 3 (100題)</b>：達 90% 解鎖銀牌卡。</p>
-        <p>🥇 <b>Level 4 (325題)</b>：達 85% 解鎖 325 題金牌卡。</p>
-        <p>🏆 <b>Level 5 (435題)</b>：達 90% 解鎖終極英雄金章！可至教務處兌換禮物！</p>
+        <p>🧸 <b>Level 1 (20題)</b>：達 80% 解鎖基礎達標小熊。</p>
+        <p>🦄 <b>Level 2 (30題)</b>：達 80% 解鎖進階勇者獨角獸。</p>
+        <p>🦉 <b>Level 3 (50題)</b>：達 85% 解鎖單字達人貓頭鷹。</p>
+        <p>👑 <b>Level 4 (100題)</b>：達 90% 解鎖無敵王者皇冠。</p>
+        <p>🎁 <b>Level 5 (20題)</b>：達 90% 解鎖本月神秘寶箱！可至教務處兌換禮物！</p>
 
         <button onclick="closeHelp()" style="width:100%; margin-top:20px;">我知道了</button>
       </div>
@@ -1608,6 +1601,11 @@ function saveNameFromModal() {
     alert('請輸入勇者姓名才能出發喔！');
     return;
   }
+  if (['kkesadmin', 'teacher888', 'teacher'].includes(val.toLowerCase())) {
+    closeHelp();
+    openTeacherAdmin();
+    return;
+  }
   saveName(val);
   closeHelp();
   render();
@@ -1631,6 +1629,246 @@ function saveName(val) {
     });
     localStorage.setItem('kgStamps', JSON.stringify(state.stamps));
   }
+}
+
+
+let headerTapCount = 0;
+let headerTapTimer = null;
+
+function handleHeaderTap() {
+  headerTapCount++;
+  if (headerTapTimer) clearTimeout(headerTapTimer);
+  if (headerTapCount >= 5) {
+    headerTapCount = 0;
+    promptTeacherAuth();
+    return;
+  }
+  headerTapTimer = setTimeout(() => {
+    headerTapCount = 0;
+  }, 2500);
+  go('home');
+}
+
+function promptTeacherAuth() {
+  $('modalRoot').innerHTML = `
+    <div class="modal" onclick="if(event.target===this)closeHelp()">
+      <div class="modalbox" style="max-width: 400px; text-align: center; padding: 26px 20px;">
+        <div style="font-size: 2.8rem; margin-bottom: 8px;">👩‍🏫</div>
+        <h2 style="margin: 0 0 8px 0; color: var(--primary);">老師專屬隱藏後台</h2>
+        <p class="muted" style="font-size: 0.9rem; margin-bottom: 16px;">請輸入老師通行碼以開啟學生徽章救援設定：</p>
+        <input id="teacherPassInput" type="password" placeholder="輸入通行碼..." 
+               style="width: 100%; font-size: 1.15rem; text-align: center; padding: 10px; border: 2px solid var(--primary-light); border-radius: 10px; margin-bottom: 16px;"
+               onkeydown="if(event.key==='Enter') verifyTeacherPass();">
+        <div style="display: flex; gap: 10px;">
+          <button class="gold" style="flex: 1;" onclick="verifyTeacherPass()">解鎖進入 🔓</button>
+          <button class="secondary" onclick="closeHelp()">取消</button>
+        </div>
+      </div>
+    </div>
+  `;
+  setTimeout(() => { const el = $('teacherPassInput'); if (el) el.focus(); }, 100);
+}
+
+function verifyTeacherPass() {
+  const pass = ($('teacherPassInput')?.value || '').trim().toLowerCase();
+  if (pass === '8888' || pass === 'kkes' || pass === 'kkesadmin' || pass === 'teacher888') {
+    openTeacherAdmin();
+  } else {
+    alert('❌ 通行碼錯誤！此功能僅限老師操作喔。');
+  }
+}
+
+function generateRescueCode() {
+  try {
+    const payload = {
+      n: state.name || '',
+      s: state.stamps || {},
+      h: (state.history || []).slice(0, 40)
+    };
+    const jsonStr = JSON.stringify(payload);
+    const bytes = new TextEncoder().encode(jsonStr);
+    let binStr = '';
+    bytes.forEach(b => { binStr += String.fromCharCode(b); });
+    return 'HERO-' + btoa(binStr);
+  } catch (e) {
+    return '';
+  }
+}
+
+function copyRescueCode() {
+  const code = generateRescueCode();
+  const box = $('rescueCodeBox');
+  if (box) {
+    box.value = code;
+    box.select();
+    try {
+      navigator.clipboard.writeText(code);
+      alert('✅ 已複製這台電腦的「勇者救援碼」！\n如果學生換平板或電腦，只要貼上這串代碼就能一秒還原所有徽章！');
+    } catch (e) {
+      document.execCommand('copy');
+      alert('✅ 已選取救援碼，請按 Ctrl+C 複製保存！');
+    }
+  }
+}
+
+function applyRescueCode() {
+  const raw = ($('rescueCodeBox')?.value || '').trim();
+  if (!raw || !raw.startsWith('HERO-')) {
+    alert('⚠️ 請先貼上正確的「HERO-」開頭救援碼！');
+    return;
+  }
+  try {
+    const b64 = raw.slice(5);
+    const binStr = atob(b64);
+    const bytes = new Uint8Array(binStr.length);
+    for (let i = 0; i < binStr.length; i++) bytes[i] = binStr.charCodeAt(i);
+    const jsonStr = new TextDecoder().decode(bytes);
+    const payload = JSON.parse(jsonStr);
+
+    if (payload.n) saveName(payload.n);
+    if (payload.s && typeof payload.s === 'object') {
+      state.stamps = payload.s;
+      localStorage.setItem('kgStamps', JSON.stringify(state.stamps));
+    }
+    if (Array.isArray(payload.h)) {
+      state.history = payload.h;
+      localStorage.setItem('kgHistory', JSON.stringify(state.history));
+    }
+    alert('🎉 救援成功！已完整還原學生姓名、所有徽章與歷史獎狀紀錄！');
+    closeHelp();
+    render();
+  } catch (e) {
+    alert('❌ 救援碼格式有誤或已損毀，請確認是否完整複製！');
+  }
+}
+
+function openTeacherAdmin() {
+  const currentName = state.name || '';
+  const rescueCode = generateRescueCode();
+
+  const challengeItemsHtml = Object.entries(LEVEL_CONFIGS).map(([lvlKey, cfg]) => {
+    const checked = !!state.stamps[cfg.stampKey] ? 'checked' : '';
+    return `
+      <label style="display:flex; align-items:center; gap:8px; padding:8px 10px; border:1px solid #cbd5e1; border-radius:8px; background:#f8fafc; cursor:pointer; font-size:0.9rem;">
+        <input type="checkbox" class="admin-stamp-cb" data-type="challenge" data-key="${esc(cfg.stampKey)}" data-title="${esc(cfg.name)}" ${checked} style="width:18px; height:18px; accent-color:#ea580c;">
+        <span><b>${cfg.icon} ${esc(cfg.badgeName)}</b> <span style="color:#64748b; font-size:0.8rem;">(${esc(cfg.name.split(':')[0])})</span></span>
+      </label>
+    `;
+  }).join('');
+
+  const topicItemsHtml = ALL_TOPICS.map(t => {
+    const checked = !!state.stamps[t] ? 'checked' : '';
+    return `
+      <label style="display:flex; align-items:center; gap:8px; padding:7px 10px; border:1px solid #e2e8f0; border-radius:8px; background:#ffffff; cursor:pointer; font-size:0.88rem;">
+        <input type="checkbox" class="admin-stamp-cb" data-type="topic" data-key="${esc(t)}" data-title="${esc(t)}" ${checked} style="width:17px; height:17px; accent-color:#16a34a;">
+        <span>${esc(t.replace('單字-', ''))}</span>
+      </label>
+    `;
+  }).join('');
+
+  $('modalRoot').innerHTML = `
+    <div class="modal" onclick="if(event.target===this)closeHelp()">
+      <div class="modalbox" style="max-width: 720px; max-height: 90vh; overflow-y: auto; text-align: left; padding: 24px;">
+        <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:2px solid #e2e8f0; padding-bottom:12px; margin-bottom:16px;">
+          <div>
+            <h2 style="margin:0; color:#1e40af;">👩‍🏫 老師專屬：學生徽章救援與補發後台</h2>
+            <p class="muted" style="margin:4px 0 0 0; font-size:0.85rem;">單機版防哭救星！可直接幫學生補發遺失的徽章，並自動同步產生 B5 獎狀紀錄。</p>
+          </div>
+          <button class="secondary" style="padding:4px 10px;" onclick="closeHelp()">✖</button>
+        </div>
+
+        <div style="background:#fffbeb; border:1px solid #fcd34d; padding:12px 14px; border-radius:10px; margin-bottom:16px;">
+          <label style="font-weight:bold; color:#92400e; display:block; margin-bottom:6px;">1️⃣ 確認或修改學生姓名（獎狀與集章冊將顯示此名字）：</label>
+          <input id="adminStudentName" type="text" value="${esc(currentName)}" placeholder="請輸入學生姓名（例如：王小明）"
+                 style="width:100%; padding:8px 12px; font-size:1.05rem; font-weight:bold; border:2px solid #f59e0b; border-radius:8px;">
+        </div>
+
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px; flex-wrap:wrap; gap:8px;">
+          <span style="font-weight:bold; color:#0f172a;">2️⃣ 勾選要補發／保留的徽章：</span>
+          <div style="display:flex; gap:8px;">
+            <button type="button" class="secondary" style="font-size:0.82rem; padding:4px 10px;" onclick="document.querySelectorAll('.admin-stamp-cb').forEach(cb => cb.checked = true)">✅ 全部勾選</button>
+            <button type="button" class="secondary" style="font-size:0.82rem; padding:4px 10px;" onclick="document.querySelectorAll('.admin-stamp-cb').forEach(cb => cb.checked = false)">⬜ 全部取消</button>
+          </div>
+        </div>
+
+        <div style="margin-bottom:16px;">
+          <div style="font-size:0.9rem; font-weight:bold; color:#1d4ed8; margin-bottom:8px;">🎖️ 勇者挑戰賽徽章</div>
+          <div style="display:grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap:8px;">
+            ${challengeItemsHtml}
+          </div>
+        </div>
+
+        <div style="margin-bottom:18px;">
+          <div style="font-size:0.9rem; font-weight:bold; color:#15803d; margin-bottom:8px;">📚 主題正式集點章</div>
+          <div style="display:grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap:6px;">
+            ${topicItemsHtml}
+          </div>
+        </div>
+
+        <div style="background:#f1f5f9; border:1px dashed #94a3b8; padding:12px; border-radius:10px; margin-bottom:18px;">
+          <div style="font-size:0.88rem; font-weight:bold; color:#334155; margin-bottom:6px;">🔑 跨電腦／換平板「勇者救援碼」（選用）：</div>
+          <div style="display:flex; gap:8px; flex-wrap:wrap;">
+            <input id="rescueCodeBox" type="text" value="${esc(rescueCode)}" placeholder="貼上 HERO- 開頭的救援碼..." style="flex:1; min-width:200px; font-size:0.8rem; padding:6px 8px; border:1px solid #cbd5e1; border-radius:6px; font-family:monospace;">
+            <button type="button" class="secondary" style="font-size:0.82rem; padding:6px 10px;" onclick="copyRescueCode()">📋 複製目前進度碼</button>
+            <button type="button" class="primary" style="font-size:0.82rem; padding:6px 10px;" onclick="applyRescueCode()">📥 貼上代碼還原</button>
+          </div>
+        </div>
+
+        <div style="display:flex; gap:10px; justify-content:flex-end; border-top:1px solid #e2e8f0; padding-top:14px;">
+          <button class="secondary" onclick="closeHelp()">取消</button>
+          <button class="gold" style="font-size:1.05rem; padding:10px 24px;" onclick="saveTeacherAdmin()">💾 儲存設定並發放徽章</button>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+function saveTeacherAdmin() {
+  const nameInp = $('adminStudentName');
+  const newName = (nameInp ? nameInp.value.trim() : '') || state.name || '英語小英雄';
+  const todayStr = new Date().toLocaleDateString('zh-TW');
+  const nowStr = new Date().toLocaleString('zh-TW', { hour12: false });
+
+  let updatedStamps = {};
+  let addedCount = 0;
+
+  document.querySelectorAll('.admin-stamp-cb').forEach(cb => {
+    if (cb.checked) {
+      const key = cb.getAttribute('data-key');
+      const title = cb.getAttribute('data-title');
+      const prev = state.stamps[key];
+      updatedStamps[key] = {
+        score: prev ? prev.score : 100,
+        date: prev ? prev.date : todayStr,
+        name: newName
+      };
+      addedCount++;
+
+      // 同步確保歷史戰績裡有過關紀錄，方便學生直接印出 B5 獎狀
+      const hasPassRecord = state.history.some(h => h.isPass && (h.title.includes(title) || title.includes(h.title)));
+      if (!hasPassRecord) {
+        state.history.unshift({
+          date: nowStr,
+          name: newName,
+          title: `${title} [老師認證補發]`,
+          score: 100,
+          correct: 20,
+          total: 20,
+          isPass: true
+        });
+      }
+    }
+  });
+
+  state.name = newName;
+  state.stamps = updatedStamps;
+  localStorage.setItem('kgName', state.name);
+  localStorage.setItem('kgStamps', JSON.stringify(state.stamps));
+  localStorage.setItem('kgHistory', JSON.stringify(state.history));
+
+  closeHelp();
+  render();
+  alert(`🎉 設定完成！已為「${newName}」保存 ${addedCount} 枚徽章，並同步更新獎狀紀錄！`);
 }
 
 function closeHelp() { 
