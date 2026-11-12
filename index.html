@@ -119,7 +119,8 @@ const pages = [
   ['topics', '📚 主題修練'],
   ['challenges', '🏆 勇者挑戰賽'],
   ['exams', '📝 考古練功區'],
-  ['vocab', '📖 英雄單字大全']
+  ['vocab', '📖 英雄單字大全'],
+  ['history', '📈 歷史戰績']
 ];
 
 function pickABQuestions(sourcePool) {
@@ -163,6 +164,7 @@ function render() {
   if (state.page === 'challenges') challenges(v);
   if (state.page === 'exams') examsPage(v);
   if (state.page === 'vocab') vocabPage(v);
+  if (state.page === 'history') renderHistory(v);
 }
 
 function home(v) {
@@ -318,6 +320,72 @@ function challenges(v) {
       </div>
     </div>
   `;
+}
+
+
+function renderHistory(v) {
+  stopBGM();
+  let historyHtml = `
+    <div class="panel">
+      <h2>📈 我的歷史戰績與獎狀</h2>
+      <p class="muted">這裡記錄了你所有的測驗成績。點擊「下載獎狀」可以將過關的榮耀列印出來喔！</p>
+      
+      <div style="margin-top: 20px;">
+  `;
+
+  if (state.history.length === 0) {
+    historyHtml += `<div style="text-align:center; padding: 40px; color: var(--muted);">目前還沒有測驗紀錄，趕快去挑戰吧！</div>`;
+  } else {
+    historyHtml += `<table style="width: 100%; border-collapse: collapse; text-align: left; font-size: 0.95rem;">
+      <thead>
+        <tr style="background: var(--bg-alt); border-bottom: 2px solid var(--border);">
+          <th style="padding: 12px; min-width: 120px;">測驗時間</th>
+          <th style="padding: 12px;">挑戰主題</th>
+          <th style="padding: 12px;">成績</th>
+          <th style="padding: 12px; text-align: center;">狀態</th>
+          <th style="padding: 12px; text-align: center;">操作</th>
+        </tr>
+      </thead>
+      <tbody>
+    `;
+
+    state.history.forEach((h, idx) => {
+      let isPass = h.isPass;
+      let badge = isPass ? '🏅' : '❌';
+      let statusColor = isPass ? '#15803d' : '#b91c1c';
+      let statusText = isPass ? '過關' : '未達標';
+      
+      // Let's deduce an icon for the cert based on title
+      let certIcon = '🏅';
+      if (h.title.includes('小熊') || h.title.includes('Level 1')) certIcon = '🧸';
+      else if (h.title.includes('獨角獸') || h.title.includes('Level 2')) certIcon = '🦄';
+      else if (h.title.includes('貓頭鷹') || h.title.includes('Level 3')) certIcon = '🦉';
+      else if (h.title.includes('皇冠') || h.title.includes('Level 4')) certIcon = '👑';
+      else if (h.title.includes('寶箱') || h.title.includes('Level 5')) certIcon = '🎁';
+      else if (h.title.includes('學檢')) certIcon = '🏆';
+      else certIcon = '🌱'; // topics
+
+      historyHtml += `
+        <tr style="border-bottom: 1px solid var(--border); background: ${idx % 2 === 0 ? '#fff' : '#f8fafc'};">
+          <td style="padding: 12px; color: var(--muted); font-size: 0.85rem;">${h.date}</td>
+          <td style="padding: 12px; font-weight: bold; color: var(--text);">${esc(h.title)}</td>
+          <td style="padding: 12px; font-weight: bold; color: ${statusColor};">${h.score}分 <span style="font-size: 0.8rem; font-weight: normal; color: var(--muted);">(${h.correct}/${h.total})</span></td>
+          <td style="padding: 12px; text-align: center; color: ${statusColor}; font-weight: bold;">${badge} ${statusText}</td>
+          <td style="padding: 12px; text-align: center;">
+            ${isPass && !h.title.includes('自主練習') ? `<button class="gold" style="font-size: 0.8rem; padding: 4px 10px;" onclick="downloadResultDirect('${esc(state.name)}', '${esc(h.title)}', '${certIcon}')">📜 獎狀</button>` : '<span style="color:#cbd5e1; font-size:0.8rem;">無獎狀</span>'}
+          </td>
+        </tr>
+      `;
+    });
+
+    historyHtml += `</tbody></table>`;
+  }
+
+  historyHtml += `
+      </div>
+    </div>
+  `;
+  v.innerHTML = historyHtml;
 }
 
 function startChallengeLevel(lvlKey) {
@@ -1225,16 +1293,52 @@ function downloadResult() {
 function downloadResultDirect(studentName, topicTitle, badgeIcon) {
   let certHtml = `
     <!doctype html>
-    <html lang="zh-Hant"><head><meta charset="utf-8"><title>英語學習榮譽認證證書</title>
+    <html lang="zh-Hant"><head><meta charset="utf-8"><title>英語英雄獎狀</title>
     <style>
-      @page { size: A4 landscape; margin: 0; }
-      body { font-family: "Noto Sans TC", sans-serif; text-align: center; padding: 20px; background: #fff; color: #1e293b; margin:0; }
-      .cert-card { border: 8px double #d8a62e; background: #fffdfa; padding: 40px 20px; max-width: 680px; margin: 20px auto; border-radius: 16px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); box-sizing: border-box; }
-      h1 { color: #1e40af; font-size: 2.2rem; margin: 10px 0; font-weight: 900; }
-      .badge { font-size: 4.5rem; margin: 10px 0; }
-      .name { font-size: 1.8rem; font-weight: bold; color: #b45309; border-bottom: 2px solid #b45309; padding: 0 15px; }
-      .btn-print { background: #1e40af; color: #fff; border: none; padding: 12px 28px; font-size: 1rem; border-radius: 8px; cursor: pointer; margin-top: 25px; font-weight:bold; }
-      @media print { .btn-print { display: none; } .cert-card { box-shadow: none; max-width: 100%; border-width: 4px; } }
+      /* 設定 B5 橫向列印 (257mm x 182mm) */
+      @page { size: JIS-B5 landscape; margin: 0; }
+      body { 
+        font-family: "Noto Sans TC", "微軟正黑體", sans-serif; 
+        text-align: center; 
+        background: #f1f5f9; 
+        margin: 0; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+      }
+      .cert-card { 
+        width: 25.7cm; /* B5 Width */
+        height: 18.2cm; /* B5 Height */
+        box-sizing: border-box;
+        border: 1.2cm solid #d8a62e; 
+        border-image: repeating-linear-gradient(45deg, #d8a62e, #d8a62e 10px, #b45309 10px, #b45309 20px) 30;
+        background: #fffdfa; 
+        padding: 1.5cm; 
+        position: relative;
+        box-shadow: 0 10px 40px rgba(0,0,0,0.15); 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .cert-card::after {
+        content: '';
+        position: absolute;
+        top: 5px; left: 5px; right: 5px; bottom: 5px;
+        border: 2px dashed #b45309;
+        pointer-events: none;
+      }
+      h1 { color: #1e40af; font-size: 2.8rem; margin: 5px 0 20px 0; font-weight: 900; letter-spacing: 5px; }
+      .badge { font-size: 5rem; margin: 10px 0; filter: drop-shadow(0 4px 6px rgba(0,0,0,0.2)); }
+      .name { font-size: 2.4rem; font-weight: bold; color: #ea580c; border-bottom: 3px solid #ea580c; padding: 0 20px; display: inline-block; min-width: 150px;}
+      .btn-print { position: absolute; top: -60px; left: 50%; transform: translateX(-50%); background: #1e40af; color: #fff; border: none; padding: 12px 30px; font-size: 1.2rem; border-radius: 8px; cursor: pointer; font-weight:bold; box-shadow: 0 4px 6px rgba(0,0,0,0.2);}
+      .cert-content { font-size: 1.5rem; line-height: 2.2; margin: 20px 0; color: #334155; }
+      .cert-footer { margin-top: auto; font-size: 1rem; color: #94a3b8; letter-spacing: 1px; }
+      @media print { 
+        body { background: #fff; min-height: 0; display: block; margin: 0; padding: 0; }
+        .cert-card { box-shadow: none; margin: 0; width: 25.7cm; height: 18.2cm; page-break-inside: avoid; }
+        .btn-print { display: none; } 
+      }
     
 @keyframes pulse {
   0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(234, 88, 12, 0.4); }
