@@ -14699,7 +14699,7 @@
             }
         ],
         "answerText": "拉 (開門方向)",
-        "hint": "💡【重點提示】門扉標示。\n📖【例句應用】PULL the door to enter."
+        "hint": "💡【重點提示】門扉標示。PULL 是拉，PUSH 是推，OPEN 是開，CLOSE 是關。\n📖【例句應用】PULL the door to enter."
     },
     {
         "id": "Q-263B",
@@ -14711,23 +14711,23 @@
         "options": [
             {
                 "text": "PULL",
-                "desc": "PULL"
+                "desc": "PULL (拉)"
             },
             {
-                "text": "How's the weather?",
-                "desc": "How's the weather?"
+                "text": "PUSH",
+                "desc": "PUSH (推)"
             },
             {
-                "text": "What's your name?",
-                "desc": "What's your name?"
+                "text": "OPEN",
+                "desc": "OPEN (開)"
             },
             {
-                "text": "Where are you going?",
-                "desc": "Where are you going?"
+                "text": "CLOSE",
+                "desc": "CLOSE (關)"
             }
         ],
         "answerText": "PULL",
-        "hint": "💡【重點提示】門扉標示。\n📖【例句應用】PULL the door to enter."
+        "hint": "💡【重點提示】門扉標示。PULL 是拉，PUSH 是推，OPEN 是開，CLOSE 是關。\n📖【例句應用】PULL the door to enter."
     },
     {
         "id": "Q-264A",
@@ -14755,7 +14755,7 @@
             }
         ],
         "answerText": "推 (開門方向)",
-        "hint": "💡【重點提示】門扉標示。\n📖【例句應用】PUSH the door open."
+        "hint": "💡【重點提示】門扉標示。PUSH 是推，PULL 是拉，OPEN 是開，CLOSE 是關。\n📖【例句應用】PUSH the door open."
     },
     {
         "id": "Q-264B",
@@ -14767,23 +14767,23 @@
         "options": [
             {
                 "text": "PUSH",
-                "desc": "PUSH"
+                "desc": "PUSH (推)"
             },
             {
-                "text": "How's the weather?",
-                "desc": "How's the weather?"
+                "text": "PULL",
+                "desc": "PULL (拉)"
             },
             {
-                "text": "What's your name?",
-                "desc": "What's your name?"
+                "text": "OPEN",
+                "desc": "OPEN (開)"
             },
             {
-                "text": "Where are you going?",
-                "desc": "Where are you going?"
+                "text": "CLOSE",
+                "desc": "CLOSE (關)"
             }
         ],
         "answerText": "PUSH",
-        "hint": "💡【重點提示】門扉標示。\n📖【例句應用】PUSH the door open."
+        "hint": "💡【重點提示】門扉標示。PUSH 是推，PULL 是拉，OPEN 是開，CLOSE 是關。\n📖【例句應用】PUSH the door open."
     },
     {
         "id": "Q-265A",

@@ -66,15 +66,15 @@ const ALL_TOPICS = [
   "第二部分：日常生活與教室用語",
   "第三部分：核心問答句型",
   "單字-M.新興議題與時事",
-  "歷屆學檢特訓章 (須完成3次)"
+  "初階學檢特訓章 (須完成3次)"
 ];
 
 const LEVEL_CONFIGS = {
-  1: { name: "Level 1: 英語新人王 (30題)", total: 30,  passRate: 0.80, reqCorrect: 24, timeLimitMin: null, dist: {1: 30, 2: 0, 3: 0}, stampKey: "challenge_lvl1", badgeName: "🌱 英語新人王", icon: "🌱" },
-  2: { name: "Level 2: 50週年校慶挑戰 (50題)", total: 50,  passRate: 0.80, reqCorrect: 40, timeLimitMin: null, dist: {1: 15, 2: 30, 3: 5}, stampKey: "challenge_lvl2", badgeName: "🥉 50週年校慶榮譽證書", icon: "🥉" },
-  3: { name: "Level 3: 英語小達人 (100題)", total: 100, passRate: 0.90, reqCorrect: 90, timeLimitMin: 60,  dist: {1: 15, 2: 35, 3: 40, exam: 10}, stampKey: "challenge_lvl3", badgeName: "🥈 英語小達人證書", icon: "🎓" },
-  4: { name: "Level 4: 巷子內 (325題)", total: 325,  passRate: 0.85, reqCorrect: 276, timeLimitMin: 60,  dist: {1: 60, 2: 110, 3: 155}, stampKey: "challenge_lvl4", badgeName: "🥇 325巷內英語通認證", icon: "🏫" },
-  5: { name: "Level 5: 決戰435 (435題)", total: 435,   passRate: 0.90, reqCorrect: 391, timeLimitSec: 5999,  dist: {1: 80, 2: 130, 3: 210, exam: 15}, stampKey: "challenge_lvl5", badgeName: "🏆 435終極勇士突破金章", icon: "🚀" }
+  1: { name: "Level 1: 勇者基礎挑戰 (20題)", total: 20,  passRate: 0.80, reqCorrect: 16, timeLimitMin: null, dist: {1: 20}, stampKey: "challenge_lvl1", badgeName: "🧸 基礎達標小熊", icon: "🧸" },
+  2: { name: "Level 2: 勇者進階挑戰 (30題)", total: 30,  passRate: 0.80, reqCorrect: 24, timeLimitMin: null, dist: {1: 15, 2: 15}, stampKey: "challenge_lvl2", badgeName: "🦄 進階勇者獨角獸", icon: "🦄" },
+  3: { name: "Level 3: 單字小達人 (50題)", total: 50, passRate: 0.85, reqCorrect: 42, timeLimitMin: 30,  dist: {1: 20, 2: 30}, stampKey: "challenge_lvl3", badgeName: "🦉 單字達人貓頭鷹", icon: "🦉" },
+  4: { name: "Level 4: 無敵王者大考驗 (100題)", total: 100,  passRate: 0.90, reqCorrect: 90, timeLimitMin: 45,  dist: {1: 40, 2: 60}, stampKey: "challenge_lvl4", badgeName: "👑 無敵王者皇冠", icon: "👑" },
+  5: { name: "Level 5: 每月主題挑戰賽 (20題)", total: 20,  passRate: 0.90, reqCorrect: 18, timeLimitMin: 15,  dist: {1: 10, 2: 10}, stampKey: "challenge_lvl5", badgeName: "🎁 本月神秘寶箱", icon: "🎁" }
 };
 
 let state = {
@@ -117,7 +117,7 @@ const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt
 const pages = [
   ['home', '🏵️ 勇者集章冊'],
   ['topics', '📚 主題修練'],
-  ['challenges', '🏆 關卡挑戰賽'],
+  ['challenges', '🏆 勇者挑戰賽'],
   ['exams', '📝 考古練功區'],
   ['vocab', '📖 英雄單字大全']
 ];
@@ -167,7 +167,7 @@ function render() {
 
 function home(v) {
   // 隱藏密技：kkes 全解鎖
-  if (state.name.trim().toLowerCase() === 'kkes_admin_888') {
+  if (state.name.trim().toLowerCase() === 'kkesadmin') {
     let magicStamps = {};
     let mockDate = new Date().toLocaleDateString('zh-TW');
     ALL_TOPICS.forEach(t => { magicStamps[t] = { score: 100, date: mockDate, name: 'KKES' }; });
@@ -179,8 +179,8 @@ function home(v) {
   
   // 計算考古題完成次數
   let examPassCount = state.history.filter(h => h.title.includes('歷屆學檢') && h.isPass).length;
-  if (examPassCount >= 3 && !state.stamps["歷屆學檢特訓章 (須完成3次)"]) {
-    state.stamps["歷屆學檢特訓章 (須完成3次)"] = {
+  if (examPassCount >= 3 && !state.stamps["初階學檢特訓章 (須完成3次)"]) {
+    state.stamps["初階學檢特訓章 (須完成3次)"] = {
       score: 100,
       date: new Date().toLocaleDateString('zh-TW'),
       name: state.name || '英語小英雄'
@@ -225,7 +225,7 @@ function home(v) {
       </div>
 
       <section class="panel">
-        <h3>🎖️ 各等級榮譽挑戰賽卡冊</h3>
+        <h3>🎖️ 勇者挑戰賽卡冊</h3>
         <p class="muted" style="margin-bottom:16px;">完成下方集章後，即可進行最終大挑戰！</p>
         <div class="challenge-cards-grid">
           ${Object.entries(LEVEL_CONFIGS).map(([lvlKey, cfg]) => {
@@ -258,7 +258,7 @@ function home(v) {
         <div class="stamp-grid">
           ${ALL_TOPICS.map(t => {
             let st = state.stamps[t];
-            let isExamStamp = t.includes("歷屆學檢");
+            let isExamStamp = t.includes("學檢");
             let descText = isExamStamp 
               ? (st ? '🏆 已達成 3 次挑戰' : `特訓進度：${Math.min(examPassCount, 3)} / 3 次`) 
               : (st ? `高分：${st.score}分<br><span style="font-size:0.7rem">${st.date}</span>` : '未解鎖');
@@ -401,7 +401,7 @@ function topics(v) {
       </div>
 
       <div class="grid" style="margin-top: 20px;">
-        ${ALL_TOPICS.filter(t => !t.includes("歷屆學檢")).map(t => {
+        ${ALL_TOPICS.filter(t => !t.includes("學檢")).map(t => {
           let qs = groups[t] || [];
           if (!qs.length) return '';
           let groupCount = new Set(qs.map(q => q.groupKey || q.id)).size;
@@ -498,8 +498,8 @@ function examsPage(v) {
 
   v.innerHTML = `
     <div class="panel">
-      <h2>📝 歷屆學檢考古特訓（高年級真題專區）</h2>
-      <p class="muted">嚴選 110～115 學年度縣市學檢官方真題及仿真猜題！累積完成 3 次【學檢挑戰篇】達標測驗，即可解鎖第 15 號【學檢特訓章】！</p>
+      <h2>📝 歷屆學檢考古特訓（初階勇者專區）</h2>
+      <p class="muted">嚴選歷屆初階學檢官方真題！累積完成 3 次【學檢挑戰篇】達標測驗，即可解鎖第 15 號【學檢特訓章】！</p>
       
       <div style="background: rgba(59, 130, 246, 0.1); border-left: 4px solid #3b82f6; padding: 12px 16px; border-radius: 6px; margin: 16px 0; font-size:1.05rem;">
         📌 <b>目前特訓進度：</b>已達標 <b>${examPassCount}</b> / 3 次 <br>
@@ -575,20 +575,9 @@ function examsPage(v) {
 
       </div>
       
-      <div style="margin-top: 30px; text-align: center; border-top: 1px dashed #cbd5e1; padding-top: 20px;">
-        <h3 style="color:#0f172a; margin-bottom: 10px;">🏆 終極隱藏任務：一鍵總題庫攻略</h3>
-        <p style="font-size:0.95rem; color:#64748b; margin-bottom: 15px; line-height:1.6;">傳說中，唯有準備好集滿各大主題奧義與突破極限關卡的勇者，才能斬斷英語迷思魔王！<br>挑戰一次做完指定考題！成功通關者將獲得「超級隱藏章」，可至教務處找資訊組長兌換神祕大獎！</p>
-        <button style="background: linear-gradient(135deg, #0f172a, #334155); color: white; border: none; padding: 12px 24px; border-radius: 30px; font-size: 1.1rem; font-weight: bold; cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.3);" onclick="startUltimateChallenge()">👑 開始百題特訓</button>
-
-      <div style="margin-top: 40px; padding: 15px; border-radius: 8px; background: #f8fafc; border: 1px solid #e2e8f0; font-size: 0.85rem; color: #64748b; text-align: left; line-height: 1.6;">
-        <b style="color: #475569;">⚠️ 家長與同學請注意（免責與素養說明）：</b><br>
-        本練習網收錄之歷屆考古真題與改編挑戰中，含有少部分看似「超出國小課綱範圍」的單字（如：水豚、AI、疫苗等）。這些是為了符合近年縣市學力檢測<b>「素養導向」</b>的長文閱讀情境而特別設計。素養題的核心在於「透過上下文推論」，而非死背艱澀單字。本站純屬教學輔助與趣味練習用途，旨在提升孩子的閱讀自信與應變能力，請以輕鬆的心情挑戰，若有疑義敬請見諒。
-      </div>
-
-      </div>
-
-    </div>
+          </div>
   `;
+
 }
 function startCustomExam() {
   saveName($('examStudentName')?.value || state.name);
@@ -1459,7 +1448,7 @@ function openHelp() {
         <p>1. 在首頁點擊【開始正式集章】，限時 10 分鐘內完成 20 題，分數達 <b>85分</b> (答對17題) 即可解鎖該主題章！</p>
         <p>2. 第 15 號【歷屆學檢特訓章】，須至「考古練功區」累積完成 <b>3次</b> 特訓即可蓋章！</p>
 
-        <h3>🎖️ 五大等級挑戰賽獎章</h3>
+        <h3>🎖️ 勇者挑戰賽獎章</h3>
         <p>🌱 <b>Level 1 (30題)</b>：達 80% 解鎖新手章。</p>
         <p>🥉 <b>Level 2 (50題)</b>：達 80% 解鎖銅牌卡。</p>
         <p>🥈 <b>Level 3 (100題)</b>：達 90% 解鎖銀牌卡。</p>
@@ -1554,6 +1543,16 @@ function shuffle(a) {
 }
 
 window.addEventListener('DOMContentLoaded', () => {
+  // 自動過濾系統：專為初階專屬簡易版設計（排除太難的考古題與高年級題目）
+  if (typeof DATA_EXAM !== 'undefined' && DATA_EXAM.questions) {
+    // 只保留初階 (gradeLevel 1, 2) 的考古題，排除太難的五年級題目與素養題
+    DATA_EXAM.questions = DATA_EXAM.questions.filter(q => (q.gradeLevel || 2) <= 2);
+  }
+  if (typeof DATA !== 'undefined' && DATA.questions) {
+    // 只保留初階 (gradeLevel 1, 2) 的基礎題
+    DATA_EXAM.questions = DATA_EXAM.questions.filter(q => (q.gradeLevel || 1) <= 2);
+    DATA.questions = DATA.questions.filter(q => (q.gradeLevel || 1) <= 2);
+  }
   document.documentElement.dataset.theme = 'light';
   render();
   checkFirstTimeUser();

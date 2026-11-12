@@ -202,7 +202,7 @@
         "groupKey": "110-4-1",
         "year": 110,
         "gradeLevel": 2,
-        "chapter": "110年四年級學檢挑戰",
+        "chapter": "110年初階學檢挑戰",
         "question": "Which letter comes after 'C'?",
         "options": [
             {
@@ -230,7 +230,7 @@
         "groupKey": "110-4-2",
         "year": 110,
         "gradeLevel": 2,
-        "chapter": "110年四年級學檢挑戰",
+        "chapter": "110年初階學檢挑戰",
         "question": "Which letter comes before 'G'?",
         "options": [
             {
@@ -258,7 +258,7 @@
         "groupKey": "110-4-3",
         "year": 110,
         "gradeLevel": 2,
-        "chapter": "110年四年級學檢挑戰",
+        "chapter": "110年初階學檢挑戰",
         "question": "What is a baby dog called?",
         "options": [
             {
@@ -286,7 +286,7 @@
         "groupKey": "110-4-4",
         "year": 110,
         "gradeLevel": 2,
-        "chapter": "110年四年級學檢挑戰",
+        "chapter": "110年初階學檢挑戰",
         "question": "A _____ has a long neck and spots.",
         "options": [
             {
@@ -314,7 +314,7 @@
         "groupKey": "110-4-5",
         "year": 110,
         "gradeLevel": 2,
-        "chapter": "110年四年級學檢挑戰",
+        "chapter": "110年初階學檢挑戰",
         "question": "We use a _____ to draw straight lines.",
         "options": [
             {
@@ -342,7 +342,7 @@
         "groupKey": "110-4-6",
         "year": 110,
         "gradeLevel": 2,
-        "chapter": "110年四年級學檢挑戰",
+        "chapter": "110年初階學檢挑戰",
         "question": "I have ten _____ on my hands.",
         "options": [
             {
@@ -370,7 +370,7 @@
         "groupKey": "110-4-7",
         "year": 110,
         "gradeLevel": 2,
-        "chapter": "110年四年級學檢挑戰",
+        "chapter": "110年初階學檢挑戰",
         "question": "A spider has _____ legs.",
         "options": [
             {
@@ -398,7 +398,7 @@
         "groupKey": "110-4-8",
         "year": 110,
         "gradeLevel": 2,
-        "chapter": "110年四年級學檢挑戰",
+        "chapter": "110年初階學檢挑戰",
         "question": "The color of the sun is usually drawn as _____.",
         "options": [
             {
@@ -426,7 +426,7 @@
         "groupKey": "110-4-9",
         "year": 110,
         "gradeLevel": 2,
-        "chapter": "110年四年級學檢挑戰",
+        "chapter": "110年初階學檢挑戰",
         "question": "The American flag is red, white, and _____.",
         "options": [
             {
@@ -454,7 +454,7 @@
         "groupKey": "110-4-10",
         "year": 110,
         "gradeLevel": 2,
-        "chapter": "110年四年級學檢挑戰",
+        "chapter": "110年初階學檢挑戰",
         "question": "When it rains, I use an _____.",
         "options": [
             {
@@ -482,7 +482,7 @@
         "groupKey": "110-4-11",
         "year": 110,
         "gradeLevel": 2,
-        "chapter": "110年四年級學檢挑戰",
+        "chapter": "110年初階學檢挑戰",
         "question": "What is five plus five?",
         "options": [
             {
@@ -510,7 +510,7 @@
         "groupKey": "110-4-12",
         "year": 110,
         "gradeLevel": 2,
-        "chapter": "110年四年級學檢挑戰",
+        "chapter": "110年初階學檢挑戰",
         "question": "Twelve minus two is _____.",
         "options": [
             {
@@ -538,7 +538,7 @@
         "groupKey": "110-4-13",
         "year": 110,
         "gradeLevel": 2,
-        "chapter": "110年四年級學檢挑戰",
+        "chapter": "110年初階學檢挑戰",
         "question": "Red and yellow mixed together make _____.",
         "options": [
             {
@@ -566,7 +566,7 @@
         "groupKey": "110-4-14",
         "year": 110,
         "gradeLevel": 2,
-        "chapter": "110年四年級學檢挑戰",
+        "chapter": "110年初階學檢挑戰",
         "question": "Blue and yellow mixed together make _____.",
         "options": [
             {
@@ -594,7 +594,7 @@
         "groupKey": "111-4-1",
         "year": 111,
         "gradeLevel": 2,
-        "chapter": "111年四年級學檢挑戰",
+        "chapter": "111年初階學檢挑戰",
         "question": "There are _____ days in a week.",
         "options": [
             {
@@ -622,7 +622,7 @@
         "groupKey": "111-4-2",
         "year": 111,
         "gradeLevel": 2,
-        "chapter": "111年四年級學檢挑戰",
+        "chapter": "111年初階學檢挑戰",
         "question": "There are _____ months in a year.",
         "options": [
             {
@@ -650,7 +650,7 @@
         "groupKey": "111-4-3",
         "year": 111,
         "gradeLevel": 2,
-        "chapter": "111年四年級學檢挑戰",
+        "chapter": "111年初階學檢挑戰",
         "question": "The number after 19 is _____.",
         "options": [
             {
@@ -678,7 +678,7 @@
         "groupKey": "111-4-4",
         "year": 111,
         "gradeLevel": 2,
-        "chapter": "111年四年級學檢挑戰",
+        "chapter": "111年初階學檢挑戰",
         "question": "A triangle has _____ sides.",
         "options": [
             {
@@ -706,7 +706,7 @@
         "groupKey": "111-4-5",
         "year": 111,
         "gradeLevel": 2,
-        "chapter": "111年四年級學檢挑戰",
+        "chapter": "111年初階學檢挑戰",
         "question": "A square has _____ sides.",
         "options": [
             {
@@ -734,7 +734,7 @@
         "groupKey": "111-4-6",
         "year": 111,
         "gradeLevel": 2,
-        "chapter": "111年四年級學檢挑戰",
+        "chapter": "111年初階學檢挑戰",
         "question": "The color of grass is _____.",
         "options": [
             {
@@ -762,7 +762,7 @@
         "groupKey": "111-4-7",
         "year": 111,
         "gradeLevel": 2,
-        "chapter": "111年四年級學檢挑戰",
+        "chapter": "111年初階學檢挑戰",
         "question": "My mother's mother is my _____.",
         "options": [
             {
@@ -790,7 +790,7 @@
         "groupKey": "111-4-8",
         "year": 111,
         "gradeLevel": 2,
-        "chapter": "111年四年級學檢挑戰",
+        "chapter": "111年初階學檢挑戰",
         "question": "My father's father is my _____.",
         "options": [
             {
@@ -818,7 +818,7 @@
         "groupKey": "111-4-9",
         "year": 111,
         "gradeLevel": 2,
-        "chapter": "111年四年級學檢挑戰",
+        "chapter": "111年初階學檢挑戰",
         "question": "My mother's sister is my _____.",
         "options": [
             {
@@ -846,7 +846,7 @@
         "groupKey": "111-4-10",
         "year": 111,
         "gradeLevel": 2,
-        "chapter": "111年四年級學檢挑戰",
+        "chapter": "111年初階學檢挑戰",
         "question": "My aunt's son is my _____.",
         "options": [
             {
@@ -874,7 +874,7 @@
         "groupKey": "111-4-11",
         "year": 111,
         "gradeLevel": 2,
-        "chapter": "111年四年級學檢挑戰",
+        "chapter": "111年初階學檢挑戰",
         "question": "A boy is a male. A girl is a _____.",
         "options": [
             {
@@ -902,7 +902,7 @@
         "groupKey": "111-4-12",
         "year": 111,
         "gradeLevel": 2,
-        "chapter": "111年四年級學檢挑戰",
+        "chapter": "111年初階學檢挑戰",
         "question": "A man and a woman are married. They are _____ and wife.",
         "options": [
             {
@@ -930,7 +930,7 @@
         "groupKey": "111-4-13",
         "year": 111,
         "gradeLevel": 2,
-        "chapter": "111年四年級學檢挑戰",
+        "chapter": "111年初階學檢挑戰",
         "question": "A _____ takes care of your teeth.",
         "options": [
             {
@@ -958,7 +958,7 @@
         "groupKey": "111-4-14",
         "year": 111,
         "gradeLevel": 2,
-        "chapter": "111年四年級學檢挑戰",
+        "chapter": "111年初階學檢挑戰",
         "question": "A _____ catches bad guys.",
         "options": [
             {
@@ -986,7 +986,7 @@
         "groupKey": "112-4-1",
         "year": 112,
         "gradeLevel": 2,
-        "chapter": "112年四年級學檢挑戰",
+        "chapter": "112年初階學檢挑戰",
         "question": "A _____ grows vegetables on a farm.",
         "options": [
             {
@@ -1014,7 +1014,7 @@
         "groupKey": "112-4-2",
         "year": 112,
         "gradeLevel": 2,
-        "chapter": "112年四年級學檢挑戰",
+        "chapter": "112年初階學檢挑戰",
         "question": "A _____ sings songs on a stage.",
         "options": [
             {
@@ -1042,7 +1042,7 @@
         "groupKey": "112-4-3",
         "year": 112,
         "gradeLevel": 2,
-        "chapter": "112年四年級學檢挑戰",
+        "chapter": "112年初階學檢挑戰",
         "question": "Milk comes from a _____.",
         "options": [
             {
@@ -1070,7 +1070,7 @@
         "groupKey": "112-4-4",
         "year": 112,
         "gradeLevel": 2,
-        "chapter": "112年四年級學檢挑戰",
+        "chapter": "112年初階學檢挑戰",
         "question": "We eat _____ and eggs for breakfast.",
         "options": [
             {
@@ -1098,7 +1098,7 @@
         "groupKey": "112-4-5",
         "year": 112,
         "gradeLevel": 2,
-        "chapter": "112年四年級學檢挑戰",
+        "chapter": "112年初階學檢挑戰",
         "question": "A lemon is very _____.",
         "options": [
             {
@@ -1126,7 +1126,7 @@
         "groupKey": "112-4-6",
         "year": 112,
         "gradeLevel": 2,
-        "chapter": "112年四年級學檢挑戰",
+        "chapter": "112年初階學檢挑戰",
         "question": "Candy and chocolate are very _____.",
         "options": [
             {
@@ -1154,7 +1154,7 @@
         "groupKey": "112-4-7",
         "year": 112,
         "gradeLevel": 2,
-        "chapter": "112年四年級學檢挑戰",
+        "chapter": "112年初階學檢挑戰",
         "question": "We use a _____ to eat soup.",
         "options": [
             {
@@ -1182,7 +1182,7 @@
         "groupKey": "112-4-8",
         "year": 112,
         "gradeLevel": 2,
-        "chapter": "112年四年級學檢挑戰",
+        "chapter": "112年初階學檢挑戰",
         "question": "We use _____ to eat noodles in Taiwan.",
         "options": [
             {
@@ -1210,7 +1210,7 @@
         "groupKey": "112-4-9",
         "year": 112,
         "gradeLevel": 2,
-        "chapter": "112年四年級學檢挑戰",
+        "chapter": "112年初階學檢挑戰",
         "question": "An apple a day keeps the _____ away.",
         "options": [
             {
@@ -1238,7 +1238,7 @@
         "groupKey": "112-4-10",
         "year": 112,
         "gradeLevel": 2,
-        "chapter": "112年四年級學檢挑戰",
+        "chapter": "112年初階學檢挑戰",
         "question": "I eat a slice of _____ for my birthday.",
         "options": [
             {
@@ -1266,7 +1266,7 @@
         "groupKey": "112-4-11",
         "year": 112,
         "gradeLevel": 2,
-        "chapter": "112年四年級學檢挑戰",
+        "chapter": "112年初階學檢挑戰",
         "question": "People usually drink _____ when they are thirsty.",
         "options": [
             {
@@ -1294,7 +1294,7 @@
         "groupKey": "112-4-12",
         "year": 112,
         "gradeLevel": 2,
-        "chapter": "112年四年級學檢挑戰",
+        "chapter": "112年初階學檢挑戰",
         "question": "Monkeys love to eat _____.",
         "options": [
             {
@@ -1322,7 +1322,7 @@
         "groupKey": "112-4-13",
         "year": 112,
         "gradeLevel": 2,
-        "chapter": "112年四年級學檢挑戰",
+        "chapter": "112年初階學檢挑戰",
         "question": "Stand _____, please.",
         "options": [
             {
@@ -1350,7 +1350,7 @@
         "groupKey": "112-4-14",
         "year": 112,
         "gradeLevel": 2,
-        "chapter": "112年四年級學檢挑戰",
+        "chapter": "112年初階學檢挑戰",
         "question": "Sit _____, please.",
         "options": [
             {
@@ -1378,7 +1378,7 @@
         "groupKey": "113-4-1",
         "year": 113,
         "gradeLevel": 2,
-        "chapter": "113年四年級學檢挑戰",
+        "chapter": "113年初階學檢挑戰",
         "question": "Open your _____, please.",
         "options": [
             {
@@ -1406,7 +1406,7 @@
         "groupKey": "113-4-2",
         "year": 113,
         "gradeLevel": 2,
-        "chapter": "113年四年級學檢挑戰",
+        "chapter": "113年初階學檢挑戰",
         "question": "Close the _____, please. It's cold.",
         "options": [
             {
@@ -1434,7 +1434,7 @@
         "groupKey": "113-4-3",
         "year": 113,
         "gradeLevel": 2,
-        "chapter": "113年四年級學檢挑戰",
+        "chapter": "113年初階學檢挑戰",
         "question": "Raise your _____ to speak.",
         "options": [
             {
@@ -1462,7 +1462,7 @@
         "groupKey": "113-4-4",
         "year": 113,
         "gradeLevel": 2,
-        "chapter": "113年四年級學檢挑戰",
+        "chapter": "113年初階學檢挑戰",
         "question": "Turn _____ the light. It's dark here.",
         "options": [
             {
@@ -1490,7 +1490,7 @@
         "groupKey": "113-4-5",
         "year": 113,
         "gradeLevel": 2,
-        "chapter": "113年四年級學檢挑戰",
+        "chapter": "113年初階學檢挑戰",
         "question": "Turn _____ the TV. It's time for bed.",
         "options": [
             {
@@ -1518,7 +1518,7 @@
         "groupKey": "113-4-6",
         "year": 113,
         "gradeLevel": 2,
-        "chapter": "113年四年級學檢挑戰",
+        "chapter": "113年初階學檢挑戰",
         "question": "Look _____ the blackboard.",
         "options": [
             {
@@ -1546,7 +1546,7 @@
         "groupKey": "113-4-7",
         "year": 113,
         "gradeLevel": 2,
-        "chapter": "113年四年級學檢挑戰",
+        "chapter": "113年初階學檢挑戰",
         "question": "Listen _____ the teacher carefully.",
         "options": [
             {
@@ -1574,7 +1574,7 @@
         "groupKey": "113-4-8",
         "year": 113,
         "gradeLevel": 2,
-        "chapter": "113年四年級學檢挑戰",
+        "chapter": "113年初階學檢挑戰",
         "question": "Please _____ in line.",
         "options": [
             {
@@ -1602,7 +1602,7 @@
         "groupKey": "113-4-9",
         "year": 113,
         "gradeLevel": 2,
-        "chapter": "113年四年級學檢挑戰",
+        "chapter": "113年初階學檢挑戰",
         "question": "I _____ a boy.",
         "options": [
             {
@@ -1630,7 +1630,7 @@
         "groupKey": "113-4-10",
         "year": 113,
         "gradeLevel": 2,
-        "chapter": "113年四年級學檢挑戰",
+        "chapter": "113年初階學檢挑戰",
         "question": "She _____ my sister.",
         "options": [
             {
@@ -1658,7 +1658,7 @@
         "groupKey": "113-4-11",
         "year": 113,
         "gradeLevel": 2,
-        "chapter": "113年四年級學檢挑戰",
+        "chapter": "113年初階學檢挑戰",
         "question": "They _____ my friends.",
         "options": [
             {
@@ -1686,7 +1686,7 @@
         "groupKey": "113-4-12",
         "year": 113,
         "gradeLevel": 2,
-        "chapter": "113年四年級學檢挑戰",
+        "chapter": "113年初階學檢挑戰",
         "question": "_____ you happy?",
         "options": [
             {
@@ -1714,7 +1714,7 @@
         "groupKey": "113-4-13",
         "year": 113,
         "gradeLevel": 2,
-        "chapter": "113年四年級學檢挑戰",
+        "chapter": "113年初階學檢挑戰",
         "question": "_____ he a student?",
         "options": [
             {
@@ -1742,7 +1742,7 @@
         "groupKey": "113-4-14",
         "year": 113,
         "gradeLevel": 2,
-        "chapter": "113年四年級學檢挑戰",
+        "chapter": "113年初階學檢挑戰",
         "question": "I _____ a red pen.",
         "options": [
             {
@@ -1770,7 +1770,7 @@
         "groupKey": "114-4-1",
         "year": 114,
         "gradeLevel": 2,
-        "chapter": "114年四年級學檢挑戰",
+        "chapter": "114年初階學檢挑戰",
         "question": "He _____ a blue bag.",
         "options": [
             {
@@ -1798,7 +1798,7 @@
         "groupKey": "114-4-2",
         "year": 114,
         "gradeLevel": 2,
-        "chapter": "114年四年級學檢挑戰",
+        "chapter": "114年初階學檢挑戰",
         "question": "We _____ two cats.",
         "options": [
             {
@@ -1826,7 +1826,7 @@
         "groupKey": "114-4-3",
         "year": 114,
         "gradeLevel": 2,
-        "chapter": "114年四年級學檢挑戰",
+        "chapter": "114年初階學檢挑戰",
         "question": "She _____ not like spiders.",
         "options": [
             {
@@ -1854,7 +1854,7 @@
         "groupKey": "114-4-4",
         "year": 114,
         "gradeLevel": 2,
-        "chapter": "114年四年級學檢挑戰",
+        "chapter": "114年初階學檢挑戰",
         "question": "I _____ not like swimming.",
         "options": [
             {
@@ -1882,7 +1882,7 @@
         "groupKey": "114-4-5",
         "year": 114,
         "gradeLevel": 2,
-        "chapter": "114年四年級學檢挑戰",
+        "chapter": "114年初階學檢挑戰",
         "question": "A: Goodbye! B: ________",
         "options": [
             {
@@ -1910,7 +1910,7 @@
         "groupKey": "114-4-6",
         "year": 114,
         "gradeLevel": 2,
-        "chapter": "114年四年級學檢挑戰",
+        "chapter": "114年初階學檢挑戰",
         "question": "A: Thank you! B: ________",
         "options": [
             {
@@ -1938,7 +1938,7 @@
         "groupKey": "114-4-7",
         "year": 114,
         "gradeLevel": 2,
-        "chapter": "114年四年級學檢挑戰",
+        "chapter": "114年初階學檢挑戰",
         "question": "A: I am sorry. B: ________",
         "options": [
             {
@@ -1966,7 +1966,7 @@
         "groupKey": "114-4-8",
         "year": 114,
         "gradeLevel": 2,
-        "chapter": "114年四年級學檢挑戰",
+        "chapter": "114年初階學檢挑戰",
         "question": "A: Good morning! B: ________",
         "options": [
             {
@@ -1994,7 +1994,7 @@
         "groupKey": "114-4-9",
         "year": 114,
         "gradeLevel": 2,
-        "chapter": "114年四年級學檢挑戰",
+        "chapter": "114年初階學檢挑戰",
         "question": "A: How are you doing today? B: ________",
         "options": [
             {
@@ -2022,7 +2022,7 @@
         "groupKey": "114-4-10",
         "year": 114,
         "gradeLevel": 2,
-        "chapter": "114年四年級學檢挑戰",
+        "chapter": "114年初階學檢挑戰",
         "question": "A: What is your name? B: ________",
         "options": [
             {
@@ -2050,7 +2050,7 @@
         "groupKey": "114-4-11",
         "year": 114,
         "gradeLevel": 2,
-        "chapter": "114年四年級學檢挑戰",
+        "chapter": "114年初階學檢挑戰",
         "question": "A: When is your birthday? B: ________",
         "options": [
             {
@@ -2078,7 +2078,7 @@
         "groupKey": "114-4-12",
         "year": 114,
         "gradeLevel": 2,
-        "chapter": "114年四年級學檢挑戰",
+        "chapter": "114年初階學檢挑戰",
         "question": "A: Do you like dogs? B: ________",
         "options": [
             {
@@ -2106,7 +2106,7 @@
         "groupKey": "114-4-13",
         "year": 114,
         "gradeLevel": 2,
-        "chapter": "114年四年級學檢挑戰",
+        "chapter": "114年初階學檢挑戰",
         "question": "A: Is this an apple? B: ________",
         "options": [
             {
@@ -2134,7 +2134,7 @@
         "groupKey": "114-4-14",
         "year": 114,
         "gradeLevel": 2,
-        "chapter": "114年四年級學檢挑戰",
+        "chapter": "114年初階學檢挑戰",
         "question": "A: Are they students? B: ________",
         "options": [
             {
@@ -2162,7 +2162,7 @@
         "groupKey": "115-4-1",
         "year": 115,
         "gradeLevel": 2,
-        "chapter": "115年四年級學檢挑戰",
+        "chapter": "115年初階學檢挑戰",
         "question": "The sky is _____.",
         "options": [
             {
@@ -2190,7 +2190,7 @@
         "groupKey": "115-4-2",
         "year": 115,
         "gradeLevel": 2,
-        "chapter": "115年四年級學檢挑戰",
+        "chapter": "115年初階學檢挑戰",
         "question": "A pig is _____.",
         "options": [
             {
@@ -2218,7 +2218,7 @@
         "groupKey": "115-4-3",
         "year": 115,
         "gradeLevel": 2,
-        "chapter": "115年四年級學檢挑戰",
+        "chapter": "115年初階學檢挑戰",
         "question": "A school bus is usually _____.",
         "options": [
             {
@@ -2246,7 +2246,7 @@
         "groupKey": "115-4-4",
         "year": 115,
         "gradeLevel": 2,
-        "chapter": "115年四年級學檢挑戰",
+        "chapter": "115年初階學檢挑戰",
         "question": "Snow is _____.",
         "options": [
             {
@@ -2274,7 +2274,7 @@
         "groupKey": "115-4-5",
         "year": 115,
         "gradeLevel": 2,
-        "chapter": "115年四年級學檢挑戰",
+        "chapter": "115年初階學檢挑戰",
         "question": "An elephant is _____.",
         "options": [
             {
@@ -2302,7 +2302,7 @@
         "groupKey": "115-4-6",
         "year": 115,
         "gradeLevel": 2,
-        "chapter": "115年四年級學檢挑戰",
+        "chapter": "115年初階學檢挑戰",
         "question": "A frog is _____.",
         "options": [
             {
@@ -2330,7 +2330,7 @@
         "groupKey": "115-4-7",
         "year": 115,
         "gradeLevel": 2,
-        "chapter": "115年四年級學檢挑戰",
+        "chapter": "115年初階學檢挑戰",
         "question": "A strawberry is _____.",
         "options": [
             {
@@ -2358,7 +2358,7 @@
         "groupKey": "115-4-8",
         "year": 115,
         "gradeLevel": 2,
-        "chapter": "115年四年級學檢挑戰",
+        "chapter": "115年初階學檢挑戰",
         "question": "A carrot is _____.",
         "options": [
             {
@@ -2386,7 +2386,7 @@
         "groupKey": "115-4-9",
         "year": 115,
         "gradeLevel": 2,
-        "chapter": "115年四年級學檢挑戰",
+        "chapter": "115年初階學檢挑戰",
         "question": "I wear _____ on my feet.",
         "options": [
             {
@@ -2414,7 +2414,7 @@
         "groupKey": "115-4-10",
         "year": 115,
         "gradeLevel": 2,
-        "chapter": "115年四年級學檢挑戰",
+        "chapter": "115年初階學檢挑戰",
         "question": "I wear a _____ on my head.",
         "options": [
             {
@@ -2442,7 +2442,7 @@
         "groupKey": "115-4-11",
         "year": 115,
         "gradeLevel": 2,
-        "chapter": "115年四年級學檢挑戰",
+        "chapter": "115年初階學檢挑戰",
         "question": "I have two _____.",
         "options": [
             {
@@ -2470,7 +2470,7 @@
         "groupKey": "115-4-12",
         "year": 115,
         "gradeLevel": 2,
-        "chapter": "115年四年級學檢挑戰",
+        "chapter": "115年初階學檢挑戰",
         "question": "I smell with my _____.",
         "options": [
             {
@@ -2498,7 +2498,7 @@
         "groupKey": "115-4-13",
         "year": 115,
         "gradeLevel": 2,
-        "chapter": "115年四年級學檢挑戰",
+        "chapter": "115年初階學檢挑戰",
         "question": "I hear with my _____.",
         "options": [
             {
@@ -2526,7 +2526,7 @@
         "groupKey": "115-4-14",
         "year": 115,
         "gradeLevel": 2,
-        "chapter": "115年四年級學檢挑戰",
+        "chapter": "115年初階學檢挑戰",
         "question": "I talk with my _____.",
         "options": [
             {
